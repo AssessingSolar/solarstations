@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to your Jupyter Book &#8212; Solar Radiation Stations Catalog</title>
+    <title>Station listing &#8212; Solar Radiation Stations Catalog</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,6 +51,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Solar Radiation Stations Catalog" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -91,6 +92,14 @@
   </a>
  </li>
 </ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Station listing
+  </a>
+ </li>
+</ul>
+
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -130,9 +139,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/station_listing.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/station_listing.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -166,6 +175,23 @@
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/assessingsolar/radiationstations/master?urlpath=tree/radiationstations/station_listing.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
@@ -179,19 +205,924 @@
         
               <div>
                 
-  <div class="section" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note!</p>
-</div>
-<p>And here is a code block:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="o">=</span> <span class="n">mc</span><span class="o">^</span><span class="mi">2</span>
+  <div class="section" id="station-listing">
+<h1>Station listing<a class="headerlink" href="#station-listing" title="Permalink to this headline">¶</a></h1>
+<p>Ground measured solar irradiance data is extremely valuable and critical for benchmarking solar radiation products and understanding long-term trends in the radiation budget. However, due to high costs and maintenance requirements, there are only a few hundred high-quality stations globally. This catalog provides an overview of available solar radiation monitoring stations worldwide and supporting metadata.</p>
+<p>The current version of this catalog is in a draft phase, where only the BSRN stations are included as a demonstration.</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;radiationstations.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;;&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;latin1&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Time period&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Time period&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">df</span>
 </pre></div>
 </div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Station full name</th>
+      <th>Abbreviation</th>
+      <th>Location</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Elevation</th>
+      <th>Time period</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Abashiri</td>
+      <td>ABS</td>
+      <td>Japan</td>
+      <td>44.0178</td>
+      <td>144.2797</td>
+      <td>38.0</td>
+      <td>2021</td>
+      <td>Candidate station (no. 86)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alert</td>
+      <td>ALE</td>
+      <td>Canada, Lincoln Sea</td>
+      <td>82.4900</td>
+      <td>-62.4200</td>
+      <td>127.0</td>
+      <td>2004</td>
+      <td>Closed</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Alice Springs</td>
+      <td>ASP</td>
+      <td>Australia, Northern Territory</td>
+      <td>-23.7980</td>
+      <td>133.8880</td>
+      <td>547.0</td>
+      <td>1995</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Barrow</td>
+      <td>BAR</td>
+      <td>USA , Alaska</td>
+      <td>71.3230</td>
+      <td>-156.6070</td>
+      <td>8.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Bermuda</td>
+      <td>BER</td>
+      <td>USA, Bermuda</td>
+      <td>32.2670</td>
+      <td>-64.6670</td>
+      <td>8.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Billings</td>
+      <td>BIL</td>
+      <td>USA, Oklahoma</td>
+      <td>36.6050</td>
+      <td>-97.5160</td>
+      <td>317.0</td>
+      <td>1993</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Bondville</td>
+      <td>BON</td>
+      <td>USA, Illinois</td>
+      <td>40.0667</td>
+      <td>-88.3667</td>
+      <td>213.0</td>
+      <td>1995</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Boulder</td>
+      <td>BOS</td>
+      <td>USA, Colorado</td>
+      <td>40.1250</td>
+      <td>-105.2370</td>
+      <td>1689.0</td>
+      <td>1995</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Boulder</td>
+      <td>BOU</td>
+      <td>USA, Colorado</td>
+      <td>40.0500</td>
+      <td>-105.0070</td>
+      <td>1577.0</td>
+      <td>1992</td>
+      <td>Closed in July 2016</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Brasilia</td>
+      <td>BRB</td>
+      <td>Brazil, Brasilia City</td>
+      <td>-15.6010</td>
+      <td>-47.7130</td>
+      <td>1023.0</td>
+      <td>2006</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Budapest-Lorinc</td>
+      <td>BUD</td>
+      <td>Hungary, Budapest</td>
+      <td>47.4291</td>
+      <td>19.1822</td>
+      <td>139.1</td>
+      <td>2019</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Cabauw</td>
+      <td>CAB</td>
+      <td>Netherlands</td>
+      <td>51.9711</td>
+      <td>4.9267</td>
+      <td>0.0</td>
+      <td>2005</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Camborne</td>
+      <td>CAM</td>
+      <td>United Kingdom</td>
+      <td>50.2167</td>
+      <td>-5.3167</td>
+      <td>88.0</td>
+      <td>2001</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Cape Baranova</td>
+      <td>CAP</td>
+      <td>Russia</td>
+      <td>79.2700</td>
+      <td>101.7500</td>
+      <td>NaN</td>
+      <td>2016</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Carpentras</td>
+      <td>CAR</td>
+      <td>France</td>
+      <td>44.0830</td>
+      <td>5.0590</td>
+      <td>100.0</td>
+      <td>1996</td>
+      <td>Closed in Dec 2018</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Chesapeake Light</td>
+      <td>CLH</td>
+      <td>USA, North Atlantic Ocean</td>
+      <td>36.9050</td>
+      <td>-75.7130</td>
+      <td>37.0</td>
+      <td>2000</td>
+      <td>Closed in Dec 2016, structural issues</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Cener</td>
+      <td>CNR</td>
+      <td>Spain, Navarra</td>
+      <td>42.8160</td>
+      <td>-1.6010</td>
+      <td>471.0</td>
+      <td>2009</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Cocos Island</td>
+      <td>COC</td>
+      <td>Australia, Cocos (Keeling) Islands</td>
+      <td>-12.1930</td>
+      <td>96.8350</td>
+      <td>6.0</td>
+      <td>2004</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>De Aar</td>
+      <td>DAA</td>
+      <td>South Africa</td>
+      <td>-30.6667</td>
+      <td>23.9930</td>
+      <td>1287.0</td>
+      <td>2000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Darwin</td>
+      <td>DAR</td>
+      <td>Australia</td>
+      <td>-12.4250</td>
+      <td>130.8910</td>
+      <td>30.0</td>
+      <td>2002</td>
+      <td>Closed Jan 2015</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Concordia Station, Dome C</td>
+      <td>DOM</td>
+      <td>Antarctica</td>
+      <td>-75.1000</td>
+      <td>123.3830</td>
+      <td>3233.0</td>
+      <td>2006</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Dongsha Atoll</td>
+      <td>DON</td>
+      <td>Taiwan</td>
+      <td>20.7000</td>
+      <td>116.7300</td>
+      <td>2.0</td>
+      <td>0</td>
+      <td>Candidate</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Desert Rock</td>
+      <td>DRA</td>
+      <td>USA, Nevada</td>
+      <td>36.6260</td>
+      <td>-116.0180</td>
+      <td>1007.0</td>
+      <td>1994</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Darwin Met Office</td>
+      <td>DWN</td>
+      <td>Australia</td>
+      <td>-12.4240</td>
+      <td>130.8925</td>
+      <td>32.0</td>
+      <td>2008</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Southern Great Plains</td>
+      <td>E13</td>
+      <td>USA, Oklahoma</td>
+      <td>36.6050</td>
+      <td>-97.4850</td>
+      <td>318.0</td>
+      <td>1997</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Eastern North Atlantic</td>
+      <td>ENA</td>
+      <td>Portugal, Azores</td>
+      <td>39.0911</td>
+      <td>-28.0292</td>
+      <td>15.2</td>
+      <td>0</td>
+      <td>Candidate</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Eureka</td>
+      <td>EUR</td>
+      <td>Canada, Ellesmere Island</td>
+      <td>79.9890</td>
+      <td>-85.9404</td>
+      <td>85.0</td>
+      <td>2007</td>
+      <td>Closed</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Florianopolis</td>
+      <td>FLO</td>
+      <td>Brazil, South Atlantic Ocean</td>
+      <td>-27.6047</td>
+      <td>-48.5227</td>
+      <td>11.0</td>
+      <td>1994</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Fort Peck</td>
+      <td>FPE</td>
+      <td>USA, Montana</td>
+      <td>48.3167</td>
+      <td>-105.1000</td>
+      <td>634.0</td>
+      <td>1995</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Fukuoka</td>
+      <td>FUA</td>
+      <td>Japan</td>
+      <td>33.5822</td>
+      <td>130.3764</td>
+      <td>3.0</td>
+      <td>2010</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Gandhinagar</td>
+      <td>GAN</td>
+      <td>India</td>
+      <td>23.1101</td>
+      <td>72.6276</td>
+      <td>65.0</td>
+      <td>2014</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Goodwin Creek</td>
+      <td>GCR</td>
+      <td>USA, Mississippi</td>
+      <td>34.2547</td>
+      <td>-89.8729</td>
+      <td>98.0</td>
+      <td>1995</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Granite Island</td>
+      <td>GIM</td>
+      <td>USA, Michigan</td>
+      <td>46.7210</td>
+      <td>87.4110</td>
+      <td>208.0</td>
+      <td>2019</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Gobabeb</td>
+      <td>GOB</td>
+      <td>Namibia, Namib Desert</td>
+      <td>-23.5614</td>
+      <td>15.0420</td>
+      <td>407.0</td>
+      <td>2012</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Gurgaon</td>
+      <td>GUR</td>
+      <td>India</td>
+      <td>28.4249</td>
+      <td>77.1560</td>
+      <td>259.0</td>
+      <td>2014</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Georg von Neumayer</td>
+      <td>GVN</td>
+      <td>Antarctica, Dronning Maud Land</td>
+      <td>-70.6500</td>
+      <td>-8.2500</td>
+      <td>42.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Howrah</td>
+      <td>HOW</td>
+      <td>India</td>
+      <td>22.5535</td>
+      <td>88.3064</td>
+      <td>51.0</td>
+      <td>2014</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Ilorin</td>
+      <td>ILO</td>
+      <td>Nigeria</td>
+      <td>8.5333</td>
+      <td>4.5667</td>
+      <td>350.0</td>
+      <td>1992</td>
+      <td>Station closed in mid-2005, no funding</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Ishigakijima</td>
+      <td>ISH</td>
+      <td>Japan</td>
+      <td>24.3367</td>
+      <td>124.1644</td>
+      <td>5.7</td>
+      <td>2010</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Izaña</td>
+      <td>IZA</td>
+      <td>Spain, Tenerife</td>
+      <td>28.3093</td>
+      <td>-16.4993</td>
+      <td>2372.9</td>
+      <td>2009</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Kwajalein</td>
+      <td>KWA</td>
+      <td>Marshall Islands</td>
+      <td>8.7200</td>
+      <td>167.7310</td>
+      <td>10.0</td>
+      <td>1992</td>
+      <td>Closed</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Lauder</td>
+      <td>LAU</td>
+      <td>New Zealand</td>
+      <td>-45.0450</td>
+      <td>169.6890</td>
+      <td>350.0</td>
+      <td>1998</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Lerwick</td>
+      <td>LER</td>
+      <td>United Kingdom, Shetland Island</td>
+      <td>60.1389</td>
+      <td>-1.1847</td>
+      <td>80.0</td>
+      <td>2001</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Lindenberg</td>
+      <td>LIN</td>
+      <td>Germany</td>
+      <td>52.2100</td>
+      <td>14.1220</td>
+      <td>125.0</td>
+      <td>1994</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Lulin</td>
+      <td>LLN</td>
+      <td>Taiwan</td>
+      <td>23.4686</td>
+      <td>120.8736</td>
+      <td>2862.0</td>
+      <td>2009</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Langley Research Center</td>
+      <td>LRC</td>
+      <td>USA, Virginia</td>
+      <td>37.1038</td>
+      <td>-76.3872</td>
+      <td>3.0</td>
+      <td>2014</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Lanyu Station</td>
+      <td>LYU</td>
+      <td>Taiwan</td>
+      <td>22.0370</td>
+      <td>121.5583</td>
+      <td>324.0</td>
+      <td>2018</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Momote</td>
+      <td>MAN</td>
+      <td>Papua New Guinea</td>
+      <td>-2.0580</td>
+      <td>147.4250</td>
+      <td>6.0</td>
+      <td>1996</td>
+      <td>Closed late 2013</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Minamitorishima</td>
+      <td>MNM</td>
+      <td>Japan, Minami-Torishima</td>
+      <td>24.2883</td>
+      <td>153.9833</td>
+      <td>7.1</td>
+      <td>2010</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Marguele</td>
+      <td>MRS</td>
+      <td>Romania</td>
+      <td>44.3439</td>
+      <td>26.0123</td>
+      <td>110.0</td>
+      <td>0</td>
+      <td>Candidate Station (no. 88)</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Nauru Island</td>
+      <td>NAU</td>
+      <td>Nauru</td>
+      <td>-0.5210</td>
+      <td>166.9167</td>
+      <td>7.0</td>
+      <td>1998</td>
+      <td>Closed late 2013</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Newcastle</td>
+      <td>NEW</td>
+      <td>Australia</td>
+      <td>-32.8842</td>
+      <td>151.7289</td>
+      <td>18.5</td>
+      <td>2017</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Ny-Ålesund</td>
+      <td>NYA</td>
+      <td>Norway, Spitsbergen</td>
+      <td>78.9250</td>
+      <td>11.9300</td>
+      <td>11.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Observatory of Huancayo</td>
+      <td>OHY</td>
+      <td>Peru</td>
+      <td>-12.0500</td>
+      <td>-75.3200</td>
+      <td>3314.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Palaiseau, SIRTA Observatory</td>
+      <td>PAL</td>
+      <td>France</td>
+      <td>48.7130</td>
+      <td>2.2080</td>
+      <td>156.0</td>
+      <td>2003</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Paramaribo</td>
+      <td>PAR</td>
+      <td>Surinam</td>
+      <td>5.8060</td>
+      <td>-55.2146</td>
+      <td>4.0</td>
+      <td>2019</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Payerne</td>
+      <td>PAY</td>
+      <td>Switzerland</td>
+      <td>46.8150</td>
+      <td>6.9440</td>
+      <td>491.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Rock Springs</td>
+      <td>PSU</td>
+      <td>USA, Pennsylvania</td>
+      <td>40.7200</td>
+      <td>-77.9333</td>
+      <td>376.0</td>
+      <td>1998</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Petrolina</td>
+      <td>PTR</td>
+      <td>Brazil</td>
+      <td>-9.0680</td>
+      <td>-40.3190</td>
+      <td>387.0</td>
+      <td>2006</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Regina</td>
+      <td>REG</td>
+      <td>Canada</td>
+      <td>50.2050</td>
+      <td>-104.7130</td>
+      <td>578.0</td>
+      <td>1995</td>
+      <td>Closed end of 2011</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Rolim de Moura</td>
+      <td>RLM</td>
+      <td>Brazil</td>
+      <td>-11.5820</td>
+      <td>-61.7730</td>
+      <td>252.0</td>
+      <td>2007</td>
+      <td>Closed in 2008</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Reunion Island, University</td>
+      <td>RUN</td>
+      <td>Reunion</td>
+      <td>-20.9014</td>
+      <td>55.4836</td>
+      <td>116.0</td>
+      <td>2019</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Sapporo</td>
+      <td>SAP</td>
+      <td>Japan</td>
+      <td>43.0600</td>
+      <td>141.3286</td>
+      <td>17.2</td>
+      <td>2010</td>
+      <td>Closed in Dec 2020</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>Sede Boqer</td>
+      <td>SBO</td>
+      <td>Israel</td>
+      <td>30.8597</td>
+      <td>34.7794</td>
+      <td>500.0</td>
+      <td>2003</td>
+      <td>Closed 2012</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Selegua, Mexico Solarimetric Station</td>
+      <td>SEL</td>
+      <td>Mexico</td>
+      <td>15.7840</td>
+      <td>-91.9902</td>
+      <td>602.0</td>
+      <td>2020</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>São Martinho da Serra</td>
+      <td>SMS</td>
+      <td>Brazil</td>
+      <td>-29.4428</td>
+      <td>-53.8231</td>
+      <td>489.0</td>
+      <td>2006</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Sonnblick</td>
+      <td>SON</td>
+      <td>Austria</td>
+      <td>47.0540</td>
+      <td>12.9577</td>
+      <td>3108.9</td>
+      <td>2013</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Solar Village</td>
+      <td>SOV</td>
+      <td>Saudi Arabia</td>
+      <td>24.9100</td>
+      <td>46.4100</td>
+      <td>650.0</td>
+      <td>1998</td>
+      <td>Closed/no longer maintained since 2002</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>South Pole</td>
+      <td>SPO</td>
+      <td>Antarctica</td>
+      <td>-89.9830</td>
+      <td>-24.7990</td>
+      <td>2800.0</td>
+      <td>1992</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Sioux Falls</td>
+      <td>SXF</td>
+      <td>USA, South Dakota</td>
+      <td>43.7300</td>
+      <td>-96.6200</td>
+      <td>473.0</td>
+      <td>2003</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Syowa</td>
+      <td>SYO</td>
+      <td>Antarctica</td>
+      <td>-69.0050</td>
+      <td>39.5890</td>
+      <td>18.0</td>
+      <td>1994</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Tamanrasset</td>
+      <td>TAM</td>
+      <td>Algeria</td>
+      <td>22.7903</td>
+      <td>5.5292</td>
+      <td>1385.0</td>
+      <td>2000</td>
+      <td>No DIR and DIF data at TAM since 2018: Due to ...</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Tateno</td>
+      <td>TAT</td>
+      <td>Japan</td>
+      <td>36.0581</td>
+      <td>140.1258</td>
+      <td>25.0</td>
+      <td>1996</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Tiksi</td>
+      <td>TIK</td>
+      <td>Russia, Siberia</td>
+      <td>71.5862</td>
+      <td>128.9188</td>
+      <td>48.0</td>
+      <td>2010</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Tiruvallur</td>
+      <td>TIR</td>
+      <td>India</td>
+      <td>13.0923</td>
+      <td>79.9738</td>
+      <td>36.0</td>
+      <td>2014</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Terra Nova Bay</td>
+      <td>TNB</td>
+      <td>Antarctica</td>
+      <td>-74.6223</td>
+      <td>164.2283</td>
+      <td>28.0</td>
+      <td>0</td>
+      <td>Candidate Station (no. 89)</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Toravere</td>
+      <td>TOR</td>
+      <td>Estonia</td>
+      <td>58.2540</td>
+      <td>26.4620</td>
+      <td>70.0</td>
+      <td>1999</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Xianghe</td>
+      <td>XIA</td>
+      <td>China</td>
+      <td>39.7540</td>
+      <td>116.9620</td>
+      <td>32.0</td>
+      <td>2005</td>
+      <td>Station obstructed, no longer in BSRN since 2016</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Yushan Station</td>
+      <td>YUS</td>
+      <td>Taiwan</td>
+      <td>23.4876</td>
+      <td>120.9595</td>
+      <td>3858.0</td>
+      <td>2018</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -223,6 +1154,15 @@ structured.</p>
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="intro.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Solar Radiation Stations Catalog</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         
