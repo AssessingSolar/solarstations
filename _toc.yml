@@ -3,6 +3,6 @@
 
 format: jb-book
 root: intro
+
 chapters:
-- file: markdown
-- file: notebooks
+  - file: station_listing
