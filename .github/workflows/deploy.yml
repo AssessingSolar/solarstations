@@ -31,6 +31,9 @@ jobs:
 
     # Build the book
     - name: Build the book
+      env:  # Set secret environment variables
+        BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
+        BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
       run: |
         jupyter-book build .
 
