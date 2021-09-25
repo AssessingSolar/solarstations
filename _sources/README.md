@@ -1,7 +1,7 @@
 # Solar Stations
 A catalog of high-quality solar radiation monitoring stations.
 
-Check out [SolarStations.org](https://SolarStations.org) for an interactive map and listing of the stations.
+An interactive map and listing of the stations can be found at [SolarStations.org](https://SolarStations.org).
 
 The list of stations and their metadata is available in the file [solarstations.csv](solarstations.csv).
 
