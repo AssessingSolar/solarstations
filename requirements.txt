@@ -5,3 +5,4 @@ pandas
 lxml
 folium
 itables
+pvlib
