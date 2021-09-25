@@ -12,3 +12,10 @@ parts:
     chapters:
     - file: station_network_bsrn
       title: BSRN
+
+  - caption: Appendix
+    chapters:
+    - file: Contributing
+    - title: AssessingSolar.org
+      url: https://assessingsolar.org
+      external: true
