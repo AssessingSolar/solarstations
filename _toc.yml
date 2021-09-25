@@ -15,7 +15,10 @@ parts:
 
   - caption: Appendix
     chapters:
-    - file: Contributing
+    - file: contributing
     - title: AssessingSolar.org
       url: https://assessingsolar.org
+      external: true
+    - title: IEA PVPS Task 16
+      url: https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/
       external: true
