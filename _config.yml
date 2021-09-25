@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Solar Radiation Stations Catalog
-author: None
-logo: assessing_solar_logo.png
+title: SolarStations
+author: AssessingSolar.org
+logo: graphics/assessing_solar_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -22,7 +22,6 @@ bibtex_bibfiles:
 # Information about where the book exists on the web
 repository:
   url: https://github.com/assessingsolar/radiationstations  # Online location of your book
-  path_to_book: radiationstations  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
@@ -30,3 +29,6 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: graphics/assessing_solar_favicon.ico  # A path to a favicon image
+  baseurl                   : https://SolarStations.org
+  google_analytics_id       : UA-207152593-2

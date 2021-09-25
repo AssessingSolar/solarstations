@@ -1,2 +1,2 @@
-# radiationstations
-A catalog of high-quality radiation monitoring stations.
+# Solar Stations
+A catalog of high-quality solar radiation monitoring stations.
