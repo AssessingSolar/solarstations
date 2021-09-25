@@ -19,20 +19,20 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 ------------------
 import pvlib
 
-df = pvlib.iotools.read_srml_month_from_solardat(
+df_he = pvlib.iotools.read_srml_month_from_solardat(
     station='HE',
     year=2020,
     month=6)
 
-df.head()  # print the first 5 rows of data
+df_he.head()  # print the first 5 rows of data
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-[0;32m/tmp/ipykernel_1657/1673112854.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_2653/1565337260.py[0m in [0;36m<module>[0;34m[0m
 [0;32m----> 1[0;31m [0;32mimport[0m [0mpvlib[0m[0;34m[0m[0;34m[0m[0m
 [0m[1;32m      2[0m [0;34m[0m[0m
-[1;32m      3[0m df = pvlib.iotools.read_srml_month_from_solardat(
+[1;32m      3[0m df_he = pvlib.iotools.read_srml_month_from_solardat(
 [1;32m      4[0m     [0mstation[0m[0;34m=[0m[0;34m'HE'[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [1;32m      5[0m     [0myear[0m[0;34m=[0m[0;36m2020[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 
