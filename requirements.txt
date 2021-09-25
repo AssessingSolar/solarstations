@@ -2,7 +2,6 @@ jupyter-book
 matplotlib
 numpy
 pandas
-lxml
 folium
 itables
 pvlib
