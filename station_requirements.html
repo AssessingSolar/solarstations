@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search &#8212; SolarStations</title>
+    <title>Station requirements and categorization &#8212; SolarStations</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -33,7 +33,6 @@
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -43,18 +42,22 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <link rel="canonical" href="https://SolarStations.org/search.html" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://SolarStations.org/station_requirements.html" />
     <link rel="shortcut icon" href="_static/assessing_solar_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script src="searchindex.js" defer></script>
-  
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Baseline Surface Radiation Network (BSRN)" href="station_network_bsrn.html" />
+    <link rel="prev" title="Station listing" href="station_listing.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -80,7 +83,7 @@
       <h1 class="site-logo" id="site-title">SolarStations</h1>
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="#" method="get">
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -92,14 +95,14 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="station_listing.html">
    Station listing
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="station_requirements.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Station requirements
   </a>
  </li>
@@ -175,6 +178,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/station_requirements.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -186,7 +206,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/assessingsolar/radiationstations/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/assessingsolar/radiationstations/issues/new?title=Issue%20on%20page%20%2Fstation_requirements.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -202,11 +222,63 @@
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/assessingsolar/radiationstations/master?urlpath=tree/station_requirements.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#station-categorization">
+   Station categorization
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tier-1-stations">
+     Tier 1 stations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tier-2-stations">
+     Tier 2 stations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#non-qualifying-stations">
+     Non-qualifying stations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#station-metadata">
+   Station metadata
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -215,27 +287,69 @@
         
               <div>
                 
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script>$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    Searching for multiple words only shows matches that contain
-    all words.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="station-requirements-and-categorization">
+<h1>Station requirements and categorization<a class="headerlink" href="#station-requirements-and-categorization" title="Permalink to this headline">¶</a></h1>
+<p>This sections defines which the basic requirements for a station to be included in in the list of high-quality solar radiation monitoring stations. A basic criteria for a h-quality stations, is that all three irradiance components are available.</p>
+<div class="section" id="station-categorization">
+<h2>Station categorization<a class="headerlink" href="#station-categorization" title="Permalink to this headline">¶</a></h2>
+<p>The stations are subdivided into two different categories: Tier 1 and Tier 2 stations.</p>
+<div class="section" id="tier-1-stations">
+<h3>Tier 1 stations<a class="headerlink" href="#tier-1-stations" title="Permalink to this headline">¶</a></h3>
+<p>Tier 1 stations are defined as those that meet all of the following requirements:</p>
+<ul class="simple">
+<li><p>measurement of direct normal irradiance (DNI) with a Class A thermopile pyrheliometer mounted on a solar tracker</p></li>
+<li><p>measurement of diffuse horizontal irradiance (DHI) with a Spectrally Flat Class A thermopile pyranometer shaded by a shading ball</p></li>
+<li><p>measurement of global horizontal irradiance (GHI) with a Spectrally Flat Class A thermopile pyranometer</p></li>
+</ul>
+<p>Seperate measurement of GHI is required for Tier 1 stations as most quality control procedures relies on comparing the measured and calculated GHI (closure equation). The stations in the <a class="reference external" href="https://bsrn.awi.de/">BSRN</a> network are examples of Tier 1 stations.</p>
+</div>
+<div class="section" id="tier-2-stations">
+<h3>Tier 2 stations<a class="headerlink" href="#tier-2-stations" title="Permalink to this headline">¶</a></h3>
+<p>Tier 2 stations are defined as those that do not meet the Tier 1 requirements but meet one of the following specifications:</p>
+<ul class="simple">
+<li><p>Meets two of the three requirements of Tier 1 stations</p></li>
+<li><p>Measures GHI and DHI using a rotating shading band pyranometer</p></li>
+</ul>
+</div>
+<div class="section" id="non-qualifying-stations">
+<h3>Non-qualifying stations<a class="headerlink" href="#non-qualifying-stations" title="Permalink to this headline">¶</a></h3>
+<p>Stations that measure DHI using a manually ajusted shadow band are not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.</p>
+</div>
+</div>
+<div class="section" id="station-metadata">
+<h2>Station metadata<a class="headerlink" href="#station-metadata" title="Permalink to this headline">¶</a></h2>
+<p>The central part of the catalog is the list of stations and their metadata, which as a minimum should include:</p>
+<ul class="simple">
+<li><p>Latitude, longitude, and elevation (according to ISO format)</p></li>
+<li><p>Years of operation</p></li>
+<li><p>City and Country</p></li>
+<li><p>Station name</p></li>
+<li><p>Station abbreviation</p></li>
+<li><p>Station network (e.g., BSRN, SURFRAD)</p></li>
+<li><p>Link to the station or network website (multiple links?)</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -246,6 +360,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="station_listing.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Station listing</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="station_network_bsrn.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Baseline Surface Radiation Network (BSRN)</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
