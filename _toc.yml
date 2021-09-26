@@ -8,6 +8,8 @@ parts:
   - caption:
     chapters:
     - file: station_listing
+    - file: station_requirements
+      title: Station requirements
   - caption: Station networks
     chapters:
     - file: station_network_bsrn
