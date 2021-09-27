@@ -14,6 +14,8 @@ parts:
     chapters:
     - file: station_network_bsrn
       title: BSRN
+    - file: station_network_solrad
+      title: SOLRAD
     - file: station_network_srml
       title: SRML
 
