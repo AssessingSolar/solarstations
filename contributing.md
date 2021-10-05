@@ -1,6 +1,6 @@
 # Contributing
 
-We highly welcome contributions to this site. To contribute a new station entry or update existing information, please submit a pull request to the [SolarStation GitHub repository](https://github.com/AssessingSolar/radiationstations).
+We highly welcome contributions to this site. To contribute a new station entry or update existing information, please submit a pull request to the [SolarStation GitHub repository](https://github.com/AssessingSolar/solarstations).
 
 
 ## Required station metadata
