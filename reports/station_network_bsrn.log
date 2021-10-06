@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/jupyter_cache/executors/utils.py", line 56, in single_nb_execution
+    record_timing=False,
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/client.py", line 1117, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/util.py", line 78, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/util.py", line 57, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/client.py", line 559, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/client.py", line 862, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/nbclient/client.py", line 765, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import pandas as pd
+
+stations = pd.read_csv('solarstations.csv', encoding='latin1')
+stations = stations[stations['Network'].str.contains('BSRN')]
+stations['Time period'] = stations['Time period'].astype(str).replace('nan','')
+stations
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+[0;32m/tmp/ipykernel_1633/3964349067.py[0m in [0;36m<module>[0;34m[0m
+[1;32m      2[0m [0;34m[0m[0m
+[1;32m      3[0m [0mstations[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mread_csv[0m[0;34m([0m[0;34m'solarstations.csv'[0m[0;34m,[0m [0mencoding[0m[0;34m=[0m[0;34m'latin1'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 4[0;31m [0mstations[0m [0;34m=[0m [0mstations[0m[0;34m[[0m[0mstations[0m[0;34m[[0m[0;34m'Network'[0m[0;34m][0m[0;34m.[0m[0mstr[0m[0;34m.[0m[0mcontains[0m[0;34m([0m[0;34m'BSRN'[0m[0;34m)[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      5[0m [0mstations[0m[0;34m[[0m[0;34m'Time period'[0m[0;34m][0m [0;34m=[0m [0mstations[0m[0;34m[[0m[0;34m'Time period'[0m[0;34m][0m[0;34m.[0m[0mastype[0m[0;34m([0m[0mstr[0m[0;34m)[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m'nan'[0m[0;34m,[0m[0;34m''[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      6[0m [0mstations[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/pandas/core/frame.py[0m in [0;36m__getitem__[0;34m(self, key)[0m
+[1;32m   3446[0m [0;34m[0m[0m
+[1;32m   3447[0m         [0;31m# Do we have a (boolean) 1d indexer?[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 3448[0;31m         [0;32mif[0m [0mcom[0m[0;34m.[0m[0mis_bool_indexer[0m[0;34m([0m[0mkey[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   3449[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_getitem_bool_array[0m[0;34m([0m[0mkey[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   3450[0m [0;34m[0m[0m
+
+[0;32m/opt/hostedtoolcache/Python/3.7.12/x64/lib/python3.7/site-packages/pandas/core/common.py[0m in [0;36mis_bool_indexer[0;34m(key)[0m
+[1;32m    137[0m                     [0;31m# Don't raise on e.g. ["A", "B", np.nan], see[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    138[0m                     [0;31m#  test_loc_getitem_list_of_labels_categoricalindex_with_na[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 139[0;31m                     [0;32mraise[0m [0mValueError[0m[0;34m([0m[0mna_msg[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    140[0m                 [0;32mreturn[0m [0;32mFalse[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    141[0m             [0;32mreturn[0m [0;32mTrue[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mValueError[0m: Cannot mask with non-boolean array containing NA / NaN values
+ValueError: Cannot mask with non-boolean array containing NA / NaN values
+
