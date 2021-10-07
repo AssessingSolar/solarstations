@@ -123,13 +123,13 @@ Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,,,Th
 Kiruna,,,Sweden,67.842,20.41,424,,SMHI,SMHI,,,1,Thermopile
 Norrköping,,,Sweden,58.582,16.148,43,,SMHI,SMHI,,,1,Thermopile
 Visby,,,Sweden,57.673,18.345,49,,SMHI,SMHI,,,1,Thermopile
-Tataouine,,,Tunisia,210,32.974,10.485,2011-,enerMENA,CRTEn,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Ma'an,,,Jordan,1012,30.172,35.818,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Oujda,,,Morocco,617,34.65,-1.9,2011-,enerMENA,University of oujda,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Cairo,,,Egypt,104,30.036,31.009,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Adrar,,,Algeria,262,27.88,-0.274,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Ghardaia,,,Algeria,463,32.386,3.78,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Missour,,,Morocco,1107,32.86,-4.107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
-Erfoud,,,Morocco,859,31.491,-4.218,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,RSI
-Zagora,,,Morocco,783,30.272,-5.852,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,RSI
-Tan-Tan,,,Morocco,75,28.498,-11.322,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Tataouine,,,Tunisia,32.974,10.485,210,2011-,enerMENA,CRTEn,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Ma'an,,,Jordan,30.172,35.818,1012,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Oujda,,,Morocco,34.65,-1.9,617,2011-,enerMENA,University of oujda,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Cairo,,,Egypt,30.036,31.009,104,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Adrar,,,Algeria,27.88,-0.274,262,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Ghardaia,,,Algeria,32.386,3.78,463,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
+Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,RSI
+Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,RSI
+Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,Thermopile
