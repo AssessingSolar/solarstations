@@ -145,9 +145,9 @@ Selegua ,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,,,http://areas.geofisica
 Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,
 Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,
 Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,
-Poprad-Ganovce,,Slovakia,49.035,20.324,709,,,Slovak Hydrometeorological Institute,,,,1,Thermopile,G;B;D
-Dobele,,Latvia,56.62,23.32,42,,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,
-Silutes,,Lithuania,55.352,21.447,5,,,Lithuanian Hydrometeorological Service (LHMS),,,,,,
-Kauno,,Lithuania,54.884,23.836,77,,,Lithuanian Hydrometeorological Service (LHMS),,,,,,
-Kishinev,,Moldova,47,28.817,205,,,ARG / Academy of Sciences of Moldova,,,,,,
-Tajoura,,Libya,32.815147,13.438943,,,,,,,,,,
+Poprad-Ganovce,,,Slovakia,49.035,20.324,709,,Slovak Hydrometeorological Institute,,,,1,Thermopile,G;B;D
+Dobele,,,Latvia,56.62,23.32,42,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,
+Silutes,,,Lithuania,55.352,21.447,5,,Lithuanian Hydrometeorological Service (LHMS),,,,,,
+Kauno,,,Lithuania,54.884,23.836,77,,Lithuanian Hydrometeorological Service (LHMS),,,,,,
+Kishinev,,,Moldova,47,28.817,205,,ARG / Academy of Sciences of Moldova,,,,,,
+Tajoura,,,Libya,32.815147,13.438943,,,,,,,,,
