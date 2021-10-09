@@ -91,7 +91,7 @@ m
 During handling of the above exception, another exception occurred:
 
 [0;31mValueError[0m                                Traceback (most recent call last)
-[0;32m/tmp/ipykernel_1761/1658266564.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_1712/1658266564.py[0m in [0;36m<module>[0;34m[0m
 [1;32m     27[0m         [0mtooltip[0m[0;34m=[0m[0mrow[0m[0;34m[[0m[0;34m'Abbreviation'[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [1;32m     28[0m         [0mradius[0m[0;34m=[0m[0;36m5[0m[0;34m,[0m [0mcolor[0m[0;34m=[0m[0mcolor[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [0;32m---> 29[0;31m         fill_color=color, fill=True).add_to(m)
