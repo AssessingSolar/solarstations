@@ -95,6 +95,7 @@ Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,ht
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardat.uoregon.edu/Eugene.html,1,Thermopile,
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSP.,http://solardat.uoregon.edu/Hermiston.html,1,Thermopile,
 DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,1,Thermopile,
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,https://www.fotonik.dtu.dk/english/research-groups/photovoltaic-materials-and-systems/research-kort,1,Thermopile,
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,1,Thermopile,
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-,SAURAN,,Roof of Engineering building,https://sauran.ac.za/station-documents/SUN/SUN%20Station%20Details.pdf,1,Thermopile,
