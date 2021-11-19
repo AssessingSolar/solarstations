@@ -2,7 +2,7 @@ Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time p
 Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,Candidate station (no. 86),,Freely,1,Thermopile,G;B;D
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,1,Thermopile,G;B;D
 Alice Springs,ASP,Northern Territory,Australia,-23.798,133.888,547,1995-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,"BSRN, ABO",NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D
+Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D
 Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013& 2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Bondville,BON,Illinois,USA,40.0667,-88.3667,213,1995-,BSRN,,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
@@ -23,8 +23,8 @@ Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006,BSRN,,,,Freely
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D
 Desert Rock,DRA,Nevada,USA,36.626,-116.018,1007,1994-,BSRN,,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
 Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Southern Great Plains,E13,Oklahoma,USA,36.605,-97.485,318,1994-,BSRN,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
-Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN,,Ongoing issues with calibration,,Freely,1,Thermopile,G;B;D
+Southern Great Plains,E13,Oklahoma,USA,36.605,-97.485,318,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
+Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
 Florianopolis,FLO,South Atlantic Ocean,Brazil,-27.6047,-48.5227,11,1994-2005&2013-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Fort Peck,FPE,USA,Montana,48.3167,-105.1,634,1995-,BSRN,,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
@@ -66,9 +66,9 @@ Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
-Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,"BSRN, AERONET",,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
-South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,"BSRN, ABO",NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
-Sioux Falls,SXF,South Dakota,USA,43.73,-96.62,473,2003-,"BSRN, SURFRAD",NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
+Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
+South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
+Sioux Falls,SXF,South Dakota,USA,43.73,-96.62,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
 Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
@@ -155,3 +155,4 @@ Tajoura,,,Libya,32.815147,13.438943,,,,,,,Unknown,,,
 Heraklion,,Crete,Greece,35.31139,25.10174,95,,,Hellenic Mediterranean University,Tracked located on roof of building. Site also has spectral radiation measurements.,https://leps.hmu.gr/en/home/,Not available,1,Thermopile,
 Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,1,Thermopile,G;B;D
 Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,1,Thermopile,G;B;D
+North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,1,Thermopile,G;B;D
