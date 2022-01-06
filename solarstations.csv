@@ -5,8 +5,8 @@ Alice Springs,ASP,Northern Territory,Australia,-23.798,133.888,547,1995-,BSRN,,,
 Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D
 Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013& 2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Bondville,BON,Illinois,USA,40.0667,-88.3667,213,1995-,BSRN,,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
-Boulder,BOS,Colorado,USA,40.125,-105.237,1689,1995-,BSRN,,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
+Bondville,BON,Illinois,USA,40.0667,-88.3667,213,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
+Boulder,BOS,Colorado,USA,40.125,-105.237,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
 Brasilia,BRB,Brasilia City,Brazil,-15.601,-47.713,1023,2006-2015&2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -21,16 +21,16 @@ De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,1,Thermopile,
 Darwin,DAR,,Australia,-12.425,130.891,30,2002-2015,BSRN,,,,Freely,1,Thermopile,G;B;D
 Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006,BSRN,,,,Freely,1,Thermopile,G;B;D
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D
-Desert Rock,DRA,Nevada,USA,36.626,-116.018,1007,1994-,BSRN,,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
+Desert Rock,DRA,Nevada,USA,36.626,-116.018,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
 Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.605,-97.485,318,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
 Florianopolis,FLO,South Atlantic Ocean,Brazil,-27.6047,-48.5227,11,1994-2005&2013-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Fort Peck,FPE,USA,Montana,48.3167,-105.1,634,1995-,BSRN,,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
+Fort Peck,FPE,USA,Montana,48.3167,-105.1,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
 Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN,,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1,Thermopile,G;B;D
+Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1,Thermopile,G;B;D
 Granite Island,GIM,Michigan,USA,46.721,87.411,208,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407,2012-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Gurgaon,GUR,,India,28.4249,77.156,259,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -56,7 +56,7 @@ Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,1,Ther
 Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Paramaribo,PAR,,Surinam,5.806,-55.2146,4,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Payerne,PAY,,Switzerland,46.815,6.944,491,1992-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Rock Springs,PSU,Pennsylvania,USA,40.72,-77.9333,376,1998-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1,Thermopile,G;B;D
 Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Regina,REG,,Canada,50.205,-104.713,578,1995-2011,BSRN,,,,Freely,1,Thermopile,G;B;D
 Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of data available.,,Freely,1,Thermopile,G;B;D
