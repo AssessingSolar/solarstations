@@ -1,4 +1,4 @@
-Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier 2,Instrument,Components
+Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
 Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,Candidate station (no. 86),,Freely,1,Thermopile,G;B;D
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,1,Thermopile,G;B;D
 Alice Springs,ASP,Northern Territory,Australia,-23.798,133.888,547,1995-,BSRN,,,,Freely,1,Thermopile,G;B;D
