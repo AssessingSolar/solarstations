@@ -39,9 +39,9 @@ m = folium.Map(
 # Add each station to the map
 for index, row in df.iterrows():    
     if (row['Time period'].endswith('-')) or (row['Time period'] == ''):
-        color = '#3186cc'
+        color = '#3186cc'  # Blue for active stations
     else:
-        color = '#ff422b'
+        color = '#ff422b'  # Read for inactive stations
     folium.CircleMarker(
         location=[row['Latitude'], row['Longitude']],
         popup=row['Station full name'] + ' - ' + str(row['State']) + ' ' + row['Country'],
@@ -97,7 +97,7 @@ m
 During handling of the above exception, another exception occurred:
 
 [0;31mValueError[0m                                Traceback (most recent call last)
-[0;32m/tmp/ipykernel_1632/2816996289.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_1660/1341324437.py[0m in [0;36m<module>[0;34m[0m
 [1;32m     29[0m         [0mtooltip[0m[0;34m=[0m[0mrow[0m[0;34m[[0m[0;34m'Abbreviation'[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [1;32m     30[0m         [0mradius[0m[0;34m=[0m[0;36m5[0m[0;34m,[0m [0mcolor[0m[0;34m=[0m[0mcolor[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [0;32m---> 31[0;31m         fill_color=color, fill=True).add_to(m)
