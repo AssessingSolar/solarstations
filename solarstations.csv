@@ -156,3 +156,7 @@ Heraklion,,Crete,Greece,35.31139,25.10174,95,,,Hellenic Mediterranean University
 Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,1,Thermopile,G;B;D
 Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,1,Thermopile,G;B;D
 North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,1,Thermopile,G;B;D
+SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1,Thermopile,G;B;D
+SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D
+Flatirons m2 ,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
+,,,,,,,,,,,,,,,
