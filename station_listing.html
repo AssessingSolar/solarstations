@@ -291,7 +291,7 @@
   <div class="tex2jax_ignore mathjax_ignore section" id="station-listing">
 <h1>Station listing<a class="headerlink" href="#station-listing" title="Permalink to this headline">¶</a></h1>
 <p>This site provides an overview of available solar radiation monitoring stations worldwide and metadata of the stations.</p>
-<p>The current version of this catalog is in a draft phase, so many stations are not yet shown. A searchable version of the table below is available <a class="reference external" href="https://github.com/AssessingSolar/solarstations/blob/main/test.csv">here</a>.</p>
+<p>The current version of this catalog is in a draft phase, so many stations are not yet shown.</p>
 <div class="cell tag_hide-input tag_full-width docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -322,7 +322,7 @@
             datatables: 'https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min',
         }
     });
-</script><div class="output text_html"><table id="9719c7e5-ffd9-4223-a9b1-8b9ac944c334" class="display"style="max-width:100%"><thead><th>Station full name</th><th>Abbreviation</th><th>State</th><th>Country</th><th>Latitude</th><th>Longitude</th><th>Elevation</th><th>Time period</th><th>Network</th><th>Owner</th><th>Comment</th><th>Data availability</th><th>Tier</th><th>Instrument</th><th>Components</th></thead><tbody><tr><td>Loading... (need <a href=https://mwouts.github.io/itables/troubleshooting.html>help</a>?)</td></tr></tbody></table>
+</script><div class="output text_html"><table id="86fdb865-3501-4bda-bc8d-fa2d54d321f6" class="display"style="max-width:100%"><thead><th>Station full name</th><th>Abbreviation</th><th>State</th><th>Country</th><th>Latitude</th><th>Longitude</th><th>Elevation</th><th>Time period</th><th>Network</th><th>Owner</th><th>Comment</th><th>Data availability</th><th>Tier</th><th>Instrument</th><th>Components</th></thead><tbody><tr><td>Loading... (need <a href=https://mwouts.github.io/itables/troubleshooting.html>help</a>?)</td></tr></tbody></table>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
 <style> table td {
     text-overflow: ellipsis;
@@ -352,7 +352,7 @@
 
         // Display the table
         $(document).ready(function () {
-            $('#9719c7e5-ffd9-4223-a9b1-8b9ac944c334').DataTable(dt_args);
+            $('#86fdb865-3501-4bda-bc8d-fa2d54d321f6').DataTable(dt_args);
         });
     } else {
         require(["jquery", "datatables"], ($, datatables) => {
@@ -362,7 +362,7 @@
 
                 // Display the table
                 $(document).ready(function () {
-                    $('#9719c7e5-ffd9-4223-a9b1-8b9ac944c334').DataTable(dt_args);
+                    $('#86fdb865-3501-4bda-bc8d-fa2d54d321f6').DataTable(dt_args);
                 });
             }
         )
