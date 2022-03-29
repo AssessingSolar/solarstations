@@ -38,7 +38,7 @@ Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42,1982-,BSR
 Howrah,HOW,,India,22.5535,88.3064,51,2014-2016& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Ilorin,ILO,,Nigeria,8.5333,4.5667,350,1992-2005,BSRN,,Station closed due to no funding,,Freely,1,Thermopile,G;B;D
 Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
+IzaÃ±a,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Kwajalein,KWA,,Marshall Islands,8.72,167.731,10,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1,Thermopile,G;B;D
 Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1,Thermopile,G;B;D
@@ -51,7 +51,7 @@ Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,htt
 Marguele,MRS,,Romania,44.3439,26.0123,110,,BSRN,,Candidate Station (no. 88),,Freely,1,Thermopile,G;B;D
 Nauru Island,NAU,,Nauru,-0.521,166.9167,7,1998-2013,BSRN,,,,Freely,1,Thermopile,G;B;D
 Newcastle,NEW,,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D
+Ny-Ã…lesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D
 Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Paramaribo,PAR,,Surinam,5.806,-55.2146,4,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -64,7 +64,7 @@ Reunion Island& University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freel
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,1,Thermopile,G;B;D
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile,G;B;D
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
-São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,,,Freely,1,Thermopile,G;B;D
+SÃ£o Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
@@ -95,7 +95,7 @@ Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,ht
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardat.uoregon.edu/Eugene.html,Freely,1,Thermopile,
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSP.,http://solardat.uoregon.edu/Hermiston.html,Freely,1,Thermopile,
 DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,https://www.fotonik.dtu.dk/english/research-groups/photovoltaic-materials-and-systems/research-kort,Freely,1,Thermopile,
+DTU RisÃ¸,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,https://www.fotonik.dtu.dk/english/research-groups/photovoltaic-materials-and-systems/research-kort,Freely,1,Thermopile,
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-,SAURAN,,Roof of Engineering building,https://sauran.ac.za/station-documents/SUN/SUN%20Station%20Details.pdf,Freely,1,Thermopile,
@@ -120,9 +120,9 @@ Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215
 University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680,2021-,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47,1999-,WMO GAW,,Also measured upwards shortwave and longwave irradiance and has a skyradiometer and a Brewer.,,,,,
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52,2008-,WMO GAW,,The station also has a sky radiometer.,,,,,
-Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,None,Wageningen University ,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1,Thermopile,G;B;D
+Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,None,Wageningen UniversityÂ ,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1,Thermopile,G;B;D
 Kiruna,,,Sweden,67.842,20.41,424,,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,
-Norrköping,,,Sweden,58.582,16.148,43,,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,
+NorrkÃ¶ping,,,Sweden,58.582,16.148,43,,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,
 Visby,,,Sweden,57.673,18.345,49,,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,
 Tataouine,,,Tunisia,32.974,10.485,210,2011-,enerMENA,CRTEn,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ma'an,,,Jordan,30.172,35.818,1012,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
@@ -135,9 +135,9 @@ Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/
 Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+Coeneo,COE,MichoacÃ¡n,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+Ciudad CuahutÃ©moc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+GÃ³mez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
 Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
 Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
 Morelos ,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
@@ -159,4 +159,4 @@ North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site shou
 SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1,Thermopile,G;B;D
 SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
-Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,1,Thermopile,G;B;D
+Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,1,Thermopile,G;B;D
