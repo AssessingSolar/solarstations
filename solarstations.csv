@@ -160,3 +160,4 @@ SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL So
 SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
 Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,1,Thermopile,G;B;D
+European Solar Test Installation - JRC, JRC,Ispra,Italy,45.81206,-8.62706,220,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,1,Thermopile,G;B;D
