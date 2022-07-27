@@ -42,7 +42,7 @@ Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermop
 Kwajalein,KWA,,Marshall Islands,8.72,167.731,10,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1,Thermopile,G;B;D
 Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1,Thermopile,G;B;D
-Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D
+Lindenberg,LIN,Brandenburg,Germany,52.21,14.122,125,1994-,BSRN,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D
 Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,1,Thermopile,G;B;D
 Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Lanyu Station,LYU,,Taiwan,22.037,121.5583,324,2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -131,8 +131,8 @@ Cairo,,,Egypt,30.036,31.009,104,2012-,enerMENA,Cairo University,,https://www.dlr
 Adrar,,,Algeria,27.88,-0.274,262,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ghardaia,,,Algeria,32.386,3.78,463,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
-Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
-Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
+Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,2,RSI,
+Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,2,RSI,
 Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
 Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
@@ -159,4 +159,6 @@ North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site shou
 SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1,Thermopile,G;B;D
 SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
-Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,1,Thermopile,G;B;D
+Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,1,Thermopile,G;B;D
+Hohenpeissenberg,,Bavaria,Germany,47.8009,11.0108,977,,WMO GAW;AERONET,DWD,"https://www.dwd.de/EN/research/observing_atmosphere/composition_atmosphere/hohenpeissenberg/start_mohp_node.html;jsessionid=DC4A79F96EE59E82EBD7BDA085F16F8A.live21062",Upon request,1,Thermopile,G;B;D
+Zugspitze,,Bavaria,Germany,47.4210,10.9848,2965,,,DWD,,,Upon request,1,Thermopile,G;B;D
