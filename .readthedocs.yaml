@@ -11,7 +11,7 @@ build:
 
 python:
   install:
-  - requirements: book/requirements.txt
+  - requirements: requirements.txt
 
 sphinx:
   builder: html
