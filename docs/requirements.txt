@@ -3,5 +3,5 @@ matplotlib
 numpy
 pandas
 folium
-itables
+itables==0.4.7
 pvlib

@@ -5,9 +5,4 @@ We highly welcome contributions to this site. To contribute a new station entry 
 
 ## Required station metadata
 
-The latitude and longitude of the station should be specified with four decimals. This guarantees an [accuracy](http://wiki.gis.com/wiki/index.php/Decimal_degrees) of +/- 5.6 m, which allows for users to identify the physically station on the map.
-
-
-```python
-
-```
+The latitude and longitude of the station should be specified with at least four decimals. This guarantees an [accuracy](http://wiki.gis.com/wiki/index.php/Decimal_degrees) of +/- 5.6 m, which allows users to identify the location of the solar tracker/platform on the map.
