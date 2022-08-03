@@ -36,3 +36,6 @@ html:
 # When to timeout each notebook in seconds
 execute:
   timeout: 100
+
+execute:
+  execute_notebooks: force
