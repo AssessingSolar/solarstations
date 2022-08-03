@@ -37,4 +37,5 @@ html:
 execute:
   timeout: 100
 
-execute_notebooks: force
+execute:
+  execute_notebooks: force
