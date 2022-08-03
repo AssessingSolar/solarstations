@@ -5,8 +5,8 @@ Alice Springs,ASP,Northern Territory,Australia,-23.798,133.888,547,1995-,BSRN,,,
 Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D
 Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013& 2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Bondville,BON,Illinois,USA,40.0667,-88.3667,213,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
-Boulder,BOS,Colorado,USA,40.125,-105.237,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
+Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
+Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
 Brasilia,BRB,Brasilia City,Brazil,-15.601,-47.713,1023,2006-2015&2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -21,13 +21,13 @@ De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,1,Thermopile,
 Darwin,DAR,,Australia,-12.425,130.891,30,2002-2015,BSRN,,,,Freely,1,Thermopile,G;B;D
 Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006,BSRN,,,,Freely,1,Thermopile,G;B;D
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D
-Desert Rock,DRA,Nevada,USA,36.626,-116.018,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
+Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
 Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Southern Great Plains,E13,Oklahoma,USA,36.605,-97.485,318,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
+Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
 Florianopolis,FLO,South Atlantic Ocean,Brazil,-27.6047,-48.5227,11,1994-2005&2013-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Fort Peck,FPE,USA,Montana,48.3167,-105.1,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
+Fort Peck,FPE,USA,Montana,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
 Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1,Thermopile,G;B;D
@@ -68,7 +68,7 @@ São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,,,Freely,1,
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
-Sioux Falls,SXF,South Dakota,USA,43.73,-96.62,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
+Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
 Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
@@ -85,7 +85,7 @@ Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271,,SOLRAD,NOAA,,https://gml.noaa.g
 Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334,,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,1,Thermopile,G;B;D
 Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288,,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,1,Thermopile,G;B;D
 Seattle,SEA,Washington,USA,47.68685,-122.25667,20,,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,1,Thermopile,G;B;D
-Sterling,STE,Virginia,USA,38.97203,-77.4869,85,,SOLRAD,NOAA,Site location pre Oct 28& 2014 (38.97673& -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,1,Thermopile,G;B;D
+Sterling,STE,Virginia,USA,38.97203,-77.48690,85,,SOLRAD,NOAA,Site location pre Oct 28& 2014 (38.97673& -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,1,Thermopile,G;B;D
 Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18,,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,1,Thermopile,G;B;D
 Portland,PT,Oregon,USA,45.51,-122.69,70,2004-,SRML,University of Oregon,5-min data between 2004 and 2011.,http://solardat.uoregon.edu/PortlandPV.html,Freely,2,RSR,
 Burns,BU,Oregon,USA,43.52,-119.02,1265,1994-,SRML,University of Oregon,5 min data from 1994 to 2011.,http://solardat.uoregon.edu/Burns.html,Freely,1,Thermopile,
@@ -161,3 +161,6 @@ SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
 Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,1,Thermopile,G;B;D
 University of Girona,,Catalonia,Spain,41.96,2.83,110,1993-,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,1,Thermopile,G;B;D
+Alamosa,SLV,Colorado,USA,37.70,-105.92,2317,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
+Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
+Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
