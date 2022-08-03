@@ -7,7 +7,6 @@ root: intro
 parts:
   - caption:
     chapters:
-    - file: test
     - file: station_listing
     - file: station_requirements
       title: Station requirements

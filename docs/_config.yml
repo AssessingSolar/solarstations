@@ -39,4 +39,3 @@ execute:
 
 execute:
   execute_notebooks: force
-  allow_errors: false
