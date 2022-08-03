@@ -27,7 +27,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r docs/requirements.txt
 
     # Build the book
     - name: Build the book
@@ -35,7 +35,7 @@ jobs:
         BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
         BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
       run: |
-        jupyter-book build .
+        jupyter-book build docs/.
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
