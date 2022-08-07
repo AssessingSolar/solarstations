@@ -32,3 +32,10 @@ html:
   favicon: graphics/assessing_solar_favicon.ico  # A path to a favicon image
   baseurl                   : https://SolarStations.org
   google_analytics_id       : UA-207152593-2
+
+# When to timeout each notebook in seconds
+execute:
+  timeout: 100
+
+execute:
+  execute_notebooks: force
