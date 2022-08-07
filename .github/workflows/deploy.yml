@@ -27,7 +27,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r docs/requirements.txt
+        pip install -r requirements.txt
 
     # Build the book
     - name: Build the book
@@ -35,12 +35,12 @@ jobs:
         BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
         BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
       run: |
-        jupyter-book build docs/.
+        jupyter-book build .
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs/_build/html
+        publish_dir: _build/html
         cname: solarstations.org
