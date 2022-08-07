@@ -65,7 +65,7 @@ Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/e
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile,G;B;D
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
+Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
@@ -167,3 +167,7 @@ Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noa
 Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
 Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
+Wien,,,Austria,48.25,16.36,198,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
+Graz,,,Austria,47.08,15.45,398,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
+Innsbruck,,,Austria,47.26,11.38,578,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
+Kanzelhöhe,,,Austria,46.68,13.90,1540,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
