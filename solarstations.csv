@@ -165,3 +165,5 @@ University of Girona,,Catalonia,Spain,41.96,2.83,110,1993-,,,,https://www.udg.ed
 Alamosa,SLV,Colorado,USA,37.70,-105.92,2317,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
 Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
 Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
+Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
+Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
