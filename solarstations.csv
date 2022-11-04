@@ -81,7 +81,7 @@ Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858,2018-,BSRN,,,,Freely,1,Thermopi
 Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,1,Thermopile,G;B;D
 Bismarck,BIS,North Dakota,USA,46.77179,-100.75955,503,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/bis.html,Freely,1,Thermopile,G;B;D
 Hanford,HNX,California,USA,36.31357,-119.63164,73,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/hnx.html,Freely,1,Thermopile,G;B;D
-Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271,1996-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/msn.html,Freely,1,Thermopile,G;B;D
+Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271,1996-,SOLRAD,NOAA,Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt),https://gml.noaa.gov/grad/solrad/msn.html,Freely,1,Thermopile,G;B;D
 Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,1,Thermopile,G;B;D
 Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,1,Thermopile,G;B;D
 Seattle,SEA,Washington,USA,47.68685,-122.25667,20,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,1,Thermopile,G;B;D
