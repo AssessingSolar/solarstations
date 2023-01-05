@@ -10,7 +10,7 @@ parts:
     - file: station_listing
     - file: station_requirements
       title: Station requirements
-  - caption: Station networks
+  - caption: High-quality networks
     chapters:
     - file: station_network_bsrn
       title: BSRN
