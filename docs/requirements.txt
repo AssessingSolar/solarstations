@@ -1,7 +1,7 @@
-jupyter-book==0.13.0
-matplotlib==3.5.2
-numpy==1.23.1
-pandas==1.4.3
-folium==0.12.1
+jupyter-book
+matplotlib
+numpy
+pandas
+folium
 itables==1.1.2
-pvlib==0.9.1
+pvlib
