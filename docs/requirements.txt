@@ -2,6 +2,6 @@ jupyter-book
 matplotlib
 numpy
 pandas
-folium
+folium=0.12.1
 itables==1.1.2
 pvlib
