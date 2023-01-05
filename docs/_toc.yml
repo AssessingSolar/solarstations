@@ -21,6 +21,10 @@ parts:
     - file: station_network_srml
       title: SRML
 
+  - caption: Other networks
+    chapters
+    file: station_network_pvlive
+
   - caption: Appendix
     chapters:
     - file: contributing
