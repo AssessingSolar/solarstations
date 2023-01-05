@@ -22,8 +22,8 @@ parts:
       title: SRML
 
   - caption: Other networks
-    chapters
-    file: station_network_pvlive
+    chapters:
+    - file: station_network_pvlive
 
   - caption: Appendix
     chapters:
