@@ -9,7 +9,7 @@ logo: graphics/assessing_solar_logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
-  timeout: 240
+  timeout: 240  # When to timeout each notebook in seconds
   allow_errors: false
 
 # Define the name of the latex output file for PDF builds
@@ -34,10 +34,3 @@ html:
   favicon: graphics/assessing_solar_favicon.ico  # A path to a favicon image
   baseurl                   : https://SolarStations.org
   google_analytics_id       : G-6KXSD7FTJM
-
-# When to timeout each notebook in seconds
-execute:
-  timeout: 100
-
-execute:
-  execute_notebooks: force
