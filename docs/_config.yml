@@ -9,7 +9,8 @@ logo: graphics/assessing_solar_logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
-  timeout: 120
+  timeout: 240
+  allow_errors: false
 
 # Define the name of the latex output file for PDF builds
 latex:
