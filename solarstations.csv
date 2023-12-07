@@ -230,4 +230,4 @@ Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/
 Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
 Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D;UV;IR
 Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
-Jang Bogo,JBS,,Antarctica,74.3719,164.1344,26,2015-,,KOPRI-CNR,,,1,Thermopile,G;B;D
+Jang Bogo,JBS,,Antarctica,74.3719,164.1344,26,2015-,,KOPRI-CNR,,,,1,Thermopile,G;B;D
