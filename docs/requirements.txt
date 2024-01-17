@@ -2,6 +2,7 @@ jupyter-book==0.15.1
 sphinx==5.0.2
 sphinx-book-theme==1.0.1
 matplotlib==3.8.2
+myst-nb==0.17.2
 numpy==1.26.3
 pandas==2.1.4
 folium==0.15.1
