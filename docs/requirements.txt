@@ -1,8 +1,9 @@
-jupyter-book==0.13.0
-matplotlib==3.5.2
-numpy==1.23.1
-pandas==1.4.3
-folium==0.12.1
-itables==1.1.2
-pvlib==0.9.1
-
+jupyter-book==0.15.1
+sphinx==5.0.2
+sphinx-book-theme==1.0.1
+matplotlib==3.8.2
+numpy==1.26.3
+pandas==2.1.4
+folium==0.15.1
+itables==1.6.3
+pvlib==0.10.3
