@@ -235,3 +235,8 @@ Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60,2016-
 Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,2,Thermopile,G;B
 Tennant Creek,,Northern Territory,Australia,-19.679500, 134.261500,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/tennant-creek,Freely,2,Thermopile,G;B
 Katherine,,Northern Territory,Australia,-14.474694, 132.305083,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/katherine,Freely,2,Thermopile,G;B
+Artigas Airport,ARM,,Uruguay,-30.3984,-56.5117,136,2011-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D
+Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D;UV;IR
+EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D
+Las Brujas,LBI,,Uruguay,-34.6720,-56.3401,38,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D
+EE La Magnolia,TAI,,Uruguay,-31.7090,-55.8269,142,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D
