@@ -232,3 +232,6 @@ Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en
 Jang Bogo,JBS,,Antarctica,-74.3719,164.1344,26,2015-,,KOPRI-CNR,,,,1,Thermopile,G;B;D
 Plataforma Solar de Almeria,METAS,,Spain,37.09165,-2.36355,494,2005-,,CIEMAT,,https://www.psa.es/en/facilities/meteo/meteo.php,,1,Thermopile,G;B;D;UV;IR
 Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60,2016-,,Hamm-Lippstadt University,,https://www.hshl.de/forschung-unternehmen/forschungsprojekte/meteorologische-messstation/,,2,RSI,G;B;D
+Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,NT Solar Resource,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,1,Thermopile,G;B
+Tennant Creek,,Northern Territory,Australia,-19.679500, 134.261500,,2019-,,NT Solar Resource,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/tennant-creek,Freely,1,Thermopile,G;B
+Katherine,,Northern Territory,Australia,-14.474694, 132.305083,,2019-,,NT Solar Resource,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/katherine,Freely,1,Thermopile,G;B
