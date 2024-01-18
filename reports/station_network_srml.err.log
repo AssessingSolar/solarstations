@@ -27,7 +27,7 @@ show(df.head(), scrollX=True, scrollCollapse=True, paging=False, maxColumns=100,
 ------------------
 
 ----- stderr -----
-/tmp/ipykernel_1969/3802744928.py:3: pvlibDeprecationWarning: The read_srml_month_from_solardat function was deprecated in pvlib 0.10.0 and will be removed in 0.11.0. Use pvlib.iotools.get_srml instead.
+/tmp/ipykernel_1960/3802744928.py:3: pvlibDeprecationWarning: The read_srml_month_from_solardat function was deprecated in pvlib 0.10.0 and will be removed in 0.11.0. Use pvlib.iotools.get_srml instead.
   df = pvlib.iotools.read_srml_month_from_solardat(
 ------------------
 
