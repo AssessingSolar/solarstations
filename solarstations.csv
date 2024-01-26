@@ -8,7 +8,7 @@ Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,1,Thermopile,G
 Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D
 Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
-Brasilia,BRB,Brasilia City,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN,,Also a SONDA station (2004-2019). No maintenance between 2016-2017. [SONDA link](http://sonda.ccst.inpe.br/basedados/brasilia.html),,Freely,1,Thermopile,G;B;D;IR
+Brasilia,BRB,Brasilia City,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1,Thermopile,G;B;D;IR
 Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D
 Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D
@@ -26,7 +26,7 @@ Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Ther
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
-Florianopolis,FLO,South Atlantic Ocean,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN,,Also a SONDA station (2004-2019). No maintenance between 2016-2017. [SONDA link](http://sonda.ccst.inpe.br/basedados/florianopolis.html),,Freely,1,Thermopile,G;B;D;IR
+Florianopolis,FLO,South Atlantic Ocean,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR
 Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
 Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -57,14 +57,14 @@ Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1
 Paramaribo,PAR,,Surinam,5.806,-55.2146,4,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Payerne,PAY,,Switzerland,46.8123,6.9422,491,1992-,BSRN,MeteoSwiss,,,Freely,1,Thermopile,G;B;D
 Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1,Thermopile,G;B;D
-Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN,,Also a SONDA station (2004-2019). No maintenance between 2016-2017. [SONDA link](http://sonda.ccst.inpe.br/basedados/petrolina.html),,Freely,1,Thermopile,G;B;D;IR
+Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,1,Thermopile,G;B;D;IR
 Regina,REG,,Canada,50.205,-104.713,578,1995-2011,BSRN,,,,Freely,1,Thermopile,G;B;D
 Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of data available.,,Freely,1,Thermopile,G;B;D
 Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,1,Thermopile,G;B;D
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile,G;B;D
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
-São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN,,Also a SONDA station (2005-2019). No maintenance between 2016-2017. [SONDA link](http://sonda.ccst.inpe.br/basedados/saomartinho.html),,Freely,1,Thermopile,G;B;D;IR
+São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,1,Thermopile,G;B;D;IR
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
