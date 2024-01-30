@@ -74,8 +74,8 @@ Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN,,No DIR and DIF data at 
 Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,,BSRN,,Candidate Station (no. 89),https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,1,Thermopile,G;B;D
-Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,,BSRN,,Candidate Station (no. 89),,Freely,1,Thermopile,G;B;D
+Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,1,Thermopile,G;B;D
 Xianghe,XIA,,China,39.754,116.962,32,2005-2016,BSRN,,Station obstructed& no longer in BSRN since 2016,,Freely,1,Thermopile,G;B;D
 Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858,2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,1,Thermopile,G;B;D
