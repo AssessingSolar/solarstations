@@ -66,7 +66,7 @@ Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,1,Thermopile,G;B;D;IR
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
-Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
+Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
