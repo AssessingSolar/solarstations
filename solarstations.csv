@@ -262,3 +262,16 @@ Cerro Calan,CCALAN,,Chile,-33.40,-70.54,850,2013-2022,,Ministry of Energy of Chi
 Armazones,ARMA,,Chile,-24.63,-70.24,2581,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
 Crucero,CRUC,,Chile,-22.27,-69.57,1176,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
 Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
+Arica,,,Chile,-18.47,-70.31,,2011-,FONDEF,,,,,2,RSP
+Pozo Almonte,,,Chile,-20.25,-69.78,,2012-,FONDEF,,,,,2,RSP
+Patache,,,Chile,-20.80,-70.19,,2013-,FONDEF,,,,,2,RSP
+Sur Viejo,,,Chile,,,2011-,FONDEF,,,,,2,RSP
+Crucero,,,Chile,-22.27,-69.56,,2012-,FONDEF,,,,,2,RSP
+Coya Sur,,,Chile,-22.39,-69.62,,2011-,FONDEF,,,,,2,RSP
+San Pedro,,,Chile,-22.90,-68.19,,2010-2011,FONDEF,,,,,,1,Thermopile,G;B;D
+El Tesoro,,,Chile,,,2009-,FONDEF,,,,,2,RSP
+Diego de Almagro,,,Chile,-26.38,-70.04,,2011-,FONDEF,,,,,2,RSP
+Santiago,,,Chile,-33.45,-70.65,,2010-,FONDEF,,,,,,1,Thermopile,G;B;D
+Curicó,,,Chile,-34.97,-71.25,,2012-,FONDEF,,,,,,1,Thermopile,G;B;D
+Talca,,,Chile,-35.42,-71.64,,2012-,FONDEF,,,,,,1,Thermopile,G;B;D
+Marimaura,,,Chile,-35.84,-71.61,,2012-,FONDEF,,,,,2,RSP
