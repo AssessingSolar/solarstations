@@ -250,18 +250,18 @@ Cachoeira Paulista,CPA,,Brazil,-22.6896,-45.0062,574,2014-2019,SONDA,INPE,No mai
 Joinville,JOI,,Brazil,-26.2525,-48.8578,48,2009-2015,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/joinville.html,Freely,,,G;D
 Sombrio,SBR,,Brazil,-29.0956,-49.8133,15,2004-2016,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/sombrio.html,Freely,,,G;D
 Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,2,Thermopile,G;D
-Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Crucero II,Crucero2,,Chile,-22.27,-69.57,1183,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,1,Thermopile,G;B;D
-Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Puerto Angamos,PANG,,Chile,-23.07,-70.39,10,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Cerro Calan,CCALAN,,Chile,-33.40,-70.54,850,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Armazones,ARMA,,Chile,-24.63,-70.24,2581,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Crucero,CRUC,,Chile,-22.27,-69.57,1176,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
-Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Free,2,Thermopile,G;D
+Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Crucero II,Crucero2,,Chile,-22.27,-69.57,1183,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,1,Thermopile,G;B;D
+Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Puerto Angamos,PANG,,Chile,-23.07,-70.39,10,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Cerro Calan,CCALAN,,Chile,-33.40,-70.54,850,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Armazones,ARMA,,Chile,-24.63,-70.24,2581,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Crucero,CRUC,,Chile,-22.27,-69.57,1176,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
 Arica,,,Chile,-18.47,-70.31,,2011-,FONDEF,,,,,2,RSP
 Pozo Almonte,,,Chile,-20.25,-69.78,,2012-,FONDEF,,,,,2,RSP
 Patache,,,Chile,-20.80,-70.19,,2013-,FONDEF,,,,,2,RSP
@@ -269,7 +269,7 @@ Sur Viejo,,,Chile,-20.95,-69.54,,2011-,FONDEF,,,,,2,RSP
 Crucero,,,Chile,-22.27,-69.56,,2012-,FONDEF,,,,,2,RSP
 Coya Sur,,,Chile,-22.39,-69.62,,2011-,FONDEF,,,,,2,RSP
 San Pedro,,,Chile,-22.90,-68.19,,2010-2011,FONDEF,,,,,1,Thermopile,G;B;D
-El Tesoro,,,Chile,-22.93,-69.07,2009-,FONDEF,,,,,2,RSP
+El Tesoro,,,Chile,-22.93,-69.07,,2009-,FONDEF,,,,,2,RSP
 Diego de Almagro,,,Chile,-26.38,-70.04,,2011-,FONDEF,,,,,2,RSP
 Santiago,,,Chile,-33.45,-70.65,,2010-,FONDEF,,,,,1,Thermopile,G;B;D
 Curicó,,,Chile,-34.97,-71.25,,2012-,FONDEF,,,,,1,Thermopile,G;B;D
