@@ -264,8 +264,8 @@ Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701,1998-2003,,NREL;KACST,,https://ww
 Evora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,1,Thermopile,G;B;D
 Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,University of Extremadura,,,,1,Thermopile,G;B;D
 Varennes,,Quebec,Canda,45.62650,-73.38203,22,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,1,Thermopile,G;B;D
-Shagaya,,,Kuwait,29.2099,47.0603,241,2012-,,KISR,,,1,Thermopile;RSI,G;B;D;RSI
-Kabed,,,Kuwait,29.173152,47.728054,76,2012-,,KISR,,,1,Thermopile;RSI,G;B;D;RSI
-Mutribah,,,Kuwait,29.90,47.28,,2012-,,KISR,,,2,Thermopile;RSI,G;RSI
-Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,,,2,Thermopile;RSI,G;RSI
-Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,,,2,Thermopile;RSI,G;RSI
+Shagaya,,,Kuwait,29.2099,47.0603,241,2012-,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI
+Kabed,,,Kuwait,29.173152,47.728054,76,2012-,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI
+Mutribah,,,Kuwait,29.90,47.28,,2012-,,KISR,,,,2,Thermopile;RSI,G;RSI
+Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,,,,2,Thermopile;RSI,G;RSI
+Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,,,,2,Thermopile;RSI,G;RSI
