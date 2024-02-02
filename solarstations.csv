@@ -261,3 +261,5 @@ Sharurah,,,Saudi Arabia,17.47,47.11,725,1998-2003,,NREL;KACST,,https://www.nrel.
 Al-Jouf,,,Saudi Arabia,29.79,40.10,669,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 Tabouk,,,Saudi Arabia,28.38,36.61,768,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Evora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,1,Thermopile,G;B;D
+Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,University of Extremadura,,,,1,Thermopile,G;B;D
