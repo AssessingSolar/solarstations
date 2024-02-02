@@ -250,3 +250,5 @@ Cachoeira Paulista,CPA,,Brazil,-22.6896,-45.0062,574,2014-2019,SONDA,INPE,No mai
 Joinville,JOI,,Brazil,-26.2525,-48.8578,48,2009-2015,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/joinville.html,Freely,,,G;D
 Sombrio,SBR,,Brazil,-29.0956,-49.8133,15,2004-2016,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/sombrio.html,Freely,,,G;D
 Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,2,Thermopile,G;D
+Évora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,1,Thermopile,G;B;D
+Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,Extremadura University,,,,1,Thermopile,G;B;D
