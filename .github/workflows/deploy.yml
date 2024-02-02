@@ -17,17 +17,17 @@ jobs:
   deploy-book:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: "3.10"
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r docs/requirements.txt
 
     # Build the book
     - name: Build the book
@@ -35,12 +35,12 @@ jobs:
         BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
         BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
       run: |
-        jupyter-book build .
+        jupyter-book build docs/.
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: _build/html
+        publish_dir: docs/_build/html
         cname: solarstations.org
