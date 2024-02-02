@@ -66,7 +66,7 @@ Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile
 Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,1,Thermopile,G;B;D;IR
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D
-Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2002,BSRN; AERONET,,,https://aeronet.gsfc.nasa.gov/new_web/photo_db_v3/Solar_Village.html,Freely,1,Thermopile,G;B;D
+Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
@@ -250,5 +250,16 @@ Cachoeira Paulista,CPA,,Brazil,-22.6896,-45.0062,574,2014-2019,SONDA,INPE,No mai
 Joinville,JOI,,Brazil,-26.2525,-48.8578,48,2009-2015,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/joinville.html,Freely,,,G;D
 Sombrio,SBR,,Brazil,-29.0956,-49.8133,15,2004-2016,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/sombrio.html,Freely,,,G;D
 Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,2,Thermopile,G;D
+Abha,,,Saudi Arabia,18.23,42.66,2039,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Al-ahsa,,,Saudi Arabia,25.30,49.48,178,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Gizan,,,Saudi Arabia,16.90,42.58,7,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Qassim,,,Saudi Arabia,26.31,43.77,647,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Jeddah,,,Saudi Arabia,21.68,39.15,4,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Al-Madinah,,,Saudi Arabia,24.55,39.70,626,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Al-qaisumah,,,Saudi Arabia,28.32,46.13,358,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Sharurah,,,Saudi Arabia,17.47,47.11,725,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Al-Jouf,,,Saudi Arabia,29.79,40.10,669,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Tabouk,,,Saudi Arabia,28.38,36.61,768,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
+Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 Evora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,1,Thermopile,G;B;D
 Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,University of Extremadura,,,,1,Thermopile,G;B;D
