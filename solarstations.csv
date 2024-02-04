@@ -160,7 +160,7 @@ Dobele,,,Latvia,56.62,23.32,42,,Latvian Environment Geology and Meteorology Cent
 Silutes,,,Lithuania,55.352,21.447,5,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,
 Kauno,,,Lithuania,54.884,23.836,77,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,
 Kishinev,,,Moldova,47,28.817,205,,ARG / Academy of Sciences of Moldova,,,,,,,
-Tajoura,,,Libya,32.815147,13.438943,,,,,,,Unknown,,,
+Tajoura,,,Libya,32.815147,13.438943,,,,,,,,,,
 Heraklion,,Crete,Greece,35.31139,25.10174,95,,,Hellenic Mediterranean University,Tracked located on roof of building. Site also has spectral radiation measurements.,https://leps.hmu.gr/en/home/,Not available,1,Thermopile,
 Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,1,Thermopile,G;B;D
 Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,1,Thermopile,G;B;D
@@ -215,21 +215,21 @@ Saint Louis Lycee Jean Joly,saintlouisjeanjoly,,La Reunion,-21.271391,55.43558,1
 University of La Reunion Moufia,urmoufia,,La Reunion,-20.90146,55.483593,96,2008-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092910,Freely,2,SPN1
 University of La Reunion Tampon,urtampon,,La Reunion,-21.269277,55.50702,553,2012-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092912,Freely,2,SPN1
 Vacoas,vacoas,,Mauritius,-20.297095,57.496918,431,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408662,Freely,2,SPN1
-HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Kharsaah,Kha,,Qatar,25.22,51,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D;UV;IR
-Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D
-Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Contact owner,1,Thermopile,G;B;D;UV;IR
+HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Kharsaah,Kha,,Qatar,25.22,51,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D;UV;IR
+Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
+Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D;UV;IR
 Jang Bogo,JBS,,Antarctica,-74.3719,164.1344,26,2015-,,KOPRI-CNR,,,,1,Thermopile,G;B;D
 Plataforma Solar de Almeria,METAS,,Spain,37.09165,-2.36355,494,2005-,,CIEMAT,,https://www.psa.es/en/facilities/meteo/meteo.php,,1,Thermopile,G;B;D;UV;IR
 Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60,2016-,,Hamm-Lippstadt University,,https://www.hshl.de/forschung-unternehmen/forschungsprojekte/meteorologische-messstation/,,2,RSI,G;B;D
