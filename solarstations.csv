@@ -174,14 +174,14 @@ University of Girona,,Catalonia,Spain,41.96,2.83,110,1993-,,,,https://www.udg.ed
 Alamosa,SLV,Colorado,USA,37.70,-105.92,2317,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
 Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
 Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D
-Airai,,,Palau,7.368513,134.539830,47,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Efate,,,Vanuatu,-17.709738,168.211453,152,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Nauru,,,Nauru,0.543447,166.931970,28,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Chuuk,,,Federates States of Micronesia,7.467517,151.849834,4,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Honiara,,,Solomon Island,-9.438163,160.063212,4,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Majuro,,,Marshall Islands,7.065048,171.268887,5,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,GHI
-Funafuti,,,Tuvalu,-8.525087,179.1963230,0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2,SPN1,GHI
+Airai,,,Palau,7.368513,134.539830,47,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,2,SPN1,G
+Efate,,,Vanuatu,-17.709738,168.211453,152,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,2,SPN1,G
+Nauru,,,Nauru,0.543447,166.931970,28,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,2,SPN1,G
+Chuuk,,,Federates States of Micronesia,7.467517,151.849834,4,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2,SPN1,G
+Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,2,SPN1,G
+Honiara,,,Solomon Island,-9.438163,160.063212,4,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
+Majuro,,,Marshall Islands,7.065048,171.268887,5,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
+Funafuti,,,Tuvalu,-8.525087,179.1963230,0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2,SPN1,G
 Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Kathmandu-Lalitpur,NP-Kat,,Nepal,27.68155,85.31877,1315,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
