@@ -18,11 +18,11 @@ Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37,2000-2016,BSRN,N
 Cener,CNR,Navarra,Spain,42.816,-1.601,471,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D
 De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Darwin,DAR,,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006,BSRN,,,,Freely,1,Thermopile,G;B;D
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D
 Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
-Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
@@ -50,7 +50,7 @@ Momote,MAN,,Papua New Guinea,-2.058,147.425,6,1996-2013,BSRN,,,,Freely,1,Thermop
 Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,1,Thermopile,G;B;D
 Marguele,MRS,,Romania,44.3439,26.0123,110,,BSRN,,Candidate Station (no. 88),,Freely,1,Thermopile,G;B;D
 Nauru Island,NAU,,Nauru,-0.521,166.9167,7,1998-2013,BSRN,,,,Freely,1,Thermopile,G;B;D
-Newcastle,NEW,,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D
 Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D
