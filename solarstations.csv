@@ -284,4 +284,4 @@ La Quiaca,LQ,,Argentina,-22.10,-65.60,3468,2005-,SMN,Argentine Servicio Meteorol
 Pilar,PIL,,Argentina,-31.67,-63.88,335,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
 Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30,2013-,SMN;WMO,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
 Pto. San Julián,PSJu,,Argentina,-49.31,-67.80,50,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
-Ushuaia,USH,,Argentina,-54.85,-68.31,11,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2,Thermopile,G;D
+Ushuaia,USH,,Argentina,-54.85,-68.31,11,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2,Thermopile,G;D
