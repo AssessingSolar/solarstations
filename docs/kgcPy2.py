@@ -1,4 +1,4 @@
-'''Modified (faster) version of the functions in the kgcPy package.'''
+'''Accelerated version of the functions in the kgcPy package.'''
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 
