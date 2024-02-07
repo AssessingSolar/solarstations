@@ -288,7 +288,7 @@ Colorado Regional Test Center,RTC-CO,Colorado,USA,39.7407,-105.1771,1783,2014-,D
 Michigan Regional Test Center,RTC-MI,Michigan,USA,47.1699,-88.5061,336,2021-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
 La Quiaca,LQ,,Argentina,-22.10,-65.60,3468,2005-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
 Pilar,PIL,,Argentina,-31.67,-63.88,335,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
-Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30,2013-,SMN;WMO,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
+Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30,2013-,SMN;WMO RRC,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
 Pto. San Julián,PSJu,,Argentina,-49.31,-67.80,50,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
 Ushuaia,USH,,Argentina,-54.85,-68.31,11,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2,Thermopile,G;D
 Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
