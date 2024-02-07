@@ -279,7 +279,7 @@ Mutribah,,,Kuwait,29.90,47.28,,2012-,,KISR,Location is approximate,,,2,Thermopil
 Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI
 Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI
 Arctic Space Centre Sodankylä,,,Finland,67.36664,26.628253,195,2016-,,FMI,"Data is likely of poor quality.",https://litdb.fmi.fi/soundingst_radiation.php,Freely,1,Thermopile,G;B;D
-Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-2021,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Kalgoorlie-Boulder Airport,,Western Australia,Australia,-30.7847,121.4533,365.3,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
@@ -288,9 +288,9 @@ Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2,2003-2020,BOM,BO
 Mount Gambier Aero,,South Australia,Australia,-37.7473,140.7739,63,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Mildura Airport,,New South Wales,Australia,-34.2358,142.0867,50,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Longreach Aero,,Quennsland,Australia,-23.4397,144.2828,192.2,2012-2015,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
-Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-2021,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
-Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95,1997-2021,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
-Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-2021,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
