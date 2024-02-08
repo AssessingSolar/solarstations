@@ -136,7 +136,7 @@ Lund,,,Sweden,55.714,13.212,85,1983-2015,SMHI,SMHI,,https://www.smhi.se/polopoly
 Tataouine,,,Tunisia,32.974,10.485,210,2011-,enerMENA,CRTEn,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ma'an,,,Jordan,30.172,35.818,1012,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Oujda,,,Morocco,34.65,-1.9,617,2011-,enerMENA,University of oujda,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
-Cairo,,,Egypt,30.036,31.009,104,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
+Cairo,,,Egypt,30.036,31.009,104,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,1,Thermopile,G;B;D
 Adrar,,,Algeria,27.88,-0.274,262,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Ghardaia,,,Algeria,32.386,3.78,463,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
 Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
@@ -286,3 +286,11 @@ Florida Regional Test Center,RTC-FL,Florida,USA,28.40509,-80.7709,10,2014-,DOE R
 Vermont Regional Test Center,RTC-VT,Vermont,USA,44.4665,-73.1024,107,2014-2020,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
 Colorado Regional Test Center,RTC-CO,Colorado,USA,39.7407,-105.1771,1783,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
 Michigan Regional Test Center,RTC-MI,Michigan,USA,47.1699,-88.5061,336,2021-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
+Barrani,,,Egypt,31.60,26.00,23.7,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
+Matruh,,,Egypt,31.33,27.22,25,,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
+El-Arish,,,Egypt,31.08,33.82,27.2,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
+Cairo,,,Egypt,30.08,31.28,34.4,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,1,Thermopile,G;B;D
+El-Kharga,,,Egypt,25.45,30.53,77.8,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
+El-Farafra,,,Egypt,27.06,27.99,82.2,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,1,Thermopile,G;B;D
+Asyut,,,Egypt,27.2,31.17,52,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
+Aswan,,,Egypt,23.97,32.78,192.5,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,1,Thermopile,G;B;D
