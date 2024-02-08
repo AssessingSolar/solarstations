@@ -1,7 +1,7 @@
 Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
 Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,Candidate station (no. 86),,Freely,1,Thermopile,G;B;D
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,1,Thermopile,G;B;D
-Alice Springs,ASP,Northern Territory,Australia,-23.798,133.888,547,1995-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.8890,546,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D
 Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013& 2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -16,13 +16,13 @@ Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Carpentras,CAR,,France,44.083,5.059,100,1996-2018,BSRN,,,,Freely,1,Thermopile,G;B;D
 Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Cener,CNR,Navarra,Spain,42.816,-1.601,471,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.193,96.835,6,2004-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D
 De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Darwin,DAR,,Australia,-12.425,130.891,30,2002-2015,BSRN,,,,Freely,1,Thermopile,G;B;D
+Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006,BSRN,,,,Freely,1,Thermopile,G;B;D
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D
 Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D
-Darwin Met Office,DWN,,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
@@ -50,7 +50,7 @@ Momote,MAN,,Papua New Guinea,-2.058,147.425,6,1996-2013,BSRN,,,,Freely,1,Thermop
 Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,1,Thermopile,G;B;D
 Marguele,MRS,,Romania,44.3439,26.0123,110,,BSRN,,Candidate Station (no. 88),,Freely,1,Thermopile,G;B;D
 Nauru Island,NAU,,Nauru,-0.521,166.9167,7,1998-2013,BSRN,,,,Freely,1,Thermopile,G;B;D
-Newcastle,NEW,,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D
 Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -280,6 +280,31 @@ Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,Location is approximate,,,2,Thermopile
 Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI
 Arctic Space Centre Sodankylä,,,Finland,67.36664,26.628253,195,2016-,,FMI,"Data is likely of poor quality.",https://litdb.fmi.fi/soundingst_radiation.php,Freely,1,Thermopile,G;B;D
 Odeillo,,,France,42.4942,2.0295,1530,1996-?,,PROMES,Altitude is approximate,,,1,Thermopile,G;B;D
+Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Crucero II,Crucero2,,Chile,-22.27,-69.57,1183,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,1,Thermopile,G;B;D
+Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Puerto Angamos,PANG,,Chile,-23.07,-70.39,10,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Cerro Calan,CCALAN,,Chile,-33.40,-70.54,850,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Armazones,ARMA,,Chile,-24.63,-70.24,2581,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Crucero,CRUC,,Chile,-22.27,-69.57,1176,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D
+Arica,,,Chile,-18.47,-70.31,,2011-?,FONDEF,,,,,2,RSP
+Pozo Almonte,,,Chile,-20.25,-69.78,,2012-?,FONDEF,,,,,2,RSP
+Patache,,,Chile,-20.80,-70.19,,2013-?,FONDEF,,,,,2,RSP
+Sur Viejo,,,Chile,-20.95,-69.54,,2011-?,FONDEF,,,,,2,RSP
+Crucero,,,Chile,-22.27,-69.56,,2012-?,FONDEF,,,,,2,RSP
+Coya Sur,,,Chile,-22.39,-69.62,,2011-?,FONDEF,,,,,2,RSP
+San Pedro,,,Chile,-22.90,-68.19,,2010-2011,FONDEF,,,,,1,Thermopile,G;B;D
+El Tesoro,,,Chile,-22.93,-69.07,,2009-?,FONDEF,,,,,2,RSP
+Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,2,RSP
+Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF,,,,,1,Thermopile,G;B;D
+Curicó,,,Chile,-34.97,-71.25,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
+Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
+Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,2,RSP
 Nevada Regional Test Center,RTC-NV,Nevada,USA,36.0277,-114.9195,701,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
 New Mexico Regional Test Center,RTC-NM,New Mexico,USA,35.0542,-106.5385,1659,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
 Florida Regional Test Center,RTC-FL,Florida,USA,28.40509,-80.7709,10,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D
@@ -294,3 +319,23 @@ El-Kharga,,,Egypt,25.45,30.53,77.8,2004-,,Egyptian Meteorological Authority (EMA
 El-Farafra,,,Egypt,27.06,27.99,82.2,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,1,Thermopile,G;B;D
 Asyut,,,Egypt,27.2,31.17,52,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,2,Thermopile,G;D
 Aswan,,,Egypt,23.97,32.78,192.5,2004-,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier "doi:10.1594/PANGAEA.848804",,Freely,1,Thermopile,G;B;D
+La Quiaca,LQ,,Argentina,-22.10,-65.60,3468,2005-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
+Pilar,PIL,,Argentina,-31.67,-63.88,335,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
+Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30,2013-,SMN;WMO RRC,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
+Pto. San Julián,PSJu,,Argentina,-49.31,-67.80,50,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D
+Ushuaia,USH,,Argentina,-54.85,-68.31,11,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2,Thermopile,G;D
+Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Kalgoorlie-Boulder Airport,,Western Australia,Australia,-30.7847,121.4533,365.3,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Tennant Creek Airport,,Northern Territory,Australia,-19.6423,134.1833,375.7,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2,2003-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Mount Gambier Aero,,South Australia,Australia,-37.7473,140.7739,63,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Mildura Airport,,New South Wales,Australia,-34.2358,142.0867,50,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Longreach Aero,,Quennsland,Australia,-23.4397,144.2828,192.2,2012-2015,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
