@@ -333,7 +333,7 @@ Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2,2003-2020,BOM,BO
 Mount Gambier Aero,,South Australia,Australia,-37.7473,140.7739,63,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Mildura Airport,,New South Wales,Australia,-34.2358,142.0867,50,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Longreach Aero,,Quennsland,Australia,-23.4397,144.2828,192.2,2012-2015,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
-Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM;WMO RRC,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
