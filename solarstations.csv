@@ -13,7 +13,7 @@ Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,
 Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D
 Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D
 Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Carpentras,CAR,,France,44.083,5.059,100,1996-2018,BSRN,,,,Freely,1,Thermopile,G;B;D
+Carpentras,CAR,,France,44.083,5.059,100,1996-2018,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D
 Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Cener,CNR,Navarra,Spain,42.816,-1.601,471,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D
@@ -42,7 +42,7 @@ Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermop
 Kwajalein,KWA,,Marshall Islands,8.72,167.731,10,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1,Thermopile,G;B;D
 Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1,Thermopile,G;B;D
-Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D
+Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D
 Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,1,Thermopile,G;B;D
 Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Lanyu Station,LYU,,Taiwan,22.037,121.5583,324,2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -70,7 +70,7 @@ Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KAC
 South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
-Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
+Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
 Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -122,7 +122,7 @@ Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47,1999-,WMO GAW,,Also measu
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52,2008-,WMO GAW,,The station also has a sky radiometer.,,,,,
 Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,None,Wageningen University,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1,Thermopile,G;B;D
 Kiruna,,,Sweden,67.842,20.41,424,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D
-Norrköping,,,Sweden,58.582,16.148,43,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D
+Norrköping,,,Sweden,58.582,16.148,43,1983-,SMHI;WMO RRC,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D
 Visby,,,Sweden,57.673,18.345,49,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D
 Luleå,,,Sweden,65.544,22.111,32,1983-2007,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B
 Umeå,,,Sweden,63.811,20.240,23,1983-2008,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B
