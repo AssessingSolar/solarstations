@@ -331,3 +331,5 @@ Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http
 Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
+Lagos,,,Nigeria,6.36,3.26,10,1993-?,WMO GAW;WMO RRC,NIMET,,,,2,Thermopile,G;D;UV
+Oshogbo,,,Nigeria,7.47,4.29,304.5,1993-?,WMO GAW;WMO RRC,NIMET,,,,2,Thermopile,G;D;UV
