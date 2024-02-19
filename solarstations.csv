@@ -341,23 +341,23 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
-Thiruvananthapuram,TRV,,India,8.48,76.95,60,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Bangalore,BNG,,India,12.96,77.58,921,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Chennai,CHN;CNI,,India,13.00,80.18,10,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Goa,GOA,,India,15.48,73.81,58,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Hyderabad,HYD,,India,17.45,78.46,530,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Visakhapatnam,VSK,,India,17.68,83.30,7,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Thiruvananthapuram,TRV,,India,8.48,76.95,60,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Bangalore,BNG,,India,12.96,77.58,921,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Chennai,CHN;CNI,,India,13.00,80.18,10,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Goa,GOA,,India,15.48,73.81,58,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Hyderabad,HYD,,India,17.45,78.46,530,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Visakhapatnam,VSK,,India,17.68,83.30,7,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
 Pune,PNE,,India,18.53,73.85,555,1986-?,WMO RRC,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Mumbai,MMB,,India,19.11,72.85,8,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Nagpur,NGP,,India,21.10,79.05,308,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Kolkata,KLK,,India,22.65,88.45,5,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Ahmedabad,AHM,,India,23.06,72.63,55,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Bhopal,BHP,,India,23.28,77.35,523,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Ranchi,RNC,,India,23.31,85.31,652,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Varanasi,VNS,,India,25.30,83.01,90,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Shillong,SHL,,India,25.56,91.88,1598,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Patna,PTN,,India,25.60,85.16,51,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Jodhpur,JDP,,India,26.30,73.01,217,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Jaipur,JPR,,India,26.81,75.80,390,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-New Delhi,NDL,,India,28.48,77.13,273,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Srinagar,SRN,,India,34.08,74.83,1585,1986-2000,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Mumbai,MMB,,India,19.11,72.85,8,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Nagpur,NGP,,India,21.10,79.05,308,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Kolkata,KLK,,India,22.65,88.45,5,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Ahmedabad,AHM,,India,23.06,72.63,55,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Bhopal,BHP,,India,23.28,77.35,523,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Ranchi,RNC,,India,23.31,85.31,652,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Varanasi,VNS,,India,25.30,83.01,90,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Shillong,SHL,,India,25.56,91.88,1598,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Patna,PTN,,India,25.60,85.16,51,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Jodhpur,JDP,,India,26.30,73.01,217,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Jaipur,JPR,,India,26.81,75.80,390,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+New Delhi,NDL,,India,28.48,77.13,273,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Srinagar,SRN,,India,34.08,74.83,1585,1986-?,,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
