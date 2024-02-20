@@ -6,10 +6,10 @@
             "pattern": [
                 {
                     // matches the output from validate-csv.py
-                    "regexp": "^Line\\s(\\d+):(.+)$",
-                    "line": 1,
-                    "message": 2,
-                    "file": "solarstations.csv"
+                    "regexp": "^(.+),\\sline\\s(\\d+):(.+)$",
+                    "file": 1,
+                    "line": 2,
+                    "message": 3,
                 }
             ]
         }

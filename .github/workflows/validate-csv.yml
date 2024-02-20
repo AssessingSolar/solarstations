@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install requirements
-        run: pip install requests
+        run: pip install requests pandas numpy
 
       - name: Set up output matcher for PR annotations
         run: echo '::add-matcher::.github/workflows/validate-csv-matcher.json'

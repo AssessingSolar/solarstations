@@ -69,5 +69,5 @@ if __name__ == "__main__":
 
             check_name = func.__name__
             line_num = i + 2  # +1 for header, +1 for zero-based indexing
-            log_output = f"Line {line_num}: {msg}"
+            log_output = f"solarstations.csv, line {line_num}: {msg}"
             print(log_output)
