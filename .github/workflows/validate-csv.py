@@ -55,7 +55,7 @@ validation_functions = [
 
 if __name__ == "__main__":
     
-    filename = './../../solarstations.csv'
+    filename = 'solarstations.csv'
     df = pd.read_csv(filename)
 
     for i, row in df.iterrows():
