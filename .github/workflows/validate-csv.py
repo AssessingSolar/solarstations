@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import numpy as np
+import sys
 
 
 def check_url(row):
@@ -33,7 +34,7 @@ def check_elevation(row):
 def check_coordinates(row):
     lat = row['Latitude']
     lon = row['Longitude']
-    
+
     if not isinstance(lat, float):
         return f"Latitude must be type 'float': {lat}"
     if not -90 <= lat <= 90:
@@ -54,9 +55,11 @@ validation_functions = [
 ]
 
 if __name__ == "__main__":
-    
+
     filename = 'solarstations.csv'
     df = pd.read_csv(filename)
+
+    found_a_problem = False
 
     for i, row in df.iterrows():
         for func in validation_functions:
@@ -71,3 +74,8 @@ if __name__ == "__main__":
             line_num = i + 2  # +1 for header, +1 for zero-based indexing
             log_output = f"solarstations.csv, line {line_num}: {msg}"
             print(log_output)
+
+            found_a_problem = True
+
+    if found_a_problem:
+        sys.exit(1)  # fail the GH Action
