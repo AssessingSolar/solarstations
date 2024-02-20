@@ -1,0 +1,17 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "validate-csv-matcher",
+            "severity": "error",
+            "pattern": [
+                {
+                    // matches the output from validate-csv.py
+                    "regexp": "^Line\\s(\\d+):(.+)$",
+                    "line": 1,
+                    "message": 2,
+                    "file": "solarstations.csv"
+                }
+            ]
+        }
+    ]
+}

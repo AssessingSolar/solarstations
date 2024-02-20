@@ -1,0 +1,30 @@
+name: validate-csv
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+
+
+jobs:
+  validate-csv:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Install Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install requirements
+        run: pip install requests
+
+      - name: Set up output matcher for PR annotations
+        run: echo '::add-matcher::.github/workflows/validate-csv-matcher.json'
+
+      - name: Check URLs
+        run: python validate-csv.py
