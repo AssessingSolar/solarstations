@@ -341,14 +341,14 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
-Thiruvananthapuram,TRV,,India,8.48,76.95,60,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Bangalore,BNG,,India,12.96,77.58,921,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Hyderabad,HYD,,India,17.45,78.46,530,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
+Thiruvananthapuram,TRV,,India,8.48,76.95,60,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Bangalore,BNG,,India,12.96,77.58,921,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Hyderabad,HYD,,India,17.45,78.46,530,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
 Pune,PNE,,India,18.53,73.85,555,1986-?,WMO RRC,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
-Bhopal,BHP,,India,23.28,77.35,523,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Ranchi,RNC,,India,23.31,85.31,652,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Varanasi,VNS,,India,25.30,83.01,90,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Patna,PTN,,India,25.60,85.16,51,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Jaipur,JPR,,India,26.81,75.80,390,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-New Delhi,NDL,,India,28.48,77.13,273,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
-Srinagar,SRN,,India,34.08,74.83,1585,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,1,Thermopile,G;B;D
+Bhopal,BHP,,India,23.28,77.35,523,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Ranchi,RNC,,India,23.31,85.31,652,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Varanasi,VNS,,India,25.30,83.01,90,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Patna,PTN,,India,25.60,85.16,51,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Jaipur,JPR,,India,26.81,75.80,390,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+New Delhi,NDL,,India,28.48,77.13,273,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Srinagar,SRN,,India,34.08,74.83,1585,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
