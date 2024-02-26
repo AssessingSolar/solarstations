@@ -341,3 +341,4 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
+Toronto,TOT,,Canada,43.7833328247,-79.4666671753,198,2014-,WMO GAW;WMO RRC,Environment Canada,,https://gawsis.meteoswiss.ch/GAWSIS/index.html#/search/station/stationReportDetails/0-20008-0-TOT,,2,Thermopile;RSI,G;RSI
