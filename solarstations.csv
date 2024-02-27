@@ -143,18 +143,18 @@ Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf
 Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
-Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Morelos ,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Selegua ,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,WMO RRC,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
 Poprad-Ganovce,,,Slovakia,49.035,20.324,709,,Slovak Hydrometeorological Institute,,,,Upon request,1,Thermopile,G;B;D
 Dobele,,,Latvia,56.62,23.32,42,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,,
 Silutes,,,Lithuania,55.352,21.447,5,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,
