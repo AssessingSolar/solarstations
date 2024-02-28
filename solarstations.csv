@@ -9,7 +9,7 @@ Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http
 Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
 Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1,Thermopile,G;B;D;IR
-Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D
 Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D
 Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D
 Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
