@@ -341,3 +341,44 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
+Al Uyaynah Research Station,,,Saudi Arabia,24.90689,46.39721,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+King Abdullah University of Science and Technology,,,Saudi Arabia,22.3065,39.10701,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+University of Dammam,,,Saudi Arabia,26.39519,50.18898,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+King Abdulaziz University Main Campus,,,Saudi Arabia,21.49604,39.24492,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Qassim University,,,Saudi Arabia,26.34668,43.76645,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Jazan University,,,Saudi Arabia,16.96035,42.54586,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+King Faisal University,,,Saudi Arabia,25.34616,49.5956,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Taif University,,,Saudi Arabia,21.43278,40.49173,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Wadi Addawasir College of Technology,,,Saudi Arabia,20.43008,44.89433,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Tabuk University,,,Saudi Arabia,28.38287,36.48396,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Al Wajh Technical Institute,,,Saudi Arabia,26.2561,36.443,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Royal Commission of Yanbu,,,Saudi Arabia,24.14434,37.94569,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Arar Technical Institute,,,Saudi Arabia,30.918154,41.079801,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Al Jouf Technical Institute,,,Saudi Arabia,29.79383,40.04886,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Rania Technical Institute,,,Saudi Arabia,21.21499,42.84852,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Al Baha University,,,Saudi Arabia,20.17933,41.63561,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Saline Water Conversion Corporation (Al Khafji),,,Saudi Arabia,28.50671,48.45504,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+Najran University,,,Saudi Arabia,17.63228,44.53735,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D
+K.A.CARE City Site Tier 2 Station,,,Saudi Arabia,24.52958,46.43635,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+K.A.CARE Building Olaya St,,,Saudi Arabia,24.70814,46.67896,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+King Fahd University of Petroleum & Minerals,,,Saudi Arabia,26.30355,50.14412,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+King Abdulaziz University East Hada Alsham Campus,,,Saudi Arabia,21.80117,39.72854,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Al Aflaaj Technical Institute,,,Saudi Arabia,22.27948,46.73319,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Afif Technical Institute,,,Saudi Arabia,23.92118,42.94815,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Al Dawadmi College of Technology,,,Saudi Arabia,24.5569,44.47411,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Shaqra University,,,Saudi Arabia,25.17279,45.14198,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Majmaah University,,,Saudi Arabia,25.85891,45.41889,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Salmanbin Abdulaziz University,,,Saudi Arabia,24.14717,47.26999,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Timaa Technical Institute,,,Saudi Arabia,27.61727,38.5252,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Saline Water Conversion Corporation (Hagl),,,Saudi Arabia,29.28997,34.93002,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Duba Technical Institute,,,Saudi Arabia,27.34103,35.72295,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Al Hanakiyah Technical Institute,,,Saudi Arabia,24.85577,40.536,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Saline Water Conversion Corporation (Umluj),,,Saudi Arabia,25.00411,37.27382,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Saline Water Desalination Research Institute,,,Saudi Arabia,26.9042,49.76274,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Sharurah Technical Institute,,,Saudi Arabia,17.47586,47.08618,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Al Qunfudhah Technical Institute,,,Saudi Arabia,19.15197,41.08111,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+King Abdulaziz University (Osfan Campus),,,Saudi Arabia,21.89252,39.2539,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Hafar Al Batin Technical College,,,Saudi Arabia,28.33202,45.95708,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Tuhamat Qahtan Technical Institute,,,Saudi Arabia,17.7749,43.17555,,2013-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+Saline Water Conversion Corporation (Farasan),,,Saudi Arabia,16.692097,42.098767,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
+King Saud University,,,Saudi Arabia,24.72359,46.61639,,2014-,,K.A.CARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR;RSR
