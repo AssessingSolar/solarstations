@@ -341,3 +341,55 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
+Chilakapalem,,,India,18.27,83.809,87,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Rajahmundry,,,India,17.065,81.867,93,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Kadiri,,,India,14.11,78.147,531,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Tirupati,,,India,13.627,79.397,190,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Guntur,,,India,16.374,80.526,31,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Medak,,,India,18.041,78.266,467,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Bilaspur,,,India,22.075,82.184,267,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Charanka,,,India,23.893,71.212,12,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Bhogat,,,India,22.029,69.261,14,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Jambua,,,India,22.216,73.19,29,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Keshod,,,India,21.275,70.212,61,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Vartej,,,India,21.741,72.071,30,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Idar,,,India,23.83,73.003,221,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Kotada Pitha,,,India,21.948,71.21,207,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Chandrodi,,,India,23.334,70.637,74,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Tharad,,,India,24.377,71.63,67,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Sadodar,,,India,22.051,70.235,192,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Gandhi Nagar,,,India,23.11,72.627,60,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Gurugram(Gurgaon),,,India,28.425,77.155,259,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Leh,,,India,34.14,77.481,3252,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Haveri,,,India,14.788,75.345,567,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Gokak,,,India,16.288,74.835,575,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Kalaburagi(Gulbarga),,,India,17.32,76.855,478,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Vijayapura(Bijapur),,,India,16.847,75.752,567,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Chitradurga,,,India,14.216,76.428,760,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Gwalior,,,India,26.223,78.19,210,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Rajgarh,,,India,23.987,76.727,412,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Sitamau,,,India,23.984,75.331,469,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Karad,,,India,17.31,74.186,599,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Shegaon,,,India,20.78,76.679,288,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Pandharpur,,,India,17.656,75.369,480,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Amarsagar,,,India,26.942,70.874,273,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Kota,,,India,25.141,75.81,304,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Bodana,,,India,27.606,72.109,168,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Mathania,,,India,26.516,72.985,271,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Sirohi,,,India,24.517,72.786,362,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Abu Road,,,India,24.519,72.783,276,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Phalodi,,,India,27.118,72.345,242,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Balotra,,,India,25.805,72.237,126,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Ratangarh,,,India,28.082,74.6,312,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Ajmer,,,India,26.4,74.661,501,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Jodhpur,,,India,26.271,73.035,233,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Pokhran,,,India,26.916,71.928,293,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Bagora,,,India,25.214,72.018,91,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Chennai,,,India,12.956,80.217,1,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Karaikudi,,,India,10.086,78.796,101,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Ramanathapuram,,,India,9.369,78.77,10,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Kayathar,,,India,8.945,77.723,102,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Erode,,,India,11.27,77.604,272,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Trichy,,,India,10.76,78.813,87,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Vellore,,,India,12.974,79.159,231,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
+Puducherry,,,India,11.96,79.811,36,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
