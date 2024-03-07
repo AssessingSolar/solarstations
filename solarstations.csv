@@ -29,13 +29,13 @@ Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://e
 Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR
 Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
-Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,1,Thermopile,G;B;D
 Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1,Thermopile,G;B;D
 Granite Island,GIM,Michigan,USA,46.721,-87.411,208,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D
 Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407,2012-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Gurgaon,GUR,,India,28.4249,77.156,259,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Gurgaon,GUR,,India,28.4249,77.156,259,2014-2015& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,1,Thermopile,G;B;D
 Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42,1982-,BSRN,,Neumayer-station II from 1992-2009& Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,1,Thermopile,G;B;D
-Howrah,HOW,,India,22.5535,88.3064,51,2014-2016& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Howrah,HOW,,India,22.5535,88.3064,51,2014-2016& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,1,Thermopile,G;B;D
 Ilorin,ILO,,Nigeria,8.5333,4.5667,350,1992-2005,BSRN,,Station closed due to no funding,,Freely,1,Thermopile,G;B;D
 Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -73,7 +73,7 @@ Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/e
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
 Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN;SRRA,National Institute of wind energy,,,Freely,1,Thermopile,G;B;D
 Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,,BSRN,,Candidate Station (no. 89),,Freely,1,Thermopile,G;B;D
 Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,1,Thermopile,G;B;D
 Xianghe,XIA,,China,39.754,116.962,32,2005-2016,BSRN,,Station obstructed& no longer in BSRN since 2016,,Freely,1,Thermopile,G;B;D
@@ -358,8 +358,6 @@ Kotada Pitha,,,India,21.948,71.21,207,2011-,SRRA,National Institute of wind ener
 Chandrodi,,,India,23.334,70.637,74,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Tharad,,,India,24.377,71.63,67,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Sadodar,,,India,22.051,70.235,192,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
-Gandhi Nagar,,,India,23.11,72.627,60,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
-Gurugram(Gurgaon),,,India,28.425,77.155,259,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Leh,,,India,34.14,77.481,3252,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Haveri,,,India,14.788,75.345,567,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Gokak,,,India,16.288,74.835,575,2015-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
@@ -442,7 +440,6 @@ Talwandi Sabo,,,India,29.961,75.122,341,2013-,SRRA,National Institute of wind en
 Kapurthala,,,India,31.356,75.444,240,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Jaipur,,,India,26.809,75.862,403,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Gangtok,,,India,27.373,88.6,1920,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
-Tiruvallur,,,India,13.092,79.973,36,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Agartala,,,India,23.839,91.423,71,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Banda,,,India,25.451,80.345,133,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Gorakhpur,,,India,26.73,83.434,71,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
@@ -452,7 +449,6 @@ Sultanpur,,,India,26.288,82.082,90,2013-,SRRA,National Institute of wind energy,
 Dehradun,,,India,30.416,77.967,844,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Nainital,,,India,29.357,79.551,1323,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Murshidabad,,,India,26.288,82.082,29,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
-Howrah,,,India,22.553,88.306,40,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Jalpaiguri,,,India,26.546,88.703,87,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Aurangabad,,,India,19.868,75.323,576,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
 Nanded,,,India,19.111,77.293,392,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,1,Thermopile,G;B;D
