@@ -71,7 +71,7 @@ South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gm
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
-Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
+Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN;WMO RRC,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D;IR
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,,BSRN,,Candidate Station (no. 89),,Freely,1,Thermopile,G;B;D
