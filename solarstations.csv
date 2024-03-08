@@ -341,3 +341,9 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
+Semi-Arid Climate & Environment Observatory of Lanzhou University,SACOL,,China,35.94600,104.13708,1965.8,2005-,,Lanzhou University,,http://climate.lzu.edu.cn/info/1046/1080.htm,,1,Thermopile;RSR,G;B;D;RSR;UV
+Wuhan University,WHU,,China,30.533,114.35,30,2006-?,,Wuhan University,,,,1,Thermopile,G;B;D;PAR
+Mt. Waliguan,,,China,36.28749,100.8963,3810,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1,Thermopile,G;B;D;IR
+Longfengshan,,,China,44.7299,127.5999,331,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1,Thermopile,G;B;D
+Shangdianzi,SDZ,,China,40.65,117.1166,287,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
+Linan,,,China,30.3000,119.7300,138,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
