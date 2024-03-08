@@ -9,7 +9,7 @@ Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http
 Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
 Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1,Thermopile,G;B;D;IR
-Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D
 Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D
 Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D
 Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -143,18 +143,18 @@ Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf
 Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
-Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Morelos ,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Selegua ,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,WMO RRC,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
 Poprad-Ganovce,,,Slovakia,49.035,20.324,709,,Slovak Hydrometeorological Institute,,,,Upon request,1,Thermopile,G;B;D
 Dobele,,,Latvia,56.62,23.32,42,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,,
 Silutes,,,Lithuania,55.352,21.447,5,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,
@@ -194,7 +194,7 @@ Dharan,NP-Dha,,Nepal,26.79291,87.29263,310,2018-2020,ESMAP,World Bank,"Station w
 Lumle,NP-Lum,,Nepal,28.29666,83.81800,1750,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
 Nepalgunj,NP-Npg,,Nepal,28.11290,81.58900,150,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
 Jumla,NP-Jum,,Nepal,29.27237,82.19351,2368,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
+Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,"No diffuse measurements due to too hars meteorological conditions.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1
@@ -301,7 +301,7 @@ Coya Sur,,,Chile,-22.39,-69.62,,2011-?,FONDEF,,,,,2,RSP
 San Pedro,,,Chile,-22.90,-68.19,,2010-2011,FONDEF,,,,,1,Thermopile,G;B;D
 El Tesoro,,,Chile,-22.93,-69.07,,2009-?,FONDEF,,,,,2,RSP
 Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,2,RSP
-Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF,,,,,1,Thermopile,G;B;D
+Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF;WMO RRC,,,,,1,Thermopile,G;B;D
 Curicó,,,Chile,-34.97,-71.25,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
 Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
 Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,2,RSP
