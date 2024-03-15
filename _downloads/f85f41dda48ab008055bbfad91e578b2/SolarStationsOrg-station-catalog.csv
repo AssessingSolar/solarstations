@@ -1,413 +1,413 @@
 Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components,Koeppen Geiger climate zone,Station full name (unicode)
-Abashiri,ABS,,Japan,44.0178,144.2797,38.0,2021-,BSRN,,Candidate station (no. 86),,Freely,1,Thermopile,G;B;D,Dfb,Abashiri
-Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127.0,2004-2014,BSRN,,,,Freely,1,Thermopile,G;B;D,ET,Alert
-Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.889,546.0,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BWh,Alice Springs
-Barrow,BAR,Alaska,USA,71.323,-156.607,8.0,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D,ET,Barrow
-Bermuda,BER,Bermuda,USA,32.267,-64.667,8.0,1992-2013& 2016-,BSRN,,,,Freely,1,Thermopile,G;B;D,Ocean,Bermuda
-Billings,BIL,Oklahoma,USA,36.605,-97.516,317.0,1993-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cfa,Billings
-Bondville,BON,Illinois,USA,40.05192,-88.37309,230.0,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1,Thermopile,G;B;D,Cfa,Bondville
-Boulder,BOS,Colorado,USA,40.12498,-105.2368,1689.0,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D,BSk,Boulder
-Boulder,BOU,Colorado,USA,40.05,-105.007,1577.0,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D,BSk,Boulder
-Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023.0,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1,Thermopile,G;B;D;IR,Aw,Brasilia
-Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D,Cfb,Budapest-Lorinc
-Cabauw,CAB,,Netherlands,51.9711,4.9267,0.0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D,Cfb,Cabauw
-Camborne,CAM,,United Kingdom,50.2167,-5.3167,88.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D,Cfb,Camborne
-Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D,ET,Cape Baranova
-Carpentras,CAR,,France,44.083,5.059,100.0,1996-2018,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D,Csa,Carpentras
-Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37.0,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D,Ocean,Chesapeake Light
-Cener,CNR,Navarra,Spain,42.816,-1.601,471.0,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cfb,Cener
-Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3.0,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D,Ocean,Cocos Island
-De Aar,DAA,,South Africa,-30.6667,23.993,1287.0,2000-,BSRN,,,,Freely,1,Thermopile,G;B;D,BSk,De Aar
-Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Aw,Darwin
-Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233.0,2006,BSRN,,,,Freely,1,Thermopile,G;B;D,EF,Concordia Station& Dome C
-Dongsha Atoll,DON,,Taiwan,20.7,116.73,2.0,,BSRN,,Candidate,,Freely,1,Thermopile,G;B;D,Ocean,Dongsha Atoll
-Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007.0,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1,Thermopile,G;B;D,BWk,Desert Rock
-Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32.0,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D,Aw,Darwin Met Office
-Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314.0,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D,Cfa,Southern Great Plains
-Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D,Ocean,Eastern North Atlantic
-Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85.0,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut,Freely",1,Thermopile,G;B;D,,ET,Eureka
-Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31.0,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR,Cfa,Florianopolis
-Fort Peck,FPE,Montana,USA,48.30783,-105.1017,634.0,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D,BSk,Fort Peck
-Fukuoka,FUA,,Japan,33.5822,130.3764,3.0,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D,Cfa,Fukuoka
-Gandhinagar,GAN,,India,23.1101,72.6276,65.0,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D,BSh,Gandhinagar
-Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98.0,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1,Thermopile,G;B;D,Cfa,Goodwin Creek
-Granite Island,GIM,Michigan,USA,46.721,-87.411,208.0,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D,Dfb,Granite Island
-Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407.0,2012-,BSRN,,,,Freely,1,Thermopile,G;B;D,BWh,Gobabeb
-Gurgaon,GUR,,India,28.4249,77.156,259.0,2014-2015& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D,BSh,Gurgaon
-Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42.0,1982-,BSRN,,Neumayer-station II from 1992-2009& Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,1,Thermopile,G;B;D,Ocean,Georg von Neumayer
-Howrah,HOW,,India,22.5535,88.3064,51.0,2014-2016& 2018-,BSRN,,,,Freely,1,Thermopile,G;B;D,Aw,Howrah
-Ilorin,ILO,,Nigeria,8.5333,4.5667,350.0,1992-2005,BSRN,,Station closed due to no funding,,Freely,1,Thermopile,G;B;D,Aw,Ilorin
-Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D,Ocean,Ishigakijima
-Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D,Csb,Izana
-Kwajalein,KWA,,Marshall Islands,8.72,167.731,10.0,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1,Thermopile,G;B;D,Ocean,Kwajalein
-Lauder,LAU,,New Zealand,-45.045,169.689,350.0,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cfb,Lauder
-Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1,Thermopile,G;B;D,Cfb,Lerwick
-Lindenberg,LIN,,Germany,52.21,14.122,125.0,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D,Cfb,Lindenberg
-Lulin,LLN,,Taiwan,23.4686,120.8736,2862.0,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,1,Thermopile,G;B;D,Cfb,Lulin
-Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3.0,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1,Thermopile,G;B;D,Cfa,Langley Research Center
-Lanyu Station,LYU,,Taiwan,22.037,121.5583,324.0,2018-,BSRN,,,,Freely,1,Thermopile,G;B;D,Ocean,Lanyu Station
-Momote,MAN,,Papua New Guinea,-2.058,147.425,6.0,1996-2013,BSRN,,,,Freely,1,Thermopile,G;B;D,Af,Momote
-Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,1,Thermopile,G;B;D,Ocean,Minamitorishima
-Marguele,MRS,,Romania,44.3439,26.0123,110.0,,BSRN,,Candidate Station (no. 88),,Freely,1,Thermopile,G;B;D,Cfa,Marguele
-Nauru Island,NAU,,Nauru,-0.521,166.9167,7.0,1998-2013,BSRN,,,,Freely,1,Thermopile,G;B;D,Ocean,Nauru Island
-Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cfa,Newcastle
-Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11.0,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D,ET,Ny-Alesund
-Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314.0,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cwb,Observatory of Huancayo
-Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156.0,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D,Cfb,Palaiseau& SIRTA Observatory
-Paramaribo,PAR,,Surinam,5.806,-55.2146,4.0,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D,Af,Paramaribo
-Payerne,PAY,,Switzerland,46.8123,6.9422,491.0,1992-,BSRN,MeteoSwiss,,,Freely,1,Thermopile,G;B;D,Cfb,Payerne
-Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376.0,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1,Thermopile,G;B;D,Cfb,Rock Springs
-Petrolina,PTR,,Brazil,-9.068,-40.319,387.0,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,1,Thermopile,G;B;D;IR,BSh,Petrolina
-Regina,REG,,Canada,50.205,-104.713,578.0,1995-2011,BSRN,,,,Freely,1,Thermopile,G;B;D,Dfb,Regina
-Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252.0,2007,BSRN,,Only two months of data available.,,Freely,1,Thermopile,G;B;D,Aw,Rolim de Moura
-Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116.0,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D,Ocean,Reunion Island & University
-Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,1,Thermopile,G;B;D,Dfb,Sapporo
-Sede Boqer,SBO,,Israel,30.8597,34.7794,500.0,2003-2012,BSRN,,,,Freely,1,Thermopile,G;B;D,BSh,Sede Boqer
-Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602.0,2020-,BSRN,,,,Freely,1,Thermopile,G;B;D,Aw,Selegua& Mexico Solarimetric Station
-São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489.0,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,1,Thermopile,G;B;D;IR,Cfa,Sao Martinho da Serra
-Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1,Thermopile,G;B;D,ET,Sonnblick
-Solar Village,SOV,,Saudi Arabia,24.91,46.41,650.0,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Solar Village
-South Pole,SPO,,Antarctica,-89.983,-24.799,2800.0,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1,Thermopile,G;B;D,EF,South Pole
-Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473.0,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D,Dfa,Sioux Falls
-Syowa,SYO,,Antarctica,-69.005,39.589,18.0,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D,EF,Syowa
-Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385.0,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D,BWh,Tamanrasset
-Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25.0,1996-,BSRN;WMO RRC,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D;IR,Cfa,Tateno;Tsukuba
-Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48.0,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D,Dsd,Tiksi
-Tiruvallur,TIR,,India,13.0923,79.9738,36.0,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D,Aw,Tiruvallur
-Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28.0,,BSRN,,Candidate Station (no. 89),,Freely,1,Thermopile,G;B;D,EF,Terra Nova Bay
-Toravere,TOR,,Estonia,58.254,26.462,70.0,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,1,Thermopile,G;B;D,Dfb,Toravere
-Xianghe,XIA,,China,39.754,116.962,32.0,2005-2016,BSRN,,Station obstructed& no longer in BSRN since 2016,,Freely,1,Thermopile,G;B;D,BSk,Xianghe
-Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858.0,2018-,BSRN,,,,Freely,1,Thermopile,G;B;D,ET,Yushan Station
-Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,1,Thermopile,G;B;D,BSk,Albuquerque
-Bismarck,BIS,North Dakota,USA,46.77179,-100.75955,503.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/bis.html,Freely,1,Thermopile,G;B;D,Dfb,Bismarck
-Hanford,HNX,California,USA,36.31357,-119.63164,73.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/hnx.html,Freely,1,Thermopile,G;B;D,BSk,Hanford
-Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271.0,1996-,SOLRAD,NOAA,Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt),https://gml.noaa.gov/grad/solrad/msn.html,Freely,1,Thermopile,G;B;D,Dfb,Madison
-Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334.0,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,1,Thermopile,G;B;D,Cfa,Oak Ridge
-Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,1,Thermopile,G;B;D,BSk,Salt Lake City
-Seattle,SEA,Washington,USA,47.68685,-122.25667,20.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,1,Thermopile,G;B;D,Csb,Seattle
-Sterling,STE,Virginia,USA,38.97203,-77.4869,85.0,1995-,SOLRAD,NOAA,Site location pre Oct 28& 2014 (38.97673& -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,1,Thermopile,G;B;D,Cfa,Sterling
-Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18.0,1995-2002,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,1,Thermopile,G;B;D,Cfa,Tallahassee
-Portland,PT,Oregon,USA,45.51,-122.69,70.0,2004-,SRML,University of Oregon,5-min data between 2004 and 2011.,http://solardata.uoregon.edu/PortlandPV.html,Freely,2,RSR,,Csb,Portland
-Burns,BU,Oregon,USA,43.52,-119.02,1265.0,1994-,SRML,University of Oregon,5 min data from 1994 to 2011.,http://solardata.uoregon.edu/Burns.html,Freely,1,Thermopile,G;B;D,BSk,Burns
-Silver lake,SL,Oregon,USA,43.12,-121.06,1355.0,2002-,SRML,University of Oregon,Only 5 minute data?,http://solardata.uoregon.edu/SilverLake.html,Freely,2,RSR,,Csb,Silver lake
-Ashland,AS,Oregon,USA,42.19,-122.7,595.0,2000-,SRML,University of Oregon,5-minute data from 2000 to 2018.,http://solardata.uoregon.edu/Ashland.html,Freely,2,RSR,,Csb,Ashland
-Seattle,ST,Washington,USA,47.654,-122.309,70.0,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1,Thermopile,G;B;D,Csb,Seattle
-Eugene,EU,Oregon,USA,44.0468,-123.0742,150.0,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D,Csb,Eugene
-Hermiston,HE,Oregon,USA,45.82,-119.28,180.0,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D,BSk,Hermiston
-DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,,Cfb,DTU Climate Station
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,,Technical University of Denmark,Also has spectral measurements.,,Freely,1,Thermopile,,Cfb,DTU Riso
-University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150.0,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,,Cfa,University of KwaZulu-Natal Howard College
-University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200.0,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,,Cfa,University of KwaZulu-Natal Westville
-Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119.0,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,,Csb,Stellenbosch University
+Abashiri,ABS,,Japan,44.0178,144.2797,38.0,2021-,BSRN,,Candidate station (no. 86),,Freely,1.0,Thermopile,G;B;D,Dfb,Abashiri
+Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127.0,2004-2014,BSRN,,,,Freely,1.0,Thermopile,G;B;D,ET,Alert
+Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.889,546.0,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BWh,Alice Springs
+Barrow,BAR,Alaska,USA,71.323,-156.607,8.0,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1.0,Thermopile,G;B;D,ET,Barrow
+Bermuda,BER,Bermuda,USA,32.267,-64.667,8.0,1992-2013& 2016-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Ocean,Bermuda
+Billings,BIL,Oklahoma,USA,36.605,-97.516,317.0,1993-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cfa,Billings
+Bondville,BON,Illinois,USA,40.05192,-88.37309,230.0,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,1.0,Thermopile,G;B;D,Cfa,Bondville
+Boulder,BOS,Colorado,USA,40.12498,-105.2368,1689.0,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1.0,Thermopile,G;B;D,BSk,Boulder
+Boulder,BOU,Colorado,USA,40.05,-105.007,1577.0,1992-2016,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BSk,Boulder
+Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023.0,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1.0,Thermopile,G;B;D;IR,Aw,Brasilia
+Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,1.0,Thermopile,G;B;D,Cfb,Budapest-Lorinc
+Cabauw,CAB,,Netherlands,51.9711,4.9267,0.0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1.0,Thermopile,G;B;D,Cfb,Cabauw
+Camborne,CAM,,United Kingdom,50.2167,-5.3167,88.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1.0,Thermopile,G;B;D,Cfb,Camborne
+Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,ET,Cape Baranova
+Carpentras,CAR,,France,44.083,5.059,100.0,1996-2018,BSRN;WMO RRC,,,,Freely,1.0,Thermopile,G;B;D,Csa,Carpentras
+Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37.0,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,1.0,Thermopile,G;B;D,Ocean,Chesapeake Light
+Cener,CNR,Navarra,Spain,42.816,-1.601,471.0,2009-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cfb,Cener
+Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3.0,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D,Ocean,Cocos Island
+De Aar,DAA,,South Africa,-30.6667,23.993,1287.0,2000-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BSk,De Aar
+Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Aw,Darwin
+Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233.0,2006,BSRN,,,,Freely,1.0,Thermopile,G;B;D,EF,Concordia Station& Dome C
+Dongsha Atoll,DON,,Taiwan,20.7,116.73,2.0,,BSRN,,Candidate,,Freely,1.0,Thermopile,G;B;D,Ocean,Dongsha Atoll
+Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007.0,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,1.0,Thermopile,G;B;D,BWk,Desert Rock
+Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32.0,2008-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Aw,Darwin Met Office
+Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314.0,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1.0,Thermopile,G;B;D,Cfa,Southern Great Plains
+Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1.0,Thermopile,G;B;D,Ocean,Eastern North Atlantic
+Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85.0,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut",Freely,1.0,Thermopile,G;B;D,ET,Eureka
+Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31.0,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1.0,Thermopile,G;B;D;IR,Cfa,Florianopolis
+Fort Peck,FPE,Montana,USA,48.30783,-105.1017,634.0,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1.0,Thermopile,G;B;D,BSk,Fort Peck
+Fukuoka,FUA,,Japan,33.5822,130.3764,3.0,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1.0,Thermopile,G;B;D,Cfa,Fukuoka
+Gandhinagar,GAN,,India,23.1101,72.6276,65.0,2014-2015& 2018-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BSh,Gandhinagar
+Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98.0,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,1.0,Thermopile,G;B;D,Cfa,Goodwin Creek
+Granite Island,GIM,Michigan,USA,46.721,-87.411,208.0,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1.0,Thermopile,G;B;D,Dfb,Granite Island
+Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407.0,2012-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BWh,Gobabeb
+Gurgaon,GUR,,India,28.4249,77.156,259.0,2014-2015& 2018-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BSh,Gurgaon
+Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42.0,1982-,BSRN,,Neumayer-station II from 1992-2009& Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,1.0,Thermopile,G;B;D,Ocean,Georg von Neumayer
+Howrah,HOW,,India,22.5535,88.3064,51.0,2014-2016& 2018-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Aw,Howrah
+Ilorin,ILO,,Nigeria,8.5333,4.5667,350.0,1992-2005,BSRN,,Station closed due to no funding,,Freely,1.0,Thermopile,G;B;D,Aw,Ilorin
+Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Ocean,Ishigakijima
+Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Csb,Izana
+Kwajalein,KWA,,Marshall Islands,8.72,167.731,10.0,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1.0,Thermopile,G;B;D,Ocean,Kwajalein
+Lauder,LAU,,New Zealand,-45.045,169.689,350.0,1999-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cfb,Lauder
+Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1.0,Thermopile,G;B;D,Cfb,Lerwick
+Lindenberg,LIN,,Germany,52.21,14.122,125.0,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1.0,Thermopile,G;B;D,Cfb,Lindenberg
+Lulin,LLN,,Taiwan,23.4686,120.8736,2862.0,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,1.0,Thermopile,G;B;D,Cfb,Lulin
+Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3.0,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,1.0,Thermopile,G;B;D,Cfa,Langley Research Center
+Lanyu Station,LYU,,Taiwan,22.037,121.5583,324.0,2018-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Ocean,Lanyu Station
+Momote,MAN,,Papua New Guinea,-2.058,147.425,6.0,1996-2013,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Af,Momote
+Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,1.0,Thermopile,G;B;D,Ocean,Minamitorishima
+Marguele,MRS,,Romania,44.3439,26.0123,110.0,,BSRN,,Candidate Station (no. 88),,Freely,1.0,Thermopile,G;B;D,Cfa,Marguele
+Nauru Island,NAU,,Nauru,-0.521,166.9167,7.0,1998-2013,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Ocean,Nauru Island
+Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cfa,Newcastle
+Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11.0,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1.0,Thermopile,G;B;D,ET,Ny-Alesund
+Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314.0,2017-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cwb,Observatory of Huancayo
+Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156.0,2003-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Cfb,Palaiseau& SIRTA Observatory
+Paramaribo,PAR,,Surinam,5.806,-55.2146,4.0,2019-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Af,Paramaribo
+Payerne,PAY,,Switzerland,46.8123,6.9422,491.0,1992-,BSRN,MeteoSwiss,,,Freely,1.0,Thermopile,G;B;D,Cfb,Payerne
+Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376.0,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1.0,Thermopile,G;B;D,Cfb,Rock Springs
+Petrolina,PTR,,Brazil,-9.068,-40.319,387.0,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,1.0,Thermopile,G;B;D;IR,BSh,Petrolina
+Regina,REG,,Canada,50.205,-104.713,578.0,1995-2011,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Dfb,Regina
+Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252.0,2007,BSRN,,Only two months of data available.,,Freely,1.0,Thermopile,G;B;D,Aw,Rolim de Moura
+Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116.0,2019-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Ocean,Reunion Island & University
+Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,1.0,Thermopile,G;B;D,Dfb,Sapporo
+Sede Boqer,SBO,,Israel,30.8597,34.7794,500.0,2003-2012,BSRN,,,,Freely,1.0,Thermopile,G;B;D,BSh,Sede Boqer
+Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602.0,2020-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Aw,Selegua& Mexico Solarimetric Station
+São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489.0,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,1.0,Thermopile,G;B;D;IR,Cfa,Sao Martinho da Serra
+Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,1.0,Thermopile,G;B;D,ET,Sonnblick
+Solar Village,SOV,,Saudi Arabia,24.91,46.41,650.0,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Solar Village
+South Pole,SPO,,Antarctica,-89.983,-24.799,2800.0,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,1.0,Thermopile,G;B;D,EF,South Pole
+Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473.0,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1.0,Thermopile,G;B;D,Dfa,Sioux Falls
+Syowa,SYO,,Antarctica,-69.005,39.589,18.0,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1.0,Thermopile,G;B;D,EF,Syowa
+Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385.0,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1.0,Thermopile,G;B;D,BWh,Tamanrasset
+Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25.0,1996-,BSRN;WMO RRC,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1.0,Thermopile,G;B;D;IR,Cfa,Tateno;Tsukuba
+Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48.0,2010-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Dsd,Tiksi
+Tiruvallur,TIR,,India,13.0923,79.9738,36.0,2014-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,Aw,Tiruvallur
+Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28.0,,BSRN,,Candidate Station (no. 89),,Freely,1.0,Thermopile,G;B;D,EF,Terra Nova Bay
+Toravere,TOR,,Estonia,58.254,26.462,70.0,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,1.0,Thermopile,G;B;D,Dfb,Toravere
+Xianghe,XIA,,China,39.754,116.962,32.0,2005-2016,BSRN,,Station obstructed& no longer in BSRN since 2016,,Freely,1.0,Thermopile,G;B;D,BSk,Xianghe
+Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858.0,2018-,BSRN,,,,Freely,1.0,Thermopile,G;B;D,ET,Yushan Station
+Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,1.0,Thermopile,G;B;D,BSk,Albuquerque
+Bismarck,BIS,North Dakota,USA,46.77179,-100.75955,503.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/bis.html,Freely,1.0,Thermopile,G;B;D,Dfb,Bismarck
+Hanford,HNX,California,USA,36.31357,-119.63164,73.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/hnx.html,Freely,1.0,Thermopile,G;B;D,BSk,Hanford
+Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271.0,1996-,SOLRAD,NOAA,Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt),https://gml.noaa.gov/grad/solrad/msn.html,Freely,1.0,Thermopile,G;B;D,Dfb,Madison
+Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334.0,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,1.0,Thermopile,G;B;D,Cfa,Oak Ridge
+Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,1.0,Thermopile,G;B;D,BSk,Salt Lake City
+Seattle,SEA,Washington,USA,47.68685,-122.25667,20.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,1.0,Thermopile,G;B;D,Csb,Seattle
+Sterling,STE,Virginia,USA,38.97203,-77.4869,85.0,1995-,SOLRAD,NOAA,Site location pre Oct 28& 2014 (38.97673& -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,1.0,Thermopile,G;B;D,Cfa,Sterling
+Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18.0,1995-2002,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,1.0,Thermopile,G;B;D,Cfa,Tallahassee
+Portland,PT,Oregon,USA,45.51,-122.69,70.0,2004-,SRML,University of Oregon,5-min data between 2004 and 2011.,http://solardata.uoregon.edu/PortlandPV.html,Freely,2.0,RSR,,Csb,Portland
+Burns,BU,Oregon,USA,43.52,-119.02,1265.0,1994-,SRML,University of Oregon,5 min data from 1994 to 2011.,http://solardata.uoregon.edu/Burns.html,Freely,1.0,Thermopile,G;B;D,BSk,Burns
+Silver lake,SL,Oregon,USA,43.12,-121.06,1355.0,2002-,SRML,University of Oregon,Only 5 minute data?,http://solardata.uoregon.edu/SilverLake.html,Freely,2.0,RSR,,Csb,Silver lake
+Ashland,AS,Oregon,USA,42.19,-122.7,595.0,2000-,SRML,University of Oregon,5-minute data from 2000 to 2018.,http://solardata.uoregon.edu/Ashland.html,Freely,2.0,RSR,,Csb,Ashland
+Seattle,ST,Washington,USA,47.654,-122.309,70.0,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1.0,Thermopile,G;B;D,Csb,Seattle
+Eugene,EU,Oregon,USA,44.0468,-123.0742,150.0,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1.0,Thermopile,G;B;D,Csb,Eugene
+Hermiston,HE,Oregon,USA,45.82,-119.28,180.0,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1.0,Thermopile,G;B;D,BSk,Hermiston
+DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1.0,Thermopile,,Cfb,DTU Climate Station
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,,Technical University of Denmark,Also has spectral measurements.,,Freely,1.0,Thermopile,,Cfb,DTU Riso
+University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150.0,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1.0,Thermopile,,Cfa,University of KwaZulu-Natal Howard College
+University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200.0,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1.0,Thermopile,,Cfa,University of KwaZulu-Natal Westville
+Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119.0,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1.0,Thermopile,,Csb,Stellenbosch University
 GIZ University of Pretoria,UOP,Pretoria,South Africa,-25.75308037,28.22859001,1410.0,2013-2024,SAURAN,,Roof of university building. Also has acronym UPR.,https://sauran.ac.za,Freely,,,,Cwa,GIZ University of Pretoria
 GIZ Vanrhynsdorp,RVLD,Vanrhynsdorp,South Africa,-31.61747932,18.73834038,130.0,2016-2019,SAURAN,,Inside enclosure on rural farmland. Permanently offline. Also goes by the acronym VAN.,https://sauran.ac.za/station-documents/VAN/VAN%20Station%20Details.pdf,Freely,,,,BSh,GIZ Vanrhynsdorp
-GIZ University of Free State,UFS,Bloemfontein,South Africa,-29.11074066,26.18502998,1491.0,2014-2017,SAURAN,,Roof of Physics building. Permanently offline.,https://sauran.ac.za/station-documents/UFS/UFS%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D,BSk,GIZ University of Free State
+GIZ University of Free State,UFS,Bloemfontein,South Africa,-29.11074066,26.18502998,1491.0,2014-2017,SAURAN,,Roof of Physics building. Permanently offline.,https://sauran.ac.za/station-documents/UFS/UFS%20Station%20Details.pdf,Freely,1.0,Thermopile,G;B;D,BSk,GIZ University of Free State
 GIZ Graaff-Reinet,GRN,Graaff-Reinet,South Africa,-32.48546982,24.58581924,660.0,2013-2016,SAURAN,,Inside enclosure on rural farmland. Permanently offline.,https://sauran.ac.za/station-documents/GRT/GRT%20Station%20Details.pdf,Freely,,,,BWh,GIZ Graaff-Reinet
-Nelson Mandela University,NMU,Port Elizabeth,South Africa,-34.0085907,25.66526031,35.0,2015-2021,SAURAN,,Roof of Solar Outdoor Research Facility. Permanently offline. Is this really correct? Check what data comes in?,https://sauran.ac.za/station-documents/NMU/NMU%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D,BSh,Nelson Mandela University
-GIZ Richtersveld,RVLD,Alexander Bay,South Africa,-28.56084061,16.76145935,141.0,2014-2024,SAURAN,,Inside enclosure in desert region,https://sauran.ac.za/station-documents/RVD/RVD%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D,BWh,GIZ Richtersveld
-Mangosuthu University of Technology,MUT,Umlazi,South Africa,-29.97020912,30.91490936,95.0,2015-2021,SAURAN,,Roof of lecture complex. Diffuse with shadow band. Pyrheliometer on Eppley one-axis tracker. Permanently offline.,https://sauran.ac.za/station-documents/STA/STA%20Station%20Details.pdf,Freely,2,Thermopile.,G;B,Cfa,Mangosuthu University of Technology
-Eskom Sutherland,SALT,Sutherland,South Africa,-32.22199249,20.34777451,1450.0,2016-2017,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/station-documents/SUT/SUT%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D,BSk,Eskom Sutherland
-USAid Gaborone,GAB,Gaborone,Botswana,-24.6609993,25.93400002,1014.0,2014-2020,SAURAN,,Roof of building in University of Botswana,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,BSh,USAid Gaborone
-USAid Venda,VEN,Vuwani,South Africa,-23.13100052,30.42399979,628.0,2015-2024,SAURAN,,Vuwani Science Research Centre,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,Cwa,USAid Venda
-University of Zululand,ZUL,KwaDlangezwa,South Africa,-28.85289955,31.85161018,90.0,2013-2024,SAURAN,,Roof of university building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,Aw,University of Zululand
-USAid Namibian University of Science and Technology,NUST,Windhoek,Namibia,-22.56500053,17.07500076,1683.0,2016-2024,SAURAN,,Roof of Engineering Building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,BWh,USAid Namibian University of Science and Technology
-USAid University of Fort Hare,UFH,Alice,South Africa,-32.78461075,26.84519958,540.0,2017-2024,SAURAN,,Roof of Zoology Department,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,BSh,USAid University of Fort Hare
-GIZ Murraysburg,MRB,Murraysburg,South Africa,-31.89009094,24.05623055,1548.0,2017-2019,SAURAN,,Permanently offline. Inside enclosure on rural farmland.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,BSk,GIZ Murraysburg
-Mariendal,HELIO,Mariendal,South Africa,-33.85412979,18.82444954,178.0,2015-2020,SAURAN,,Permanently offline. Installed on a container.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,Csa,Mariendal
-Eskom Sutherland SALT,,Sutherland,South Africa,-32.37778091,20.8116703,1761.0,2017-2020,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,BSk,Eskom Sutherland SALT
-CSIR Energy Centre,CSIR,Pretoria,South Africa,-25.746519,28.278739,1400.0,2017-2024,SAURAN,,Roof of building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,Cwa,CSIR Energy Centre
-Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397.0,2017-2024,SAURAN,,Roof of the Engineering building,https://sauran.ac.za,Freely,1,Thermopile,G;B;D,BSk,Central University of Technology
-University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680.0,2021-2024,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D,Cfa,University of KwaZulu-Natal Pietermaritzburg
+Nelson Mandela University,NMU,Port Elizabeth,South Africa,-34.0085907,25.66526031,35.0,2015-2021,SAURAN,,Roof of Solar Outdoor Research Facility. Permanently offline. Is this really correct? Check what data comes in?,https://sauran.ac.za/station-documents/NMU/NMU%20Station%20Details.pdf,Freely,1.0,Thermopile,G;B;D,BSh,Nelson Mandela University
+GIZ Richtersveld,RVLD,Alexander Bay,South Africa,-28.56084061,16.76145935,141.0,2014-2024,SAURAN,,Inside enclosure in desert region,https://sauran.ac.za/station-documents/RVD/RVD%20Station%20Details.pdf,Freely,1.0,Thermopile,G;B;D,BWh,GIZ Richtersveld
+Mangosuthu University of Technology,MUT,Umlazi,South Africa,-29.97020912,30.91490936,95.0,2015-2021,SAURAN,,Roof of lecture complex. Diffuse with shadow band. Pyrheliometer on Eppley one-axis tracker. Permanently offline.,https://sauran.ac.za/station-documents/STA/STA%20Station%20Details.pdf,Freely,2.0,Thermopile.,G;B,Cfa,Mangosuthu University of Technology
+Eskom Sutherland,SALT,Sutherland,South Africa,-32.22199249,20.34777451,1450.0,2016-2017,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/station-documents/SUT/SUT%20Station%20Details.pdf,Freely,1.0,Thermopile,G;B;D,BSk,Eskom Sutherland
+USAid Gaborone,GAB,Gaborone,Botswana,-24.6609993,25.93400002,1014.0,2014-2020,SAURAN,,Roof of building in University of Botswana,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,BSh,USAid Gaborone
+USAid Venda,VEN,Vuwani,South Africa,-23.13100052,30.42399979,628.0,2015-2024,SAURAN,,Vuwani Science Research Centre,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,Cwa,USAid Venda
+University of Zululand,ZUL,KwaDlangezwa,South Africa,-28.85289955,31.85161018,90.0,2013-2024,SAURAN,,Roof of university building,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,Aw,University of Zululand
+USAid Namibian University of Science and Technology,NUST,Windhoek,Namibia,-22.56500053,17.07500076,1683.0,2016-2024,SAURAN,,Roof of Engineering Building,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,BWh,USAid Namibian University of Science and Technology
+USAid University of Fort Hare,UFH,Alice,South Africa,-32.78461075,26.84519958,540.0,2017-2024,SAURAN,,Roof of Zoology Department,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,BSh,USAid University of Fort Hare
+GIZ Murraysburg,MRB,Murraysburg,South Africa,-31.89009094,24.05623055,1548.0,2017-2019,SAURAN,,Permanently offline. Inside enclosure on rural farmland.,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,BSk,GIZ Murraysburg
+Mariendal,HELIO,Mariendal,South Africa,-33.85412979,18.82444954,178.0,2015-2020,SAURAN,,Permanently offline. Installed on a container.,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,Csa,Mariendal
+Eskom Sutherland SALT,,Sutherland,South Africa,-32.37778091,20.8116703,1761.0,2017-2020,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,BSk,Eskom Sutherland SALT
+CSIR Energy Centre,CSIR,Pretoria,South Africa,-25.746519,28.278739,1400.0,2017-2024,SAURAN,,Roof of building,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,Cwa,CSIR Energy Centre
+Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397.0,2017-2024,SAURAN,,Roof of the Engineering building,https://sauran.ac.za,Freely,1.0,Thermopile,G;B;D,BSk,Central University of Technology
+University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680.0,2021-2024,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1.0,Thermopile,G;B;D,Cfa,University of KwaZulu-Natal Pietermaritzburg
 Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47.0,1999-,WMO GAW,,Also measured upwards shortwave and longwave irradiance and has a skyradiometer and a Brewer.,,,,,,Cwa,Anmyeondo GAW station
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52.0,2008-,WMO GAW,,The station also has a sky radiometer.,,,,,,Cfa,Jeju Gosan GAW station
-Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,,Wageningen University,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1,Thermopile,G;B;D,Cfb,Weather Station De Veenkampen
-Kiruna,,,Sweden,67.842,20.41,424.0,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D,Dfc,Kiruna
-Norrköping,,,Sweden,58.582,16.148,43.0,1983-,SMHI;WMO RRC,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D,Cfb,Norrkoping
-Visby,,,Sweden,57.673,18.345,49.0,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1,Thermopile,G;B;D,Cfb,Visby
-Luleå,,,Sweden,65.544,22.111,32.0,1983-2007,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Dfc,Lulea
-Umeå,,,Sweden,63.811,20.24,23.0,1983-2008,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Dfb,Umea
-Östersund,,,Sweden,63.197,14.48,374.0,1983-2009,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Dfc,Ostersund
-Borlänge,,,Sweden,60.488,15.43,164.0,1983-2010,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Dfc,Borlange
-Karlstad,,,Sweden,59.359,13.472,46.0,1983-2011,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Dfb,Karlstad
-Stockholm,,,Sweden,59.353,18.063,30.0,1983-2012,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Cfb,Stockholm
-Göteborg,,,Sweden,57.708,11.992,30.0,1983-2013,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Cfb,Goteborg
-Växjö,,,Sweden,56.927,14.731,182.0,1983-2014,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Cfb,Vaxjo
-Lund,,,Sweden,55.714,13.212,85.0,1983-2015,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2,Thermopile,G;B,Cfb,Lund
+Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,,Wageningen University,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1.0,Thermopile,G;B;D,Cfb,Weather Station De Veenkampen
+Kiruna,,,Sweden,67.842,20.41,424.0,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1.0,Thermopile,G;B;D,Dfc,Kiruna
+Norrköping,,,Sweden,58.582,16.148,43.0,1983-,SMHI;WMO RRC,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1.0,Thermopile,G;B;D,Cfb,Norrkoping
+Visby,,,Sweden,57.673,18.345,49.0,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,1.0,Thermopile,G;B;D,Cfb,Visby
+Luleå,,,Sweden,65.544,22.111,32.0,1983-2007,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Dfc,Lulea
+Umeå,,,Sweden,63.811,20.24,23.0,1983-2008,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Dfb,Umea
+Östersund,,,Sweden,63.197,14.48,374.0,1983-2009,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Dfc,Ostersund
+Borlänge,,,Sweden,60.488,15.43,164.0,1983-2010,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Dfc,Borlange
+Karlstad,,,Sweden,59.359,13.472,46.0,1983-2011,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Dfb,Karlstad
+Stockholm,,,Sweden,59.353,18.063,30.0,1983-2012,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Cfb,Stockholm
+Göteborg,,,Sweden,57.708,11.992,30.0,1983-2013,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Cfb,Goteborg
+Växjö,,,Sweden,56.927,14.731,182.0,1983-2014,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Cfb,Vaxjo
+Lund,,,Sweden,55.714,13.212,85.0,1983-2015,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,2.0,Thermopile,G;B,Cfb,Lund
 Tataouine,,,Tunisia,32.974,10.485,210.0,2011-,enerMENA,CRTEn,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWh,Tataouine
 Ma'an,,,Jordan,30.172,35.818,1012.0,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWh,Ma'an
 Oujda,,,Morocco,34.65,-1.9,617.0,2011-,enerMENA,University of oujda,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BSk,Oujda
-Cairo,,,Egypt,30.036,31.009,104.0,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,1,Thermopile,G;B;D,BWh,Cairo
+Cairo,,,Egypt,30.036,31.009,104.0,2012-,enerMENA,Cairo University,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,1.0,Thermopile,G;B;D,BWh,Cairo
 Adrar,,,Algeria,27.88,-0.274,262.0,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWh,Adrar
 Ghardaia,,,Algeria,32.386,3.78,463.0,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWh,Ghardaia
 Missour,,,Morocco,32.86,-4.107,1107.0,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWk,Missour
 Erfoud,,,Morocco,31.491,-4.218,859.0,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,,BWh,Erfoud
 Zagora,,,Morocco,30.272,-5.852,783.0,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,,BWh,Zagora
 Tan-Tan,,,Morocco,28.498,-11.322,75.0,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,,BWh,Tan-Tan
-Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284.0,2015-,WMO RRC,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,Cwb,Ciudad Universitaria
-Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,Csb,Coeneo
-Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BSk,Ciudad Cuahutemoc
-Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BSh,Gomez Palacio
-Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BWh,Guerrero Negro
-Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BSh,Ixmiquilpan
-Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,Aw,Morelos
-Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BSh,Nuevo Laredo
-Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,Aw,Selegua
-Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,Csa,Tepic
-Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BSk,Zacatecas City
-Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157.0,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D,BWh,Hermosillo
-Poprad-Ganovce,,,Slovakia,49.035,20.324,709.0,,Slovak Hydrometeorological Institute,,,,Upon request,1,Thermopile,G;B;D,Dfb,Poprad-Ganovce
+Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284.0,2015-,WMO RRC,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,Cwb,Ciudad Universitaria
+Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,Csb,Coeneo
+Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BSk,Ciudad Cuahutemoc
+Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BSh,Gomez Palacio
+Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BWh,Guerrero Negro
+Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BSh,Ixmiquilpan
+Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,Aw,Morelos
+Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BSh,Nuevo Laredo
+Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,Aw,Selegua
+Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,Csa,Tepic
+Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BSk,Zacatecas City
+Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157.0,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1.0,Thermopile,G;B;D,BWh,Hermosillo
+Poprad-Ganovce,,,Slovakia,49.035,20.324,709.0,,Slovak Hydrometeorological Institute,,,,Upon request,1.0,Thermopile,G;B;D,Dfb,Poprad-Ganovce
 Dobele,,,Latvia,56.62,23.32,42.0,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,,,Cfb,Dobele
 Silutes,,,Lithuania,55.352,21.447,5.0,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,,Cfb,Silutes
 Kauno,,,Lithuania,54.884,23.836,77.0,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,,Dfb,Kauno
 Kishinev,,,Moldova,47.0,28.817,205.0,,ARG / Academy of Sciences of Moldova,,,,,,,,Cfa,Kishinev
 Tajoura,,,Libya,32.815147,13.438943,,,,,,,,,,,BSh,Tajoura
-Heraklion,,Crete,Greece,35.31139,25.10174,95.0,,,Hellenic Mediterranean University,Tracked located on roof of building. Site also has spectral radiation measurements.,https://leps.hmu.gr/en/home/,Not available,1,Thermopile,,Csa,Heraklion
-Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397.0,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,1,Thermopile,G;B;D,Ocean,Mauna Loa
-Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42.0,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,1,Thermopile,G;B;D,Ocean,Cape Matatula
-North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8.0,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,1,Thermopile,G;B;D,ET,North Slope of Alaska
-SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1,Thermopile,G;B;D,BSk,SRRL BMS
-SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674.0,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D,BSk,SOLARTAC
-Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855.0,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D,BSk,Flatirons M2
-Casaccia Research Center,,Lazio,Italy,42.05,12.3,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,1,Thermopile,G;B;D,Csa,Casaccia Research Center
-European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220.0,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,1,Thermopile,G;B;D,Cfa,European Solar Test Installation - JRC
-Ricerca sul Sistema Energetico,RSE,Milan,Italy,45.47488,9.26001,150.0,2012-,,RSE,Tracker is installed on the roof of a building (ground elevation is 108 m). The station also makes spectral measurement using a Spectrafy instrument.,,,1,Thermopile,G;B;D,Cfa,Ricerca sul Sistema Energetico
-University of Girona,,Catalonia,Spain,41.96,2.83,110.0,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,1,Thermopile,G;B;D,Csa,University of Girona
-Alamosa,SLV,Colorado,USA,37.7,-105.92,2317.0,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D,BSk,Alamosa
-Rutland,RUT,Vermont,USA,43.64,-72.97,184.0,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D,Dfb,Rutland
-Wasco,WAS,Oregon,USA,45.59,-120.67,200.0,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1,Thermopile,G;B;D,Csb,Wasco
-Airai,,,Palau,7.368513,134.53983,47.0,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,2,SPN1,G,Ocean,Airai
-Efate,,,Vanuatu,-17.709738,168.211453,152.0,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,2,SPN1,G,Af,Efate
-Nauru,,,Nauru,0.543447,166.93197,28.0,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,2,SPN1,G,Ocean,Nauru
-Chuuk,,,Federates States of Micronesia,7.467517,151.849834,4.0,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2,SPN1,G,Ocean,Chuuk
-Alotau,,,Papua New Guinea,-10.310113,150.337975,20.0,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,2,SPN1,G,Af,Alotau
-Honiara,,,Solomon Islands,-9.438163,160.063212,4.0,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,G,Af,Honiara
-Majuro,,,Marshall Islands,7.065048,171.268887,5.0,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,G,Ocean,Majuro
-Funafuti,,,Tuvalu,-8.525087,179.196323,0.0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2,SPN1,G,Ocean,Funafuti
-Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935.0,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G,Csa,Lari Tal Amara
-Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910.0,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G,Csa,Ras Ballbak
-Wien,,,Austria,48.25,16.36,198.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Cfb,Wien
-Graz,,,Austria,47.08,15.45,398.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Cfb,Graz
-Innsbruck,,,Austria,47.26,11.38,578.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Cfb,Innsbruck
-Kanzelhöhe,,,Austria,46.68,13.9,1540.0,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Dfb,Kanzelhohe
-Kathmandu-Lalitpur,NP-Kat,,Nepal,27.68155,85.31877,1315.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D,Cwa,Kathmandu-Lalitpur
-Dharan,NP-Dha,,Nepal,26.79291,87.29263,310.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D,Cwa,Dharan
-Lumle,NP-Lum,,Nepal,28.29666,83.818,1750.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D,Cwa,Lumle
-Nepalgunj,NP-Npg,,Nepal,28.1129,81.589,150.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D,Cwa,Nepalgunj
-Jumla,NP-Jum,,Nepal,29.27237,82.19351,2368.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D,Cwb,Jumla
-Davos,DAV,,Switzerland,46.813,9.844,1610.0,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,ET,Davos
-Jungfraujoch,JUN,,Switzerland,46.55,7.99,3582.0,1996-,,MeteoSwiss,No diffuse measurements due to too hars meteorological conditions.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,ET,Jungfraujoch
-Locarno-Monti,OTL,,Switzerland,46.18,8.783,366.0,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,Cfb,Locarno-Monti
-Amitie,amitie,,Seychelles,-4.321022,55.693361,3.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1,,Ocean,Amitie
-Anse Boileau,anseboileau,,Seychelles,-4.710958,55.484732,2.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408665,Freely,2,SPN1,,Ocean,Anse Boileau
-Antananarivo,antananarivo,,Madagascar,-18.89833,47.546422,1309.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408673,Freely,2,SPN1,,Cwb,Antananarivo
-Bras Panon Moreau,braspanonmoreau,,Reunion,-21.002649,55.682897,20.0,2010-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092821,Freely,2,SPN1,,Ocean,Bras Panon Moreau
-Caverne Dufour,cavernedufour,,Reunion,-21.109176,55.495655,2495.0,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.5812546,Freely,2,SPN1,,Ocean,Caverne Dufour
-Cilaos Bras Sec,cilaosbrassec,,Reunion,-21.141754,55.489703,1269.0,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092842,Freely,2,SPN1,,Ocean,Cilaos Bras Sec
-Cilaos Piscine,cilaospiscine,,Reunion,-21.136158,55.47416,1213.0,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092835,Freely,2,SPN1,,Ocean,Cilaos Piscine
-Cilaos Thermes,cilaosthermes,,Reunion,-21.12894,55.47332,1255.8,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092847,Freely,2,SPN1,,Ocean,Cilaos Thermes
-Cratere Bory,craterebory,,Reunion,-21.244138,55.709018,2584.2,2016-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092849,Freely,2,SPN1,,Ocean,Cratere Bory
-Antsiranana (Diego Suarez),diego,,Madagascar,-12.348602,49.293412,108.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408675,Freely,2,SPN1,,Aw,Antsiranana (Diego Suarez)
-Durban,durban,,South Africa,-29.87098,30.97695,150.0,2013-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092844,Freely,2,SPN1,,Cfa,Durban
-Hahaya,hahaya,,Comores,-11.539412,43.278112,32.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408671,Freely,2,SPN1,,Af,Hahaya
-Le Port Barbusse,leportbarbusse,,Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092858,Freely,2,SPN1,,Ocean,Le Port Barbusse
-Le Port Mairie,leportmairie,,Reunion,-20.935233,55.290266,12.0,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092855,Freely,2,SPN1,,Ocean,Le Port Mairie
-Radio Telescope Bras D'Eau,mrtbrasdeau,,Mauritius,-20.139386,57.726052,27.0,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408660,Freely,2,SPN1,,Ocean,Radio Telescope Bras D'Eau
-Observatoire du Piton de La Fournaise,observatoirevolcan,,Reunion,-21.208587,55.571453,1556.0,2016-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092871,Freely,2,SPN1,,Ocean,Observatoire du Piton de La Fournaise
-Ouani,ouani,,Comores,-12.132659,44.42928,20.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408669,Freely,2,SPN1,,Ocean,Ouani
-Piton des Neiges,pitondesneiges,,Reunion,-21.09559639,55.48030484,2990.0,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092867,Freely,2,SPN1,,Ocean,Piton des Neiges
-Plaine des Palmistes Parc National,plaineparcnational,,Reunion,-21.1367,55.6241,1057.0,2018-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408677,Freely,2,SPN1,,Ocean,Plaine des Palmistes Parc National
-Reserve Francois Leguat,reservetortues,,Mauritius,-19.757625,63.37075,36.0,2017-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4001619,Freely,2,SPN1,,Ocean,Reserve Francois Leguat
-Sainte Rose Mairie,sainterosemairie,,Reunion,-21.127324,55.793136,24.0,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092890,Freely,2,SPN1,,Ocean,Sainte Rose Mairie
-Saint Joseph Marie,saintjosephmairie,,Reunion,-21.379077,55.619688,36.0,2013-2015,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092888,Freely,2,SPN1,,Ocean,Saint Joseph Marie
-Saint Louis Lycee Jean Joly,saintlouisjeanjoly,,Reunion,-21.271391,55.43558,152.0,2016-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092894,Freely,2,SPN1,,Ocean,Saint Louis Lycee Jean Joly
-University of La Reunion Moufia,urmoufia,,Reunion,-20.90146,55.483593,96.0,2008-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092910,Freely,2,SPN1,,Ocean,University of La Reunion Moufia
-University of La Reunion Tampon,urtampon,,Reunion,-21.269277,55.50702,553.0,2012-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092912,Freely,2,SPN1,,Ocean,University of La Reunion Tampon
-Vacoas,vacoas,,Mauritius,-20.297095,57.496918,431.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408662,Freely,2,SPN1,,Ocean,Vacoas
-HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,HBKU-B2
-Al Kharsaah,Kha,,Qatar,25.22,51.0,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Kharsaah
-Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Abu Samra
-Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Batna
-Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Ghuwayriyah
-Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Jumayliyah
-Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Karaanah
-Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Shehaimiyah
-Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Wakrah
-Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Dukhan
-Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Turayna
-Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Al Khor
-Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D;UV;IR,BWh,Al Shahaniya
-Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D,BWh,Ghasham Farm
-Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D;UV;IR,BWh,Sudanthile
-Jang Bogo,JBS,,Antarctica,-74.3719,164.1344,26.0,2015-,,KOPRI-CNR,,,,1,Thermopile,G;B;D,EF,Jang Bogo
-Plataforma Solar de Almeria,METAS,,Spain,37.09165,-2.36355,494.0,2005-,,CIEMAT,,https://www.psa.es/en/facilities/meteo/meteo.php,,1,Thermopile,G;B;D;UV;IR,Csa,Plataforma Solar de Almeria
-Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60.0,2016-,,Hamm-Lippstadt University,,https://www.hshl.de/forschung-unternehmen/forschungsprojekte/meteorologische-messstation/,,2,Thermopile;RSI,G;RSI,Cfb,Hamm-Lippstadt University of Applied Science
-Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,2,Thermopile,G;B,BWh,Alice Springs
-Tennant Creek,,Northern Territory,Australia,-19.6795,134.2615,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/tennant-creek,Freely,2,Thermopile,G;B,BSh,Tennant Creek
-Katherine,,Northern Territory,Australia,-14.474694,132.305083,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/katherine,Freely,2,Thermopile,G;B,Aw,Katherine
-Artigas Airport,ARM,,Uruguay,-30.3984,-56.5117,136.0,2011-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D,Cfa,Artigas Airport
-Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D;UV;IR,Cfa,Salto Grande
-EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26.0,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,Cfa,EE Palo a Pique
-Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,Cfa,Las Brujas
-EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,Cfa,EE La Magnolia
+Heraklion,,Crete,Greece,35.31139,25.10174,95.0,,,Hellenic Mediterranean University,Tracked located on roof of building. Site also has spectral radiation measurements.,https://leps.hmu.gr/en/home/,Not available,1.0,Thermopile,,Csa,Heraklion
+Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397.0,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,1.0,Thermopile,G;B;D,Ocean,Mauna Loa
+Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42.0,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,1.0,Thermopile,G;B;D,Ocean,Cape Matatula
+North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8.0,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,1.0,Thermopile,G;B;D,ET,North Slope of Alaska
+SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1.0,Thermopile,G;B;D,BSk,SRRL BMS
+SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674.0,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1.0,Thermopile,G;B;D,BSk,SOLARTAC
+Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855.0,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1.0,Thermopile,G;B;D,BSk,Flatirons M2
+Casaccia Research Center,,Lazio,Italy,42.05,12.3,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,1.0,Thermopile,G;B;D,Csa,Casaccia Research Center
+European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220.0,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,1.0,Thermopile,G;B;D,Cfa,European Solar Test Installation - JRC
+Ricerca sul Sistema Energetico,RSE,Milan,Italy,45.47488,9.26001,150.0,2012-,,RSE,Tracker is installed on the roof of a building (ground elevation is 108 m). The station also makes spectral measurement using a Spectrafy instrument.,,,1.0,Thermopile,G;B;D,Cfa,Ricerca sul Sistema Energetico
+University of Girona,,Catalonia,Spain,41.96,2.83,110.0,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,1.0,Thermopile,G;B;D,Csa,University of Girona
+Alamosa,SLV,Colorado,USA,37.7,-105.92,2317.0,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1.0,Thermopile,G;B;D,BSk,Alamosa
+Rutland,RUT,Vermont,USA,43.64,-72.97,184.0,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1.0,Thermopile,G;B;D,Dfb,Rutland
+Wasco,WAS,Oregon,USA,45.59,-120.67,200.0,2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,1.0,Thermopile,G;B;D,Csb,Wasco
+Airai,,,Palau,7.368513,134.53983,47.0,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Ocean,Airai
+Efate,,,Vanuatu,-17.709738,168.211453,152.0,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Af,Efate
+Nauru,,,Nauru,0.543447,166.93197,28.0,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Ocean,Nauru
+Chuuk,,,Federates States of Micronesia,7.467517,151.849834,4.0,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Ocean,Chuuk
+Alotau,,,Papua New Guinea,-10.310113,150.337975,20.0,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Af,Alotau
+Honiara,,,Solomon Islands,-9.438163,160.063212,4.0,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Af,Honiara
+Majuro,,,Marshall Islands,7.065048,171.268887,5.0,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Ocean,Majuro
+Funafuti,,,Tuvalu,-8.525087,179.196323,0.0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2.0,SPN1,G,Ocean,Funafuti
+Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935.0,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2.0,RSI,G,Csa,Lari Tal Amara
+Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910.0,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2.0,RSI,G,Csa,Ras Ballbak
+Wien,,,Austria,48.25,16.36,198.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1.0,Thermopile,G;B;D,Cfb,Wien
+Graz,,,Austria,47.08,15.45,398.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1.0,Thermopile,G;B;D,Cfb,Graz
+Innsbruck,,,Austria,47.26,11.38,578.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1.0,Thermopile,G;B;D,Cfb,Innsbruck
+Kanzelhöhe,,,Austria,46.68,13.9,1540.0,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1.0,Thermopile,G;B;D,Dfb,Kanzelhohe
+Kathmandu-Lalitpur,NP-Kat,,Nepal,27.68155,85.31877,1315.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1.0,Thermopile,G;B;D,Cwa,Kathmandu-Lalitpur
+Dharan,NP-Dha,,Nepal,26.79291,87.29263,310.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1.0,Thermopile,G;B;D,Cwa,Dharan
+Lumle,NP-Lum,,Nepal,28.29666,83.818,1750.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1.0,Thermopile,G;B;D,Cwa,Lumle
+Nepalgunj,NP-Npg,,Nepal,28.1129,81.589,150.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1.0,Thermopile,G;B;D,Cwa,Nepalgunj
+Jumla,NP-Jum,,Nepal,29.27237,82.19351,2368.0,2018-2020,ESMAP,World Bank,Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1.0,Thermopile,G;B;D,Cwb,Jumla
+Davos,DAV,,Switzerland,46.813,9.844,1610.0,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1.0,Thermopile,G;B;D,ET,Davos
+Jungfraujoch,JUN,,Switzerland,46.55,7.99,3582.0,1996-,,MeteoSwiss,No diffuse measurements due to too hars meteorological conditions.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1.0,Thermopile,G;B;D,ET,Jungfraujoch
+Locarno-Monti,OTL,,Switzerland,46.18,8.783,366.0,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1.0,Thermopile,G;B;D,Cfb,Locarno-Monti
+Amitie,amitie,,Seychelles,-4.321022,55.693361,3.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2.0,SPN1,,Ocean,Amitie
+Anse Boileau,anseboileau,,Seychelles,-4.710958,55.484732,2.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408665,Freely,2.0,SPN1,,Ocean,Anse Boileau
+Antananarivo,antananarivo,,Madagascar,-18.89833,47.546422,1309.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408673,Freely,2.0,SPN1,,Cwb,Antananarivo
+Bras Panon Moreau,braspanonmoreau,,Reunion,-21.002649,55.682897,20.0,2010-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092821,Freely,2.0,SPN1,,Ocean,Bras Panon Moreau
+Caverne Dufour,cavernedufour,,Reunion,-21.109176,55.495655,2495.0,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.5812546,Freely,2.0,SPN1,,Ocean,Caverne Dufour
+Cilaos Bras Sec,cilaosbrassec,,Reunion,-21.141754,55.489703,1269.0,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092842,Freely,2.0,SPN1,,Ocean,Cilaos Bras Sec
+Cilaos Piscine,cilaospiscine,,Reunion,-21.136158,55.47416,1213.0,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092835,Freely,2.0,SPN1,,Ocean,Cilaos Piscine
+Cilaos Thermes,cilaosthermes,,Reunion,-21.12894,55.47332,1255.8,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092847,Freely,2.0,SPN1,,Ocean,Cilaos Thermes
+Cratere Bory,craterebory,,Reunion,-21.244138,55.709018,2584.2,2016-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092849,Freely,2.0,SPN1,,Ocean,Cratere Bory
+Antsiranana (Diego Suarez),diego,,Madagascar,-12.348602,49.293412,108.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408675,Freely,2.0,SPN1,,Aw,Antsiranana (Diego Suarez)
+Durban,durban,,South Africa,-29.87098,30.97695,150.0,2013-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092844,Freely,2.0,SPN1,,Cfa,Durban
+Hahaya,hahaya,,Comores,-11.539412,43.278112,32.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408671,Freely,2.0,SPN1,,Af,Hahaya
+Le Port Barbusse,leportbarbusse,,Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092858,Freely,2.0,SPN1,,Ocean,Le Port Barbusse
+Le Port Mairie,leportmairie,,Reunion,-20.935233,55.290266,12.0,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092855,Freely,2.0,SPN1,,Ocean,Le Port Mairie
+Radio Telescope Bras D'Eau,mrtbrasdeau,,Mauritius,-20.139386,57.726052,27.0,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408660,Freely,2.0,SPN1,,Ocean,Radio Telescope Bras D'Eau
+Observatoire du Piton de La Fournaise,observatoirevolcan,,Reunion,-21.208587,55.571453,1556.0,2016-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092871,Freely,2.0,SPN1,,Ocean,Observatoire du Piton de La Fournaise
+Ouani,ouani,,Comores,-12.132659,44.42928,20.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408669,Freely,2.0,SPN1,,Ocean,Ouani
+Piton des Neiges,pitondesneiges,,Reunion,-21.09559639,55.48030484,2990.0,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092867,Freely,2.0,SPN1,,Ocean,Piton des Neiges
+Plaine des Palmistes Parc National,plaineparcnational,,Reunion,-21.1367,55.6241,1057.0,2018-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408677,Freely,2.0,SPN1,,Ocean,Plaine des Palmistes Parc National
+Reserve Francois Leguat,reservetortues,,Mauritius,-19.757625,63.37075,36.0,2017-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4001619,Freely,2.0,SPN1,,Ocean,Reserve Francois Leguat
+Sainte Rose Mairie,sainterosemairie,,Reunion,-21.127324,55.793136,24.0,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092890,Freely,2.0,SPN1,,Ocean,Sainte Rose Mairie
+Saint Joseph Marie,saintjosephmairie,,Reunion,-21.379077,55.619688,36.0,2013-2015,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092888,Freely,2.0,SPN1,,Ocean,Saint Joseph Marie
+Saint Louis Lycee Jean Joly,saintlouisjeanjoly,,Reunion,-21.271391,55.43558,152.0,2016-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092894,Freely,2.0,SPN1,,Ocean,Saint Louis Lycee Jean Joly
+University of La Reunion Moufia,urmoufia,,Reunion,-20.90146,55.483593,96.0,2008-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092910,Freely,2.0,SPN1,,Ocean,University of La Reunion Moufia
+University of La Reunion Tampon,urtampon,,Reunion,-21.269277,55.50702,553.0,2012-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092912,Freely,2.0,SPN1,,Ocean,University of La Reunion Tampon
+Vacoas,vacoas,,Mauritius,-20.297095,57.496918,431.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408662,Freely,2.0,SPN1,,Ocean,Vacoas
+HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,HBKU-B2
+Al Kharsaah,Kha,,Qatar,25.22,51.0,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Kharsaah
+Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Abu Samra
+Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Batna
+Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Ghuwayriyah
+Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Jumayliyah
+Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Karaanah
+Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Shehaimiyah
+Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Wakrah
+Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Dukhan
+Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Turayna
+Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Al Khor
+Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D;UV;IR,BWh,Al Shahaniya
+Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D,BWh,Ghasham Farm
+Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1.0,Thermopile,G;B;D;UV;IR,BWh,Sudanthile
+Jang Bogo,JBS,,Antarctica,-74.3719,164.1344,26.0,2015-,,KOPRI-CNR,,,,1.0,Thermopile,G;B;D,EF,Jang Bogo
+Plataforma Solar de Almeria,METAS,,Spain,37.09165,-2.36355,494.0,2005-,,CIEMAT,,https://www.psa.es/en/facilities/meteo/meteo.php,,1.0,Thermopile,G;B;D;UV;IR,Csa,Plataforma Solar de Almeria
+Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60.0,2016-,,Hamm-Lippstadt University,,https://www.hshl.de/forschung-unternehmen/forschungsprojekte/meteorologische-messstation/,,2.0,Thermopile;RSI,G;RSI,Cfb,Hamm-Lippstadt University of Applied Science
+Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,2.0,Thermopile,G;B,BWh,Alice Springs
+Tennant Creek,,Northern Territory,Australia,-19.6795,134.2615,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/tennant-creek,Freely,2.0,Thermopile,G;B,BSh,Tennant Creek
+Katherine,,Northern Territory,Australia,-14.474694,132.305083,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/katherine,Freely,2.0,Thermopile,G;B,Aw,Katherine
+Artigas Airport,ARM,,Uruguay,-30.3984,-56.5117,136.0,2011-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1.0,Thermopile,G;B;D,Cfa,Artigas Airport
+Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1.0,Thermopile,G;B;D;UV;IR,Cfa,Salto Grande
+EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26.0,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2.0,Thermopile,G;D,Cfa,EE Palo a Pique
+Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2.0,Thermopile,G;D,Cfa,Las Brujas
+EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2.0,Thermopile,G;D,Cfa,EE La Magnolia
 Cuiabá,CBA,,Brazil,-15.5553,-56.07,185.0,2006-2012,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/cuiaba.html,Freely,,,G;D,Aw,Cuiaba
-Campo Grande,CGR,,Brazil,-20.4383,-54.5383,677.0,2004-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/campogrande.html,Freely,2,Thermopile,G;D,Aw,Campo Grande
-Palmas,PMA,,Brazil,-10.1778,-48.3619,216.0,2005-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/palmas.html,Freely,2,Thermopile,G;D,Aw,Palmas
-São Luiz,SLZ,,Brazil,-2.5933,-44.2122,40.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/saoluiz.html,Freely,2,Thermopile,G;D,As,Sao Luiz
-Caicó,CAI,,Brazil,-6.4669,-37.0847,176.0,2002-2019,SONDA,INPE,No maintenance between 2016-2017,http://sonda.ccst.inpe.br/basedados/caico.html,Freely,2,Thermopile,G;B;IR,Aw,Caico
-Natal,NAT,,Brazil,-5.8367,-35.2064,58.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/natal.html,Freely,2,Thermopile,G;D,As,Natal
+Campo Grande,CGR,,Brazil,-20.4383,-54.5383,677.0,2004-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/campogrande.html,Freely,2.0,Thermopile,G;D,Aw,Campo Grande
+Palmas,PMA,,Brazil,-10.1778,-48.3619,216.0,2005-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/palmas.html,Freely,2.0,Thermopile,G;D,Aw,Palmas
+São Luiz,SLZ,,Brazil,-2.5933,-44.2122,40.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/saoluiz.html,Freely,2.0,Thermopile,G;D,As,Sao Luiz
+Caicó,CAI,,Brazil,-6.4669,-37.0847,176.0,2002-2019,SONDA,INPE,No maintenance between 2016-2017,http://sonda.ccst.inpe.br/basedados/caico.html,Freely,2.0,Thermopile,G;B;IR,Aw,Caico
+Natal,NAT,,Brazil,-5.8367,-35.2064,58.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/natal.html,Freely,2.0,Thermopile,G;D,As,Natal
 Cachoeira Paulista,CPA,,Brazil,-22.6896,-45.0062,574.0,2014-2019,SONDA,INPE,No maintenance between 2016-2017. No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/cachoeira.html,Freely,,,G;B;D,Cfa,Cachoeira Paulista
 Joinville,JOI,,Brazil,-26.2525,-48.8578,48.0,2009-2015,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/joinville.html,Freely,,,G;D,Af,Joinville
 Sombrio,SBR,,Brazil,-29.0956,-49.8133,15.0,2004-2016,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/sombrio.html,Freely,,,G;D,Cfa,Sombrio
-Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446.0,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,2,Thermopile,G;D,Aw,Ourinhos
-Abha,,,Saudi Arabia,18.23,42.66,2039.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWk,Abha
-Al-ahsa,,,Saudi Arabia,25.3,49.48,178.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Al-ahsa
-Gizan,,,Saudi Arabia,16.9,42.58,7.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Gizan
-Qassim,,,Saudi Arabia,26.31,43.77,647.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Qassim
-Jeddah,,,Saudi Arabia,21.68,39.15,4.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Jeddah
-Al-Madinah,,,Saudi Arabia,24.55,39.7,626.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Al-Madinah
-Al-qaisumah,,,Saudi Arabia,28.32,46.13,358.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Al-qaisumah
-Sharurah,,,Saudi Arabia,17.47,47.11,725.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Sharurah
-Al-Jouf,,,Saudi Arabia,29.79,40.1,669.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Al-Jouf
-Tabouk,,,Saudi Arabia,28.38,36.61,768.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Tabouk
-Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D,BWh,Wadi Al-Dawaser
-Evora;Mitra,,,Portugal,38.531,-8.011,220.0,2014-,,University of Évora,,,,1,Thermopile,G;B;D,Csa,Evora;Mitra
-Badajoz,,,Spain,38.886028,-7.00925,190.0,2008-,,University of Extremadura,,,,1,Thermopile,G;B;D,Csa,Badajoz
-Varennes,,Quebec,Canada,45.6265,-73.38203,22.0,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,1,Thermopile,G;B;D,Dfb,Varennes
-Shagaya,,,Kuwait,29.2099,47.0603,241.0,2012-,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI,BWh,Shagaya
-Kabed,,,Kuwait,29.173152,47.728054,76.0,2012-,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI,BWh,Kabed
-Mutribah,,,Kuwait,29.9,47.28,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI,BWh,Mutribah
-Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI,BWh,Sabryia
-Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI,BWh,Gudair
-Arctic Space Centre Sodankylä,,,Finland,67.36664,26.628253,195.0,2016-,,FMI,Data is likely of poor quality.,https://litdb.fmi.fi/soundingst_radiation.php,Freely,1,Thermopile,G;B;D,Dfc,Arctic Space Centre Sodankyla
-Odeillo,,,France,42.4942,2.0295,1530.0,1996-?,,PROMES,Altitude is approximate,,,1,Thermopile,G;B;D,Cfb,Odeillo
-Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024.0,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Pozo Almonte
-Crucero II,Crucero2,,Chile,-22.27,-69.57,1183.0,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,1,Thermopile,G;B;D,BWk,Crucero II
-Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210.0,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Aeropuerto Copiapo
-Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541.0,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Inca de Oro
-Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Pampa Camarones
-San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,San Pedro de Atacama
-Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Aerodromo Salvador
-Puerto Angamos,PANG,,Chile,-23.07,-70.39,10.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWh,Puerto Angamos
-Cerro Calan,CCALAN,,Chile,-33.4,-70.54,850.0,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BSk,Cerro Calan
-Armazones,ARMA,,Chile,-24.63,-70.24,2581.0,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Armazones
-Crucero,CRUC,,Chile,-22.27,-69.57,1176.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Crucero
-Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2,Thermopile,G;D,BWk,Salar (Chuquicamata)
-Arica,,,Chile,-18.47,-70.31,,2011-?,FONDEF,,,,,2,RSP,,BWh,Arica
-Pozo Almonte,,,Chile,-20.25,-69.78,,2012-?,FONDEF,,,,,2,RSP,,BWk,Pozo Almonte
-Patache,,,Chile,-20.8,-70.19,,2013-?,FONDEF,,,,,2,RSP,,BWh,Patache
-Sur Viejo,,,Chile,-20.95,-69.54,,2011-?,FONDEF,,,,,2,RSP,,BWk,Sur Viejo
-Crucero,,,Chile,-22.27,-69.56,,2012-?,FONDEF,,,,,2,RSP,,BWk,Crucero
-Coya Sur,,,Chile,-22.39,-69.62,,2011-?,FONDEF,,,,,2,RSP,,BWk,Coya Sur
-San Pedro,,,Chile,-22.9,-68.19,,2010-2011,FONDEF,,,,,1,Thermopile,G;B;D,BWk,San Pedro
-El Tesoro,,,Chile,-22.93,-69.07,,2009-?,FONDEF,,,,,2,RSP,,BWk,El Tesoro
-Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,2,RSP,,BWk,Diego de Almagro
-Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF;WMO RRC,,,,,1,Thermopile,G;B;D,BSk,Santiago
-Curicó,,,Chile,-34.97,-71.25,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D,Csb,Curico
-Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D,Csb,Talca
-Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,2,RSP,,Csb,Marimaura
-Nevada Regional Test Center,RTC-NV,Nevada,USA,36.0277,-114.9195,701.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,BWh,Nevada Regional Test Center
-New Mexico Regional Test Center,RTC-NM,New Mexico,USA,35.0542,-106.5385,1659.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,BSk,New Mexico Regional Test Center
-Florida Regional Test Center,RTC-FL,Florida,USA,28.40509,-80.7709,10.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,Cfa,Florida Regional Test Center
-Vermont Regional Test Center,RTC-VT,Vermont,USA,44.4665,-73.1024,107.0,2014-2020,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,Dfb,Vermont Regional Test Center
-Colorado Regional Test Center,RTC-CO,Colorado,USA,39.7407,-105.1771,1783.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,BSk,Colorado Regional Test Center
-Michigan Regional Test Center,RTC-MI,Michigan,USA,47.1699,-88.5061,336.0,2021-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1,Thermopile,G;B;D,Dfb,Michigan Regional Test Center
-Barrani,,,Egypt,31.6,26.0,23.7,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2,Thermopile,G;D,BWh,Barrani
-Matruh,,,Egypt,31.33,27.22,25.0,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2,Thermopile,G;D,BWh,Matruh
-El-Arish,,,Egypt,31.08,33.82,27.2,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2,Thermopile,G;D,BWh,El-Arish
-Cairo,,,Egypt,30.08,31.28,34.4,2004-?,WMO RRC,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1,Thermopile,G;B;D,BWh,Cairo
-El-Kharga,,,Egypt,25.45,30.53,77.8,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2,Thermopile,G;D,BWh,El-Kharga
-El-Farafra,,,Egypt,27.06,27.99,82.2,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1,Thermopile,G;B;D,BWh,El-Farafra
-Asyut,,,Egypt,27.2,31.17,52.0,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2,Thermopile,G;D,BWh,Asyut
-Aswan,,,Egypt,23.97,32.78,192.5,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1,Thermopile,G;B;D,BWh,Aswan
-La Quiaca,LQ,,Argentina,-22.1,-65.6,3468.0,2005-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D,BSk,La Quiaca
-Pilar,PIL,,Argentina,-31.67,-63.88,335.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D,Cwa,Pilar
-Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30.0,2013-,SMN;WMO RRC,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D,Cfa,Buenos Aires
-Pto. San Julián,PSJu,,Argentina,-49.31,-67.8,50.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2,Thermopile,G;D,BSk,Pto. San Julian
-Ushuaia,USH,,Argentina,-54.85,-68.31,11.0,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2,Thermopile,G;D,ET,Ushuaia
-Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BSh,Broome Airport
-Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BWh,Learmonth Airport
-Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Csa,Geraldton Airport
-Kalgoorlie-Boulder Airport,,Western Australia,Australia,-30.7847,121.4533,365.3,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BSh,Kalgoorlie-Boulder Airport
-Tennant Creek Airport,,Northern Territory,Australia,-19.6423,134.1833,375.7,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BSh,Tennant Creek Airport
-Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2.0,2003-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Csb,Adelaide Airport
-Mount Gambier Aero,,South Australia,Australia,-37.7473,140.7739,63.0,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Csb,Mount Gambier Aero
-Mildura Airport,,New South Wales,Australia,-34.2358,142.0867,50.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BSk,Mildura Airport
-Longreach Aero,,Quennsland,Australia,-23.4397,144.2828,192.2,2012-2015,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,BSh,Longreach Aero
-Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM;WMO RRC,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Cfb,Melbourne Airport
-Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95.0,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Cfb,Cape Grim
-Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Am,Cairns Aero
-Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212.0,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Cfa,Wagga Wagga
-Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Cfa,Rockhampton Aero
-Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Aw,Townsville
-Lagos,,,Nigeria,6.6,3.43,10.0,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV,Aw,Lagos
-Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV,Aw,Oshogbo
-Al Uyaynah Research Station,,,Saudi Arabia,24.90689,46.39721,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Al Uyaynah Research Station
-King Abdullah University of Science and Technology,,,Saudi Arabia,22.3065,39.10701,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,King Abdullah University of Science and Technology
-University of Dammam,,,Saudi Arabia,26.39519,50.18898,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,University of Dammam
-King Abdulaziz University Main Campus,,,Saudi Arabia,21.49604,39.24492,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,King Abdulaziz University Main Campus
-Qassim University,,,Saudi Arabia,26.34668,43.76645,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Qassim University
-Jazan University,,,Saudi Arabia,16.96035,42.54586,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Jazan University
-King Faisal University,,,Saudi Arabia,25.34616,49.5956,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,King Faisal University
-Taif University,,,Saudi Arabia,21.43278,40.49173,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Taif University
-Wadi Addawasir College of Technology,,,Saudi Arabia,20.43008,44.89433,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Wadi Addawasir College of Technology
-Tabuk University,,,Saudi Arabia,28.38287,36.48396,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Tabuk University
-Al Wajh Technical Institute,,,Saudi Arabia,26.2561,36.443,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Al Wajh Technical Institute
-Royal Commission of Yanbu,,,Saudi Arabia,24.14434,37.94569,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Royal Commission of Yanbu
-Arar Technical Institute,,,Saudi Arabia,30.918154,41.079801,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Arar Technical Institute
-Al Jouf Technical Institute,,,Saudi Arabia,29.79383,40.04886,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Al Jouf Technical Institute
-Rania Technical Institute,,,Saudi Arabia,21.21499,42.84852,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Rania Technical Institute
-Al Baha University,,,Saudi Arabia,20.17933,41.63561,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Al Baha University
-Saline Water Conversion Corporation (Al Khafji),,,Saudi Arabia,28.50671,48.45504,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Saline Water Conversion Corporation (Al Khafji)
-Najran University,,,Saudi Arabia,17.63228,44.53735,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1,Thermopile,G;B;D,BWh,Najran University
-KACARE City Site Tier 2 Station,,,Saudi Arabia,24.52958,46.43635,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,KACARE City Site Tier 2 Station
-KACARE Building Olaya St,,,Saudi Arabia,24.70814,46.67896,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,KACARE Building Olaya St
-King Fahd University of Petroleum & Minerals,,,Saudi Arabia,26.30355,50.14412,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,King Fahd University of Petroleum & Minerals
-King Abdulaziz University East Hada Alsham Campus,,,Saudi Arabia,21.80117,39.72854,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,King Abdulaziz University East Hada Alsham Campus
-Al Aflaaj Technical Institute,,,Saudi Arabia,22.27948,46.73319,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Al Aflaaj Technical Institute
-Afif Technical Institute,,,Saudi Arabia,23.92118,42.94815,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Afif Technical Institute
-Al Dawadmi College of Technology,,,Saudi Arabia,24.5569,44.47411,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Al Dawadmi College of Technology
-Shaqra University,,,Saudi Arabia,25.17279,45.14198,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Shaqra University
-Majmaah University,,,Saudi Arabia,25.85891,45.41889,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Majmaah University
-Salmanbin Abdulaziz University,,,Saudi Arabia,24.14717,47.26999,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Salmanbin Abdulaziz University
-Timaa Technical Institute,,,Saudi Arabia,27.61727,38.5252,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Timaa Technical Institute
-Saline Water Conversion Corporation (Hagl),,,Saudi Arabia,29.28997,34.93002,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Saline Water Conversion Corporation (Hagl)
-Duba Technical Institute,,,Saudi Arabia,27.34103,35.72295,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Duba Technical Institute
-Al Hanakiyah Technical Institute,,,Saudi Arabia,24.85577,40.536,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Al Hanakiyah Technical Institute
-Saline Water Conversion Corporation (Umluj),,,Saudi Arabia,25.00411,37.27382,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Saline Water Conversion Corporation (Umluj)
-Saline Water Desalination Research Institute,,,Saudi Arabia,26.9042,49.76274,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Saline Water Desalination Research Institute
-Sharurah Technical Institute,,,Saudi Arabia,17.47586,47.08618,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Sharurah Technical Institute
-Al Qunfudhah Technical Institute,,,Saudi Arabia,19.15197,41.08111,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Al Qunfudhah Technical Institute
-King Abdulaziz University (Osfan Campus),,,Saudi Arabia,21.89252,39.2539,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,King Abdulaziz University (Osfan Campus)
-Hafar Al Batin Technical College,,,Saudi Arabia,28.33202,45.95708,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Hafar Al Batin Technical College
-Tuhamat Qahtan Technical Institute,,,Saudi Arabia,17.7749,43.17555,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Tuhamat Qahtan Technical Institute
-Saline Water Conversion Corporation (Farasan),,,Saudi Arabia,16.692097,42.098767,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,Saline Water Conversion Corporation (Farasan)
-King Saud University,,,Saudi Arabia,24.72359,46.61639,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2,RSR,,BWh,King Saud University
-Thiruvananthapuram,TRV,,India,8.48,76.95,60.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Aw,Thiruvananthapuram
-Bangalore,BNG,,India,12.96,77.58,921.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Aw,Bangalore
-Hyderabad,HYD,,India,17.45,78.46,530.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Aw,Hyderabad
-Pune,PNE,,India,18.53,73.85,555.0,1986-?,WMO RRC,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D,Aw,Pune
-Bhopal,BHP,,India,23.28,77.35,523.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Csa,Bhopal
-Ranchi,RNC,,India,23.31,85.31,652.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Cwa,Ranchi
-Varanasi,VNS,,India,25.3,83.01,90.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Csa,Varanasi
-Patna,PTN,,India,25.6,85.16,51.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Cwa,Patna
-Jaipur,JPR,,India,26.81,75.8,390.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,BSh,Jaipur
-New Delhi,NDL,,India,28.48,77.13,273.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,BSh,New Delhi
-Srinagar,SRN,,India,34.08,74.83,1585.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D,Cfa,Srinagar
-Toronto,TOT,Ontario,Canada,43.7833328247,-79.4666671753,198.0,2014-,WMO GAW;WMO RRC,Environment Canada,,https://gawsis.meteoswiss.ch/GAWSIS/index.html#/search/station/stationReportDetails/0-20008-0-TOT,,2,Thermopile;RSI,G;RSI,Dfb,Toronto
-Peshawar,,,Pakistan,34.0017,71.4854,370.0,2015-,,University of Engineering and Technology Peshawar,,,,2,Thermopile;RSI,G;RSI,BSh,Peshawar
-Uccle,,,Belgium,50.798,4.359,101.0,2014-,WMO RRC,Royal Meteorological Institute of Belgium (RMI),Probably got the tracker in 2014.,,,1,Thermopile,G;B;D,Cfb,Uccle
-Mohe,,,China,52.97,122.52,438.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,Dwc,Mohe
-Xilinhot,,,China,44.13,116.33,1107.0,2007-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,BSk,Xilinhot
-Yanqi,,,China,42.05,86.61,1056.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,BWk,Yanqi
-Shangdianzi,,,China,40.65,117.12,293.3,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,BSk,Shangdianzi
-Xuchang,,,China,34.07,113.93,67.2,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,Cwa,Xuchang
-Wenjiang,,,China,30.75,103.86,547.7,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,Cwa,Wenjiang
-Dali,,,China,25.71,100.18,1990.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV,Cwa,Dali
-Semi-Arid Climate & Environment Observatory of Lanzhou University,SACOL,,China,35.946,104.13708,1965.8,2005-,,Lanzhou University,,http://climate.lzu.edu.cn/info/1046/1080.htm,,1,Thermopile;RSR,G;B;D;RSR;UV,BSk,Semi-Arid Climate & Environment Observatory of Lanzhou University
-Wuhan University,WHU,,China,30.533,114.35,30.0,2006-?,,Wuhan University,,,,1,Thermopile,G;B;D;PAR,Cfa,Wuhan University
-Mt. Waliguan,,,China,36.28749,100.8963,3810.0,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1,Thermopile,G;B;D;IR,Dwc,Mt. Waliguan
-Longfengshan,,,China,44.7299,127.5999,331.0,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1,Thermopile,G;B;D,Dwa,Longfengshan
-Shangdianzi,SDZ,,China,40.65,117.1166,287.0,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR,BSk,Shangdianzi
-Linan,,,China,30.3,119.73,138.0,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR,Cfa,Linan
-Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1,Thermopile,G;B;D,Dfc,Fairbanks
-Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1,Thermopile,G;B;D,Dfb,Turku
+Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446.0,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,2.0,Thermopile,G;D,Aw,Ourinhos
+Abha,,,Saudi Arabia,18.23,42.66,2039.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWk,Abha
+Al-ahsa,,,Saudi Arabia,25.3,49.48,178.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Al-ahsa
+Gizan,,,Saudi Arabia,16.9,42.58,7.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Gizan
+Qassim,,,Saudi Arabia,26.31,43.77,647.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Qassim
+Jeddah,,,Saudi Arabia,21.68,39.15,4.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Jeddah
+Al-Madinah,,,Saudi Arabia,24.55,39.7,626.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Al-Madinah
+Al-qaisumah,,,Saudi Arabia,28.32,46.13,358.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Al-qaisumah
+Sharurah,,,Saudi Arabia,17.47,47.11,725.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Sharurah
+Al-Jouf,,,Saudi Arabia,29.79,40.1,669.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Al-Jouf
+Tabouk,,,Saudi Arabia,28.38,36.61,768.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Tabouk
+Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1.0,Thermopile,G;B;D,BWh,Wadi Al-Dawaser
+Evora;Mitra,,,Portugal,38.531,-8.011,220.0,2014-,,University of Évora,,,,1.0,Thermopile,G;B;D,Csa,Evora;Mitra
+Badajoz,,,Spain,38.886028,-7.00925,190.0,2008-,,University of Extremadura,,,,1.0,Thermopile,G;B;D,Csa,Badajoz
+Varennes,,Quebec,Canada,45.6265,-73.38203,22.0,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,1.0,Thermopile,G;B;D,Dfb,Varennes
+Shagaya,,,Kuwait,29.2099,47.0603,241.0,2012-,,KISR,,,,1.0,Thermopile;RSI,G;B;D;RSI,BWh,Shagaya
+Kabed,,,Kuwait,29.173152,47.728054,76.0,2012-,,KISR,,,,1.0,Thermopile;RSI,G;B;D;RSI,BWh,Kabed
+Mutribah,,,Kuwait,29.9,47.28,,2012-,,KISR,Location is approximate,,,2.0,Thermopile;RSI,G;RSI,BWh,Mutribah
+Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,Location is approximate,,,2.0,Thermopile;RSI,G;RSI,BWh,Sabryia
+Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,Location is approximate,,,2.0,Thermopile;RSI,G;RSI,BWh,Gudair
+Arctic Space Centre Sodankylä,,,Finland,67.36664,26.628253,195.0,2016-,,FMI,Data is likely of poor quality.,https://litdb.fmi.fi/soundingst_radiation.php,Freely,1.0,Thermopile,G;B;D,Dfc,Arctic Space Centre Sodankyla
+Odeillo,,,France,42.4942,2.0295,1530.0,1996-?,,PROMES,Altitude is approximate,,,1.0,Thermopile,G;B;D,Cfb,Odeillo
+Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024.0,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Pozo Almonte
+Crucero II,Crucero2,,Chile,-22.27,-69.57,1183.0,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,1.0,Thermopile,G;B;D,BWk,Crucero II
+Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210.0,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Aeropuerto Copiapo
+Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541.0,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Inca de Oro
+Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Pampa Camarones
+San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,San Pedro de Atacama
+Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Aerodromo Salvador
+Puerto Angamos,PANG,,Chile,-23.07,-70.39,10.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWh,Puerto Angamos
+Cerro Calan,CCALAN,,Chile,-33.4,-70.54,850.0,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BSk,Cerro Calan
+Armazones,ARMA,,Chile,-24.63,-70.24,2581.0,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Armazones
+Crucero,CRUC,,Chile,-22.27,-69.57,1176.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Crucero
+Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,2.0,Thermopile,G;D,BWk,Salar (Chuquicamata)
+Arica,,,Chile,-18.47,-70.31,,2011-?,FONDEF,,,,,2.0,RSP,,BWh,Arica
+Pozo Almonte,,,Chile,-20.25,-69.78,,2012-?,FONDEF,,,,,2.0,RSP,,BWk,Pozo Almonte
+Patache,,,Chile,-20.8,-70.19,,2013-?,FONDEF,,,,,2.0,RSP,,BWh,Patache
+Sur Viejo,,,Chile,-20.95,-69.54,,2011-?,FONDEF,,,,,2.0,RSP,,BWk,Sur Viejo
+Crucero,,,Chile,-22.27,-69.56,,2012-?,FONDEF,,,,,2.0,RSP,,BWk,Crucero
+Coya Sur,,,Chile,-22.39,-69.62,,2011-?,FONDEF,,,,,2.0,RSP,,BWk,Coya Sur
+San Pedro,,,Chile,-22.9,-68.19,,2010-2011,FONDEF,,,,,1.0,Thermopile,G;B;D,BWk,San Pedro
+El Tesoro,,,Chile,-22.93,-69.07,,2009-?,FONDEF,,,,,2.0,RSP,,BWk,El Tesoro
+Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,2.0,RSP,,BWk,Diego de Almagro
+Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF;WMO RRC,,,,,1.0,Thermopile,G;B;D,BSk,Santiago
+Curicó,,,Chile,-34.97,-71.25,,2012-?,FONDEF,,,,,1.0,Thermopile,G;B;D,Csb,Curico
+Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,1.0,Thermopile,G;B;D,Csb,Talca
+Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,2.0,RSP,,Csb,Marimaura
+Nevada Regional Test Center,RTC-NV,Nevada,USA,36.0277,-114.9195,701.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,BWh,Nevada Regional Test Center
+New Mexico Regional Test Center,RTC-NM,New Mexico,USA,35.0542,-106.5385,1659.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,BSk,New Mexico Regional Test Center
+Florida Regional Test Center,RTC-FL,Florida,USA,28.40509,-80.7709,10.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,Cfa,Florida Regional Test Center
+Vermont Regional Test Center,RTC-VT,Vermont,USA,44.4665,-73.1024,107.0,2014-2020,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,Dfb,Vermont Regional Test Center
+Colorado Regional Test Center,RTC-CO,Colorado,USA,39.7407,-105.1771,1783.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,BSk,Colorado Regional Test Center
+Michigan Regional Test Center,RTC-MI,Michigan,USA,47.1699,-88.5061,336.0,2021-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,1.0,Thermopile,G;B;D,Dfb,Michigan Regional Test Center
+Barrani,,,Egypt,31.6,26.0,23.7,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2.0,Thermopile,G;D,BWh,Barrani
+Matruh,,,Egypt,31.33,27.22,25.0,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2.0,Thermopile,G;D,BWh,Matruh
+El-Arish,,,Egypt,31.08,33.82,27.2,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2.0,Thermopile,G;D,BWh,El-Arish
+Cairo,,,Egypt,30.08,31.28,34.4,2004-?,WMO RRC,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1.0,Thermopile,G;B;D,BWh,Cairo
+El-Kharga,,,Egypt,25.45,30.53,77.8,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2.0,Thermopile,G;D,BWh,El-Kharga
+El-Farafra,,,Egypt,27.06,27.99,82.2,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1.0,Thermopile,G;B;D,BWh,El-Farafra
+Asyut,,,Egypt,27.2,31.17,52.0,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,2.0,Thermopile,G;D,BWh,Asyut
+Aswan,,,Egypt,23.97,32.78,192.5,2004-?,,Egyptian Meteorological Authority (EMA),"Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier ""doi:10.1594/PANGAEA.848804""",,Freely,1.0,Thermopile,G;B;D,BWh,Aswan
+La Quiaca,LQ,,Argentina,-22.1,-65.6,3468.0,2005-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2.0,Thermopile,G;D,BSk,La Quiaca
+Pilar,PIL,,Argentina,-31.67,-63.88,335.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2.0,Thermopile,G;D,Cwa,Pilar
+Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30.0,2013-,SMN;WMO RRC,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2.0,Thermopile,G;D,Cfa,Buenos Aires
+Pto. San Julián,PSJu,,Argentina,-49.31,-67.8,50.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,2.0,Thermopile,G;D,BSk,Pto. San Julian
+Ushuaia,USH,,Argentina,-54.85,-68.31,11.0,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,2.0,Thermopile,G;D,ET,Ushuaia
+Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BSh,Broome Airport
+Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BWh,Learmonth Airport
+Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Csa,Geraldton Airport
+Kalgoorlie-Boulder Airport,,Western Australia,Australia,-30.7847,121.4533,365.3,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BSh,Kalgoorlie-Boulder Airport
+Tennant Creek Airport,,Northern Territory,Australia,-19.6423,134.1833,375.7,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BSh,Tennant Creek Airport
+Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2.0,2003-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Csb,Adelaide Airport
+Mount Gambier Aero,,South Australia,Australia,-37.7473,140.7739,63.0,1998-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Csb,Mount Gambier Aero
+Mildura Airport,,New South Wales,Australia,-34.2358,142.0867,50.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BSk,Mildura Airport
+Longreach Aero,,Quennsland,Australia,-23.4397,144.2828,192.2,2012-2015,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,BSh,Longreach Aero
+Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM;WMO RRC,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Cfb,Melbourne Airport
+Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95.0,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Cfb,Cape Grim
+Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Am,Cairns Aero
+Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212.0,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Cfa,Wagga Wagga
+Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Cfa,Rockhampton Aero
+Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1.0,Thermopile,G;B;D;IR,Aw,Townsville
+Lagos,,,Nigeria,6.6,3.43,10.0,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2.0,Thermopile,G;D;UV,Aw,Lagos
+Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2.0,Thermopile,G;D;UV,Aw,Oshogbo
+Al Uyaynah Research Station,,,Saudi Arabia,24.90689,46.39721,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Al Uyaynah Research Station
+King Abdullah University of Science and Technology,,,Saudi Arabia,22.3065,39.10701,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,King Abdullah University of Science and Technology
+University of Dammam,,,Saudi Arabia,26.39519,50.18898,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,University of Dammam
+King Abdulaziz University Main Campus,,,Saudi Arabia,21.49604,39.24492,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,King Abdulaziz University Main Campus
+Qassim University,,,Saudi Arabia,26.34668,43.76645,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Qassim University
+Jazan University,,,Saudi Arabia,16.96035,42.54586,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Jazan University
+King Faisal University,,,Saudi Arabia,25.34616,49.5956,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,King Faisal University
+Taif University,,,Saudi Arabia,21.43278,40.49173,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Taif University
+Wadi Addawasir College of Technology,,,Saudi Arabia,20.43008,44.89433,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Wadi Addawasir College of Technology
+Tabuk University,,,Saudi Arabia,28.38287,36.48396,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Tabuk University
+Al Wajh Technical Institute,,,Saudi Arabia,26.2561,36.443,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Al Wajh Technical Institute
+Royal Commission of Yanbu,,,Saudi Arabia,24.14434,37.94569,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Royal Commission of Yanbu
+Arar Technical Institute,,,Saudi Arabia,30.918154,41.079801,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Arar Technical Institute
+Al Jouf Technical Institute,,,Saudi Arabia,29.79383,40.04886,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Al Jouf Technical Institute
+Rania Technical Institute,,,Saudi Arabia,21.21499,42.84852,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Rania Technical Institute
+Al Baha University,,,Saudi Arabia,20.17933,41.63561,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Al Baha University
+Saline Water Conversion Corporation (Al Khafji),,,Saudi Arabia,28.50671,48.45504,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Saline Water Conversion Corporation (Al Khafji)
+Najran University,,,Saudi Arabia,17.63228,44.53735,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,1.0,Thermopile,G;B;D,BWh,Najran University
+KACARE City Site Tier 2 Station,,,Saudi Arabia,24.52958,46.43635,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,KACARE City Site Tier 2 Station
+KACARE Building Olaya St,,,Saudi Arabia,24.70814,46.67896,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,KACARE Building Olaya St
+King Fahd University of Petroleum & Minerals,,,Saudi Arabia,26.30355,50.14412,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,King Fahd University of Petroleum & Minerals
+King Abdulaziz University East Hada Alsham Campus,,,Saudi Arabia,21.80117,39.72854,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,King Abdulaziz University East Hada Alsham Campus
+Al Aflaaj Technical Institute,,,Saudi Arabia,22.27948,46.73319,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Al Aflaaj Technical Institute
+Afif Technical Institute,,,Saudi Arabia,23.92118,42.94815,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Afif Technical Institute
+Al Dawadmi College of Technology,,,Saudi Arabia,24.5569,44.47411,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Al Dawadmi College of Technology
+Shaqra University,,,Saudi Arabia,25.17279,45.14198,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Shaqra University
+Majmaah University,,,Saudi Arabia,25.85891,45.41889,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Majmaah University
+Salmanbin Abdulaziz University,,,Saudi Arabia,24.14717,47.26999,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Salmanbin Abdulaziz University
+Timaa Technical Institute,,,Saudi Arabia,27.61727,38.5252,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Timaa Technical Institute
+Saline Water Conversion Corporation (Hagl),,,Saudi Arabia,29.28997,34.93002,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Saline Water Conversion Corporation (Hagl)
+Duba Technical Institute,,,Saudi Arabia,27.34103,35.72295,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Duba Technical Institute
+Al Hanakiyah Technical Institute,,,Saudi Arabia,24.85577,40.536,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Al Hanakiyah Technical Institute
+Saline Water Conversion Corporation (Umluj),,,Saudi Arabia,25.00411,37.27382,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Saline Water Conversion Corporation (Umluj)
+Saline Water Desalination Research Institute,,,Saudi Arabia,26.9042,49.76274,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Saline Water Desalination Research Institute
+Sharurah Technical Institute,,,Saudi Arabia,17.47586,47.08618,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Sharurah Technical Institute
+Al Qunfudhah Technical Institute,,,Saudi Arabia,19.15197,41.08111,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Al Qunfudhah Technical Institute
+King Abdulaziz University (Osfan Campus),,,Saudi Arabia,21.89252,39.2539,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,King Abdulaziz University (Osfan Campus)
+Hafar Al Batin Technical College,,,Saudi Arabia,28.33202,45.95708,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Hafar Al Batin Technical College
+Tuhamat Qahtan Technical Institute,,,Saudi Arabia,17.7749,43.17555,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Tuhamat Qahtan Technical Institute
+Saline Water Conversion Corporation (Farasan),,,Saudi Arabia,16.692097,42.098767,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,Saline Water Conversion Corporation (Farasan)
+King Saud University,,,Saudi Arabia,24.72359,46.61639,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Free,2.0,RSR,,BWh,King Saud University
+Thiruvananthapuram,TRV,,India,8.48,76.95,60.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Aw,Thiruvananthapuram
+Bangalore,BNG,,India,12.96,77.58,921.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Aw,Bangalore
+Hyderabad,HYD,,India,17.45,78.46,530.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Aw,Hyderabad
+Pune,PNE,,India,18.53,73.85,555.0,1986-?,WMO RRC,India Meteorological Department (IMD),,,,1.0,Thermopile,G;B;D,Aw,Pune
+Bhopal,BHP,,India,23.28,77.35,523.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Csa,Bhopal
+Ranchi,RNC,,India,23.31,85.31,652.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Cwa,Ranchi
+Varanasi,VNS,,India,25.3,83.01,90.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Csa,Varanasi
+Patna,PTN,,India,25.6,85.16,51.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Cwa,Patna
+Jaipur,JPR,,India,26.81,75.8,390.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,BSh,Jaipur
+New Delhi,NDL,,India,28.48,77.13,273.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,BSh,New Delhi
+Srinagar,SRN,,India,34.08,74.83,1585.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2.0,Thermopile,G;B;D,Cfa,Srinagar
+Toronto,TOT,Ontario,Canada,43.7833328247,-79.4666671753,198.0,2014-,WMO GAW;WMO RRC,Environment Canada,,https://gawsis.meteoswiss.ch/GAWSIS/index.html#/search/station/stationReportDetails/0-20008-0-TOT,,2.0,Thermopile;RSI,G;RSI,Dfb,Toronto
+Peshawar,,,Pakistan,34.0017,71.4854,370.0,2015-,,University of Engineering and Technology Peshawar,,,,2.0,Thermopile;RSI,G;RSI,BSh,Peshawar
+Uccle,,,Belgium,50.798,4.359,101.0,2014-,WMO RRC,Royal Meteorological Institute of Belgium (RMI),Probably got the tracker in 2014.,,,1.0,Thermopile,G;B;D,Cfb,Uccle
+Mohe,,,China,52.97,122.52,438.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Dwc,Mohe
+Xilinhot,,,China,44.13,116.33,1107.0,2007-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BSk,Xilinhot
+Yanqi,,,China,42.05,86.61,1056.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BWk,Yanqi
+Shangdianzi,,,China,40.65,117.12,293.3,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BSk,Shangdianzi
+Xuchang,,,China,34.07,113.93,67.2,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Xuchang
+Wenjiang,,,China,30.75,103.86,547.7,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Wenjiang
+Dali,,,China,25.71,100.18,1990.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Dali
+Semi-Arid Climate & Environment Observatory of Lanzhou University,SACOL,,China,35.946,104.13708,1965.8,2005-,,Lanzhou University,,http://climate.lzu.edu.cn/info/1046/1080.htm,,1.0,Thermopile;RSR,G;B;D;RSR;UV,BSk,Semi-Arid Climate & Environment Observatory of Lanzhou University
+Wuhan University,WHU,,China,30.533,114.35,30.0,2006-?,,Wuhan University,,,,1.0,Thermopile,G;B;D;PAR,Cfa,Wuhan University
+Mt. Waliguan,,,China,36.28749,100.8963,3810.0,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1.0,Thermopile,G;B;D;IR,Dwc,Mt. Waliguan
+Longfengshan,,,China,44.7299,127.5999,331.0,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1.0,Thermopile,G;B;D,Dwa,Longfengshan
+Shangdianzi,SDZ,,China,40.65,117.1166,287.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,BSk,Shangdianzi
+Linan,,,China,30.3,119.73,138.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,Cfa,Linan
+Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1.0,Thermopile,G;B;D,Dfc,Fairbanks
+Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1.0,Thermopile,G;B;D,Dfb,Turku
