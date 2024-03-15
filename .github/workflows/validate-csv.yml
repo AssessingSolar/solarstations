@@ -26,5 +26,5 @@ jobs:
       - name: Set up output matcher for PR annotations
         run: echo '::add-matcher::.github/workflows/validate-csv-matcher.json'
 
-      - name: Check URLs
+      - name: Check CSV data
         run: python .github/workflows/validate-csv.py
