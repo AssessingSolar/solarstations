@@ -17,7 +17,8 @@ def check_url(row):
         if domain in url:
             return None  # URL is a special case; don't check it
 
-    response = requests.head(url)  # use HEAD request for efficiency
+    # use HEAD request for efficiency
+    response = requests.head(url, timeout=60)
     try:
         response.raise_for_status()
     except Exception as e:
