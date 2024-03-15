@@ -25,7 +25,7 @@ Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,ht
 Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
-Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut,Freely",1,Thermopile,G;B;D
+Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut",Freely,1,Thermopile,G;B;D
 Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR
 Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
