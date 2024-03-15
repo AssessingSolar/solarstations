@@ -463,7 +463,7 @@ document.write(`
 }
 </style>
 <div class="itables">
-<table id="107de362-b362-4ebe-8e24-616b59d306a2" class="display"style="table-layout:auto;width:auto;margin:auto;caption-side:bottom"><thead>
+<table id="dcb86aea-dfdd-463f-9880-fe67b0f9e5a0" class="display"style="table-layout:auto;width:auto;margin:auto;caption-side:bottom"><thead>
     <tr style="text-align: right;">
       
       <th>Station full name</th>
@@ -488,7 +488,7 @@ document.write(`
     // to avoid conflicts between the various tables' data & dt_args
     {
         // Define the table data
-        const data = [["Albuquerque", "ABQ", "New Mexico", "USA", 35.03796, -106.62211, " 1617.0", "1995-", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Bismarck", "BIS", "North Dakota", "USA", 46.77179, -100.75955, " 503.0", "1995-", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Hanford", "HNX", "California", "USA", 36.31357, -119.63164, " 73.0", "1995-", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Madison", "MSN", "Wisconsin", "USA", 43.0725, -89.41133, " 271.0", "1996-", "SOLRAD", "NOAA", "Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt)", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Oak Ridge", "ORT", "Tennessee", "USA", 35.96101, -84.28838, " 334.0", "1995-2007", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Salt Lake City", "SLC", "Utah", "USA", 40.7722, -111.95495, " 1288.0", "1995-", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Seattle", "SEA", "Washington", "USA", 47.68685, -122.25667, " 20.0", "1995-", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Sterling", "STE", "Virginia", "USA", 38.97203, -77.4869, " 85.0", "1995-", "SOLRAD", "NOAA", "Site location pre Oct 28& 2014 (38.97673& -77.48379)", "Freely", " 1.0", "Thermopile", "G;B;D"], ["Tallahassee", "TLH", "Florida", "USA", 30.39675, -84.32955, " 18.0", "1995-2002", "SOLRAD", "NOAA", "", "Freely", " 1.0", "Thermopile", "G;B;D"]];
+        const data = [["Albuquerque", "ABQ", "New Mexico", "USA", 35.03796, -106.62211, " 1617.0", "1995-", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Bismarck", "BIS", "North Dakota", "USA", 46.77179, -100.75955, " 503.0", "1995-", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Hanford", "HNX", "California", "USA", 36.31357, -119.63164, " 73.0", "1995-", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Madison", "MSN", "Wisconsin", "USA", 43.0725, -89.41133, " 271.0", "1996-", "SOLRAD", "NOAA", "Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt)", "Freely", "1", "Thermopile", "G;B;D"], ["Oak Ridge", "ORT", "Tennessee", "USA", 35.96101, -84.28838, " 334.0", "1995-2007", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Salt Lake City", "SLC", "Utah", "USA", 40.7722, -111.95495, " 1288.0", "1995-", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Seattle", "SEA", "Washington", "USA", 47.68685, -122.25667, " 20.0", "1995-", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"], ["Sterling", "STE", "Virginia", "USA", 38.97203, -77.4869, " 85.0", "1995-", "SOLRAD", "NOAA", "Site location pre Oct 28& 2014 (38.97673& -77.48379)", "Freely", "1", "Thermopile", "G;B;D"], ["Tallahassee", "TLH", "Florida", "USA", 30.39675, -84.32955, " 18.0", "1995-2002", "SOLRAD", "NOAA", "", "Freely", "1", "Thermopile", "G;B;D"]];
         // Display the table
         $(document).ready(function () {
             window.dataTablePromise.then(() => {
@@ -497,7 +497,7 @@ document.write(`
                 dt_args["data"] = data;
 
                 
-                $('#107de362-b362-4ebe-8e24-616b59d306a2').DataTable(dt_args);
+                $('#dcb86aea-dfdd-463f-9880-fe67b0f9e5a0').DataTable(dt_args);
             });
         })
     }
@@ -534,7 +534,7 @@ document.write(`
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_f578bd17787656efea73244d1a4555f7 {
+                #map_365f140f206cfb839a4cca319f681df1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -552,14 +552,14 @@ document.write(`
 &lt;body&gt;
     
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_f578bd17787656efea73244d1a4555f7&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_365f140f206cfb839a4cca319f681df1&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_f578bd17787656efea73244d1a4555f7 = L.map(
-                &quot;map_f578bd17787656efea73244d1a4555f7&quot;,
+            var map_365f140f206cfb839a4cca319f681df1 = L.map(
+                &quot;map_365f140f206cfb839a4cca319f681df1&quot;,
                 {
                     center: [40.0, -100.0],
                     crs: L.CRS.EPSG3857,
@@ -569,43 +569,43 @@ document.write(`
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_f578bd17787656efea73244d1a4555f7);
+            L.control.scale().addTo(map_365f140f206cfb839a4cca319f681df1);
 
             
 
         
     
-            var tile_layer_9ef66f705615eb9b6bb3a965e1f2fc07 = L.tileLayer(
+            var tile_layer_1d6f142e99929b6806349bbae274cb5d = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 2, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_9ef66f705615eb9b6bb3a965e1f2fc07.addTo(map_f578bd17787656efea73244d1a4555f7);
+            tile_layer_1d6f142e99929b6806349bbae274cb5d.addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-            var circle_marker_3246fc30be8c4b9207306abdfc835f21 = L.circleMarker(
+            var circle_marker_d07b78e6894302baf30d92f2dc2cf247 = L.circleMarker(
                 [35.03796, -106.62211],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_0c8d2b73d4deb9c61ac1e84e6eb12517 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_4041285150a6d4b0ea05e0adc277e375 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_6e773d2c3d6fce9e4788157c20f8c50f = $(`&lt;div id=&quot;html_6e773d2c3d6fce9e4788157c20f8c50f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Albuquerque - New Mexico USA&lt;/div&gt;`)[0];
-                popup_0c8d2b73d4deb9c61ac1e84e6eb12517.setContent(html_6e773d2c3d6fce9e4788157c20f8c50f);
+                var html_de07de0005cd5475396fe1c7ac1cbab0 = $(`&lt;div id=&quot;html_de07de0005cd5475396fe1c7ac1cbab0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Albuquerque - New Mexico USA&lt;/div&gt;`)[0];
+                popup_4041285150a6d4b0ea05e0adc277e375.setContent(html_de07de0005cd5475396fe1c7ac1cbab0);
             
         
 
-        circle_marker_3246fc30be8c4b9207306abdfc835f21.bindPopup(popup_0c8d2b73d4deb9c61ac1e84e6eb12517)
+        circle_marker_d07b78e6894302baf30d92f2dc2cf247.bindPopup(popup_4041285150a6d4b0ea05e0adc277e375)
         ;
 
         
     
     
-            circle_marker_3246fc30be8c4b9207306abdfc835f21.bindTooltip(
+            circle_marker_d07b78e6894302baf30d92f2dc2cf247.bindTooltip(
                 `&lt;div&gt;
                      ABQ
                  &lt;/div&gt;`,
@@ -613,28 +613,28 @@ document.write(`
             );
         
     
-            var circle_marker_415760450eb8360e587729d5ac41aef8 = L.circleMarker(
+            var circle_marker_90e145ae96fc40c2537c932189673fae = L.circleMarker(
                 [46.77179, -100.75955],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_0749891c6346cab510f1f4257d7d27d3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_dcae5a2770a7778df22bd7d7d275300e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_fb95ed2af0e0f462d8c5e2f760ffc877 = $(`&lt;div id=&quot;html_fb95ed2af0e0f462d8c5e2f760ffc877&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bismarck - North Dakota USA&lt;/div&gt;`)[0];
-                popup_0749891c6346cab510f1f4257d7d27d3.setContent(html_fb95ed2af0e0f462d8c5e2f760ffc877);
+                var html_5c61a2c299121aa9a7852f59303ce202 = $(`&lt;div id=&quot;html_5c61a2c299121aa9a7852f59303ce202&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bismarck - North Dakota USA&lt;/div&gt;`)[0];
+                popup_dcae5a2770a7778df22bd7d7d275300e.setContent(html_5c61a2c299121aa9a7852f59303ce202);
             
         
 
-        circle_marker_415760450eb8360e587729d5ac41aef8.bindPopup(popup_0749891c6346cab510f1f4257d7d27d3)
+        circle_marker_90e145ae96fc40c2537c932189673fae.bindPopup(popup_dcae5a2770a7778df22bd7d7d275300e)
         ;
 
         
     
     
-            circle_marker_415760450eb8360e587729d5ac41aef8.bindTooltip(
+            circle_marker_90e145ae96fc40c2537c932189673fae.bindTooltip(
                 `&lt;div&gt;
                      BIS
                  &lt;/div&gt;`,
@@ -642,28 +642,28 @@ document.write(`
             );
         
     
-            var circle_marker_3120facb40451d3dfb94b8ec7d56f279 = L.circleMarker(
+            var circle_marker_70d78852851efca2c0ae6c1584b3ad34 = L.circleMarker(
                 [36.31357, -119.63164],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_7f5eb4ce62497c40396c82e6253324b9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8e6bc41d0c5e5fcaa3be3ffd5299a5db = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_76ec67ab279d3840a2c4e13df1fe7942 = $(`&lt;div id=&quot;html_76ec67ab279d3840a2c4e13df1fe7942&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hanford - California USA&lt;/div&gt;`)[0];
-                popup_7f5eb4ce62497c40396c82e6253324b9.setContent(html_76ec67ab279d3840a2c4e13df1fe7942);
+                var html_857019cd2231c7952ac42365244bb296 = $(`&lt;div id=&quot;html_857019cd2231c7952ac42365244bb296&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hanford - California USA&lt;/div&gt;`)[0];
+                popup_8e6bc41d0c5e5fcaa3be3ffd5299a5db.setContent(html_857019cd2231c7952ac42365244bb296);
             
         
 
-        circle_marker_3120facb40451d3dfb94b8ec7d56f279.bindPopup(popup_7f5eb4ce62497c40396c82e6253324b9)
+        circle_marker_70d78852851efca2c0ae6c1584b3ad34.bindPopup(popup_8e6bc41d0c5e5fcaa3be3ffd5299a5db)
         ;
 
         
     
     
-            circle_marker_3120facb40451d3dfb94b8ec7d56f279.bindTooltip(
+            circle_marker_70d78852851efca2c0ae6c1584b3ad34.bindTooltip(
                 `&lt;div&gt;
                      HNX
                  &lt;/div&gt;`,
@@ -671,28 +671,28 @@ document.write(`
             );
         
     
-            var circle_marker_6312bfe88cab1345c519f9bd1f98461f = L.circleMarker(
+            var circle_marker_2d08a1f00789ff1bf24b26b5d3ae7ce1 = L.circleMarker(
                 [43.0725, -89.41133],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_d194424fb279d96ec0110f2a84fb6732 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_19250206b59136380fed462fb24cfc0e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_5292f09742aab6717452dc44480df395 = $(`&lt;div id=&quot;html_5292f09742aab6717452dc44480df395&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madison - Wisconsin USA&lt;/div&gt;`)[0];
-                popup_d194424fb279d96ec0110f2a84fb6732.setContent(html_5292f09742aab6717452dc44480df395);
+                var html_bae075e270f7701cd5890d8f9787688f = $(`&lt;div id=&quot;html_bae075e270f7701cd5890d8f9787688f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madison - Wisconsin USA&lt;/div&gt;`)[0];
+                popup_19250206b59136380fed462fb24cfc0e.setContent(html_bae075e270f7701cd5890d8f9787688f);
             
         
 
-        circle_marker_6312bfe88cab1345c519f9bd1f98461f.bindPopup(popup_d194424fb279d96ec0110f2a84fb6732)
+        circle_marker_2d08a1f00789ff1bf24b26b5d3ae7ce1.bindPopup(popup_19250206b59136380fed462fb24cfc0e)
         ;
 
         
     
     
-            circle_marker_6312bfe88cab1345c519f9bd1f98461f.bindTooltip(
+            circle_marker_2d08a1f00789ff1bf24b26b5d3ae7ce1.bindTooltip(
                 `&lt;div&gt;
                      MSN
                  &lt;/div&gt;`,
@@ -700,28 +700,28 @@ document.write(`
             );
         
     
-            var circle_marker_67dcbffa19ab1ea9cf3fefea9641fbc4 = L.circleMarker(
+            var circle_marker_4c48e749770910218de8905bd56da3e1 = L.circleMarker(
                 [35.96101, -84.28838],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_f4640ba952b83e7904d6ed074ddd37a2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_6bf412b9e25fbd7908ea98e1e5c81bed = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_8b631a64c922f4e7cd22824fcb49e2cf = $(`&lt;div id=&quot;html_8b631a64c922f4e7cd22824fcb49e2cf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge - Tennessee USA&lt;/div&gt;`)[0];
-                popup_f4640ba952b83e7904d6ed074ddd37a2.setContent(html_8b631a64c922f4e7cd22824fcb49e2cf);
+                var html_d6aea42dbebbbe5b2b6ade1a341e5faa = $(`&lt;div id=&quot;html_d6aea42dbebbbe5b2b6ade1a341e5faa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge - Tennessee USA&lt;/div&gt;`)[0];
+                popup_6bf412b9e25fbd7908ea98e1e5c81bed.setContent(html_d6aea42dbebbbe5b2b6ade1a341e5faa);
             
         
 
-        circle_marker_67dcbffa19ab1ea9cf3fefea9641fbc4.bindPopup(popup_f4640ba952b83e7904d6ed074ddd37a2)
+        circle_marker_4c48e749770910218de8905bd56da3e1.bindPopup(popup_6bf412b9e25fbd7908ea98e1e5c81bed)
         ;
 
         
     
     
-            circle_marker_67dcbffa19ab1ea9cf3fefea9641fbc4.bindTooltip(
+            circle_marker_4c48e749770910218de8905bd56da3e1.bindTooltip(
                 `&lt;div&gt;
                      ORT
                  &lt;/div&gt;`,
@@ -729,28 +729,28 @@ document.write(`
             );
         
     
-            var circle_marker_7b8726f15f8857dbaaa5aa4ccbc7b175 = L.circleMarker(
+            var circle_marker_2fcfb442ba3033919a0a6e769cf7d5f0 = L.circleMarker(
                 [40.7722, -111.95495],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_b6dd158c1314a8f4f56d1ad424410ab3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_c3ec826625ef118998562227918e722e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_72b5cb317d6ab43f87b8124c5ad7d0b6 = $(`&lt;div id=&quot;html_72b5cb317d6ab43f87b8124c5ad7d0b6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salt Lake City - Utah USA&lt;/div&gt;`)[0];
-                popup_b6dd158c1314a8f4f56d1ad424410ab3.setContent(html_72b5cb317d6ab43f87b8124c5ad7d0b6);
+                var html_1e9cfdb08e2ad3be12b729eab1093f72 = $(`&lt;div id=&quot;html_1e9cfdb08e2ad3be12b729eab1093f72&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salt Lake City - Utah USA&lt;/div&gt;`)[0];
+                popup_c3ec826625ef118998562227918e722e.setContent(html_1e9cfdb08e2ad3be12b729eab1093f72);
             
         
 
-        circle_marker_7b8726f15f8857dbaaa5aa4ccbc7b175.bindPopup(popup_b6dd158c1314a8f4f56d1ad424410ab3)
+        circle_marker_2fcfb442ba3033919a0a6e769cf7d5f0.bindPopup(popup_c3ec826625ef118998562227918e722e)
         ;
 
         
     
     
-            circle_marker_7b8726f15f8857dbaaa5aa4ccbc7b175.bindTooltip(
+            circle_marker_2fcfb442ba3033919a0a6e769cf7d5f0.bindTooltip(
                 `&lt;div&gt;
                      SLC
                  &lt;/div&gt;`,
@@ -758,28 +758,28 @@ document.write(`
             );
         
     
-            var circle_marker_bbca13f579c4f065ab9f896ec889edf4 = L.circleMarker(
+            var circle_marker_b22e10b973fa2b87383695d73488f85e = L.circleMarker(
                 [47.68685, -122.25667],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_5b5bf2b38dbb2896bf5de361c0600ca3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_2de6c40028fc2e115105bd2badace12f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_420ac607bc4bfb3c05424874fd934fc3 = $(`&lt;div id=&quot;html_420ac607bc4bfb3c05424874fd934fc3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
-                popup_5b5bf2b38dbb2896bf5de361c0600ca3.setContent(html_420ac607bc4bfb3c05424874fd934fc3);
+                var html_9aa83b668d22bbc79afb75a311043783 = $(`&lt;div id=&quot;html_9aa83b668d22bbc79afb75a311043783&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
+                popup_2de6c40028fc2e115105bd2badace12f.setContent(html_9aa83b668d22bbc79afb75a311043783);
             
         
 
-        circle_marker_bbca13f579c4f065ab9f896ec889edf4.bindPopup(popup_5b5bf2b38dbb2896bf5de361c0600ca3)
+        circle_marker_b22e10b973fa2b87383695d73488f85e.bindPopup(popup_2de6c40028fc2e115105bd2badace12f)
         ;
 
         
     
     
-            circle_marker_bbca13f579c4f065ab9f896ec889edf4.bindTooltip(
+            circle_marker_b22e10b973fa2b87383695d73488f85e.bindTooltip(
                 `&lt;div&gt;
                      SEA
                  &lt;/div&gt;`,
@@ -787,28 +787,28 @@ document.write(`
             );
         
     
-            var circle_marker_6bf03747585e6c68a8c4196326bda034 = L.circleMarker(
+            var circle_marker_24839710e7ca5ef264fcdcd13cec0bf5 = L.circleMarker(
                 [38.97203, -77.4869],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_4750a3adae4b661619e1b515f5fc2e61 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_4952eef4fd421b858e6f5d68f90f8764 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_067ecf8a692fc310c2c5988cfb0b4424 = $(`&lt;div id=&quot;html_067ecf8a692fc310c2c5988cfb0b4424&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sterling - Virginia USA&lt;/div&gt;`)[0];
-                popup_4750a3adae4b661619e1b515f5fc2e61.setContent(html_067ecf8a692fc310c2c5988cfb0b4424);
+                var html_d0e90a347b184dfcfdf807a81e7cb78e = $(`&lt;div id=&quot;html_d0e90a347b184dfcfdf807a81e7cb78e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sterling - Virginia USA&lt;/div&gt;`)[0];
+                popup_4952eef4fd421b858e6f5d68f90f8764.setContent(html_d0e90a347b184dfcfdf807a81e7cb78e);
             
         
 
-        circle_marker_6bf03747585e6c68a8c4196326bda034.bindPopup(popup_4750a3adae4b661619e1b515f5fc2e61)
+        circle_marker_24839710e7ca5ef264fcdcd13cec0bf5.bindPopup(popup_4952eef4fd421b858e6f5d68f90f8764)
         ;
 
         
     
     
-            circle_marker_6bf03747585e6c68a8c4196326bda034.bindTooltip(
+            circle_marker_24839710e7ca5ef264fcdcd13cec0bf5.bindTooltip(
                 `&lt;div&gt;
                      STE
                  &lt;/div&gt;`,
@@ -816,28 +816,28 @@ document.write(`
             );
         
     
-            var circle_marker_d2b600b8c6a022240bc3128b796d67a5 = L.circleMarker(
+            var circle_marker_dcba0370f0454f44374d99951778a86c = L.circleMarker(
                 [30.39675, -84.32955],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-        var popup_968e6abc107b3a7404aff5c6151b592e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_51494fae3599476063c6ba4894d8046e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_a9c827a4dcb731b6580552cfd84a7b2e = $(`&lt;div id=&quot;html_a9c827a4dcb731b6580552cfd84a7b2e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tallahassee - Florida USA&lt;/div&gt;`)[0];
-                popup_968e6abc107b3a7404aff5c6151b592e.setContent(html_a9c827a4dcb731b6580552cfd84a7b2e);
+                var html_acf9f56bd3e26abdaeaad541b5822314 = $(`&lt;div id=&quot;html_acf9f56bd3e26abdaeaad541b5822314&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tallahassee - Florida USA&lt;/div&gt;`)[0];
+                popup_51494fae3599476063c6ba4894d8046e.setContent(html_acf9f56bd3e26abdaeaad541b5822314);
             
         
 
-        circle_marker_d2b600b8c6a022240bc3128b796d67a5.bindPopup(popup_968e6abc107b3a7404aff5c6151b592e)
+        circle_marker_dcba0370f0454f44374d99951778a86c.bindPopup(popup_51494fae3599476063c6ba4894d8046e)
         ;
 
         
     
     
-            circle_marker_d2b600b8c6a022240bc3128b796d67a5.bindTooltip(
+            circle_marker_dcba0370f0454f44374d99951778a86c.bindTooltip(
                 `&lt;div&gt;
                      TLH
                  &lt;/div&gt;`,
@@ -845,53 +845,53 @@ document.write(`
             );
         
     
-            var tile_layer_1048fea10f4b36347eba766252bac0a9 = L.tileLayer(
+            var tile_layer_43e9a1b67767579e0dfa0febae46f054 = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            var layer_control_9e202d0cbb887a3f5ad6a50822cef24a_layers = {
+            var layer_control_a08cfc128af7afc5816ed0f0a5e4e3c8_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_9ef66f705615eb9b6bb3a965e1f2fc07,
-                    &quot;World imagery&quot; : tile_layer_1048fea10f4b36347eba766252bac0a9,
+                    &quot;openstreetmap&quot; : tile_layer_1d6f142e99929b6806349bbae274cb5d,
+                    &quot;World imagery&quot; : tile_layer_43e9a1b67767579e0dfa0febae46f054,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_9e202d0cbb887a3f5ad6a50822cef24a = L.control.layers(
-                layer_control_9e202d0cbb887a3f5ad6a50822cef24a_layers.base_layers,
-                layer_control_9e202d0cbb887a3f5ad6a50822cef24a_layers.overlays,
+            let layer_control_a08cfc128af7afc5816ed0f0a5e4e3c8 = L.control.layers(
+                layer_control_a08cfc128af7afc5816ed0f0a5e4e3c8_layers.base_layers,
+                layer_control_a08cfc128af7afc5816ed0f0a5e4e3c8_layers.overlays,
                 {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topleft&quot;}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
 
         
     
-            var tile_layer_5f276f31d836e747e516daaa671cc672 = L.tileLayer(
+            var tile_layer_01d2360b9bc3cf0b812c02cd3cf45703 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
-            var mini_map_c1a1cfdda00e8fc3eac682a9a633a2af = new L.Control.MiniMap(
-                tile_layer_5f276f31d836e747e516daaa671cc672,
+            var mini_map_f178899e4d89fe02bf9faff90f24ce8c = new L.Control.MiniMap(
+                tile_layer_01d2360b9bc3cf0b812c02cd3cf45703,
                 {&quot;autoToggleDisplay&quot;: false, &quot;centerFixed&quot;: false, &quot;collapsedHeight&quot;: 25, &quot;collapsedWidth&quot;: 25, &quot;height&quot;: 150, &quot;minimized&quot;: true, &quot;position&quot;: &quot;bottomright&quot;, &quot;toggleDisplay&quot;: true, &quot;width&quot;: 150, &quot;zoomAnimation&quot;: false, &quot;zoomLevelFixed&quot;: 1, &quot;zoomLevelOffset&quot;: -5}
             );
-            map_f578bd17787656efea73244d1a4555f7.addControl(mini_map_c1a1cfdda00e8fc3eac682a9a633a2af);
+            map_365f140f206cfb839a4cca319f681df1.addControl(mini_map_f178899e4d89fe02bf9faff90f24ce8c);
         
     
             L.control.fullscreen(
                 {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;topright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
-            ).addTo(map_f578bd17787656efea73244d1a4555f7);
+            ).addTo(map_365f140f206cfb839a4cca319f681df1);
         
     
-                var lat_lng_popup_002bb410cc4271d13eb31a5fbaba84be = L.popup();
+                var lat_lng_popup_86ce3cf4f22044fc22fa175a4126ee29 = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_002bb410cc4271d13eb31a5fbaba84be
+                    lat_lng_popup_86ce3cf4f22044fc22fa175a4126ee29
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_f578bd17787656efea73244d1a4555f7);
+                        .openOn(map_365f140f206cfb839a4cca319f681df1);
                     }
-                map_f578bd17787656efea73244d1a4555f7.on(&#x27;click&#x27;, latLngPop);
+                map_365f140f206cfb839a4cca319f681df1.on(&#x27;click&#x27;, latLngPop);
             
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
