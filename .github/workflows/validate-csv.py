@@ -12,6 +12,7 @@ def check_url(row):
     domains_to_skip = [
         'www.bom.gov.au',  # this website rejects automated http requests
         'rratlas.energy.gov.sa',  # times out and reaches max retries
+        'climate.lzu.edu.cn',
     ]
     for domain in domains_to_skip:
         if domain in url:
