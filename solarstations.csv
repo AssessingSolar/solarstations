@@ -25,7 +25,7 @@ Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,ht
 Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
-Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
+Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut,Freely",1,Thermopile,G;B;D
 Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR
 Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
@@ -95,11 +95,11 @@ Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,ht
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D
 DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,https://www.fotonik.dtu.dk/english/research-groups/photovoltaic-materials-and-systems/research-kort,Freely,1,Thermopile,
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,,Freely,1,Thermopile,
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,
-Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-,SAURAN,,Roof of Engineering building,https://sauran.ac.za/station-documents/SUN/SUN%20Station%20Details.pdf,Freely,1,Thermopile,
-GIZ University of Pretoria,UOP,Pretoria,South Africa,-25.75308037,28.22859001,1410,2013-,SAURAN,,Roof of university building. Also has acronym UPR.,https://sauran.ac.za/station-documents/UPR/UPR%20Station%20Details.pdf,Freely,,,
+Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,
+GIZ University of Pretoria,UOP,Pretoria,South Africa,-25.75308037,28.22859001,1410,2013-,SAURAN,,Roof of university building. Also has acronym UPR.,https://sauran.ac.za,Freely,,,
 GIZ Vanrhynsdorp,RVLD,Vanrhynsdorp,South Africa,-31.61747932,18.73834038,130,2016-2019,SAURAN,,Inside enclosure on rural farmland. Permanently offline. Also goes by the acronym VAN.,https://sauran.ac.za/station-documents/VAN/VAN%20Station%20Details.pdf,Freely,,,
 GIZ University of Free State,UFS,Bloemfontein,South Africa,-29.11074066,26.18502998,1491,2014-2017,SAURAN,,Roof of Physics building. Permanently offline.,https://sauran.ac.za/station-documents/UFS/UFS%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
 GIZ Graaff-Reinet,GRN,Graaff-Reinet,South Africa,-32.48546982,24.58581924,660,2013-2016,SAURAN,,Inside enclosure on rural farmland. Permanently offline.,https://sauran.ac.za/station-documents/GRT/GRT%20Station%20Details.pdf,Freely,,,
@@ -116,7 +116,7 @@ GIZ Murraysburg,MRB,Murraysburg,South Africa,-31.89009094,24.05623055,1548,2017-
 Mariendal,HELIO,Mariendal,South Africa,-33.85412979,18.82444954,178,2015-2020,SAURAN,,Permanently offline. Installed on a container.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Eskom Sutherland SALT,,Sutherland,South Africa,-32.37778091,20.8116703,1761,2017-2020,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 CSIR Energy Centre,CSIR,Pretoria,South Africa,-25.746519,28.278739,1400,2017-,SAURAN,,Roof of building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397,2017-,SAURAN,,Roof of the Engineering building,https://sauran.ac.za/station-documents/CUT/CUT%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
+Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397,2017-,SAURAN,,Roof of the Engineering building,https://sauran.ac.za,Freely,1,Thermopile,G;B;D
 University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680,2021-,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47,1999-,WMO GAW,,Also measured upwards shortwave and longwave irradiance and has a skyradiometer and a Brewer.,,,,,
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52,2008-,WMO GAW,,The station also has a sky radiometer.,,,,,
