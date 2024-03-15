@@ -368,4 +368,5 @@ Mt. Waliguan,,,China,36.28749,100.8963,3810.0,2011-,WMO GAW,,,https://gawsis.met
 Longfengshan,,,China,44.7299,127.5999,331.0,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1.0,Thermopile,G;B;D,Dwa,Longfengshan
 Shangdianzi,SDZ,,China,40.65,117.1166,287.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,BSk,Shangdianzi
 Linan,,,China,30.3,119.73,138.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,Cfa,Linan
+Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1.0,Thermopile,G;B;D,Dfc,Fairbanks
 Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1.0,Thermopile,G;B;D,Dfb,Turku
