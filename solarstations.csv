@@ -368,8 +368,4 @@ Mt. Waliguan,,,China,36.28749,100.8963,3810,2011-,WMO GAW,,,https://gawsis.meteo
 Longfengshan,,,China,44.7299,127.5999,331,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1,Thermopile,G;B;D
 Shangdianzi,SDZ,,China,40.65,117.1166,287,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
 Linan,,,China,30.3000,119.7300,138,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
-
-
-Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
-
-Trondheim,,,Norway,63.4171,10.4047,,,,Sintef,10 second data,https://www.sintef.no/projectweb/solarlab/sintef-node/pv-metering/,Not available,Thermopil,G;B;D
+Trondheim,,,Norway,63.4171,10.4047,89,,,Sintef,10 second data,https://www.sintef.no/projectweb/solarlab/sintef-node/pv-metering/,Not available,Thermopil,G;B;D
