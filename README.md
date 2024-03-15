@@ -3,8 +3,8 @@
 
 A catalog of high-quality solar radiation monitoring stations.
 
-An interactive map and listing of the stations can be found at [SolarStations.org](https://SolarStations.org).
+An interactive map and catalog of the stations can be found at [SolarStations.org](https://SolarStations.org).
 
-The file [solarstations.csv](solarstations.csv) contains the list of stations and their metadata.
+The file [station-listing.csv](https://solarstations.org/station-listing.csv) contains the list of stations and their metadata.
 
 Pull requests with new stations or updates are highly welcome!

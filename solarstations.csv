@@ -9,7 +9,7 @@ Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http
 Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,1,Thermopile,G;B;D
 Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,1,Thermopile,G;B;D
 Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,1,Thermopile,G;B;D;IR
-Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,1,Thermopile,G;B;D
 Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,1,Thermopile,G;B;D
 Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,1,Thermopile,G;B;D
 Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,1,Thermopile,G;B;D
@@ -25,7 +25,7 @@ Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,ht
 Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,1,Thermopile,G;B;D
 Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015& -,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,1,Thermopile,G;B;D
-Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka&_Nunavut,Freely,1,Thermopile,G;B;D
+Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut,Freely",1,Thermopile,G;B;D
 Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,1,Thermopile,G;B;D;IR
 Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,1,Thermopile,G;B;D
 Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,1,Thermopile,G;B;D
@@ -71,7 +71,7 @@ South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gm
 Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,1,Thermopile,G;B;D
 Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,1,Thermopile,G;B;D
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,1,Thermopile,G;B;D
-Tateno,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D
+Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN;WMO RRC,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,1,Thermopile,G;B;D;IR
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,,BSRN,,Candidate Station (no. 89),,Freely,1,Thermopile,G;B;D
@@ -95,29 +95,29 @@ Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,ht
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D
 DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,https://www.fotonik.dtu.dk/english/research-groups/photovoltaic-materials-and-systems/research-kort,Freely,1,Thermopile,
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,,Freely,1,Thermopile,
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,
-Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-,SAURAN,,Roof of Engineering building,https://sauran.ac.za/station-documents/SUN/SUN%20Station%20Details.pdf,Freely,1,Thermopile,
-GIZ University of Pretoria,UOP,Pretoria,South Africa,-25.75308037,28.22859001,1410,2013-,SAURAN,,Roof of university building. Also has acronym UPR.,https://sauran.ac.za/station-documents/UPR/UPR%20Station%20Details.pdf,Freely,,,
+Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,
+GIZ University of Pretoria,UOP,Pretoria,South Africa,-25.75308037,28.22859001,1410,2013-2024,SAURAN,,Roof of university building. Also has acronym UPR.,https://sauran.ac.za,Freely,,,
 GIZ Vanrhynsdorp,RVLD,Vanrhynsdorp,South Africa,-31.61747932,18.73834038,130,2016-2019,SAURAN,,Inside enclosure on rural farmland. Permanently offline. Also goes by the acronym VAN.,https://sauran.ac.za/station-documents/VAN/VAN%20Station%20Details.pdf,Freely,,,
 GIZ University of Free State,UFS,Bloemfontein,South Africa,-29.11074066,26.18502998,1491,2014-2017,SAURAN,,Roof of Physics building. Permanently offline.,https://sauran.ac.za/station-documents/UFS/UFS%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
 GIZ Graaff-Reinet,GRN,Graaff-Reinet,South Africa,-32.48546982,24.58581924,660,2013-2016,SAURAN,,Inside enclosure on rural farmland. Permanently offline.,https://sauran.ac.za/station-documents/GRT/GRT%20Station%20Details.pdf,Freely,,,
 Nelson Mandela University,NMU,Port Elizabeth,South Africa,-34.0085907,25.66526031,35,2015-2021,SAURAN,,Roof of Solar Outdoor Research Facility. Permanently offline. Is this really correct? Check what data comes in?,https://sauran.ac.za/station-documents/NMU/NMU%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
-GIZ Richtersveld,RVLD,Alexander Bay,South Africa,-28.56084061,16.76145935,141,2014-,SAURAN,,Inside enclosure in desert region,https://sauran.ac.za/station-documents/RVD/RVD%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
+GIZ Richtersveld,RVLD,Alexander Bay,South Africa,-28.56084061,16.76145935,141,2014-2024,SAURAN,,Inside enclosure in desert region,https://sauran.ac.za/station-documents/RVD/RVD%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
 Mangosuthu University of Technology,MUT,Umlazi,South Africa,-29.97020912,30.91490936,95,2015-2021,SAURAN,,Roof of lecture complex. Diffuse with shadow band. Pyrheliometer on Eppley one-axis tracker. Permanently offline.,https://sauran.ac.za/station-documents/STA/STA%20Station%20Details.pdf,Freely,2,Thermopile.,G;B
 Eskom Sutherland,SALT,Sutherland,South Africa,-32.22199249,20.34777451,1450,2016-2017,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/station-documents/SUT/SUT%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
 USAid Gaborone,GAB,Gaborone,Botswana,-24.6609993,25.93400002,1014,2014-2020,SAURAN,,Roof of building in University of Botswana,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-USAid Venda,VEN,Vuwani,South Africa,-23.13100052,30.42399979,628,2015-,SAURAN,,Vuwani Science Research Centre,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-University of Zululand,ZUL,KwaDlangezwa,South Africa,-28.85289955,31.85161018,90,2013-,SAURAN,,Roof of university building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-USAid Namibian University of Science and Technology,NUST,Windhoek,Namibia,-22.56500053,17.07500076,1683,2016-,SAURAN,,Roof of Engineering Building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-USAid University of Fort Hare,UFH,Alice,South Africa,-32.78461075,26.84519958,540,2017-,SAURAN,,Roof of Zoology Department,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+USAid Venda,VEN,Vuwani,South Africa,-23.13100052,30.42399979,628,2015-2024,SAURAN,,Vuwani Science Research Centre,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+University of Zululand,ZUL,KwaDlangezwa,South Africa,-28.85289955,31.85161018,90,2013-2024,SAURAN,,Roof of university building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+USAid Namibian University of Science and Technology,NUST,Windhoek,Namibia,-22.56500053,17.07500076,1683,2016-2024,SAURAN,,Roof of Engineering Building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+USAid University of Fort Hare,UFH,Alice,South Africa,-32.78461075,26.84519958,540,2017-2024,SAURAN,,Roof of Zoology Department,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 GIZ Murraysburg,MRB,Murraysburg,South Africa,-31.89009094,24.05623055,1548,2017-2019,SAURAN,,Permanently offline. Inside enclosure on rural farmland.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Mariendal,HELIO,Mariendal,South Africa,-33.85412979,18.82444954,178,2015-2020,SAURAN,,Permanently offline. Installed on a container.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Eskom Sutherland SALT,,Sutherland,South Africa,-32.37778091,20.8116703,1761,2017-2020,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-CSIR Energy Centre,CSIR,Pretoria,South Africa,-25.746519,28.278739,1400,2017-,SAURAN,,Roof of building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
-Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397,2017-,SAURAN,,Roof of the Engineering building,https://sauran.ac.za/station-documents/CUT/CUT%20Station%20Details.pdf,Freely,1,Thermopile,G;B;D
-University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680,2021-,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+CSIR Energy Centre,CSIR,Pretoria,South Africa,-25.746519,28.278739,1400,2017-2024,SAURAN,,Roof of building,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
+Central University of Technology,CUT,Bloemfontein,South Africa,-29.121337,26.215909,1397,2017-2024,SAURAN,,Roof of the Engineering building,https://sauran.ac.za,Freely,1,Thermopile,G;B;D
+University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.621226,30.397038,680,2021-2024,SAURAN,,Rooftop,https://sauran.ac.za/,Freely,1,Thermopile,G;B;D
 Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47,1999-,WMO GAW,,Also measured upwards shortwave and longwave irradiance and has a skyradiometer and a Brewer.,,,,,
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52,2008-,WMO GAW,,The station also has a sky radiometer.,,,,,
 Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,None,Wageningen University,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,1,Thermopile,G;B;D
@@ -143,18 +143,18 @@ Missour,,,Morocco,32.86,-4.107,1107,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf
 Erfoud,,,Morocco,31.491,-4.218,859,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Zagora,,,Morocco,30.272,-5.852,783,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,RSI,
 Tan-Tan,,,Morocco,28.498,-11.322,75,2013-,enerMENA,IRESEN,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Thermopile,
-Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Morelos ,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Selegua ,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
-Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,,,http://areas.geofisica.unam.mx/solarimetrico/estaciones.html,,,,
+Ciudad Universitaria,UNAM,Mexico City,Mexico,19.3262,-99.176,2284,2015-,WMO RRC,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Coeneo,COE,Michoacán,Mexico,19.8137,-101.6946,1990,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ciudad Cuahutémoc,CDC,Chihuahua,Mexico,28.4504,-106.7942,2112,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
+Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,1,Thermopile,G;B;D
 Poprad-Ganovce,,,Slovakia,49.035,20.324,709,,Slovak Hydrometeorological Institute,,,,Upon request,1,Thermopile,G;B;D
 Dobele,,,Latvia,56.62,23.32,42,,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,,
 Silutes,,,Lithuania,55.352,21.447,5,,Lithuanian Hydrometeorological Service (LHMS),,,,,,,
@@ -194,34 +194,34 @@ Dharan,NP-Dha,,Nepal,26.79291,87.29263,310,2018-2020,ESMAP,World Bank,"Station w
 Lumle,NP-Lum,,Nepal,28.29666,83.81800,1750,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
 Nepalgunj,NP-Npg,,Nepal,28.11290,81.58900,150,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
 Jumla,NP-Jum,,Nepal,29.27237,82.19351,2368,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
+Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,"No diffuse measurements due to too hars meteorological conditions.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1
 Anse Boileau,anseboileau,,Seychelles,-4.710958,55.484732,2,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408665,Freely,2,SPN1
 Antananarivo,antananarivo,,Madagascar,-18.89833,47.546422,1309,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408673,Freely,2,SPN1
-Bras Panon Moreau,braspanonmoreau,,La Reunion,-21.002649,55.682897,20,2010-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092821,Freely,2,SPN1
-Caverne Dufour,cavernedufour,,La Reunion,-21.109176,55.495655,2495,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.5812546,Freely,2,SPN1
-Cilaos Bras Sec,cilaosbrassec,,La Reunion,-21.141754,55.489703,1269,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092842,Freely,2,SPN1
-Cilaos Piscine,cilaospiscine,,La Reunion,-21.136158,55.47416,1213,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092835,Freely,2,SPN1
-Cilaos Thermes,cilaosthermes,,La Reunion,-21.12894,55.47332,1255.8,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092847,Freely,2,SPN1
-Cratere Bory,craterebory,,La Reunion,-21.244138,55.709018,2584.2,2016-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092849,Freely,2,SPN1
+Bras Panon Moreau,braspanonmoreau,,Reunion,-21.002649,55.682897,20,2010-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092821,Freely,2,SPN1
+Caverne Dufour,cavernedufour,,Reunion,-21.109176,55.495655,2495,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.5812546,Freely,2,SPN1
+Cilaos Bras Sec,cilaosbrassec,,Reunion,-21.141754,55.489703,1269,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092842,Freely,2,SPN1
+Cilaos Piscine,cilaospiscine,,Reunion,-21.136158,55.47416,1213,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092835,Freely,2,SPN1
+Cilaos Thermes,cilaosthermes,,Reunion,-21.12894,55.47332,1255.8,2012-2013,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092847,Freely,2,SPN1
+Cratere Bory,craterebory,,Reunion,-21.244138,55.709018,2584.2,2016-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092849,Freely,2,SPN1
 Antsiranana (Diego Suarez),diego,,Madagascar,-12.348602,49.293412,108,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408675,Freely,2,SPN1
 Durban,durban,,South Africa,-29.87098,30.97695,150,2013-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092844,Freely,2,SPN1
 Hahaya,hahaya,,Comores,-11.539412,43.278112,32,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408671,Freely,2,SPN1
-Le Port Barbusse,leportbarbusse,,La Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092858,Freely,2,SPN1
-Le Port Mairie,leportmairie,,La Reunion,-20.935233,55.290266,12,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092855,Freely,2,SPN1
+Le Port Barbusse,leportbarbusse,,Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092858,Freely,2,SPN1
+Le Port Mairie,leportmairie,,Reunion,-20.935233,55.290266,12,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092855,Freely,2,SPN1
 Radio Telescope Bras D'Eau,mrtbrasdeau,,Mauritius,-20.139386,57.726052,27,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408660,Freely,2,SPN1
-Observatoire du Piton de La Fournaise,observatoirevolcan,,La Reunion,-21.208587,55.571453,1556,2016-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092871,Freely,2,SPN1
+Observatoire du Piton de La Fournaise,observatoirevolcan,,Reunion,-21.208587,55.571453,1556,2016-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092871,Freely,2,SPN1
 Ouani,ouani,,Comores,-12.132659,44.42928,20,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408669,Freely,2,SPN1
-Piton des Neiges,pitondesneiges,,La Reunion,-21.09559639,55.48030484,2990,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092867,Freely,2,SPN1
-Plaine des Palmistes Parc National,plaineparcnational,,La Reunion,-21.1367,55.6241,1057,2018-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408677,Freely,2,SPN1
+Piton des Neiges,pitondesneiges,,Reunion,-21.09559639,55.48030484,2990,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092867,Freely,2,SPN1
+Plaine des Palmistes Parc National,plaineparcnational,,Reunion,-21.1367,55.6241,1057,2018-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408677,Freely,2,SPN1
 Reserve Francois Leguat,reservetortues,,Mauritius,-19.757625,63.37075,36,2017-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4001619,Freely,2,SPN1
-Sainte Rose Mairie,sainterosemairie,,La Reunion,-21.127324,55.793136,24,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092890,Freely,2,SPN1
-Saint Joseph Marie,saintjosephmairie,,La Reunion,-21.379077,55.619688,36,2013-2015,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092888,Freely,2,SPN1
-Saint Louis Lycee Jean Joly,saintlouisjeanjoly,,La Reunion,-21.271391,55.43558,152,2016-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092894,Freely,2,SPN1
-University of La Reunion Moufia,urmoufia,,La Reunion,-20.90146,55.483593,96,2008-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092910,Freely,2,SPN1
-University of La Reunion Tampon,urtampon,,La Reunion,-21.269277,55.50702,553,2012-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092912,Freely,2,SPN1
+Sainte Rose Mairie,sainterosemairie,,Reunion,-21.127324,55.793136,24,2013-2016,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092890,Freely,2,SPN1
+Saint Joseph Marie,saintjosephmairie,,Reunion,-21.379077,55.619688,36,2013-2015,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092888,Freely,2,SPN1
+Saint Louis Lycee Jean Joly,saintlouisjeanjoly,,Reunion,-21.271391,55.43558,152,2016-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092894,Freely,2,SPN1
+University of La Reunion Moufia,urmoufia,,Reunion,-20.90146,55.483593,96,2008-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092910,Freely,2,SPN1
+University of La Reunion Tampon,urtampon,,Reunion,-21.269277,55.50702,553,2012-2014,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092912,Freely,2,SPN1
 Vacoas,vacoas,,Mauritius,-20.297095,57.496918,431,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408662,Freely,2,SPN1
 HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
 Al Kharsaah,Kha,,Qatar,25.22,51,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,1,Thermopile,G;B;D
@@ -301,7 +301,7 @@ Coya Sur,,,Chile,-22.39,-69.62,,2011-?,FONDEF,,,,,2,RSP
 San Pedro,,,Chile,-22.90,-68.19,,2010-2011,FONDEF,,,,,1,Thermopile,G;B;D
 El Tesoro,,,Chile,-22.93,-69.07,,2009-?,FONDEF,,,,,2,RSP
 Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,2,RSP
-Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF,,,,,1,Thermopile,G;B;D
+Santiago,,,Chile,-33.45,-70.65,,2010-?,FONDEF;WMO RRC,,,,,1,Thermopile,G;B;D
 Curicó,,,Chile,-34.97,-71.25,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
 Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,1,Thermopile,G;B;D
 Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,2,RSP
@@ -341,3 +341,32 @@ Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,ht
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR
 Lagos,,,Nigeria,6.60,3.43,10,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
 Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,2,Thermopile,G;D;UV
+Thiruvananthapuram,TRV,,India,8.48,76.95,60,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Bangalore,BNG,,India,12.96,77.58,921,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Hyderabad,HYD,,India,17.45,78.46,530,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Pune,PNE,,India,18.53,73.85,555,1986-?,WMO RRC,India Meteorological Department (IMD),,,,1,Thermopile,G;B;D
+Bhopal,BHP,,India,23.28,77.35,523,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Ranchi,RNC,,India,23.31,85.31,652,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Varanasi,VNS,,India,25.30,83.01,90,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Patna,PTN,,India,25.60,85.16,51,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Jaipur,JPR,,India,26.81,75.80,390,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+New Delhi,NDL,,India,28.48,77.13,273,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Srinagar,SRN,,India,34.08,74.83,1585,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,2,Thermopile,G;B;D
+Toronto,TOT,Ontario,Canada,43.7833328247,-79.4666671753,198,2014-,WMO GAW;WMO RRC,Environment Canada,,https://gawsis.meteoswiss.ch/GAWSIS/index.html#/search/station/stationReportDetails/0-20008-0-TOT,,2,Thermopile;RSI,G;RSI
+Peshawar,,,Pakistan,34.0017,71.4854,370,2015-,,University of Engineering and Technology Peshawar,,,,2,Thermopile;RSI,G;RSI
+Uccle,,,Belgium,50.798,4.359,101,2014-,WMO RRC,Royal Meteorological Institute of Belgium (RMI),Probably got the tracker in 2014.,,,1,Thermopile,G;B;D
+Mohe,,,China,52.97,122.52,438.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Xilinhot,,,China,44.13,116.33,1107,2007-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Yanqi,,,China,42.05,86.61,1056.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Shangdianzi,,,China,40.65,117.12,293.3,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Xuchang,,,China,34.07,113.93,67.2,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Wenjiang,,,China,30.75,103.86,547.7,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Dali,,,China,25.71,100.18,1990.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1,Thermopile,G;B;D;IR;UV
+Semi-Arid Climate & Environment Observatory of Lanzhou University,SACOL,,China,35.94600,104.13708,1965.8,2005-,,Lanzhou University,,http://climate.lzu.edu.cn/info/1046/1080.htm,,1,Thermopile;RSR,G;B;D;RSR;UV
+Wuhan University,WHU,,China,30.533,114.35,30,2006-?,,Wuhan University,,,,1,Thermopile,G;B;D;PAR
+Mt. Waliguan,,,China,36.28749,100.8963,3810,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1,Thermopile,G;B;D;IR
+Longfengshan,,,China,44.7299,127.5999,331,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1,Thermopile,G;B;D
+Shangdianzi,SDZ,,China,40.65,117.1166,287,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
+Linan,,,China,30.3000,119.7300,138,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
+Fairbanks,,Alaska,USA,64.8530,-147.8603,138,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1,Thermopile,G;B;D
+Turku,,,Finland,60.4484,22.2976,60,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1,Thermopile,G;B;D
