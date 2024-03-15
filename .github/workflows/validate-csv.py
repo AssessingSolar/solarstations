@@ -9,6 +9,13 @@ def check_url(row):
     if not isinstance(url, str) and np.isnan(url):
         return None  # URL is optional
 
+    domains_to_skip = [
+        'www.bom.gov.au'  # this website rejects automated http requests
+    ]
+    for domain in domains_to_skip:
+        if domain in url:
+            return None  # URL is a special case; don't check it
+
     response = requests.head(url)  # use HEAD request for efficiency
     try:
         response.raise_for_status()
