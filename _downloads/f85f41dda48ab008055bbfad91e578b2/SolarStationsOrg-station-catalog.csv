@@ -551,3 +551,4 @@ Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffu
 Geermu,,,China,36.42,94.9,2807.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BWk,Geermu
 Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1.0,Thermopile,G;B;D,Dfc,Fairbanks
 Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1.0,Thermopile,G;B;D,Dfb,Turku
+Gantner,,Arizona,USA,33.4239,-111.9098,357.0,2010-,,Gantner Instruments,,,,1.0,Thermopile,G;B;D,BWh,Gantner
