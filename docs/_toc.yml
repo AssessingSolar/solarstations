@@ -7,7 +7,7 @@ root: intro
 parts:
   - caption:
     chapters:
-    - file: station_listing
+    - file: station_catalog
     - file: station_requirements
       title: Station requirements
   - caption: High-quality networks
