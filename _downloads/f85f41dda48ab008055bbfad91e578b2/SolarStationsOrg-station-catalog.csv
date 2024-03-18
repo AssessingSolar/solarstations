@@ -399,7 +399,7 @@ Uccle,,,Belgium,50.798,4.359,101.0,2014-,WMO RRC,Royal Meteorological Institute 
 Mohe,,,China,52.97,122.52,438.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Dwc,Mohe
 Xilinhot,,,China,44.13,116.33,1107.0,2007-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BSk,Xilinhot
 Yanqi,,,China,42.05,86.61,1056.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BWk,Yanqi
-Shangdianzi,,,China,40.65,117.12,293.3,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BSk,Shangdianzi
+Shangdianzi,,,China,40.65,117.12,293.3,2013-,CBSRN;WMO GAW,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,BSk,Shangdianzi
 Xuchang,,,China,34.07,113.93,67.2,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Xuchang
 Wenjiang,,,China,30.75,103.86,547.7,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Wenjiang
 Dali,,,China,25.71,100.18,1990.5,2013-,CBSRN,China Meteorological Administration,,https://www.re3data.org/repository/r3d100011141,Freely,1.0,Thermopile,G;B;D;IR;UV,Cwa,Dali
@@ -407,7 +407,22 @@ Semi-Arid Climate & Environment Observatory of Lanzhou University,SACOL,,China,3
 Wuhan University,WHU,,China,30.533,114.35,30.0,2006-?,,Wuhan University,,,,1.0,Thermopile,G;B;D;PAR,Cfa,Wuhan University
 Mt. Waliguan,,,China,36.28749,100.8963,3810.0,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1.0,Thermopile,G;B;D;IR,Dwc,Mt. Waliguan
 Longfengshan,,,China,44.7299,127.5999,331.0,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1.0,Thermopile,G;B;D,Dwa,Longfengshan
-Shangdianzi,SDZ,,China,40.65,117.1166,287.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,BSk,Shangdianzi
 Linan,,,China,30.3,119.73,138.0,2005-,WMO GAW,China Meteorological Administration,,,,1.0,Thermopile,G;B;D;IR,Cfa,Linan
+Sanya,,,China,18.23,109.52,5.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Aw,Sanya
+Guangzhou,,,China,23.17,113.33,6.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cfa,Guangzhou
+Kunming,,,China,25.02,102.68,1891.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cwb,Kunming
+Wuhan,,,China,30.62,114.13,23.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cfa,Wuhan
+Shanghai,,,China,31.4,121.48,3.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cfa,Shanghai
+Chengdu,,,China,30.67,104.02,506.1,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cwa,Chengdu
+Zhengzhou,,,China,34.72,113.65,110.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Cwa,Zhengzhou
+Beijing,,,China,39.8,116.47,54.0,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BSk,Beijing
+Haerbin,,,China,45.75,126.77,142.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Dwa,Haerbin
+Shenyang,,,China,41.73,123.45,42.8,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,Dwa,Shenyang
+Ejinaqi,,,China,41.95,101.07,940.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BWk,Ejinaqi
+Wulumuqi,,,China,43.78,87.65,917.9,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BSk,Wulumuqi
+Kashi,,,China,39.47,75.98,1288.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BWk,Kashi
+Lanzhou,,,China,36.05,103.88,1517.2,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BSk,Lanzhou
+Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BSk,Lasa
+Geermu,,,China,36.42,94.9,2807.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2.0,Thermopile,G;B;D,BWk,Geermu
 Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1.0,Thermopile,G;B;D,Dfc,Fairbanks
 Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1.0,Thermopile,G;B;D,Dfb,Turku
