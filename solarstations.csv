@@ -408,21 +408,21 @@ Wuhan University,WHU,,China,30.533,114.35,30,2006-?,,Wuhan University,,,,1,Therm
 Mt. Waliguan,,,China,36.28749,100.8963,3810,2011-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-WLG,,1,Thermopile,G;B;D;IR
 Longfengshan,,,China,44.7299,127.5999,331,2009-,WMO GAW,,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-LFS,,1,Thermopile,G;B;D
 Linan,,,China,30.3000,119.7300,138,2005-,WMO GAW,China Meteorological Administration,,,,1,Thermopile,G;B;D;IR
-Sanya,,,China,18.23,109.52,5.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Guangzhou,,,China,23.17,113.33,6.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Kunming,,,China,25.02,102.68,1891.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Wuhan,,,China,30.62,114.13,23.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Shanghai,,,China,31.40,121.48,3.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Chengdu,,,China,30.67,104.02,506.1,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Zhengzhou,,,China,34.72,113.65,110.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Beijing,,,China,39.80,116.47,54,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Haerbin,,,China,45.75,126.77,142.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Shenyang,,,China,41.73,123.45,42.8,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Ejinaqi,,,China,41.95,101.07,940.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Wulumuqi,,,China,43.78,87.65,917.9,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Kashi,,,China,39.47,75.98,1288.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Lanzhou,,,China,36.05,103.88,1517.2,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
-Geermu,,,China,36.42,94.90,2807.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect?token=,,Free,2,Thermopile,G;B;D
+Sanya,,,China,18.23,109.52,5.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Guangzhou,,,China,23.17,113.33,6.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Kunming,,,China,25.02,102.68,1891.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Wuhan,,,China,30.62,114.13,23.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Shanghai,,,China,31.40,121.48,3.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Chengdu,,,China,30.67,104.02,506.1,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Zhengzhou,,,China,34.72,113.65,110.4,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Beijing,,,China,39.80,116.47,54,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Haerbin,,,China,45.75,126.77,142.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Shenyang,,,China,41.73,123.45,42.8,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Ejinaqi,,,China,41.95,101.07,940.5,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Wulumuqi,,,China,43.78,87.65,917.9,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Kashi,,,China,39.47,75.98,1288.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Lanzhou,,,China,36.05,103.88,1517.2,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
+Geermu,,,China,36.42,94.90,2807.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
 Fairbanks,,Alaska,USA,64.8530,-147.8603,138,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1,Thermopile,G;B;D
 Turku,,,Finland,60.4484,22.2976,60,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1,Thermopile,G;B;D
