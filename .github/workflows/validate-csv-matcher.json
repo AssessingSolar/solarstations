@@ -1,0 +1,17 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "validate-csv-matcher",
+            "severity": "error",
+            "pattern": [
+                {
+                    // matches the output from validate-csv.py
+                    "regexp": "^(.+),\\sline\\s(\\d+):(.+)$",
+                    "file": 1,
+                    "line": 2,
+                    "message": 3,
+                }
+            ]
+        }
+    ]
+}
