@@ -552,3 +552,4 @@ Geermu,,,China,36.42,94.90,2807.6,1993-,,China Meteorological Administration,Dif
 Fairbanks,,Alaska,USA,64.8530,-147.8603,138,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1,Thermopile,G;B;D
 Turku,,,Finland,60.4484,22.2976,60,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1,Thermopile,G;B;D
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
+Summit Station,,,Greenland,72.579583,-38.459186,3216,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
