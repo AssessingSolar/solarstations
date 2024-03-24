@@ -567,4 +567,5 @@ Valladolid,,,Spain,41.6500,-4.7667,735,2008-,AEMET,State Meteorological Agency o
 Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
-
+Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
+Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
