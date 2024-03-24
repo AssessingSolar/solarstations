@@ -551,6 +551,20 @@ Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffu
 Geermu,,,China,36.42,94.90,2807.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Free,2,Thermopile,G;B;D
 Fairbanks,,Alaska,USA,64.8530,-147.8603,138,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,1,Thermopile,G;B;D
 Turku,,,Finland,60.4484,22.2976,60,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,1,Thermopile,G;B;D
+Caceres,,,Spain,39.4722,-6.3394,405,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Cordoba,,,Spain,37.8444,-4.8506,91,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Lleida,,,Spain,41.6258,0.5950,192,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Madrid,,,Spain,40.4528,-3.7242,664,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Malaga,,,Spain,36.7192,-4.4803,60,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Murcia,,,Spain,38.0028,-1.1694,62,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Oviedo,,,Spain,43.3536,-5.8733,336,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Palma,,,Spain,39.5667,2.7439,4,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+San Bartolome Tirajana,,,Canary Isl.,27.7581,-15.5756,50,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+San Sebastian,,,Spain,43.3075,-2.0394,252,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Soria,,,Spain,41.7667,-2.4667,1082,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+A Coruna,,,Spain,43.3672,-8.4194,58,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Valladolid,,,Spain,41.6500,-4.7667,735,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
 Edinburg,UTRGV SRL,Texas,USA,26.3059,-98.1716,45,2011-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UTPASRL,Freely,1,Thermopile,G;B;D;IR
@@ -558,3 +572,5 @@ Lafayette,UL,Louisiana,USA,30.2050,-92.3979,5,2018-,,NREL,,https://midcdmz.nrel.
 University of Florida,UF,Florida,USA,29.626968,-82.360851,27.4,2022-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UFL,Freely,1,Thermopile,G;B;D
 University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UNLV,Freely,1,Thermopile,G;B;D;UV
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
+Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
+Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
