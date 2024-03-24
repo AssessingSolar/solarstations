@@ -568,4 +568,4 @@ Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorologic
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
 Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864,2015-?,WMO GAW,,Not possible to find info on the instruments,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-BKT,,,,G;B;D
-Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,,,,,1,Thermopile,G;B;D
+Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D
