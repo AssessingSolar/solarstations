@@ -564,7 +564,7 @@ San Sebastian,,,Spain,43.3075,-2.0394,252,2008-,AEMET,State Meteorological Agenc
 Soria,,,Spain,41.7667,-2.4667,1082,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 A Coruna,,,Spain,43.3672,-8.4194,58,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Valladolid,,,Spain,41.6500,-4.7667,735,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
-Juan Carlos I,,,Antarctica,-62.6619,-60.3873,12,1998-?,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
 
