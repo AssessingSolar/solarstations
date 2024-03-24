@@ -25,7 +25,6 @@ df['Data availability'] = 'Freely'
 
 df['Components'] = ''
 df.loc[df['Tier']==1, 'Components'] = 'G;B;D'
-df.loc[df['Tier']==2, 'Components'] = 'G'
 
 df['Instrument'] = 'Thermopile'
 
