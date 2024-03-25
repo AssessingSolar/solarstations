@@ -571,3 +571,5 @@ Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864,2015-?,WMO GAW,,Not possi
 Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D
 Aggeneys,,,South Africa,-29.2945,18.8155,789,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
 Helios,,,South Africa,-30.5011,19.5607,905,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
+Carouge (Geneva),,,Switzerland,46.176,6.139,432,2010-?,,University of Geneva,,,,2,Thermopile,G;B
+Bernex (Geneva),,,Switzerland,46.172,6.067,473,2010-?,,University of Geneva,,,,2,Thermopile;SPN1,G;SPN1
