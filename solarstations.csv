@@ -582,3 +582,4 @@ Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly clea
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV
 Vaulx-en-Velin,,,France,45.7786,4.9225,170,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV
+Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D
