@@ -580,4 +580,4 @@ University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://m
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
-
+Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV
