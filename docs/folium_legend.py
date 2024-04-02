@@ -10,7 +10,7 @@ LEGEND_TEMPLATE = """
      z-index: 9999;
      background-color:#f2efe9;
      font-size:14px;">
-     &nbsp;<b>Station markers</b><br>
+     &nbsp;<b>{title}</b><br>
      {entries}
 </div>"""
 
@@ -19,7 +19,7 @@ MARKER_TEMPLATE = """
 &nbsp;<svg style="width: 1.2em; height: 1.2em; vertical-align: middle"><g><path stroke="{color}" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="{color}" fill-opacity="0.2" fill-rule="evenodd" d="M2,7a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 " aria-describedby="leaflet-tooltip-1781"></path></g></svg>&nbsp;{label}<br>
 """
 
-def make_legend(labels, colors):
+def make_legend(labels, colors, title="Station markers"):
     """
     Make a folium Element for a map legend.
 
@@ -29,6 +29,8 @@ def make_legend(labels, colors):
         The text to display for each legend entry
     colors : list
         Marker colors for each legend entry
+    title : str, default "Station markers"
+        Title/header text for the legend
     """
     n_entries = len(labels)
     height = 25 + 20 * n_entries  # 25 px for header, 20 for each entry
@@ -36,5 +38,5 @@ def make_legend(labels, colors):
         MARKER_TEMPLATE.format(label=label, color=color)
         for label, color in zip(labels, colors)
     ])
-    legend_html = LEGEND_TEMPLATE.format(height=height, entries=entries)
+    legend_html = LEGEND_TEMPLATE.format(height=height, title=title, entries=entries)
     return folium.Element(legend_html)
