@@ -13,6 +13,8 @@ def check_url(row):
         'www.bom.gov.au',  # this website rejects automated http requests
         'rratlas.energy.gov.sa',  # times out and reaches max retries
         'climate.lzu.edu.cn',
+        'niwe.res.in',
+        'dwd.de/DE/forschung/atmosphaerenbeob',
     ]
     for domain in domains_to_skip:
         if domain in url:
