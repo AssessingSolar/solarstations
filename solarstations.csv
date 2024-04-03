@@ -576,7 +576,7 @@ SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Alamosa,,Colorado,USA,37.48,-105.87,2304,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
-Mandalay,,California,USA,34.20,-119.25,,6,1976-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
+Mandalay,,California,USA,34.20,-119.25,6,1976-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Albuquerque,,New Mexico,USA,35.17,-106.60,1577,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Moorpark,,California,USA,34.28,-118.90,140,1977-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Alhambra,,California,USA,34.08,-118.15,143,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
