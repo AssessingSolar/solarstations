@@ -575,3 +575,42 @@ University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://m
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
+Montgomery,,Alabama,USA,32.30,-86.40,68,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Fairbanks,,Alaska,USA,64.82,-147.87,143,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Phoenix,,Arizona,USA,33.43,-112.02,339,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Fresno,,California,USA,36.77,-119.72,102,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Los Angeles,,California,USA,33.93,-118.40,36,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Boulder,,Colorado,USA,40.10,-105.25,1634,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Grand Junction,,Colorado,USA,39.12,-108.53,1473,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Miami,,Florida,USA,25.82,-80.28,8,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Tallahassee,,Florida,USA,30.38,-84.37,18,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Honolulu,,Hawaii,USA,21.32,-157.92,2,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Boise,,Idaho,USA,43.57,-116.22,873,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Indianapolis,,Indiana,USA,39.73,-86.27,244,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Dodge City,,Kansas,USA,37.77,-99.97,795,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Lake Charles,,Louisiana,USA,30.12,-93.22,19,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Blue Hill,,Massachusetts,USA,42.22,-71.12,200,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Caribou,,Maine,USA,46.87,-68.02,195,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Guam,,Marianas Islands,USA,13.45,-144.68,111,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Columbia,,Missouri,USA,38.82,-92.22,277,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Great Falls,,Montana,USA,47.50,-111.37,1125,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Omaha,,Nebraska,USA,41.37,-96.02,404,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Desert Rock,,Nevada,USA,36.62,-116.02,1007,1979-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Ely,,Nevada,USA,39.28,-114.85,1912,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Las Vegas,,Nevada,USA,36.08,-115.17,661,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Albuquerque,,New Mexico,USA,35.03,-106.62,1623,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Raleigh,,North Carolina,USA,35.87,-78.78,137,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Bismarck,,North Dakota,USA,46.77,-100.77,511,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Medford,,Oregon,USA,42.37,-122.87,412,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Pittsburgh,,Pennsylvania,USA,40.50,-80.22,371,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+San Juan,,Puerto Rico,USA,18.43,-66.00,19,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Nashville,,Tennessee,USA,36.12,-86.68,186,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Brownsville,,Texas,USA,25.90,-97.43,12,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+El Paso,,Texas,USA,31.80,-106.40,1206,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Midland,,Texas,USA,31.95,-102.18,872,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Salt Lake City,,Utah,USA,40.77,-111.97,1288,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Burlington,,Vermont,USA,44.47,-73.15,112,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Sterling,,Virginia,USA,38.98,-77.47,87,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Seattle-Tacoma,,Washington,USA,47.45,-122.30,143,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Madison,,Wisconsin,USA,43.13,-89.33,271,1977-1977,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Lander,,Wyoming,USA,42.82,-108.73,1699,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
