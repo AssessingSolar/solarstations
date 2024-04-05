@@ -568,7 +568,7 @@ Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorologic
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
 Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864,2015-?,WMO GAW,BMKG,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-BKT,,,,G;B;D
-Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D
+Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,Fraunhofer,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D
 Aggeneys,,,South Africa,-29.2945,18.8155,789,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
 Helios,,,South Africa,-30.5011,19.5607,905,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
 Carouge (Geneva),,,Switzerland,46.176,6.139,432,2010-?,,University of Geneva,,,,2,Thermopile,G;B
