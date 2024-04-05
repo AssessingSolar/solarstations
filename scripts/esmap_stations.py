@@ -3,7 +3,7 @@ import requests
 url = 'https://energydata.info/api/3/action/datastore_search?resource_id=da73e4b1-7cb1-4c9c-8e54-594fad190a60&limit=500'  
 response = requests.get(url)
 
-df = pd.DataFrame(response.json()['result']['records'])
+esmap = pd.DataFrame(response.json()['result']['records'])
 
 columns_dict = {
     'Nearest Settlement': 'Station full name',
@@ -14,31 +14,41 @@ columns_dict = {
     'Equipment Owner': 'Owner',
 }
 
-df = df.rename(columns=columns_dict)
+esmap = esmap.rename(columns=columns_dict)
 
-df['Tier'] = ''
-df.loc[df['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Tier'] = 1
-df.loc[df['Equipment Type'].str.replace(' ', '').str.contains('Tier2')==True, 'Tier'] = 2
+esmap['Tier'] = ''
+esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Tier'] = 1
+esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier2')==True, 'Tier'] = 2
 
-df['State'] = ''
-df['Data availability'] = 'Freely'
+esmap['State'] = ''
+esmap['Data availability'] = 'Freely'
 
-df['Components'] = ''
-df.loc[df['Tier']==1, 'Components'] = 'G;B;D'
+esmap['Components'] = ''
+esmap.loc[esmap['Tier']==1, 'Components'] = 'G;B;D'
 
-df['Instrument'] = 'Thermopile'
+esmap['Instrument'] = ''
+esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Instrument'] = 'Thermopile'
 
-df['Comment'] = ''
-df.loc[df['Tier']!=1, 'Comment'] = 'Instrument and components has not been manually checked'
+esmap['Comment'] = ''
+esmap.loc[esmap['Tier']!=1, 'Comment'] = 'Instrument and components has not been manually checked'
 
-df['Time period'] = (
-    df['commission_date__m_d_y_'].str[:4] 
+esmap['Time period'] = (
+    esmap['commission_date__m_d_y_'].str[:4] 
     + '-'
-    + df['End of Measurement Campaign'].str[-4:].astype(str).str.replace('None', '')
+    + esmap['End of Measurement Campaign'].str[-4:].astype(str).str.replace('None', '')
 )
+
+# check if stations exists already
+stations = pd.read_csv('../solarstations.csv')
+duplicate_rows = []
+for index, row in esmap.iterrows():
+    if stations['Station full name'].str.contains(row['Station full name']).any():
+        duplicate_rows.append(index)
+
+esmap = esmap.drop(duplicate_rows)
 
 header = 'Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components'
 
 columns = header.split(',')
 
-df[columns].to_csv('../esmap_stations.csv', sep=',', index=False)
+esmap[columns].to_csv('../esmap_stations.csv', sep=',', index=False)
