@@ -94,8 +94,8 @@ Ashland,AS,Oregon,USA,42.19,-122.7,595.0,2000-,SRML,University of Oregon,5-minut
 Seattle,ST,Washington,USA,47.654,-122.309,70.0,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1,Thermopile,G;B;D,Csb,Temperate
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150.0,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D,Csb,Temperate
 Hermiston,HE,Oregon,USA,45.82,-119.28,180.0,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D,BSk,Dry
-DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,,Cfb,Temperate
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,,Technical University of Denmark,Also has spectral measurements.,,Freely,1,Thermopile,,Cfb,Temperate
+DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,,Technical University of Denmark,,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR,Cfb,Temperate
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,,Technical University of Denmark,Also has spectral measurements.,,Not available,1,Thermopile,G;B;D;IR;UV,Cfb,Temperate
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150.0,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,,Cfa,Temperate
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200.0,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,,Cfa,Temperate
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119.0,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,,Csb,Temperate
@@ -568,7 +568,7 @@ Valladolid,,,Spain,41.65,-4.7667,735.0,2008-,AEMET,State Meteorological Agency o
 Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12.0,2003-,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR,EF,Polar
 Gantner,,Arizona,USA,33.4239,-111.9098,357.0,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D,BWh,Dry
 Summit Station,,,Greenland,72.579583,-38.459186,3216.0,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D,EF,Polar
-Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864.0,2015-?,WMO GAW,BMKG,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-BKT,,,,G;B;D,Af,Tropical
+Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864.0,2015-?,WMO GAW,BMKG,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-BKT,,1,Thermopile,G;B;D,Af,Tropical
 Freiburg,,,Germany,48.0114,7.837,253.0,2018-?,,Fraunhofer,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D,Cfb,Temperate
 Aggeneys,,,South Africa,-29.2945,18.8155,789.0,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D,BWh,Dry
 Helios,,,South Africa,-30.5011,19.5607,905.0,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D,BWh,Dry
