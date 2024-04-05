@@ -183,7 +183,7 @@ Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energ
 Honiara,,,Solomon Islands,-9.438163,160.063212,4,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
 Majuro,,,Marshall Islands,7.065048,171.268887,5,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
 Funafuti,,,Tuvalu,-8.525087,179.1963230,0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2,SPN1,G
-Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
+Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,ESMAP,,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Wien,,,Austria,48.25,16.36,198,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Graz,,,Austria,47.08,15.45,398,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D

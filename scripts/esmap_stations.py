@@ -8,13 +8,15 @@ esmap = pd.DataFrame(response.json()['result']['records'])
 columns_dict = {
     'Nearest Settlement': 'Station full name',
     'Site Name': 'Abbreviation',
-    'Project Founder': 'Network',
+    # 'Project Founder': 'Network',
     # Could also use 'documents___reports_url'
     'Measurement Data URL': 'URL',
     'Equipment Owner': 'Owner',
 }
 
 esmap = esmap.rename(columns=columns_dict)
+
+esmap['Network'] = 'ESMAP'
 
 esmap['Tier'] = ''
 esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Tier'] = 1
@@ -42,8 +44,9 @@ esmap['Time period'] = (
 stations = pd.read_csv('../solarstations.csv')
 duplicate_rows = []
 for index, row in esmap.iterrows():
-    if stations['Station full name'].str.contains(row['Station full name']).any():
-        duplicate_rows.append(index)
+    if row['Station full name'] in stations['Station full name'].values:
+        if row['Station full name'] not in ['Hyderabad', 'Peshawar']:
+	    duplicate_rows.append(index)
 
 esmap = esmap.drop(duplicate_rows)
 
