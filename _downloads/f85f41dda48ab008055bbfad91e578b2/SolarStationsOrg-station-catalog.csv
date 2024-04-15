@@ -576,6 +576,9 @@ University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615.0,2006-,,NREL,,https:/
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786.0,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D,BSh,Dry
 Adam,,,Oman,22.2072,57.523,250.0,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D,BWh,Dry
 Manah,,,Oman,22.6031,57.6672,345.0,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D,BWh,Dry
+Bluefield State College,,West Virginia,USA,37.27,-81.24,803.0,1985-1996,HBCU,NREL,Diffuse was measured with a shadowband.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D,Cfb,Temperate
+Elizabeth City State University,,North Carolina,USA,36.3,-76.25,4.0,1990-1996,HBCU,NREL,Diffuse was measured with a shadowband until 1995. In 1996 it was measured with a shading disk on a tracker.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D,Cfa,Temperate
+Mississippi Valley State University,,Mississippi,USA,33.5,-90.33,52.0,1992-1996,HBCU,NREL,Diffuse was measured with a shadowband.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D,Cfa,Temperate
 Montgomery,,Alabama,USA,32.3,-86.4,68.0,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
 Fairbanks,,Alaska,USA,64.82,-147.87,143.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
 Phoenix,,Arizona,USA,33.43,-112.02,339.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BWh,Dry
