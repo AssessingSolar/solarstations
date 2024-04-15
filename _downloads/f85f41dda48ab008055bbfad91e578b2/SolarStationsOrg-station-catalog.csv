@@ -94,8 +94,8 @@ Ashland,AS,Oregon,USA,42.19,-122.7,595.0,2000-,SRML,University of Oregon,5-minut
 Seattle,ST,Washington,USA,47.654,-122.309,70.0,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1,Thermopile,G;B;D,Csb,Temperate
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150.0,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D,Csb,Temperate
 Hermiston,HE,Oregon,USA,45.82,-119.28,180.0,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D,BSk,Dry
-DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,,Technical University of Denmark,,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR,Cfb,Temperate
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,,Technical University of Denmark,Also has spectral measurements.,,Not available,1,Thermopile,G;B;D;IR;UV,Cfb,Temperate
+DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,50.0,2014-,,Technical University of Denmark,Elevation is approximate.,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR,Cfb,Temperate
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,13.0,2017-,,Technical University of Denmark,Also has spectral measurements. Elevation is approximate.,,Not available,1,Thermopile,G;B;D;IR;UV,Cfb,Temperate
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150.0,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,,Cfa,Temperate
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200.0,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,,Cfa,Temperate
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119.0,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,,Csb,Temperate
@@ -189,7 +189,7 @@ Wien,,,Austria,48.25,16.36,198.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/
 Graz,,,Austria,47.08,15.45,398.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Cfb,Temperate
 Innsbruck,,,Austria,47.26,11.38,578.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Cfb,Temperate
 Kanzelhöhe,,,Austria,46.68,13.9,1540.0,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D,Dfb,Continental
-Davos,DAV,,Switzerland,46.813,9.844,1610.0,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,ET,Polar
+Davos,DAV,,Switzerland,46.813,9.844,1610.0,2000-,WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,ET,Polar
 Jungfraujoch,JUN,,Switzerland,46.55,7.99,3582.0,1996-,,MeteoSwiss,No diffuse measurements due to too hars meteorological conditions.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,ET,Polar
 Locarno-Monti,OTL,,Switzerland,46.18,8.783,366.0,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D,Cfb,Temperate
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3.0,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1,,Ocean,Ocean
@@ -618,6 +618,7 @@ Lander,,Wyoming,USA,42.82,-108.73,1699.0,1977-1980,NOAA,NREL,,https://www.nrel.g
 Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285.0,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV,Cfb,Temperate
 Vaulx-en-Velin,,,France,45.7786,4.9225,170.0,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV,Cfb,Temperate
 Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150.0,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D,Cwa,Temperate
+Le Bourget-du-Lac,,,France,45.6416,5.8752,235.0,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,2,Thermopile,G;B,Cfa,Temperate
 Hrazdan,ARM_Solar_Hrazdan,,Armenia,40.5116,44.823,1845,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Dfb,Continental
 Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Dfb,Continental
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Dfb,Continental
