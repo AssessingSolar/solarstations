@@ -94,8 +94,8 @@ Ashland,AS,Oregon,USA,42.19,-122.7,595,2000-,SRML,University of Oregon,5-minute 
 Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1,Thermopile,G;B;D
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D
-DTU Climate Station,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,http://climatestationdata.byg.dtu.dk/,Freely,1,Thermopile,
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,,Freely,1,Thermopile,
+DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,50,2014-,None,Technical University of Denmark,Elevation is approximate.,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,13,2017-,,Technical University of Denmark,Also has spectral measurements. Elevation is approximate.,,Not available,1,Thermopile,G;B;D;IR;UV
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,
@@ -183,18 +183,13 @@ Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energ
 Honiara,,,Solomon Islands,-9.438163,160.063212,4,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
 Majuro,,,Marshall Islands,7.065048,171.268887,5,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
 Funafuti,,,Tuvalu,-8.525087,179.1963230,0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,2,SPN1,G
-Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
+Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935,2019-2021,ESMAP,,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Ras Ballbak,LBRAS,,Lebanon,34.272946,36.4270535,910,2019-2021,,World Bank,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,2,RSI,G
 Wien,,,Austria,48.25,16.36,198,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Graz,,,Austria,47.08,15.45,398,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Innsbruck,,,Austria,47.26,11.38,578,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Kanzelhöhe,,,Austria,46.68,13.90,1540,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
-Kathmandu-Lalitpur,NP-Kat,,Nepal,27.68155,85.31877,1315,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Dharan,NP-Dha,,Nepal,26.79291,87.29263,310,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Lumle,NP-Lum,,Nepal,28.29666,83.81800,1750,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Nepalgunj,NP-Npg,,Nepal,28.11290,81.58900,150,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Jumla,NP-Jum,,Nepal,29.27237,82.19351,2368,2018-2020,ESMAP,World Bank,"Station was handed off to the Alternative Energy Promotion Center (AEPC) after the initial campaign and may still be in operation.",https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,1,Thermopile,G;B;D
-Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
+Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,"No diffuse measurements due to too hars meteorological conditions.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1
@@ -568,6 +563,12 @@ Valladolid,,,Spain,41.6500,-4.7667,735,2008-,AEMET,State Meteorological Agency o
 Juan Carlos I,,,Antarctica,-62.66325,-60.38959,12,2003-,AEMET,State Meteorological Agency of Spain,,https://antartida.aemet.es/index.php?pag=tiemporeal,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Gantner,,Arizona,USA,33.4239,-111.9098,357,2010-,,Gantner Instruments,,,,1,Thermopile,G;B;D
 Summit Station,,,Greenland,72.579583,-38.459186,3216,,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,1,Thermopile,G;B;D
+Bukit Kototabang,BKT,,Indonesia,-0.20194,100.31805,864,2015-?,WMO GAW,BMKG,,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-BKT,,1,Thermopile,G;B;D
+Freiburg,,,Germany,48.0114,7.8370,253,2018-?,,Fraunhofer,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,1,Thermopile,G;B;D
+Aggeneys,,,South Africa,-29.2945,18.8155,789,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
+Helios,,,South Africa,-30.5011,19.5607,905,2006-?,,ESKOM,Data was reported to be of low quality due to a lack of regular cleaning.,,,1,Thermopile,G;B;D
+Carouge (Geneva),,,Switzerland,46.176,6.139,432,2010-?,,University of Geneva,,,,2,Thermopile,G;B
+Bernex (Geneva),,,Switzerland,46.172,6.067,473,2010-?,,University of Geneva,,,,2,Thermopile;SPN1,G;SPN1
 Edinburg,UTRGV SRL,Texas,USA,26.3059,-98.1716,45,2011-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UTPASRL,Freely,1,Thermopile,G;B;D;IR
 Lafayette,UL,Louisiana,USA,30.2050,-92.3979,5,2018-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ULL,Freely,1,Thermopile,G;B;D
 University of Florida,UF,Florida,USA,29.626968,-82.360851,27.4,2022-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UFL,Freely,1,Thermopile,G;B;D
@@ -627,3 +628,49 @@ Las Vegas,,Nevada,USA,36.15,-115.17,634,1978-1980,WEST,NREL,,https://www.nrel.go
 West Valley,,California,USA,34.18,-118.57,241,1980-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Los Angeles,,California,USA,34.07,-118.23,88,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Yucca Valley,,California,USA,34.12,-116.42,1024,1976-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
+Bluefield State College,,West Virginia,USA,37.27,-81.24,803,1985-1996,HBCU,NREL,Diffuse was measured with a shadowband.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D
+Elizabeth City State University,,North Carolina,USA,36.30,-76.25,4,1990-1996,HBCU,NREL,Diffuse was measured with a shadowband until 1995. In 1996 it was measured with a shading disk on a tracker.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D
+Mississippi Valley State University,,Mississippi,USA,33.50,-90.33,52,1992-1996,HBCU,NREL,Diffuse was measured with a shadowband.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,2,Thermopile,G;B;D
+Montgomery,,Alabama,USA,32.30,-86.40,68,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Fairbanks,,Alaska,USA,64.82,-147.87,143,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Phoenix,,Arizona,USA,33.43,-112.02,339,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Fresno,,California,USA,36.77,-119.72,102,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Los Angeles,,California,USA,33.93,-118.40,36,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Boulder,,Colorado,USA,40.10,-105.25,1634,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Grand Junction,,Colorado,USA,39.12,-108.53,1473,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Miami,,Florida,USA,25.82,-80.28,8,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Tallahassee,,Florida,USA,30.38,-84.37,18,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Honolulu,,Hawaii,USA,21.32,-157.92,2,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Boise,,Idaho,USA,43.57,-116.22,873,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Indianapolis,,Indiana,USA,39.73,-86.27,244,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Dodge City,,Kansas,USA,37.77,-99.97,795,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Lake Charles,,Louisiana,USA,30.12,-93.22,19,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Blue Hill,,Massachusetts,USA,42.22,-71.12,200,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Caribou,,Maine,USA,46.87,-68.02,195,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Guam,,Marianas Islands,USA,13.45,-144.68,111,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Columbia,,Missouri,USA,38.82,-92.22,277,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Great Falls,,Montana,USA,47.50,-111.37,1125,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Omaha,,Nebraska,USA,41.37,-96.02,404,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Desert Rock,,Nevada,USA,36.62,-116.02,1007,1979-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Ely,,Nevada,USA,39.28,-114.85,1912,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Las Vegas,,Nevada,USA,36.08,-115.17,661,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Albuquerque,,New Mexico,USA,35.03,-106.62,1623,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Raleigh,,North Carolina,USA,35.87,-78.78,137,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Bismarck,,North Dakota,USA,46.77,-100.77,511,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Medford,,Oregon,USA,42.37,-122.87,412,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Pittsburgh,,Pennsylvania,USA,40.50,-80.22,371,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+San Juan,,Puerto Rico,USA,18.43,-66.00,19,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Nashville,,Tennessee,USA,36.12,-86.68,186,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Brownsville,,Texas,USA,25.90,-97.43,12,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+El Paso,,Texas,USA,31.80,-106.40,1206,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Midland,,Texas,USA,31.95,-102.18,872,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Salt Lake City,,Utah,USA,40.77,-111.97,1288,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Burlington,,Vermont,USA,44.47,-73.15,112,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Sterling,,Virginia,USA,38.98,-77.47,87,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Seattle-Tacoma,,Washington,USA,47.45,-122.30,143,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Madison,,Wisconsin,USA,43.13,-89.33,271,1977-1977,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Lander,,Wyoming,USA,42.82,-108.73,1699,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B
+Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV
+Vaulx-en-Velin,,,France,45.7786,4.9225,170,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV
+Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D
+Le Bourget-du-Lac,,,France,45.6416,5.8752,235,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,2,Thermopile,G;B
