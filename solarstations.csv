@@ -576,6 +576,10 @@ University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://m
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
+Fairbanks,,Alaska,USA,64.86,-147.87,138,1981-1984,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
+Atlanta,,Georgia,USA,33.77,-84.38,327,1980-1981,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
+Albany,,New York,USA,42.70,-73.83,72,1979-1982,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
+San Antonio,,Texas,USA,29.46,-98.49,253,1981-1982,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
 Alamosa,,Colorado,USA,37.48,-105.87,2304,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Mandalay,,California,USA,34.20,-119.25,6,1976-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
 Albuquerque,,New Mexico,USA,35.17,-106.60,1577,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,2,Thermopile,G;B
