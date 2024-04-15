@@ -74,7 +74,7 @@ def check_coordinates(row):
 
 def check_data_availability(row):
     data_availability = row['Data availability']
-    if data_availability not in ['Freely', 'Upon request', 'Not available', '']:
+    if data_availability not in ['Freely', 'Upon request', 'Not available', np.nan]:
         return f"Not a valid entry for Data Availability: {data_availability}"
 
 
@@ -89,7 +89,7 @@ validation_functions = [
 if __name__ == "__main__":
 
     filename = 'solarstations.csv'
-    df = pd.read_csv(filename, dtype={'Data availability': str})
+    df = pd.read_csv(filename)
 
     found_a_problem = False
 
