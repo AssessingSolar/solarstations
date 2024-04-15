@@ -4,6 +4,16 @@ import numpy as np
 import sys
 
 
+with open('country_by_continent.json') as f: 
+    country_data = json.load(f)
+
+
+def check_country(row):
+    country = row['Country']
+    if country not in country_data.keys():
+        return f"{country} not in list of countries."
+    return None
+
 def check_url(row):
     url = row['URL']
     if not isinstance(url, str) and np.isnan(url):
