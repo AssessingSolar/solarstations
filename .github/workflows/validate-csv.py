@@ -75,6 +75,7 @@ validation_functions = [
     check_url,
     check_elevation,
     check_coordinates,
+    check_country,
 ]
 
 if __name__ == "__main__":
