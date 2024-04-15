@@ -94,8 +94,8 @@ Ashland,AS,Oregon,USA,42.19,-122.7,595,2000-,SRML,University of Oregon,5-minute 
 Seattle,ST,Washington,USA,47.654,-122.309,70,2015-,SRML,University of Oregon,,http://solardata.uoregon.edu/Seattle_UW.html,Freely,1,Thermopile,G;B;D
 Eugene,EU,Oregon,USA,44.0468,-123.0742,150,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,1,Thermopile,G;B;D
 Hermiston,HE,Oregon,USA,45.82,-119.28,180,1979-,SRML,University of Oregon,Also has a RSR.,http://solardata.uoregon.edu/Hermiston.html,Freely,1,Thermopile,G;B;D
-DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,,2014-,None,Technical University of Denmark,,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR
-DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,,,None,Technical University of Denmark,Also has spectral measurements.,,Not available,1,Thermopile,G;B;D;IR;UV
+DTU Lyngby,DTU,Capital region,Denmark,55.7906,12.5251,50,2014-,None,Technical University of Denmark,Elevation is approximate.,https://weatherdata.construct.dtu.dk/,Freely,1,Thermopile,G;B;D;IR
+DTU Risø,RIS,Region Zealand,Denmark,55.6943,12.1017,13,2017-,,Technical University of Denmark,Also has spectral measurements. Elevation is approximate.,,Not available,1,Thermopile,G;B;D;IR;UV
 University of KwaZulu-Natal Howard College,UKZN,Durban,South Africa,-29.87097931,30.97694969,150,2015-2021,SAURAN,,Roof of Desmond Clarence building. Permanently offline.,https://sauran.ac.za/station-documents/KZH/KZH%20Station%20Details.pdf,Freely,1,Thermopile,
 University of KwaZulu-Natal Westville,ZUL,Durban,South Africa,-29.81694031,30.94491959,200,2015-2020,SAURAN,,Roof of Physics building. Permanently offline.,,Freely,1,Thermopile,
 Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,119,2010-2024,SAURAN,,Roof of Engineering building,https://sauran.ac.za,Freely,1,Thermopile,
@@ -189,7 +189,7 @@ Wien,,,Austria,48.25,16.36,198,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/kl
 Graz,,,Austria,47.08,15.45,398,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Innsbruck,,,Austria,47.26,11.38,578,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
 Kanzelhöhe,,,Austria,46.68,13.90,1540,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,1,Thermopile,G;B;D
-Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO WRC;WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
+Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,"No diffuse measurements due to too hars meteorological conditions.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,1,Thermopile,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408667,Freely,2,SPN1
@@ -618,3 +618,4 @@ Lander,,Wyoming,USA,42.82,-108.73,1699,1977-1980,NOAA,NREL,,https://www.nrel.gov
 Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV
 Vaulx-en-Velin,,,France,45.7786,4.9225,170,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV
 Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D
+Le Bourget-du-Lac,,,France,45.6416,5.8752,235,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,2,Thermopile,G;B
