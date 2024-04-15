@@ -1,7 +1,19 @@
 import requests
 import pandas as pd
 import numpy as np
+import json
 import sys
+
+
+with open('country_by_continent.json') as f:
+    country_data = json.load(f)
+
+
+def check_country(row):
+    country = row['Country']
+    if country not in country_data.keys():
+        return f'"{country}" not in list of countries.'
+    return None
 
 
 def check_url(row):
@@ -39,7 +51,7 @@ def check_elevation(row):
         return f"Elevation must be type 'float': {elevation}"
     if not -500 < elevation < 9000:
         return f"Elevation must be between -500 and 9000 meters: {elevation}"
-    
+
     return None
 
 
@@ -64,6 +76,7 @@ validation_functions = [
     check_url,
     check_elevation,
     check_coordinates,
+    check_country,
 ]
 
 if __name__ == "__main__":

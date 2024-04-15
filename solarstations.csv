@@ -54,7 +54,7 @@ Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Fre
 Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/expedition/stations/awipev-research-base.html,Freely,1,Thermopile,G;B;D
 Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,1,Thermopile,G;B;D
-Paramaribo,PAR,,Surinam,5.806,-55.2146,4,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
+Paramaribo,PAR,,Suriname,5.806,-55.2146,4,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Payerne,PAY,,Switzerland,46.8123,6.9422,491,1992-,BSRN,MeteoSwiss,,,Freely,1,Thermopile,G;B;D
 Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1,Thermopile,G;B;D
 Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,1,Thermopile,G;B;D;IR
@@ -178,7 +178,7 @@ Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016,SURFRAD,NOAA,,https://gml.noaa.gov/a
 Airai,,,Palau,7.368513,134.539830,47,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,2,SPN1,G
 Efate,,,Vanuatu,-17.709738,168.211453,152,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,2,SPN1,G
 Nauru,,,Nauru,0.543447,166.931970,28,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,2,SPN1,G
-Chuuk,,,Federates States of Micronesia,7.467517,151.849834,4,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2,SPN1,G
+Chuuk,,,Federated States of Micronesia,7.467517,151.849834,4,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,2,SPN1,G
 Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,2,SPN1,G
 Honiara,,,Solomon Islands,-9.438163,160.063212,4,2020-2022,PPA,,,https://energydata.info/dataset/solomon-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
 Majuro,,,Marshall Islands,7.065048,171.268887,5,2020-2022,PPA,,,https://energydata.info/dataset/marshall-islands-solar-radiation-measurement-data,Freely,2,SPN1,G
@@ -203,12 +203,12 @@ Cilaos Thermes,cilaosthermes,,Reunion,-21.12894,55.47332,1255.8,2012-2013,IOS-ne
 Cratere Bory,craterebory,,Reunion,-21.244138,55.709018,2584.2,2016-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092849,Freely,2,SPN1
 Antsiranana (Diego Suarez),diego,,Madagascar,-12.348602,49.293412,108,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408675,Freely,2,SPN1
 Durban,durban,,South Africa,-29.87098,30.97695,150,2013-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092844,Freely,2,SPN1
-Hahaya,hahaya,,Comores,-11.539412,43.278112,32,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408671,Freely,2,SPN1
+Hahaya,hahaya,,Comoros,-11.539412,43.278112,32,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408671,Freely,2,SPN1
 Le Port Barbusse,leportbarbusse,,Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092858,Freely,2,SPN1
 Le Port Mairie,leportmairie,,Reunion,-20.935233,55.290266,12,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092855,Freely,2,SPN1
 Radio Telescope Bras D'Eau,mrtbrasdeau,,Mauritius,-20.139386,57.726052,27,2015-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408660,Freely,2,SPN1
 Observatoire du Piton de La Fournaise,observatoirevolcan,,Reunion,-21.208587,55.571453,1556,2016-2018,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092871,Freely,2,SPN1
-Ouani,ouani,,Comores,-12.132659,44.42928,20,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408669,Freely,2,SPN1
+Ouani,ouani,,Comoros,-12.132659,44.42928,20,2019-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408669,Freely,2,SPN1
 Piton des Neiges,pitondesneiges,,Reunion,-21.09559639,55.48030484,2990,2021-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.7092867,Freely,2,SPN1
 Plaine des Palmistes Parc National,plaineparcnational,,Reunion,-21.1367,55.6241,1057,2018-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4408677,Freely,2,SPN1
 Reserve Francois Leguat,reservetortues,,Mauritius,-19.757625,63.37075,36,2017-,IOS-net,,UV radiation is also measured.,https://doi.org/10.5281/zenodo.4001619,Freely,2,SPN1
@@ -267,7 +267,7 @@ Tabouk,,,Saudi Arabia,28.38,36.61,768,1998-2003,,NREL;KACST,,https://www.nrel.go
 Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,1,Thermopile,G;B;D
 Evora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,1,Thermopile,G;B;D
 Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,University of Extremadura,,,,1,Thermopile,G;B;D
-Varennes,,Quebec,Canda,45.62650,-73.38203,22,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,1,Thermopile,G;B;D
+Varennes,,Quebec,Canada,45.62650,-73.38203,22,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,1,Thermopile,G;B;D
 Shagaya,,,Kuwait,29.2099,47.0603,241,2012-?,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI
 Kabed,,,Kuwait,29.173152,47.728054,76,2012-?,,KISR,,,,1,Thermopile;RSI,G;B;D;RSI
 Mutribah,,,Kuwait,29.90,47.28,,2012-?,,KISR,Location is approximate,,,2,Thermopile;RSI,G;RSI
@@ -555,7 +555,7 @@ Malaga,,,Spain,36.7192,-4.4803,60,2008-,AEMET,State Meteorological Agency of Spa
 Murcia,,,Spain,38.0028,-1.1694,62,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Oviedo,,,Spain,43.3536,-5.8733,336,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Palma,,,Spain,39.5667,2.7439,4,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
-San Bartolome Tirajana,,,Canary Isl.,27.7581,-15.5756,50,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
+San Bartolome Tirajana,,,Canary Islands,27.7581,-15.5756,50,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 San Sebastian,,,Spain,43.3075,-2.0394,252,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 Soria,,,Spain,41.7667,-2.4667,1082,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
 A Coruna,,,Spain,43.3672,-8.4194,58,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,1,Thermopile,G;B;D;IR;UV;PAR
