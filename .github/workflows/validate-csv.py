@@ -89,7 +89,7 @@ validation_functions = [
 if __name__ == "__main__":
 
     filename = 'solarstations.csv'
-    df = pd.read_csv(filename)
+    df = pd.read_csv(filename, dtype={'Data availability': str})
 
     found_a_problem = False
 
