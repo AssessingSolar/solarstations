@@ -12,7 +12,7 @@ with open('country_by_continent.json') as f:
 def check_country(row):
     country = row['Country']
     if country not in country_data.keys():
-        return f'"{country}" not in list of countries.'
+        return f"Not a valid country: {country}"
     return None
 
 
@@ -72,11 +72,18 @@ def check_coordinates(row):
     return None
 
 
+def check_data_availability(row):
+    data_availability = row['Data availability']
+    if data_availability not in ['Freely', 'Upon request', 'Not available', np.nan]:
+        return f"Not a valid entry for Data Availability: {data_availability}"
+
+
 validation_functions = [
+    check_country,
     check_url,
     check_elevation,
     check_coordinates,
-    check_country,
+    check_data_availability,
 ]
 
 if __name__ == "__main__":
