@@ -576,6 +576,45 @@ University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615.0,2006-,,NREL,,https:/
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786.0,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D,BSh,Dry
 Adam,,,Oman,22.2072,57.523,250.0,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D,BWh,Dry
 Manah,,,Oman,22.6031,57.6672,345.0,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D,BWh,Dry
+Montgomery,,Alabama,USA,32.3,-86.4,68.0,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Fairbanks,,Alaska,USA,64.82,-147.87,143.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
+Phoenix,,Arizona,USA,33.43,-112.02,339.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BWh,Dry
+Fresno,,California,USA,36.77,-119.72,102.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSh,Dry
+Los Angeles,,California,USA,33.93,-118.4,36.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Boulder,,Colorado,USA,40.1,-105.25,1634.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Grand Junction,,Colorado,USA,39.12,-108.53,1473.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Miami,,Florida,USA,25.82,-80.28,8.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Am,Tropical
+Tallahassee,,Florida,USA,30.38,-84.37,18.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Honolulu,,Hawaii,USA,21.32,-157.92,2.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Ocean,Ocean
+Boise,,Idaho,USA,43.57,-116.22,873.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Indianapolis,,Indiana,USA,39.73,-86.27,244.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Dodge City,,Kansas,USA,37.77,-99.97,795.0,1977-1979,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Lake Charles,,Louisiana,USA,30.12,-93.22,19.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Blue Hill,,Massachusetts,USA,42.22,-71.12,200.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Caribou,,Maine,USA,46.87,-68.02,195.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
+Guam,,Marianas Islands,USA,13.45,-144.68,111.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Ocean,Ocean
+Columbia,,Missouri,USA,38.82,-92.22,277.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Great Falls,,Montana,USA,47.5,-111.37,1125.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Omaha,,Nebraska,USA,41.37,-96.02,404.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfa,Continental
+Desert Rock,,Nevada,USA,36.62,-116.02,1007.0,1979-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BWk,Dry
+Ely,,Nevada,USA,39.28,-114.85,1912.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Las Vegas,,Nevada,USA,36.08,-115.17,661.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BWh,Dry
+Albuquerque,,New Mexico,USA,35.03,-106.62,1623.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Raleigh,,North Carolina,USA,35.87,-78.78,137.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Bismarck,,North Dakota,USA,46.77,-100.77,511.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
+Medford,,Oregon,USA,42.37,-122.87,412.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Csa,Temperate
+Pittsburgh,,Pennsylvania,USA,40.5,-80.22,371.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+San Juan,,Puerto Rico,USA,18.43,-66.0,19.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Af,Tropical
+Nashville,,Tennessee,USA,36.12,-86.68,186.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Brownsville,,Texas,USA,25.9,-97.43,12.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+El Paso,,Texas,USA,31.8,-106.4,1206.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BWh,Dry
+Midland,,Texas,USA,31.95,-102.18,872.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSh,Dry
+Salt Lake City,,Utah,USA,40.77,-111.97,1288.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
+Burlington,,Vermont,USA,44.47,-73.15,112.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
+Sterling,,Virginia,USA,38.98,-77.47,87.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Cfa,Temperate
+Seattle-Tacoma,,Washington,USA,47.45,-122.3,143.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Csb,Temperate
+Madison,,Wisconsin,USA,43.13,-89.33,271.0,1977-1977,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,Dfb,Continental
+Lander,,Wyoming,USA,42.82,-108.73,1699.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,2,Thermopile,G;B,BSk,Dry
 Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285.0,2009-?,WMO GAW,Czech Hydrometeorological Institute (CHMI),,https://gawsis.meteoswiss.ch/GAWSIS/#/search/station/stationReportDetails/0-20008-0-HKR,,1,Thermopile,G;B;D;UV,Cfb,Temperate
 Vaulx-en-Velin,,,France,45.7786,4.9225,170.0,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV,Cfb,Temperate
 Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150.0,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D,Cwa,Temperate
