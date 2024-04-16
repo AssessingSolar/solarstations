@@ -1,0 +1,3235 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ESMAP &#8212; SolarStations</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-6KXSD7FTJM"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-6KXSD7FTJM');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'station_network_esmap';</script>
+    <link rel="canonical" href="https://SolarStations.org/station_network_esmap.html" />
+    <link rel="shortcut icon" href="_static/assessing_solar_favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="PV-Live" href="station_network_pvlive.html" />
+    <link rel="prev" title="Solar Radiation Monitoring Laboratory (SRML)" href="station_network_srml.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/assessing_solar_logo.png" class="logo__image only-light" alt="SolarStations - Home"/>
+    <script>document.write(`<img src="_static/assessing_solar_logo.png" class="logo__image only-dark" alt="SolarStations - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_catalog.html">Station catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_requirements.html">Station requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_metadata.html">Metadata</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">High-quality networks</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_network_bsrn.html">Baseline Surface Radiation Network (BSRN)</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="station_network_midc.html">MIDC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_network_solrad.html">SOLRAD</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="station_network_srml.html">SRML</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">ESMAP</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other networks</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_network_pvlive.html">PV-Live</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://assessingsolar.org">AssessingSolar.org</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/">IEA PVPS Task 16</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/assessingsolar/solarstations" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/assessingsolar/solarstations/issues/new?title=Issue%20on%20page%20%2Fstation_network_esmap.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/station_network_esmap.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>ESMAP</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="esmap">
+<h1>ESMAP<a class="headerlink" href="#esmap" title="Permalink to this heading">#</a></h1>
+<p>The <a class="reference external" href="http://www.esmap.org/">Energy Sector Management Assistance Program (ESMAP)</a> is an energy assistance program administered by the World Bank. The program aims to support low- and middle-income countries to achieve environmentally sustainable energy solutions. This is achieved through numerous initiatives, which include renewable energy resource mapping.</p>
+<p>Outcomes of the program include the <a class="reference external" href="https://globalsolaratlas.info">Global Solar Atlas</a>, a series of maps of annual irradiance covering the entire world.</p>
+<p>Additionally, ESMAP has also commissioned several short-term in-situ measurement campaigns of irradiance in Africa and Asia. These campaigns include both Tier 1 and 2 stations and typically have a duration of 1-2 years. The data from these campaigns are freely available at <a class="reference external" href="https://energydata.info">https://energydata.info</a>.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    
+        &lt;script&gt;
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        &lt;/script&gt;
+    
+    &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
+    &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
+    
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            &lt;style&gt;
+                #map_8d5d15a563d4753503164c9c83442e8d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            &lt;/style&gt;
+        
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.min.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.css&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+    
+&lt;div style=&quot;position:fixed;
+     top: 10px; 
+     left: 10px; 
+     width: 120px; 
+     height: 85px; 
+     border:2px solid grey; 
+     z-index: 9999;
+     background-color:#f2efe9;
+     font-size:14px;&quot;&gt;
+     &amp;nbsp;&lt;b&gt;Station status&lt;/b&gt;&lt;br&gt;
+     
+&amp;nbsp;&lt;svg style=&quot;width: 1.2em; height: 1.2em; vertical-align: middle&quot;&gt;&lt;g&gt;&lt;path stroke=&quot;#008000&quot; stroke-opacity=&quot;1&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; fill=&quot;#008000&quot; fill-opacity=&quot;0.2&quot; fill-rule=&quot;evenodd&quot; d=&quot;M2,7a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 &quot; aria-describedby=&quot;leaflet-tooltip-1781&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/svg&gt;&amp;nbsp;Active&lt;br&gt;
+
+
+&amp;nbsp;&lt;svg style=&quot;width: 1.2em; height: 1.2em; vertical-align: middle&quot;&gt;&lt;g&gt;&lt;path stroke=&quot;#3186cc&quot; stroke-opacity=&quot;1&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; fill=&quot;#3186cc&quot; fill-opacity=&quot;0.2&quot; fill-rule=&quot;evenodd&quot; d=&quot;M2,7a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 &quot; aria-describedby=&quot;leaflet-tooltip-1781&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/svg&gt;&amp;nbsp;Unknown&lt;br&gt;
+
+
+&amp;nbsp;&lt;svg style=&quot;width: 1.2em; height: 1.2em; vertical-align: middle&quot;&gt;&lt;g&gt;&lt;path stroke=&quot;#ff422b&quot; stroke-opacity=&quot;1&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; fill=&quot;#ff422b&quot; fill-opacity=&quot;0.2&quot; fill-rule=&quot;evenodd&quot; d=&quot;M2,7a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 &quot; aria-describedby=&quot;leaflet-tooltip-1781&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/svg&gt;&amp;nbsp;Inactive&lt;br&gt;
+
+&lt;/div&gt;
+    
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_8d5d15a563d4753503164c9c83442e8d&quot; &gt;&lt;/div&gt;
+        
+&lt;/body&gt;
+&lt;script&gt;
+    
+    
+            var map_8d5d15a563d4753503164c9c83442e8d = L.map(
+                &quot;map_8d5d15a563d4753503164c9c83442e8d&quot;,
+                {
+                    center: [10.0, 45.0],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-90, -180], [90, 180]],
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8d5d15a563d4753503164c9c83442e8d);
+
+            
+
+        
+    
+            var tile_layer_073726e2133eb7498fc32c2f886dc667 = L.tileLayer(
+                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 1, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            );
+        
+    
+            tile_layer_073726e2133eb7498fc32c2f886dc667.addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+            var circle_marker_0d5aebbf1a9797eee828ce3aff192c7f = L.circleMarker(
+                [33.85679, 35.98659],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9b63a180f42044c475b5e95c2c64255d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b7c4889b9cf9964a15104061c174465c = $(`&lt;div id=&quot;html_b7c4889b9cf9964a15104061c174465c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lari Tal Amara -  Lebanon&lt;/div&gt;`)[0];
+                popup_9b63a180f42044c475b5e95c2c64255d.setContent(html_b7c4889b9cf9964a15104061c174465c);
+            
+        
+
+        circle_marker_0d5aebbf1a9797eee828ce3aff192c7f.bindPopup(popup_9b63a180f42044c475b5e95c2c64255d)
+        ;
+
+        
+    
+    
+            circle_marker_0d5aebbf1a9797eee828ce3aff192c7f.bindTooltip(
+                `&lt;div&gt;
+                     LBAMA
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_e93391ee00f0e0411beb2c7357195d7c = L.circleMarker(
+                [40.5116, 44.823],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_cab3f1b19cc4fbe561c71adb22e5be04 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_443ec1ad265ee4e65abdaad0d068e446 = $(`&lt;div id=&quot;html_443ec1ad265ee4e65abdaad0d068e446&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hrazdan -  Armenia&lt;/div&gt;`)[0];
+                popup_cab3f1b19cc4fbe561c71adb22e5be04.setContent(html_443ec1ad265ee4e65abdaad0d068e446);
+            
+        
+
+        circle_marker_e93391ee00f0e0411beb2c7357195d7c.bindPopup(popup_cab3f1b19cc4fbe561c71adb22e5be04)
+        ;
+
+        
+    
+    
+            circle_marker_e93391ee00f0e0411beb2c7357195d7c.bindTooltip(
+                `&lt;div&gt;
+                     ARM_Solar_Hrazdan
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_2a9d56fab9845591cde9b580b827e3d1 = L.circleMarker(
+                [40.2077, 45.7645],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_357f5ff0911d49105e7748a9298d1eff = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_814bc8fa34546c35be5cefa79a10a2da = $(`&lt;div id=&quot;html_814bc8fa34546c35be5cefa79a10a2da&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Masrik -  Armenia&lt;/div&gt;`)[0];
+                popup_357f5ff0911d49105e7748a9298d1eff.setContent(html_814bc8fa34546c35be5cefa79a10a2da);
+            
+        
+
+        circle_marker_2a9d56fab9845591cde9b580b827e3d1.bindPopup(popup_357f5ff0911d49105e7748a9298d1eff)
+        ;
+
+        
+    
+    
+            circle_marker_2a9d56fab9845591cde9b580b827e3d1.bindTooltip(
+                `&lt;div&gt;
+                     ARM_Solar_Masrik
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_decc3ed2de9ab91387b3f76593ffde5b = L.circleMarker(
+                [40.386, 43.8972],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_2416e92f30d4d4f6e1a9428154f5d10e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d3b597116bd59fcd835b19dd0235e1e9 = $(`&lt;div id=&quot;html_d3b597116bd59fcd835b19dd0235e1e9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Talin -  Armenia&lt;/div&gt;`)[0];
+                popup_2416e92f30d4d4f6e1a9428154f5d10e.setContent(html_d3b597116bd59fcd835b19dd0235e1e9);
+            
+        
+
+        circle_marker_decc3ed2de9ab91387b3f76593ffde5b.bindPopup(popup_2416e92f30d4d4f6e1a9428154f5d10e)
+        ;
+
+        
+    
+    
+            circle_marker_decc3ed2de9ab91387b3f76593ffde5b.bindTooltip(
+                `&lt;div&gt;
+                     ARM_Solar_Talin
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_f7f453ee924f9e94d365cf0f5bb10c9a = L.circleMarker(
+                [40.1887, 44.3976],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e8fc2c50eab14d4c6ed15c4480faa154 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c7b5b7901f6100845bf1ff8a8e968f48 = $(`&lt;div id=&quot;html_c7b5b7901f6100845bf1ff8a8e968f48&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Yerevan Agro -  Armenia&lt;/div&gt;`)[0];
+                popup_e8fc2c50eab14d4c6ed15c4480faa154.setContent(html_c7b5b7901f6100845bf1ff8a8e968f48);
+            
+        
+
+        circle_marker_f7f453ee924f9e94d365cf0f5bb10c9a.bindPopup(popup_e8fc2c50eab14d4c6ed15c4480faa154)
+        ;
+
+        
+    
+    
+            circle_marker_f7f453ee924f9e94d365cf0f5bb10c9a.bindTooltip(
+                `&lt;div&gt;
+                     ARM_Solar_YerevanAgro
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_8bd9bcdd3fd111de39510827eafaac40 = L.circleMarker(
+                [22.80029, 91.35819],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_964ad4a585764cbfe833aedb519d38c9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ccc8c0c51c4c66af999b8c72dc28a60a = $(`&lt;div id=&quot;html_ccc8c0c51c4c66af999b8c72dc28a60a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Feni -  Bangladesh&lt;/div&gt;`)[0];
+                popup_964ad4a585764cbfe833aedb519d38c9.setContent(html_ccc8c0c51c4c66af999b8c72dc28a60a);
+            
+        
+
+        circle_marker_8bd9bcdd3fd111de39510827eafaac40.bindPopup(popup_964ad4a585764cbfe833aedb519d38c9)
+        ;
+
+        
+    
+    
+            circle_marker_8bd9bcdd3fd111de39510827eafaac40.bindTooltip(
+                `&lt;div&gt;
+                     BGD_Solar_BDFE2_Feni
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_caf13b5ff47553622974c9bb1b3b56c5 = L.circleMarker(
+                [11.78272, 3.37349],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_c5e4d6128ba199cb226251576ef546e5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b68f3c146da65541a575bf97bb42ee13 = $(`&lt;div id=&quot;html_b68f3c146da65541a575bf97bb42ee13&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Malanville -  Bénin&lt;/div&gt;`)[0];
+                popup_c5e4d6128ba199cb226251576ef546e5.setContent(html_b68f3c146da65541a575bf97bb42ee13);
+            
+        
+
+        circle_marker_caf13b5ff47553622974c9bb1b3b56c5.bindPopup(popup_c5e4d6128ba199cb226251576ef546e5)
+        ;
+
+        
+    
+    
+            circle_marker_caf13b5ff47553622974c9bb1b3b56c5.bindTooltip(
+                `&lt;div&gt;
+                     BEN_Solar_Malanville
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_e778712171a22041e17c3fc3638f6477 = L.circleMarker(
+                [9.33117, 2.59119],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_37e285f23b19d006fb0c5798f2761dc2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9ef62cc428ccd17bf01b0b952d4f49de = $(`&lt;div id=&quot;html_9ef62cc428ccd17bf01b0b952d4f49de&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Parakou -  Bénin&lt;/div&gt;`)[0];
+                popup_37e285f23b19d006fb0c5798f2761dc2.setContent(html_9ef62cc428ccd17bf01b0b952d4f49de);
+            
+        
+
+        circle_marker_e778712171a22041e17c3fc3638f6477.bindPopup(popup_37e285f23b19d006fb0c5798f2761dc2)
+        ;
+
+        
+    
+    
+            circle_marker_e778712171a22041e17c3fc3638f6477.bindTooltip(
+                `&lt;div&gt;
+                     BEN_Solar_Parakou
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_afc92531ebebc6bf5a23e07fe3bc76db = L.circleMarker(
+                [14.03045, -0.02435],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9cceac8e4e40c5ae3408cc2d4c6fadcf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8b58c7c78d1f0c823bcf02c6a245dc8d = $(`&lt;div id=&quot;html_8b58c7c78d1f0c823bcf02c6a245dc8d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dori -  Burkina Faso&lt;/div&gt;`)[0];
+                popup_9cceac8e4e40c5ae3408cc2d4c6fadcf.setContent(html_8b58c7c78d1f0c823bcf02c6a245dc8d);
+            
+        
+
+        circle_marker_afc92531ebebc6bf5a23e07fe3bc76db.bindPopup(popup_9cceac8e4e40c5ae3408cc2d4c6fadcf)
+        ;
+
+        
+    
+    
+            circle_marker_afc92531ebebc6bf5a23e07fe3bc76db.bindTooltip(
+                `&lt;div&gt;
+                     BFA_Solar_Dori
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_d94f5e37c241d6aebafb8ea44cd3a22c = L.circleMarker(
+                [12.4662, -3.47294],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9ad92d77af8523e46849b1c0abc58eb3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_130d4847da9c41fc07d4e823ffe748d0 = $(`&lt;div id=&quot;html_130d4847da9c41fc07d4e823ffe748d0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dédougou -  Burkina Faso&lt;/div&gt;`)[0];
+                popup_9ad92d77af8523e46849b1c0abc58eb3.setContent(html_130d4847da9c41fc07d4e823ffe748d0);
+            
+        
+
+        circle_marker_d94f5e37c241d6aebafb8ea44cd3a22c.bindPopup(popup_9ad92d77af8523e46849b1c0abc58eb3)
+        ;
+
+        
+    
+    
+            circle_marker_d94f5e37c241d6aebafb8ea44cd3a22c.bindTooltip(
+                `&lt;div&gt;
+                     BFA_Solar_Dédougou
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_4d3ca755c3691b0bce858f40b39d5a3a = L.circleMarker(
+                [13.08301, -1.07272],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_82c86bf21aa8d8f37ad599abd185fa11 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_aa645878b10504ca59dcfb2866715e9b = $(`&lt;div id=&quot;html_aa645878b10504ca59dcfb2866715e9b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kaya -  Burkina Faso&lt;/div&gt;`)[0];
+                popup_82c86bf21aa8d8f37ad599abd185fa11.setContent(html_aa645878b10504ca59dcfb2866715e9b);
+            
+        
+
+        circle_marker_4d3ca755c3691b0bce858f40b39d5a3a.bindPopup(popup_82c86bf21aa8d8f37ad599abd185fa11)
+        ;
+
+        
+    
+    
+            circle_marker_4d3ca755c3691b0bce858f40b39d5a3a.bindTooltip(
+                `&lt;div&gt;
+                     BFA_Solar_Kaya
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_2a6d41c15e1c2a958a3d1d341507d8f5 = L.circleMarker(
+                [12.19104, -0.36292],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_f53bc345c411d26c14187f0741e09bf6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5aa2281492d5f9a3a64b79a13baa6e1f = $(`&lt;div id=&quot;html_5aa2281492d5f9a3a64b79a13baa6e1f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Koupéla -  Burkina Faso&lt;/div&gt;`)[0];
+                popup_f53bc345c411d26c14187f0741e09bf6.setContent(html_5aa2281492d5f9a3a64b79a13baa6e1f);
+            
+        
+
+        circle_marker_2a6d41c15e1c2a958a3d1d341507d8f5.bindPopup(popup_f53bc345c411d26c14187f0741e09bf6)
+        ;
+
+        
+    
+    
+            circle_marker_2a6d41c15e1c2a958a3d1d341507d8f5.bindTooltip(
+                `&lt;div&gt;
+                     BFA_Solar_Koupéla
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_bfc71da3f18b8353b2f94eafc0f0529f = L.circleMarker(
+                [9.48058, -5.59509],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_b9f45649470d6683c213d33d9cfbc5ef = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e8b3ce4a25c6ac846da631bacf31e978 = $(`&lt;div id=&quot;html_e8b3ce4a25c6ac846da631bacf31e978&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Korhogo -  Côte d&#x27;Ivoire&lt;/div&gt;`)[0];
+                popup_b9f45649470d6683c213d33d9cfbc5ef.setContent(html_e8b3ce4a25c6ac846da631bacf31e978);
+            
+        
+
+        circle_marker_bfc71da3f18b8353b2f94eafc0f0529f.bindPopup(popup_b9f45649470d6683c213d33d9cfbc5ef)
+        ;
+
+        
+    
+    
+            circle_marker_bfc71da3f18b8353b2f94eafc0f0529f.bindTooltip(
+                `&lt;div&gt;
+                     CIV_Solar_Korhogo
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_01d41507172b3fa16c859086892b5448 = L.circleMarker(
+                [7.93282, -4.00525],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_273be27900ee1c4a42383e54aa58bf8a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_97968455a539fb49f07338874d16bd39 = $(`&lt;div id=&quot;html_97968455a539fb49f07338874d16bd39&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sérébou -  Côte d&#x27;Ivoire&lt;/div&gt;`)[0];
+                popup_273be27900ee1c4a42383e54aa58bf8a.setContent(html_97968455a539fb49f07338874d16bd39);
+            
+        
+
+        circle_marker_01d41507172b3fa16c859086892b5448.bindPopup(popup_273be27900ee1c4a42383e54aa58bf8a)
+        ;
+
+        
+    
+    
+            circle_marker_01d41507172b3fa16c859086892b5448.bindTooltip(
+                `&lt;div&gt;
+                     CIV_Solar_Sérébou
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_c0920a426b9706d605b2626e178b2280 = L.circleMarker(
+                [7.467517, 151.849834],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_502b90b07e0705320a7a583edaa7f18d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_681d66a1828efd3e20ec65823f8ea0fc = $(`&lt;div id=&quot;html_681d66a1828efd3e20ec65823f8ea0fc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Weno -  Federated States of Micronesia&lt;/div&gt;`)[0];
+                popup_502b90b07e0705320a7a583edaa7f18d.setContent(html_681d66a1828efd3e20ec65823f8ea0fc);
+            
+        
+
+        circle_marker_c0920a426b9706d605b2626e178b2280.bindPopup(popup_502b90b07e0705320a7a583edaa7f18d)
+        ;
+
+        
+    
+    
+            circle_marker_c0920a426b9706d605b2626e178b2280.bindTooltip(
+                `&lt;div&gt;
+                     FSM_Solar_Weno
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_5cc8c81e334e9c8b3e7c790077978832 = L.circleMarker(
+                [13.57301, -15.59253],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e1c0973658e707f4bbd46a10cc1a20c8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7b75e934081e8998a602a2549a25205b = $(`&lt;div id=&quot;html_7b75e934081e8998a602a2549a25205b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Farafenni -  Gambia&lt;/div&gt;`)[0];
+                popup_e1c0973658e707f4bbd46a10cc1a20c8.setContent(html_7b75e934081e8998a602a2549a25205b);
+            
+        
+
+        circle_marker_5cc8c81e334e9c8b3e7c790077978832.bindPopup(popup_e1c0973658e707f4bbd46a10cc1a20c8)
+        ;
+
+        
+    
+    
+            circle_marker_5cc8c81e334e9c8b3e7c790077978832.bindTooltip(
+                `&lt;div&gt;
+                     GMB_Solar_Farafenni
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_1915f99fc8c3dbf4be6f1a51d28b9902 = L.circleMarker(
+                [7.34865, -2.34034],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_fed3985935c2111a4043affc86e15851 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e4c1505b9642f156a1ad7ce0a94a271d = $(`&lt;div id=&quot;html_e4c1505b9642f156a1ad7ce0a94a271d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sunyani -  Ghana&lt;/div&gt;`)[0];
+                popup_fed3985935c2111a4043affc86e15851.setContent(html_e4c1505b9642f156a1ad7ce0a94a271d);
+            
+        
+
+        circle_marker_1915f99fc8c3dbf4be6f1a51d28b9902.bindPopup(popup_fed3985935c2111a4043affc86e15851)
+        ;
+
+        
+    
+    
+            circle_marker_1915f99fc8c3dbf4be6f1a51d28b9902.bindTooltip(
+                `&lt;div&gt;
+                     GHA_Solar_Sunyani
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_60808c823755a8f05ef20b19dc72cedc = L.circleMarker(
+                [10.87554, -1.06293],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_29f0de4112ac76a92326e7048cb32f29 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c28deb37b50ed73f4f5cec42d0547416 = $(`&lt;div id=&quot;html_c28deb37b50ed73f4f5cec42d0547416&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Navrongo -  Ghana&lt;/div&gt;`)[0];
+                popup_29f0de4112ac76a92326e7048cb32f29.setContent(html_c28deb37b50ed73f4f5cec42d0547416);
+            
+        
+
+        circle_marker_60808c823755a8f05ef20b19dc72cedc.bindPopup(popup_29f0de4112ac76a92326e7048cb32f29)
+        ;
+
+        
+    
+    
+            circle_marker_60808c823755a8f05ef20b19dc72cedc.bindTooltip(
+                `&lt;div&gt;
+                     GHA_Solar_Navrongo
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_f9ca3adaff39073226389d27cc3a8752 = L.circleMarker(
+                [10.36465, -9.30466],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e812669b603dce8c705bb644759f49d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b2e26a93d399b8687c300601d51aef7d = $(`&lt;div id=&quot;html_b2e26a93d399b8687c300601d51aef7d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kankan -  Guinée&lt;/div&gt;`)[0];
+                popup_e812669b603dce8c705bb644759f49d1.setContent(html_b2e26a93d399b8687c300601d51aef7d);
+            
+        
+
+        circle_marker_f9ca3adaff39073226389d27cc3a8752.bindPopup(popup_e812669b603dce8c705bb644759f49d1)
+        ;
+
+        
+    
+    
+            circle_marker_f9ca3adaff39073226389d27cc3a8752.bindTooltip(
+                `&lt;div&gt;
+                     GIN_Solar_Kankan
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_a8cbe0ecc2319f9d9ae1bb16afc6251e = L.circleMarker(
+                [11.356, -12.13706],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_949937e9e71e93c6c15a93fd238535f4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f136de64a4271f93fd2996c76177a325 = $(`&lt;div id=&quot;html_f136de64a4271f93fd2996c76177a325&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tarambaly -  Guinée&lt;/div&gt;`)[0];
+                popup_949937e9e71e93c6c15a93fd238535f4.setContent(html_f136de64a4271f93fd2996c76177a325);
+            
+        
+
+        circle_marker_a8cbe0ecc2319f9d9ae1bb16afc6251e.bindPopup(popup_949937e9e71e93c6c15a93fd238535f4)
+        ;
+
+        
+    
+    
+            circle_marker_a8cbe0ecc2319f9d9ae1bb16afc6251e.bindTooltip(
+                `&lt;div&gt;
+                     GIN_Solar_Tarambaly
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_07f3039402050820286bb22f690a0e10 = L.circleMarker(
+                [12.30108, -14.24273],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a4759111fa3b22a0cb98c6a66d74b174 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9c13d993b7980e67517e634a38b5785e = $(`&lt;div id=&quot;html_9c13d993b7980e67517e634a38b5785e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Gabu -  Guinée-Bissau&lt;/div&gt;`)[0];
+                popup_a4759111fa3b22a0cb98c6a66d74b174.setContent(html_9c13d993b7980e67517e634a38b5785e);
+            
+        
+
+        circle_marker_07f3039402050820286bb22f690a0e10.bindPopup(popup_a4759111fa3b22a0cb98c6a66d74b174)
+        ;
+
+        
+    
+    
+            circle_marker_07f3039402050820286bb22f690a0e10.bindTooltip(
+                `&lt;div&gt;
+                     GNB_Solar_Gabu
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_2ac9933c6c422ea606bac5b61e812ca6 = L.circleMarker(
+                [11.85643, -15.58877],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_876719a661999e57c75dd6c657a446d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d47f97129507e05d8538fb34b050a585 = $(`&lt;div id=&quot;html_d47f97129507e05d8538fb34b050a585&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bissau -  Guinée-Bissau&lt;/div&gt;`)[0];
+                popup_876719a661999e57c75dd6c657a446d1.setContent(html_d47f97129507e05d8538fb34b050a585);
+            
+        
+
+        circle_marker_2ac9933c6c422ea606bac5b61e812ca6.bindPopup(popup_876719a661999e57c75dd6c657a446d1)
+        ;
+
+        
+    
+    
+            circle_marker_2ac9933c6c422ea606bac5b61e812ca6.bindTooltip(
+                `&lt;div&gt;
+                     GNB_Solar_Bissau
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_6b9b978ae787f975dd71c5d50f462095 = L.circleMarker(
+                [1.601891, 37.802681],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_3c3eb0f14057f276bbb134119bcf3b11 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e76d049dd99b81064f6e45b1ace3245b = $(`&lt;div id=&quot;html_e76d049dd99b81064f6e45b1ace3245b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Laisamis -  Kenya&lt;/div&gt;`)[0];
+                popup_3c3eb0f14057f276bbb134119bcf3b11.setContent(html_e76d049dd99b81064f6e45b1ace3245b);
+            
+        
+
+        circle_marker_6b9b978ae787f975dd71c5d50f462095.bindPopup(popup_3c3eb0f14057f276bbb134119bcf3b11)
+        ;
+
+        
+    
+    
+            circle_marker_6b9b978ae787f975dd71c5d50f462095.bindTooltip(
+                `&lt;div&gt;
+                     KEN_Solar_Laisamis
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_3f2a1deb2f18c58f5c843364f088c304 = L.circleMarker(
+                [-1.321097, 35.705708],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_7472c6c2237ff735742f424de7aed49b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3db77c34391563c1568f167729b8783f = $(`&lt;div id=&quot;html_3db77c34391563c1568f167729b8783f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Narok -  Kenya&lt;/div&gt;`)[0];
+                popup_7472c6c2237ff735742f424de7aed49b.setContent(html_3db77c34391563c1568f167729b8783f);
+            
+        
+
+        circle_marker_3f2a1deb2f18c58f5c843364f088c304.bindPopup(popup_7472c6c2237ff735742f424de7aed49b)
+        ;
+
+        
+    
+    
+            circle_marker_3f2a1deb2f18c58f5c843364f088c304.bindTooltip(
+                `&lt;div&gt;
+                     KEN_Solar_Narok
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_89861f974f5b12ec68e3f0d0374861d0 = L.circleMarker(
+                [-0.764707, 34.360379],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_02c1dbeab6e181e369bc63121a7ff7c0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_efbd6e5a8cf848d97b4a32dbd4a514e7 = $(`&lt;div id=&quot;html_efbd6e5a8cf848d97b4a32dbd4a514e7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Homa Bay -  Kenya&lt;/div&gt;`)[0];
+                popup_02c1dbeab6e181e369bc63121a7ff7c0.setContent(html_efbd6e5a8cf848d97b4a32dbd4a514e7);
+            
+        
+
+        circle_marker_89861f974f5b12ec68e3f0d0374861d0.bindPopup(popup_02c1dbeab6e181e369bc63121a7ff7c0)
+        ;
+
+        
+    
+    
+            circle_marker_89861f974f5b12ec68e3f0d0374861d0.bindTooltip(
+                `&lt;div&gt;
+                     KEN_Solar_Homa Bay
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_6c8c739444dd083f899e7e2512d25267 = L.circleMarker(
+                [34.2729846, 36.4270535],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_37c2168978ac1d0e79a4738baced3f43 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e5a49dad8f2e3919f27ab82802c0b2bb = $(`&lt;div id=&quot;html_e5a49dad8f2e3919f27ab82802c0b2bb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Ras Baalbak -  Lebanon&lt;/div&gt;`)[0];
+                popup_37c2168978ac1d0e79a4738baced3f43.setContent(html_e5a49dad8f2e3919f27ab82802c0b2bb);
+            
+        
+
+        circle_marker_6c8c739444dd083f899e7e2512d25267.bindPopup(popup_37c2168978ac1d0e79a4738baced3f43)
+        ;
+
+        
+    
+    
+            circle_marker_6c8c739444dd083f899e7e2512d25267.bindTooltip(
+                `&lt;div&gt;
+                     LBN_Solar_RasBaalbak
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_40ba355f72cf5726025e1b3927b5ac24 = L.circleMarker(
+                [5.92397, -9.99337],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9532659d1a94c2540fa443c67fd914a0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_03d0ddadec39a691b8a440e03354912b = $(`&lt;div id=&quot;html_03d0ddadec39a691b8a440e03354912b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Buchanan -  Liberia&lt;/div&gt;`)[0];
+                popup_9532659d1a94c2540fa443c67fd914a0.setContent(html_03d0ddadec39a691b8a440e03354912b);
+            
+        
+
+        circle_marker_40ba355f72cf5726025e1b3927b5ac24.bindPopup(popup_9532659d1a94c2540fa443c67fd914a0)
+        ;
+
+        
+    
+    
+            circle_marker_40ba355f72cf5726025e1b3927b5ac24.bindTooltip(
+                `&lt;div&gt;
+                     LBR_Solar_Buchanan
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_49e05b417e8c48b530ea94958d6b1b32 = L.circleMarker(
+                [7.39317, -8.66813],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_449e216e70a39b11592f13788e09255f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e61b0f80908d0759689da3f9826e6078 = $(`&lt;div id=&quot;html_e61b0f80908d0759689da3f9826e6078&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Yekepa -  Liberia&lt;/div&gt;`)[0];
+                popup_449e216e70a39b11592f13788e09255f.setContent(html_e61b0f80908d0759689da3f9826e6078);
+            
+        
+
+        circle_marker_49e05b417e8c48b530ea94958d6b1b32.bindPopup(popup_449e216e70a39b11592f13788e09255f)
+        ;
+
+        
+    
+    
+            circle_marker_49e05b417e8c48b530ea94958d6b1b32.bindTooltip(
+                `&lt;div&gt;
+                     LBR_Solar_Yekepa
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_321623b4ea035c2e02d82cb51bce8c23 = L.circleMarker(
+                [6.4978, -10.6517],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e05eab08f8b6da51e6bbc6b9d19630e7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_179989a0cd450d56b84cb8b6b6c09e8c = $(`&lt;div id=&quot;html_179989a0cd450d56b84cb8b6b6c09e8c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Mount Coffee -  Liberia&lt;/div&gt;`)[0];
+                popup_e05eab08f8b6da51e6bbc6b9d19630e7.setContent(html_179989a0cd450d56b84cb8b6b6c09e8c);
+            
+        
+
+        circle_marker_321623b4ea035c2e02d82cb51bce8c23.bindPopup(popup_e05eab08f8b6da51e6bbc6b9d19630e7)
+        ;
+
+        
+    
+    
+            circle_marker_321623b4ea035c2e02d82cb51bce8c23.bindTooltip(
+                `&lt;div&gt;
+                     LBR_Solar_MountCoffee
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_5372cc095ebbc381d55a356b8b4552b3 = L.circleMarker(
+                [-15.67996, 34.97203],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_f34fe8d06f43af1e039ffeed7502ee55 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_307e6b4c27af06cdeb46351479aa3ce4 = $(`&lt;div id=&quot;html_307e6b4c27af06cdeb46351479aa3ce4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Blantyre -  Malawi&lt;/div&gt;`)[0];
+                popup_f34fe8d06f43af1e039ffeed7502ee55.setContent(html_307e6b4c27af06cdeb46351479aa3ce4);
+            
+        
+
+        circle_marker_5372cc095ebbc381d55a356b8b4552b3.bindPopup(popup_f34fe8d06f43af1e039ffeed7502ee55)
+        ;
+
+        
+    
+    
+            circle_marker_5372cc095ebbc381d55a356b8b4552b3.bindTooltip(
+                `&lt;div&gt;
+                     MWI_Solar_Blantyre_BLZ
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_d312c0e3faf74b1b7792ee04e24aabe9 = L.circleMarker(
+                [-13.0153, 33.4685],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_5da4ec8f0a662029921e3d39e6172a63 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9582cfc7bbf21e47037147b4f54f57a4 = $(`&lt;div id=&quot;html_9582cfc7bbf21e47037147b4f54f57a4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kasungu -  Malawi&lt;/div&gt;`)[0];
+                popup_5da4ec8f0a662029921e3d39e6172a63.setContent(html_9582cfc7bbf21e47037147b4f54f57a4);
+            
+        
+
+        circle_marker_d312c0e3faf74b1b7792ee04e24aabe9.bindPopup(popup_5da4ec8f0a662029921e3d39e6172a63)
+        ;
+
+        
+    
+    
+            circle_marker_d312c0e3faf74b1b7792ee04e24aabe9.bindTooltip(
+                `&lt;div&gt;
+                     MWI_Solar_Kasungu_KBQ
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_636897d5acfaa4afe22521138cd91951 = L.circleMarker(
+                [-11.4199, 33.9953],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_747df5bf8c175911273c9e19f909c669 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0a3e8a4f03693d824801742fbcf831f8 = $(`&lt;div id=&quot;html_0a3e8a4f03693d824801742fbcf831f8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Mzuzu -  Malawi&lt;/div&gt;`)[0];
+                popup_747df5bf8c175911273c9e19f909c669.setContent(html_0a3e8a4f03693d824801742fbcf831f8);
+            
+        
+
+        circle_marker_636897d5acfaa4afe22521138cd91951.bindPopup(popup_747df5bf8c175911273c9e19f909c669)
+        ;
+
+        
+    
+    
+            circle_marker_636897d5acfaa4afe22521138cd91951.bindTooltip(
+                `&lt;div&gt;
+                     MWI_Solar_MZUNI
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_1a1d97f3bc146ca1112413534c470e56 = L.circleMarker(
+                [-0.6911, 73.1599],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e22ea6623642898ad2cd1c7c0f6115de = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b8a72d8001769f7f0558d175dda3b226 = $(`&lt;div id=&quot;html_b8a72d8001769f7f0558d175dda3b226&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Gan -  Maldives&lt;/div&gt;`)[0];
+                popup_e22ea6623642898ad2cd1c7c0f6115de.setContent(html_b8a72d8001769f7f0558d175dda3b226);
+            
+        
+
+        circle_marker_1a1d97f3bc146ca1112413534c470e56.bindPopup(popup_e22ea6623642898ad2cd1c7c0f6115de)
+        ;
+
+        
+    
+    
+            circle_marker_1a1d97f3bc146ca1112413534c470e56.bindTooltip(
+                `&lt;div&gt;
+                     MDV_Solar_Gan_GAN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_6ea9c3af37ea2560606ead7a9bdbd621 = L.circleMarker(
+                [6.7482, 73.1696],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_d150c664c42eeac643171ada0d4aac89 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b65143182180c6e20df9b92811cceeb7 = $(`&lt;div id=&quot;html_b65143182180c6e20df9b92811cceeb7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hanimaadhoo -  Maldives&lt;/div&gt;`)[0];
+                popup_d150c664c42eeac643171ada0d4aac89.setContent(html_b65143182180c6e20df9b92811cceeb7);
+            
+        
+
+        circle_marker_6ea9c3af37ea2560606ead7a9bdbd621.bindPopup(popup_d150c664c42eeac643171ada0d4aac89)
+        ;
+
+        
+    
+    
+            circle_marker_6ea9c3af37ea2560606ead7a9bdbd621.bindTooltip(
+                `&lt;div&gt;
+                     MDV_Solar_Hanimaadhoo_HAQ
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_529f206c94f819c1ee7ab56afc7b3427 = L.circleMarker(
+                [1.8599, 73.5203],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e1091e406507bb752059fd4620ee13a9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b43438fbd467387c367fd1658e088dc6 = $(`&lt;div id=&quot;html_b43438fbd467387c367fd1658e088dc6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kadhdhoo -  Maldives&lt;/div&gt;`)[0];
+                popup_e1091e406507bb752059fd4620ee13a9.setContent(html_b43438fbd467387c367fd1658e088dc6);
+            
+        
+
+        circle_marker_529f206c94f819c1ee7ab56afc7b3427.bindPopup(popup_e1091e406507bb752059fd4620ee13a9)
+        ;
+
+        
+    
+    
+            circle_marker_529f206c94f819c1ee7ab56afc7b3427.bindTooltip(
+                `&lt;div&gt;
+                     MDV_Solar_Kadhdhoo_KDO
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_68bd67d8070af2ff2df49736a26260ad = L.circleMarker(
+                [4.1927, 73.5281],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9806f88b5edb1b03b2bb406a1e63429a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_656fc0e50709afdf2660fb272de827a7 = $(`&lt;div id=&quot;html_656fc0e50709afdf2660fb272de827a7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hulhulé -  Maldives&lt;/div&gt;`)[0];
+                popup_9806f88b5edb1b03b2bb406a1e63429a.setContent(html_656fc0e50709afdf2660fb272de827a7);
+            
+        
+
+        circle_marker_68bd67d8070af2ff2df49736a26260ad.bindPopup(popup_9806f88b5edb1b03b2bb406a1e63429a)
+        ;
+
+        
+    
+    
+            circle_marker_68bd67d8070af2ff2df49736a26260ad.bindTooltip(
+                `&lt;div&gt;
+                     MDV_Solar_Male _MLE
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_5c2bd5840f73cc919d442cbe04f69b54 = L.circleMarker(
+                [11.40743, -7.48193],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_1b47b1c1cab94ed3743e30fbe5fb8bd8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6e6a0a9b6b68b0ec253b79c2b040df36 = $(`&lt;div id=&quot;html_6e6a0a9b6b68b0ec253b79c2b040df36&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bougouni -  Mali&lt;/div&gt;`)[0];
+                popup_1b47b1c1cab94ed3743e30fbe5fb8bd8.setContent(html_6e6a0a9b6b68b0ec253b79c2b040df36);
+            
+        
+
+        circle_marker_5c2bd5840f73cc919d442cbe04f69b54.bindPopup(popup_1b47b1c1cab94ed3743e30fbe5fb8bd8)
+        ;
+
+        
+    
+    
+            circle_marker_5c2bd5840f73cc919d442cbe04f69b54.bindTooltip(
+                `&lt;div&gt;
+                     MLI_Solar_Bougouni
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_bd417a3d5556be6d9e597882d62de9e6 = L.circleMarker(
+                [12.76684, -6.96159],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_57da8aca8b3137fbf8053aa6365a0828 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_52f6224be91e99f565df32b250a25db8 = $(`&lt;div id=&quot;html_52f6224be91e99f565df32b250a25db8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Fana -  Mali&lt;/div&gt;`)[0];
+                popup_57da8aca8b3137fbf8053aa6365a0828.setContent(html_52f6224be91e99f565df32b250a25db8);
+            
+        
+
+        circle_marker_bd417a3d5556be6d9e597882d62de9e6.bindPopup(popup_57da8aca8b3137fbf8053aa6365a0828)
+        ;
+
+        
+    
+    
+            circle_marker_bd417a3d5556be6d9e597882d62de9e6.bindTooltip(
+                `&lt;div&gt;
+                     MLI_Solar_Fana
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_f21924f8553ca69568e1606ae48e8736 = L.circleMarker(
+                [12.39112, -7.93737],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_dc565b7b398ee0d5b45d3208f52bd9bb = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8105fab9bc715f86c5df2387ed3873d9 = $(`&lt;div id=&quot;html_8105fab9bc715f86c5df2387ed3873d9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sanankoroba -  Mali&lt;/div&gt;`)[0];
+                popup_dc565b7b398ee0d5b45d3208f52bd9bb.setContent(html_8105fab9bc715f86c5df2387ed3873d9);
+            
+        
+
+        circle_marker_f21924f8553ca69568e1606ae48e8736.bindPopup(popup_dc565b7b398ee0d5b45d3208f52bd9bb)
+        ;
+
+        
+    
+    
+            circle_marker_f21924f8553ca69568e1606ae48e8736.bindTooltip(
+                `&lt;div&gt;
+                     MLI_Solar_Sanankoroba
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_31582aa9dc5930fa7a7252958e27e077 = L.circleMarker(
+                [11.30547, -5.73713],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_65ffec5cb7d78958aeaf1bd0e8bb049a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a04cda9808b6c26aefd5fbd54570875e = $(`&lt;div id=&quot;html_a04cda9808b6c26aefd5fbd54570875e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sikasso -  Mali&lt;/div&gt;`)[0];
+                popup_65ffec5cb7d78958aeaf1bd0e8bb049a.setContent(html_a04cda9808b6c26aefd5fbd54570875e);
+            
+        
+
+        circle_marker_31582aa9dc5930fa7a7252958e27e077.bindPopup(popup_65ffec5cb7d78958aeaf1bd0e8bb049a)
+        ;
+
+        
+    
+    
+            circle_marker_31582aa9dc5930fa7a7252958e27e077.bindTooltip(
+                `&lt;div&gt;
+                     MLI_Solar_Sikasso
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_06ddeab9da8c162ad8646686c90e9dc6 = L.circleMarker(
+                [13.2005, -10.4308],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_ddb0a19cad7315e29933433940917e29 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_39feda3d972f29d05812a0eade119988 = $(`&lt;div id=&quot;html_39feda3d972f29d05812a0eade119988&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Manantali -  Mali&lt;/div&gt;`)[0];
+                popup_ddb0a19cad7315e29933433940917e29.setContent(html_39feda3d972f29d05812a0eade119988);
+            
+        
+
+        circle_marker_06ddeab9da8c162ad8646686c90e9dc6.bindPopup(popup_ddb0a19cad7315e29933433940917e29)
+        ;
+
+        
+    
+    
+            circle_marker_06ddeab9da8c162ad8646686c90e9dc6.bindTooltip(
+                `&lt;div&gt;
+                     MLI_Solar_Manantali
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_71672e4a613ae88e52dec8b851e4e644 = L.circleMarker(
+                [-0.543447, 166.93197],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a790f7ca1aaece87b44f0949f08859bd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1affb7396170723e3912a96bf2efbfb4 = $(`&lt;div id=&quot;html_1affb7396170723e3912a96bf2efbfb4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Yaren -  Nauru&lt;/div&gt;`)[0];
+                popup_a790f7ca1aaece87b44f0949f08859bd.setContent(html_1affb7396170723e3912a96bf2efbfb4);
+            
+        
+
+        circle_marker_71672e4a613ae88e52dec8b851e4e644.bindPopup(popup_a790f7ca1aaece87b44f0949f08859bd)
+        ;
+
+        
+    
+    
+            circle_marker_71672e4a613ae88e52dec8b851e4e644.bindTooltip(
+                `&lt;div&gt;
+                     NRU_Solar_Yaren
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_3d923c416f4f477101b7b5f2e4bd6a82 = L.circleMarker(
+                [26.79291, 87.29263],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_93d35efa9a7479400440fbdfd6075ee6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ef4c20c688679d1fc8cbca4f11905f9f = $(`&lt;div id=&quot;html_ef4c20c688679d1fc8cbca4f11905f9f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dharan -  Nepal&lt;/div&gt;`)[0];
+                popup_93d35efa9a7479400440fbdfd6075ee6.setContent(html_ef4c20c688679d1fc8cbca4f11905f9f);
+            
+        
+
+        circle_marker_3d923c416f4f477101b7b5f2e4bd6a82.bindPopup(popup_93d35efa9a7479400440fbdfd6075ee6)
+        ;
+
+        
+    
+    
+            circle_marker_3d923c416f4f477101b7b5f2e4bd6a82.bindTooltip(
+                `&lt;div&gt;
+                     NPL_Solar_Dharan
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_cc9e84756905061c901fe06af1346cb1 = L.circleMarker(
+                [29.27237, 82.19351],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_b99fe3904396d4d60e0f2ea042c69ded = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_54b680cf5541e79b59055c39f3b03597 = $(`&lt;div id=&quot;html_54b680cf5541e79b59055c39f3b03597&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Jumla -  Nepal&lt;/div&gt;`)[0];
+                popup_b99fe3904396d4d60e0f2ea042c69ded.setContent(html_54b680cf5541e79b59055c39f3b03597);
+            
+        
+
+        circle_marker_cc9e84756905061c901fe06af1346cb1.bindPopup(popup_b99fe3904396d4d60e0f2ea042c69ded)
+        ;
+
+        
+    
+    
+            circle_marker_cc9e84756905061c901fe06af1346cb1.bindTooltip(
+                `&lt;div&gt;
+                     NPL_Solar_Jumla
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_813a26f8f9ba83c93ebb7b7d33b5bac4 = L.circleMarker(
+                [27.68157, 85.31868],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_7720c14193e78d5d9dc22a14e71ea937 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_79642ba1f48c3ac195e791372735d3a3 = $(`&lt;div id=&quot;html_79642ba1f48c3ac195e791372735d3a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kathmandu -  Nepal&lt;/div&gt;`)[0];
+                popup_7720c14193e78d5d9dc22a14e71ea937.setContent(html_79642ba1f48c3ac195e791372735d3a3);
+            
+        
+
+        circle_marker_813a26f8f9ba83c93ebb7b7d33b5bac4.bindPopup(popup_7720c14193e78d5d9dc22a14e71ea937)
+        ;
+
+        
+    
+    
+            circle_marker_813a26f8f9ba83c93ebb7b7d33b5bac4.bindTooltip(
+                `&lt;div&gt;
+                     NPL_Solar_Kathmandu
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_1120e40b7a1c78795678354a87e83c13 = L.circleMarker(
+                [28.29666, 83.818],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_adf42ccfb2738a0330a674979bfa74db = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_315dda3596dc82952700778c15b78a56 = $(`&lt;div id=&quot;html_315dda3596dc82952700778c15b78a56&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lumle -  Nepal&lt;/div&gt;`)[0];
+                popup_adf42ccfb2738a0330a674979bfa74db.setContent(html_315dda3596dc82952700778c15b78a56);
+            
+        
+
+        circle_marker_1120e40b7a1c78795678354a87e83c13.bindPopup(popup_adf42ccfb2738a0330a674979bfa74db)
+        ;
+
+        
+    
+    
+            circle_marker_1120e40b7a1c78795678354a87e83c13.bindTooltip(
+                `&lt;div&gt;
+                     NPL_Solar_Lumle
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_d5b7061eaebd157757b0d5e0b76a8c96 = L.circleMarker(
+                [28.11302, 81.58899],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_4921914e0d060d956d8752e5306acd8e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a8f5a615982f8e657b56ef49977282c8 = $(`&lt;div id=&quot;html_a8f5a615982f8e657b56ef49977282c8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nepalgunj -  Nepal&lt;/div&gt;`)[0];
+                popup_4921914e0d060d956d8752e5306acd8e.setContent(html_a8f5a615982f8e657b56ef49977282c8);
+            
+        
+
+        circle_marker_d5b7061eaebd157757b0d5e0b76a8c96.bindPopup(popup_4921914e0d060d956d8752e5306acd8e)
+        ;
+
+        
+    
+    
+            circle_marker_d5b7061eaebd157757b0d5e0b76a8c96.bindTooltip(
+                `&lt;div&gt;
+                     NPL_Solar_Nepalgunj
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_a7df29ac9641afbf4bacd58c8718f48e = L.circleMarker(
+                [13.52455, 7.1678],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a2fb256ca16d844275dd55457fb4e679 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_31989acfef977af0040ea7716fd5d74d = $(`&lt;div id=&quot;html_31989acfef977af0040ea7716fd5d74d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Maradi -  Niger&lt;/div&gt;`)[0];
+                popup_a2fb256ca16d844275dd55457fb4e679.setContent(html_31989acfef977af0040ea7716fd5d74d);
+            
+        
+
+        circle_marker_a7df29ac9641afbf4bacd58c8718f48e.bindPopup(popup_a2fb256ca16d844275dd55457fb4e679)
+        ;
+
+        
+    
+    
+            circle_marker_a7df29ac9641afbf4bacd58c8718f48e.bindTooltip(
+                `&lt;div&gt;
+                     NER_Solar_Maradi
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_7c855c93ea89cb1ffb566564762f9cf9 = L.circleMarker(
+                [13.94701, 1.57469],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_69f54ed538982d5a7bdca1a778a0f17c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_20ec71fbc64c935bc5beb44efdeace22 = $(`&lt;div id=&quot;html_20ec71fbc64c935bc5beb44efdeace22&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lossa -  Niger&lt;/div&gt;`)[0];
+                popup_69f54ed538982d5a7bdca1a778a0f17c.setContent(html_20ec71fbc64c935bc5beb44efdeace22);
+            
+        
+
+        circle_marker_7c855c93ea89cb1ffb566564762f9cf9.bindPopup(popup_69f54ed538982d5a7bdca1a778a0f17c)
+        ;
+
+        
+    
+    
+            circle_marker_7c855c93ea89cb1ffb566564762f9cf9.bindTooltip(
+                `&lt;div&gt;
+                     NER_Solar_Lossa
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_02140ff3eddbc9db10eebcbfd7dd4a76 = L.circleMarker(
+                [12.70536, 3.55519],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_0f9c5516d2da08fc9f0fc06598c3ffb1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_780f50a2fb9033c6dcff12699be740fd = $(`&lt;div id=&quot;html_780f50a2fb9033c6dcff12699be740fd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Zabori -  Niger&lt;/div&gt;`)[0];
+                popup_0f9c5516d2da08fc9f0fc06598c3ffb1.setContent(html_780f50a2fb9033c6dcff12699be740fd);
+            
+        
+
+        circle_marker_02140ff3eddbc9db10eebcbfd7dd4a76.bindPopup(popup_0f9c5516d2da08fc9f0fc06598c3ffb1)
+        ;
+
+        
+    
+    
+            circle_marker_02140ff3eddbc9db10eebcbfd7dd4a76.bindTooltip(
+                `&lt;div&gt;
+                     NER_Solar_Zabori
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_ae76b1c07cbeebcc3f9e822978945931 = L.circleMarker(
+                [10.28526, 9.85059],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_9527b68a2d2f3488bf388801d9b830bf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7750f2304bcb049e717dbceb09ee6330 = $(`&lt;div id=&quot;html_7750f2304bcb049e717dbceb09ee6330&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bauchi -  Nigeria&lt;/div&gt;`)[0];
+                popup_9527b68a2d2f3488bf388801d9b830bf.setContent(html_7750f2304bcb049e717dbceb09ee6330);
+            
+        
+
+        circle_marker_ae76b1c07cbeebcc3f9e822978945931.bindPopup(popup_9527b68a2d2f3488bf388801d9b830bf)
+        ;
+
+        
+    
+    
+            circle_marker_ae76b1c07cbeebcc3f9e822978945931.bindTooltip(
+                `&lt;div&gt;
+                     NGA_Solar_Bauchi
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_1c804e10c6c1a8646e5d7de3d4141a9c = L.circleMarker(
+                [11.87357, 8.45837],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_067b770059efca5257bfa8ea9d0dcc14 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9b21d813bd996a1c5c0d6c58eb61dcf7 = $(`&lt;div id=&quot;html_9b21d813bd996a1c5c0d6c58eb61dcf7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kano -  Nigeria&lt;/div&gt;`)[0];
+                popup_067b770059efca5257bfa8ea9d0dcc14.setContent(html_9b21d813bd996a1c5c0d6c58eb61dcf7);
+            
+        
+
+        circle_marker_1c804e10c6c1a8646e5d7de3d4141a9c.bindPopup(popup_067b770059efca5257bfa8ea9d0dcc14)
+        ;
+
+        
+    
+    
+            circle_marker_1c804e10c6c1a8646e5d7de3d4141a9c.bindTooltip(
+                `&lt;div&gt;
+                     NGA_Solar_Kano
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_77632913c2deb3816befec53ac4e17bf = L.circleMarker(
+                [29.32542, 71.81877],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_659bca1e4a003fb90e54b2cefb547bb4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_5b6713a14e4d43471df5d83d0f0a3311 = $(`&lt;div id=&quot;html_5b6713a14e4d43471df5d83d0f0a3311&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bahawalpur -  Pakistan&lt;/div&gt;`)[0];
+                popup_659bca1e4a003fb90e54b2cefb547bb4.setContent(html_5b6713a14e4d43471df5d83d0f0a3311);
+            
+        
+
+        circle_marker_77632913c2deb3816befec53ac4e17bf.bindPopup(popup_659bca1e4a003fb90e54b2cefb547bb4)
+        ;
+
+        
+    
+    
+            circle_marker_77632913c2deb3816befec53ac4e17bf.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Bahawalpur_QASP
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_c6ec92e8fb4459bcc8614f496b6cf09d = L.circleMarker(
+                [33.64191, 72.9838],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_c9f5f2dddfb93694a643313b0950a123 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d3220ac94a657608b72a650c0744eded = $(`&lt;div id=&quot;html_d3220ac94a657608b72a650c0744eded&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Islamabad -  Pakistan&lt;/div&gt;`)[0];
+                popup_c9f5f2dddfb93694a643313b0950a123.setContent(html_d3220ac94a657608b72a650c0744eded);
+            
+        
+
+        circle_marker_c6ec92e8fb4459bcc8614f496b6cf09d.bindPopup(popup_c9f5f2dddfb93694a643313b0950a123)
+        ;
+
+        
+    
+    
+            circle_marker_c6ec92e8fb4459bcc8614f496b6cf09d.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Islamabad_NUST
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_21b7030d9eb0cdb756f8ba8b6c2367e8 = L.circleMarker(
+                [24.9334, 67.1116],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_7d6e7a41b11f9331f8952b9db3b0f7bf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f2f4a1b4a983734eba98ac54652ed4b4 = $(`&lt;div id=&quot;html_f2f4a1b4a983734eba98ac54652ed4b4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Karachi -  Pakistan&lt;/div&gt;`)[0];
+                popup_7d6e7a41b11f9331f8952b9db3b0f7bf.setContent(html_f2f4a1b4a983734eba98ac54652ed4b4);
+            
+        
+
+        circle_marker_21b7030d9eb0cdb756f8ba8b6c2367e8.bindPopup(popup_7d6e7a41b11f9331f8952b9db3b0f7bf)
+        ;
+
+        
+    
+    
+            circle_marker_21b7030d9eb0cdb756f8ba8b6c2367e8.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Karachi_NEDUET
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_7d0ac4464b96480648193183119a7be3 = L.circleMarker(
+                [27.8178, 66.6294],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_bff4202678e54c6c4320c67c5e97bba0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e913161081614876d000c585f4871d37 = $(`&lt;div id=&quot;html_e913161081614876d000c585f4871d37&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Khuzdar -  Pakistan&lt;/div&gt;`)[0];
+                popup_bff4202678e54c6c4320c67c5e97bba0.setContent(html_e913161081614876d000c585f4871d37);
+            
+        
+
+        circle_marker_7d0ac4464b96480648193183119a7be3.bindPopup(popup_bff4202678e54c6c4320c67c5e97bba0)
+        ;
+
+        
+    
+    
+            circle_marker_7d0ac4464b96480648193183119a7be3.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Khuzdar_BUET
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_d8fc99a3d7780b7a5442f1a3117ab6b2 = L.circleMarker(
+                [31.69458, 74.2441],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_93eb8c80eccbbeb6038164b501308ab4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_4246bf3e9470061f70166b495e15beb4 = $(`&lt;div id=&quot;html_4246bf3e9470061f70166b495e15beb4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lahore -  Pakistan&lt;/div&gt;`)[0];
+                popup_93eb8c80eccbbeb6038164b501308ab4.setContent(html_4246bf3e9470061f70166b495e15beb4);
+            
+        
+
+        circle_marker_d8fc99a3d7780b7a5442f1a3117ab6b2.bindPopup(popup_93eb8c80eccbbeb6038164b501308ab4)
+        ;
+
+        
+    
+    
+            circle_marker_d8fc99a3d7780b7a5442f1a3117ab6b2.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Lahore_UET
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_2d603e8700aae67564397ce22ab72bbb = L.circleMarker(
+                [30.1654, 71.4978],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_409113f11e640077041a81c103d70919 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c8fcd60ef6adec9dde3fef132dfd33b4 = $(`&lt;div id=&quot;html_c8fcd60ef6adec9dde3fef132dfd33b4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Multan -  Pakistan&lt;/div&gt;`)[0];
+                popup_409113f11e640077041a81c103d70919.setContent(html_c8fcd60ef6adec9dde3fef132dfd33b4);
+            
+        
+
+        circle_marker_2d603e8700aae67564397ce22ab72bbb.bindPopup(popup_409113f11e640077041a81c103d70919)
+        ;
+
+        
+    
+    
+            circle_marker_2d603e8700aae67564397ce22ab72bbb.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Multan_MSNUET
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_611d448a08499013b712e09623974209 = L.circleMarker(
+                [30.2708, 66.9398],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_16b97b53dbee8a1b99dbb17630a06655 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b487b105130af3a8559b94c1f53ed65b = $(`&lt;div id=&quot;html_b487b105130af3a8559b94c1f53ed65b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Quetta -  Pakistan&lt;/div&gt;`)[0];
+                popup_16b97b53dbee8a1b99dbb17630a06655.setContent(html_b487b105130af3a8559b94c1f53ed65b);
+            
+        
+
+        circle_marker_611d448a08499013b712e09623974209.bindPopup(popup_16b97b53dbee8a1b99dbb17630a06655)
+        ;
+
+        
+    
+    
+            circle_marker_611d448a08499013b712e09623974209.bindTooltip(
+                `&lt;div&gt;
+                     PK_Solar_Quetta_BUITEMS
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_62c818ff502a48e65c1d18cf4d9b4f32 = L.circleMarker(
+                [14.36751, -16.41346],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e270581269789f58f9a316ddd678b5ab = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_351ca725b06db43e7feba5700cd531ba = $(`&lt;div id=&quot;html_351ca725b06db43e7feba5700cd531ba&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Fatick -  Senegal&lt;/div&gt;`)[0];
+                popup_e270581269789f58f9a316ddd678b5ab.setContent(html_351ca725b06db43e7feba5700cd531ba);
+            
+        
+
+        circle_marker_62c818ff502a48e65c1d18cf4d9b4f32.bindPopup(popup_e270581269789f58f9a316ddd678b5ab)
+        ;
+
+        
+    
+    
+            circle_marker_62c818ff502a48e65c1d18cf4d9b4f32.bindTooltip(
+                `&lt;div&gt;
+                     SEN_Solar_Fatick
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_690e785a991a50c54ac77af7d8fb6b71 = L.circleMarker(
+                [14.168636, -16.034167],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_8c266fa3c9201fd1c72555555561adba = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0ef3170cdee15382c2389e85894a4d49 = $(`&lt;div id=&quot;html_0ef3170cdee15382c2389e85894a4d49&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kahone -  Senegal&lt;/div&gt;`)[0];
+                popup_8c266fa3c9201fd1c72555555561adba.setContent(html_0ef3170cdee15382c2389e85894a4d49);
+            
+        
+
+        circle_marker_690e785a991a50c54ac77af7d8fb6b71.bindPopup(popup_8c266fa3c9201fd1c72555555561adba)
+        ;
+
+        
+    
+    
+            circle_marker_690e785a991a50c54ac77af7d8fb6b71.bindTooltip(
+                `&lt;div&gt;
+                     SEN_Solar_Kahone
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_ed08fd47f41061498f82e7e57c340094 = L.circleMarker(
+                [14.77252, -15.91955],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_473e4041f0b140ed2dc132f01180074d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_a984a8d273619a2c376375b5976b0b92 = $(`&lt;div id=&quot;html_a984a8d273619a2c376375b5976b0b92&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Touba -  Senegal&lt;/div&gt;`)[0];
+                popup_473e4041f0b140ed2dc132f01180074d.setContent(html_a984a8d273619a2c376375b5976b0b92);
+            
+        
+
+        circle_marker_ed08fd47f41061498f82e7e57c340094.bindPopup(popup_473e4041f0b140ed2dc132f01180074d)
+        ;
+
+        
+    
+    
+            circle_marker_ed08fd47f41061498f82e7e57c340094.bindTooltip(
+                `&lt;div&gt;
+                     SEN_Solar_Touba_IFC
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_bae892de2dc1001e55a0cc31bb525d70 = L.circleMarker(
+                [13.77689, -13.72924],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a849af0ed565d20f9937c0bbef774e63 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_056e897b1394a8b7ced1c2186c3cbdf7 = $(`&lt;div id=&quot;html_056e897b1394a8b7ced1c2186c3cbdf7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tambacounda -  Senegal&lt;/div&gt;`)[0];
+                popup_a849af0ed565d20f9937c0bbef774e63.setContent(html_056e897b1394a8b7ced1c2186c3cbdf7);
+            
+        
+
+        circle_marker_bae892de2dc1001e55a0cc31bb525d70.bindPopup(popup_a849af0ed565d20f9937c0bbef774e63)
+        ;
+
+        
+    
+    
+            circle_marker_bae892de2dc1001e55a0cc31bb525d70.bindTooltip(
+                `&lt;div&gt;
+                     SEN_Solar_Tambacounda
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_3ced2ca27c90311baf479a723025dcf7 = L.circleMarker(
+                [15.61267, -13.3146],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_2af57ef31e73675164965dcce133028a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b974bf885ca2133019a23711f09071bf = $(`&lt;div id=&quot;html_b974bf885ca2133019a23711f09071bf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Ourossogui -  Senegal&lt;/div&gt;`)[0];
+                popup_2af57ef31e73675164965dcce133028a.setContent(html_b974bf885ca2133019a23711f09071bf);
+            
+        
+
+        circle_marker_3ced2ca27c90311baf479a723025dcf7.bindPopup(popup_2af57ef31e73675164965dcce133028a)
+        ;
+
+        
+    
+    
+            circle_marker_3ced2ca27c90311baf479a723025dcf7.bindTooltip(
+                `&lt;div&gt;
+                     SEN_Solar_Ourossogui
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_cbf70ec3e46a8d100b6597b32a1e46db = L.circleMarker(
+                [7.81879, -11.18137],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_358e58bd66a9c112b04a34b85cab6a64 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6579ccb4e1e80a4d38a3c698a5734853 = $(`&lt;div id=&quot;html_6579ccb4e1e80a4d38a3c698a5734853&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kenema -  Sierra Leone&lt;/div&gt;`)[0];
+                popup_358e58bd66a9c112b04a34b85cab6a64.setContent(html_6579ccb4e1e80a4d38a3c698a5734853);
+            
+        
+
+        circle_marker_cbf70ec3e46a8d100b6597b32a1e46db.bindPopup(popup_358e58bd66a9c112b04a34b85cab6a64)
+        ;
+
+        
+    
+    
+            circle_marker_cbf70ec3e46a8d100b6597b32a1e46db.bindTooltip(
+                `&lt;div&gt;
+                     SLE_Solar_Kenema
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_baee03857382b836e522cfafe7893e8e = L.circleMarker(
+                [9.03529, -11.76454],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_0f93b29bc1e59f83f96a812209805f7a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9e4c44382efe196d30fc9c4793f0e4c9 = $(`&lt;div id=&quot;html_9e4c44382efe196d30fc9c4793f0e4c9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bumbuna -  Sierra Leone&lt;/div&gt;`)[0];
+                popup_0f93b29bc1e59f83f96a812209805f7a.setContent(html_9e4c44382efe196d30fc9c4793f0e4c9);
+            
+        
+
+        circle_marker_baee03857382b836e522cfafe7893e8e.bindPopup(popup_0f93b29bc1e59f83f96a812209805f7a)
+        ;
+
+        
+    
+    
+            circle_marker_baee03857382b836e522cfafe7893e8e.bindTooltip(
+                `&lt;div&gt;
+                     SLE_Solar_Bumbuna
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_faee7d15dfb68f56bbb736857a1a0014 = L.circleMarker(
+                [-6.781101, 39.2039],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_fd5427fb7eea186dc43121d5437acd5f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_75b05b675b1d0296ea3e2d05cbff9f64 = $(`&lt;div id=&quot;html_75b05b675b1d0296ea3e2d05cbff9f64&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dar es Salaam -  Tanzania&lt;/div&gt;`)[0];
+                popup_fd5427fb7eea186dc43121d5437acd5f.setContent(html_75b05b675b1d0296ea3e2d05cbff9f64);
+            
+        
+
+        circle_marker_faee7d15dfb68f56bbb736857a1a0014.bindPopup(popup_fd5427fb7eea186dc43121d5437acd5f)
+        ;
+
+        
+    
+    
+            circle_marker_faee7d15dfb68f56bbb736857a1a0014.bindTooltip(
+                `&lt;div&gt;
+                     TZA_Solar_DaresSalaam_UDSM
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_2eb58c50a1293446b3c328ce0d175e38 = L.circleMarker(
+                [-6.780882971, 39.20377331],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_8dc5f0f91801c38906fe175844bb1145 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8f2ce2482303aa7c072c5635dd1753ba = $(`&lt;div id=&quot;html_8f2ce2482303aa7c072c5635dd1753ba&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dar es Salaam -  Tanzania&lt;/div&gt;`)[0];
+                popup_8dc5f0f91801c38906fe175844bb1145.setContent(html_8f2ce2482303aa7c072c5635dd1753ba);
+            
+        
+
+        circle_marker_2eb58c50a1293446b3c328ce0d175e38.bindPopup(popup_8dc5f0f91801c38906fe175844bb1145)
+        ;
+
+        
+    
+    
+            circle_marker_2eb58c50a1293446b3c328ce0d175e38.bindTooltip(
+                `&lt;div&gt;
+                     TZA_Solar_Dar es Salaam
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_6013059c66b19f127d8b611982ae9141 = L.circleMarker(
+                [-6.180039, 35.699039],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_278c2c21063fb3b704123f38dcd696cd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c3b98907c8419c89929c8ba058cae2e4 = $(`&lt;div id=&quot;html_c3b98907c8419c89929c8ba058cae2e4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dodoma -  Tanzania&lt;/div&gt;`)[0];
+                popup_278c2c21063fb3b704123f38dcd696cd.setContent(html_c3b98907c8419c89929c8ba058cae2e4);
+            
+        
+
+        circle_marker_6013059c66b19f127d8b611982ae9141.bindPopup(popup_278c2c21063fb3b704123f38dcd696cd)
+        ;
+
+        
+    
+    
+            circle_marker_6013059c66b19f127d8b611982ae9141.bindTooltip(
+                `&lt;div&gt;
+                     TZA_Solarn_Dodoma
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_92e334236b733b163884d5250576ae5e = L.circleMarker(
+                [-3.626586111, 33.51534167],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_d56ab30cac4be41d257ffaad5b3610ce = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1c1d4084d4cfaa99734cad5adef727ce = $(`&lt;div id=&quot;html_1c1d4084d4cfaa99734cad5adef727ce&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Shinyanga -  Tanzania&lt;/div&gt;`)[0];
+                popup_d56ab30cac4be41d257ffaad5b3610ce.setContent(html_1c1d4084d4cfaa99734cad5adef727ce);
+            
+        
+
+        circle_marker_92e334236b733b163884d5250576ae5e.bindPopup(popup_d56ab30cac4be41d257ffaad5b3610ce)
+        ;
+
+        
+    
+    
+            circle_marker_92e334236b733b163884d5250576ae5e.bindTooltip(
+                `&lt;div&gt;
+                     TZA_Solar_Shinyanga
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_3e12a58e64fb0bff8d9fd050ec4ef91a = L.circleMarker(
+                [-6.417039245, 39.51694463],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_de06c7d7502c19b8d91c296c52427912 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6937228d99b3db699e3eb9e151925020 = $(`&lt;div id=&quot;html_6937228d99b3db699e3eb9e151925020&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Makunduchi -  Tanzania&lt;/div&gt;`)[0];
+                popup_de06c7d7502c19b8d91c296c52427912.setContent(html_6937228d99b3db699e3eb9e151925020);
+            
+        
+
+        circle_marker_3e12a58e64fb0bff8d9fd050ec4ef91a.bindPopup(popup_de06c7d7502c19b8d91c296c52427912)
+        ;
+
+        
+    
+    
+            circle_marker_3e12a58e64fb0bff8d9fd050ec4ef91a.bindTooltip(
+                `&lt;div&gt;
+                     TZA_Solar_Makunduchi
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_e56e5fe37637f0d297d67cc2f54f6c30 = L.circleMarker(
+                [10.89189, 0.18984],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a61f689ca291d4d1fe5db821b6470940 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_fd431a30a6cb8ca37d205b2e52bcb6ef = $(`&lt;div id=&quot;html_fd431a30a6cb8ca37d205b2e52bcb6ef&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Dapaong -  Togo&lt;/div&gt;`)[0];
+                popup_a61f689ca291d4d1fe5db821b6470940.setContent(html_fd431a30a6cb8ca37d205b2e52bcb6ef);
+            
+        
+
+        circle_marker_e56e5fe37637f0d297d67cc2f54f6c30.bindPopup(popup_a61f689ca291d4d1fe5db821b6470940)
+        ;
+
+        
+    
+    
+            circle_marker_e56e5fe37637f0d297d67cc2f54f6c30.bindTooltip(
+                `&lt;div&gt;
+                     TGO_Solar_Dapaong
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_711820dc628134327795a067d5fbae64 = L.circleMarker(
+                [6.39307, 1.18647],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_e9968f9fb22ff155e9e036333b8aba81 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_c2545be51360ff6d93af43298f151f33 = $(`&lt;div id=&quot;html_c2545be51360ff6d93af43298f151f33&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Davié -  Togo&lt;/div&gt;`)[0];
+                popup_e9968f9fb22ff155e9e036333b8aba81.setContent(html_c2545be51360ff6d93af43298f151f33);
+            
+        
+
+        circle_marker_711820dc628134327795a067d5fbae64.bindPopup(popup_e9968f9fb22ff155e9e036333b8aba81)
+        ;
+
+        
+    
+    
+            circle_marker_711820dc628134327795a067d5fbae64.bindTooltip(
+                `&lt;div&gt;
+                     TGO_Solar_Davié
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_7b23adc45905663774e577ecb8de4021 = L.circleMarker(
+                [1.724351, 33.622098],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_40517e6d0552eb6cc2c85d4799bdcdd4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6703d537988c2db149980200c8aa51f9 = $(`&lt;div id=&quot;html_6703d537988c2db149980200c8aa51f9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Soroti -  Uganda&lt;/div&gt;`)[0];
+                popup_40517e6d0552eb6cc2c85d4799bdcdd4.setContent(html_6703d537988c2db149980200c8aa51f9);
+            
+        
+
+        circle_marker_7b23adc45905663774e577ecb8de4021.bindPopup(popup_40517e6d0552eb6cc2c85d4799bdcdd4)
+        ;
+
+        
+    
+    
+            circle_marker_7b23adc45905663774e577ecb8de4021.bindTooltip(
+                `&lt;div&gt;
+                     UGA_Solar_Soroti
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_b12ab2372e671228b7a4a63f4e6ac688 = L.circleMarker(
+                [2.725961, 31.390403],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_37d964c8073ccfc1bbed48448e1754c3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1126197f4ef7e6fd5aadc551106fd896 = $(`&lt;div id=&quot;html_1126197f4ef7e6fd5aadc551106fd896&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Wadelai -  Uganda&lt;/div&gt;`)[0];
+                popup_37d964c8073ccfc1bbed48448e1754c3.setContent(html_1126197f4ef7e6fd5aadc551106fd896);
+            
+        
+
+        circle_marker_b12ab2372e671228b7a4a63f4e6ac688.bindPopup(popup_37d964c8073ccfc1bbed48448e1754c3)
+        ;
+
+        
+    
+    
+            circle_marker_b12ab2372e671228b7a4a63f4e6ac688.bindTooltip(
+                `&lt;div&gt;
+                     UGA_Solar_Wadelai
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_9d151207c881107884d7d20e5e14478c = L.circleMarker(
+                [21.2013, 106.0629],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a17585fd7267e79605116b595e655028 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_7f46f7ee68da8b4e1794b99a9cec8b24 = $(`&lt;div id=&quot;html_7f46f7ee68da8b4e1794b99a9cec8b24&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bac Ninh -  Vietnam&lt;/div&gt;`)[0];
+                popup_a17585fd7267e79605116b595e655028.setContent(html_7f46f7ee68da8b4e1794b99a9cec8b24);
+            
+        
+
+        circle_marker_9d151207c881107884d7d20e5e14478c.bindPopup(popup_a17585fd7267e79605116b595e655028)
+        ;
+
+        
+    
+    
+            circle_marker_9d151207c881107884d7d20e5e14478c.bindTooltip(
+                `&lt;div&gt;
+                     VN_Solar_VNHAN_EVN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_ae98be4a453e9517a35083c2ac7f231e = L.circleMarker(
+                [12.7535, 107.8761],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_eca36a83719a5422c5364d7765734e2e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ca9ad110bea86a99df76710a308718be = $(`&lt;div id=&quot;html_ca9ad110bea86a99df76710a308718be&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Central Highlands -  Vietnam&lt;/div&gt;`)[0];
+                popup_eca36a83719a5422c5364d7765734e2e.setContent(html_ca9ad110bea86a99df76710a308718be);
+            
+        
+
+        circle_marker_ae98be4a453e9517a35083c2ac7f231e.bindPopup(popup_eca36a83719a5422c5364d7765734e2e)
+        ;
+
+        
+    
+    
+            circle_marker_ae98be4a453e9517a35083c2ac7f231e.bindTooltip(
+                `&lt;div&gt;
+                     VN_Solar_VNCEH_EVN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_dbdaa8d07e6d3de8cdc28f3cd7f4a3e3 = L.circleMarker(
+                [16.0125, 108.1865],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_168730c6bd095a71daf74214eaaf4ca5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e167841900fce0241520d2e4bab6728e = $(`&lt;div id=&quot;html_e167841900fce0241520d2e4bab6728e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Da Nang -  Vietnam&lt;/div&gt;`)[0];
+                popup_168730c6bd095a71daf74214eaaf4ca5.setContent(html_e167841900fce0241520d2e4bab6728e);
+            
+        
+
+        circle_marker_dbdaa8d07e6d3de8cdc28f3cd7f4a3e3.bindPopup(popup_168730c6bd095a71daf74214eaaf4ca5)
+        ;
+
+        
+    
+    
+            circle_marker_dbdaa8d07e6d3de8cdc28f3cd7f4a3e3.bindTooltip(
+                `&lt;div&gt;
+                     VN_Solar_VNDAN_EVN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_1c2f5df3116d5fb749fc127844c2e073 = L.circleMarker(
+                [11.2641, 108.3452],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_7c789606ff3560dd5eddab83c77a659a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f53c2016e68cebb27b99eddc09acf408 = $(`&lt;div id=&quot;html_f53c2016e68cebb27b99eddc09acf408&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Song Binh -  Vietnam&lt;/div&gt;`)[0];
+                popup_7c789606ff3560dd5eddab83c77a659a.setContent(html_f53c2016e68cebb27b99eddc09acf408);
+            
+        
+
+        circle_marker_1c2f5df3116d5fb749fc127844c2e073.bindPopup(popup_7c789606ff3560dd5eddab83c77a659a)
+        ;
+
+        
+    
+    
+            circle_marker_1c2f5df3116d5fb749fc127844c2e073.bindTooltip(
+                `&lt;div&gt;
+                     VN_Solar_VNSOB_EVN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_ff315279116c7e3359746897d423ddde = L.circleMarker(
+                [11.1024, 107.0378],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_885e1908b64caa981e00decf261f6faf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e9f01f2bea872518a7c8332a44f0cac7 = $(`&lt;div id=&quot;html_e9f01f2bea872518a7c8332a44f0cac7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tri An -  Vietnam&lt;/div&gt;`)[0];
+                popup_885e1908b64caa981e00decf261f6faf.setContent(html_e9f01f2bea872518a7c8332a44f0cac7);
+            
+        
+
+        circle_marker_ff315279116c7e3359746897d423ddde.bindPopup(popup_885e1908b64caa981e00decf261f6faf)
+        ;
+
+        
+    
+    
+            circle_marker_ff315279116c7e3359746897d423ddde.bindTooltip(
+                `&lt;div&gt;
+                     VN_Solar_VNTRA_EVN
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_067b9c2013964956afc3fd03eb0995fb = L.circleMarker(
+                [-15.54831, 28.24822],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_f7bd413a4e9bbced6b38a9ebae2cf8de = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_bbd4b003fc7a30d911a68d49b9fbeb00 = $(`&lt;div id=&quot;html_bbd4b003fc7a30d911a68d49b9fbeb00&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Chilanga -  Zambia&lt;/div&gt;`)[0];
+                popup_f7bd413a4e9bbced6b38a9ebae2cf8de.setContent(html_bbd4b003fc7a30d911a68d49b9fbeb00);
+            
+        
+
+        circle_marker_067b9c2013964956afc3fd03eb0995fb.bindPopup(popup_f7bd413a4e9bbced6b38a9ebae2cf8de)
+        ;
+
+        
+    
+    
+            circle_marker_067b9c2013964956afc3fd03eb0995fb.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Lusaka_Chilanga
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_fe4a6ff2dd3f93c004bd255bb72e2df3 = L.circleMarker(
+                [-16.83822, 27.07046],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_4cb869903aefdb730b587395f6624389 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ce003cb4b20e42685f9ae623c28f7e8b = $(`&lt;div id=&quot;html_ce003cb4b20e42685f9ae623c28f7e8b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Choma -  Zambia&lt;/div&gt;`)[0];
+                popup_4cb869903aefdb730b587395f6624389.setContent(html_ce003cb4b20e42685f9ae623c28f7e8b);
+            
+        
+
+        circle_marker_fe4a6ff2dd3f93c004bd255bb72e2df3.bindPopup(popup_4cb869903aefdb730b587395f6624389)
+        ;
+
+        
+    
+    
+            circle_marker_fe4a6ff2dd3f93c004bd255bb72e2df3.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Choma_Mochipapa
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_3d5169c1ca1701bb9349bf7118f45f54 = L.circleMarker(
+                [-14.83966, 24.93186],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_f08a87162b15ae5b71da0e042ad3aafc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d758b299c8e64b6070dad138d9c3efdb = $(`&lt;div id=&quot;html_d758b299c8e64b6070dad138d9c3efdb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kaoma -  Zambia&lt;/div&gt;`)[0];
+                popup_f08a87162b15ae5b71da0e042ad3aafc.setContent(html_d758b299c8e64b6070dad138d9c3efdb);
+            
+        
+
+        circle_marker_3d5169c1ca1701bb9349bf7118f45f54.bindPopup(popup_f08a87162b15ae5b71da0e042ad3aafc)
+        ;
+
+        
+    
+    
+            circle_marker_3d5169c1ca1701bb9349bf7118f45f54.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Kaoma_Longe
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_b865b862e02edd4ae0e6b5d881d4f329 = L.circleMarker(
+                [-10.17165, 31.22558],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_d8d4e7de870a4b6eb669a7d6183d3726 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_49e85b7ce2ba3974a0fbe704bd6ac137 = $(`&lt;div id=&quot;html_49e85b7ce2ba3974a0fbe704bd6ac137&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Kasama -  Zambia&lt;/div&gt;`)[0];
+                popup_d8d4e7de870a4b6eb669a7d6183d3726.setContent(html_49e85b7ce2ba3974a0fbe704bd6ac137);
+            
+        
+
+        circle_marker_b865b862e02edd4ae0e6b5d881d4f329.bindPopup(popup_d8d4e7de870a4b6eb669a7d6183d3726)
+        ;
+
+        
+    
+    
+            circle_marker_b865b862e02edd4ae0e6b5d881d4f329.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Kasama_Misamfu
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_7d8447dbf3f6f2bc75bc1ef15c4e68a7 = L.circleMarker(
+                [-15.39465, 28.33711],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_7555ddd7019cdabf8ca8f864964986a7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f4d75a1139c7f65dbdecce58eba532cf = $(`&lt;div id=&quot;html_f4d75a1139c7f65dbdecce58eba532cf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lusaka -  Zambia&lt;/div&gt;`)[0];
+                popup_7555ddd7019cdabf8ca8f864964986a7.setContent(html_f4d75a1139c7f65dbdecce58eba532cf);
+            
+        
+
+        circle_marker_7d8447dbf3f6f2bc75bc1ef15c4e68a7.bindPopup(popup_7555ddd7019cdabf8ca8f864964986a7)
+        ;
+
+        
+    
+    
+            circle_marker_7d8447dbf3f6f2bc75bc1ef15c4e68a7.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Lusaka_UNZA
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_46d38efb4967a6e5d0ca009bb13db1eb = L.circleMarker(
+                [-12.4236, 26.2153],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_a60f9d61c8a68636005a2158920b9f34 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1c41f41175471470f20b0a5dee444ce8 = $(`&lt;div id=&quot;html_1c41f41175471470f20b0a5dee444ce8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Mutanda -  Zambia&lt;/div&gt;`)[0];
+                popup_a60f9d61c8a68636005a2158920b9f34.setContent(html_1c41f41175471470f20b0a5dee444ce8);
+            
+        
+
+        circle_marker_46d38efb4967a6e5d0ca009bb13db1eb.bindPopup(popup_a60f9d61c8a68636005a2158920b9f34)
+        ;
+
+        
+    
+    
+            circle_marker_46d38efb4967a6e5d0ca009bb13db1eb.bindTooltip(
+                `&lt;div&gt;
+                     ZMB_Solar_Solwezi_Mutanda
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_c0acf0e0e60129ed214bb2052a5c0bb8 = L.circleMarker(
+                [-15.001425, 28.549047],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_137edd9b9069917486200b2f3dcb9471 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_da7c594ceaaecfdcb80ca6c39f377314 = $(`&lt;div id=&quot;html_da7c594ceaaecfdcb80ca6c39f377314&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Fig Tree -  Zambia&lt;/div&gt;`)[0];
+                popup_137edd9b9069917486200b2f3dcb9471.setContent(html_da7c594ceaaecfdcb80ca6c39f377314);
+            
+        
+
+        circle_marker_c0acf0e0e60129ed214bb2052a5c0bb8.bindPopup(popup_137edd9b9069917486200b2f3dcb9471)
+        ;
+
+        
+    
+    
+            circle_marker_c0acf0e0e60129ed214bb2052a5c0bb8.bindTooltip(
+                `&lt;div&gt;
+                     ZM_Solar_FigTree_IFC
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_bdcea24f757f0b936dbe45b433d14b66 = L.circleMarker(
+                [-15.085303, 27.0015525],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_746343c52bbff17e7aa5294823471e31 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_490cea392dc4526462064b4f1d4eda5b = $(`&lt;div id=&quot;html_490cea392dc4526462064b4f1d4eda5b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Mumbwa -  Zambia&lt;/div&gt;`)[0];
+                popup_746343c52bbff17e7aa5294823471e31.setContent(html_490cea392dc4526462064b4f1d4eda5b);
+            
+        
+
+        circle_marker_bdcea24f757f0b936dbe45b433d14b66.bindPopup(popup_746343c52bbff17e7aa5294823471e31)
+        ;
+
+        
+    
+    
+            circle_marker_bdcea24f757f0b936dbe45b433d14b66.bindTooltip(
+                `&lt;div&gt;
+                     ZM_Solar_Mumbwa_IFC
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var circle_marker_0358faae722fdafd0e0d46bd98231356 = L.circleMarker(
+                [-12.577451, 28.292946],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+        var popup_27944a8747c814788ea34e43bdd98bd7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_12d70ff372c0897b3db2fcd1cef748f8 = $(`&lt;div id=&quot;html_12d70ff372c0897b3db2fcd1cef748f8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Ndeke -  Zambia&lt;/div&gt;`)[0];
+                popup_27944a8747c814788ea34e43bdd98bd7.setContent(html_12d70ff372c0897b3db2fcd1cef748f8);
+            
+        
+
+        circle_marker_0358faae722fdafd0e0d46bd98231356.bindPopup(popup_27944a8747c814788ea34e43bdd98bd7)
+        ;
+
+        
+    
+    
+            circle_marker_0358faae722fdafd0e0d46bd98231356.bindTooltip(
+                `&lt;div&gt;
+                     ZM_Solar_Ndeke_IFC
+                 &lt;/div&gt;`,
+                {&quot;sticky&quot;: true}
+            );
+        
+    
+            var tile_layer_9578e763fd64743106520c71b3b1b17c = L.tileLayer(
+                &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
+                {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            );
+        
+    
+            var layer_control_0704b3dbb8ac553878b18952ad775344_layers = {
+                base_layers : {
+                    &quot;openstreetmap&quot; : tile_layer_073726e2133eb7498fc32c2f886dc667,
+                    &quot;World imagery&quot; : tile_layer_9578e763fd64743106520c71b3b1b17c,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_0704b3dbb8ac553878b18952ad775344 = L.control.layers(
+                layer_control_0704b3dbb8ac553878b18952ad775344_layers.base_layers,
+                layer_control_0704b3dbb8ac553878b18952ad775344_layers.overlays,
+                {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topright&quot;}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+
+        
+    
+            L.control.fullscreen(
+                {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;bottomright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
+            ).addTo(map_8d5d15a563d4753503164c9c83442e8d);
+        
+    
+                var lat_lng_popup_4525d6366a154c5b1818af0046ffd0c5 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_4525d6366a154c5b1818af0046ffd0c5
+                        .setLatLng(e.latlng)
+                        .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
+                                    &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
+                        .openOn(map_8d5d15a563d4753503164c9c83442e8d);
+                    }
+                map_8d5d15a563d4753503164c9c83442e8d.on(&#x27;click&#x27;, latLngPop);
+            
+&lt;/script&gt;
+&lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="station_network_srml.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Solar Radiation Monitoring Laboratory (SRML)</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="station_network_pvlive.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">PV-Live</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By AssessingSolar.org
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
