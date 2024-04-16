@@ -74,7 +74,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="_static/assessing_solar_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Baseline Surface Radiation Network (BSRN)" href="station_network_bsrn.html" />
+    <link rel="next" title="Metadata" href="station_metadata.html" />
     <link rel="prev" title="Station catalog" href="station_catalog.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -182,6 +182,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="station_catalog.html">Station catalog</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Station requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_metadata.html">Metadata</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">High-quality networks</span></p>
 <ul class="nav bd-sidenav">
@@ -302,7 +303,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/station_requirements.ipynb" target="_blank"
+      <li><a href="_sources/station_requirements.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -312,7 +313,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -402,11 +403,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-qualifying-stations">Non-qualifying stations</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-metadata">Station metadata</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#time-period">Time-period</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments-and-components">Instruments and components</a></li>
-</ul>
-</li>
 </ul>
             </nav>
         </div>
@@ -420,10 +416,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="station-requirements-and-categorization">
 <h1>Station requirements and categorization<a class="headerlink" href="#station-requirements-and-categorization" title="Permalink to this heading">#</a></h1>
-<p>This sections defines the minimum requirements for a station to be included in in the list of high-quality solar radiation monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the last component can be calculated.</p>
+<p>This section defines the minimum requirements for a station to be included in the list of high-quality solar radiation monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the remaining component can be calculated.</p>
 <section id="station-categorization">
 <h2>Station categorization<a class="headerlink" href="#station-categorization" title="Permalink to this heading">#</a></h2>
-<p>The stations are subdivided into two different categories: Tier 1 and Tier 2 stations.</p>
+<p>Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below.</p>
 <section id="tier-1-stations">
 <h3>Tier 1 stations<a class="headerlink" href="#tier-1-stations" title="Permalink to this heading">#</a></h3>
 <p>Tier 1 stations are defined as those that meet all of the following requirements:</p>
@@ -432,7 +428,7 @@ document.write(`
 <li><p>measurement of diffuse horizontal irradiance (DHI) with a Spectrally Flat Class A thermopile pyranometer shaded by a shading ball</p></li>
 <li><p>measurement of global horizontal irradiance (GHI) with a Spectrally Flat Class A thermopile pyranometer</p></li>
 </ul>
-<p>Separate measurement of GHI is required for Tier 1 stations as most quality control procedures relies on comparing the measured and calculated GHI (closure equation). The stations in the <a class="reference external" href="https://bsrn.awi.de/">BSRN</a> network are examples of Tier 1 stations.</p>
+<p>Separate measurement of GHI is required for Tier 1 stations as most quality control procedures rely on comparing the measured and calculated GHI (closure equation). Stations in the <a class="reference internal" href="station_network_bsrn.html"><span class="doc std std-doc">BSRN network</span></a> are examples of Tier 1 stations.</p>
 </section>
 <section id="tier-2-stations">
 <h3>Tier 2 stations<a class="headerlink" href="#tier-2-stations" title="Permalink to this heading">#</a></h3>
@@ -444,31 +440,7 @@ document.write(`
 </section>
 <section id="non-qualifying-stations">
 <h3>Non-qualifying stations<a class="headerlink" href="#non-qualifying-stations" title="Permalink to this heading">#</a></h3>
-<p>Stations that only measure GHI are not considered, this is in part due to the fact that there are thousands of such stations worldwide. Also, stations that measure DHI using a manually adjusted shadow band are not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.</p>
-</section>
-</section>
-<section id="station-metadata">
-<h2>Station metadata<a class="headerlink" href="#station-metadata" title="Permalink to this heading">#</a></h2>
-<p>The central part of the catalog is the list of stations and their metadata, which includes:</p>
-<ul class="simple">
-<li><p>Station name</p></li>
-<li><p>Station abbreviation</p></li>
-<li><p>State/region and country</p></li>
-<li><p>Latitude, longitude, and elevation (according to ISO 6709)</p></li>
-<li><p>Time period of operation</p></li>
-<li><p>Station network (e.g., BSRN, SURFRAD) and owner</p></li>
-<li><p>Link to the station or network website</p></li>
-<li><p>Data availability (“Freely”, “Upon request”, “Not available”, or blank if unknown)</p></li>
-<li><p>Station tier</p></li>
-<li><p>Instruments and components</p></li>
-</ul>
-</section>
-<section id="time-period">
-<h2>Time-period<a class="headerlink" href="#time-period" title="Permalink to this heading">#</a></h2>
-<p>The station time-period is useful for a number of reasons, e.g., in identifying which stations are still active and how long of a historical record of data is available. The time-period should identify for which years data is available. For example, for an active station from 2013 which does not have data for 2014 and 2017, the time-period would be: <code class="docutils literal notranslate"><span class="pre">2013&amp;2015-2016&amp;2018-</span></code>. For BSRN stations the time period should be identified based on the available data, which can be seen <a class="reference external" href="https://dataportals.pangaea.de/bsrn/">here</a>.</p>
-<section id="instruments-and-components">
-<h3>Instruments and components<a class="headerlink" href="#instruments-and-components" title="Permalink to this heading">#</a></h3>
-<p>Metadata concenring the instrumentation and which components are measured is highly useful when determining if a station is of interest to a particular study. The instrument column denotes whether irradiance is measured using tradiational thermopile instruments or using special instruments (such as SPN1 or rotating shadowband pyranometers (RSR or RSI). In the components column, the measured components are denoted by one or more letters separated by semicolons. An example could be <code class="docutils literal notranslate"><span class="pre">G;B;D;UV;IR</span></code> (the order of components should be given as in the example).</p>
+<p>Stations that only measure GHI are not considered, which is in part because there are thousands of such stations worldwide. Also, stations that measure DHI using a manually adjusted shadow band are generally not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.</p>
 </section>
 </section>
 </section>
@@ -513,11 +485,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="station_network_bsrn.html"
+       href="station_metadata.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Baseline Surface Radiation Network (BSRN)</p>
+        <p class="prev-next-title">Metadata</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -541,11 +513,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tier-1-stations">Tier 1 stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tier-2-stations">Tier 2 stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-qualifying-stations">Non-qualifying stations</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-metadata">Station metadata</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#time-period">Time-period</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments-and-components">Instruments and components</a></li>
 </ul>
 </li>
 </ul>
