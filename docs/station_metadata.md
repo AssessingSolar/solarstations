@@ -1,6 +1,6 @@
 # Metadata
 
-The central part of the catalog is the list of stations and their metadata which is displayed on the station catalog page](station_catalog). The metadata for each station includes:
+The central part of the catalog is the list of stations and their metadata which is displayed on the [station catalog page](station_catalog). The metadata for each station includes:
 * Station name
 * Station abbreviation
 * State/region and country
@@ -9,7 +9,7 @@ The central part of the catalog is the list of stations and their metadata which
 * Station owner and network (e.g., BSRN, SURFRAD)
 * Link to the station or network website
 * Data availability ("Freely", "Upon request", "Not available", or blank if unknown)
-* Station tier (see [station requirements](station_requirements].
+* Station tier (see [station requirements](station_requirements).
 * Instruments and components
 
 ## Time-period
