@@ -678,6 +678,9 @@ Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285.0,2009-?,WMO GAW,Czech Hy
 Vaulx-en-Velin,,,France,45.7786,4.9225,170.0,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV,Europe,Cfb,Temperate
 Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150.0,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D,Asia,Cwa,Temperate
 Le Bourget-du-Lac,,,France,45.6416,5.8752,235.0,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,2,Thermopile,G;B,Europe,Cfa,Temperate
+Grimstad,,,Norway,58.3345,8.5753,40.0,2019-,,University of Agder,Also has Spectrafy instruments and reference cells.,,,1,Thermopile,G;B;D;GTI;Albedo,Europe,Cfb,Temperate
+Kjeller,,,Norway,59.9725152,11.0522975,130.0,2022-,,IFE,Also has reference cells.,https://ife.no/service/ife-pv-module-outdoor-test-site/,,1,Thermopile,G;B;D;GTI;Albedo,Europe,Dfb,Continental
+Tromsø,,,Norway,69.661,18.939,113.0,2020-?,,University of Tromsø,,,,1,Thermopile,G;B;D,Europe,Dfc,Continental
 Hrazdan,ARM_Solar_Hrazdan,,Armenia,40.5116,44.823,1845,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Asia,Dfb,Continental
 Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Asia,Dfb,Continental
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components has not been manually checked,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,,,Asia,Dfb,Continental
