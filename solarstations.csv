@@ -678,6 +678,6 @@ Hradec Kralove,HKR,,Czech Republic,50.1772,15.8386,285,2009-?,WMO GAW,Czech Hydr
 Vaulx-en-Velin,,,France,45.7786,4.9225,170,2005-,IDMP,ENTPE,Diffuse is measured with a shadowring.,https://idmp.entpe.fr/,Freely,2,Thermopile,G;B;D;UV
 Chinese University of Hong Kong,CUHK,,China,22.4207,114.2085,150,2003-?,,University of Hong Kong,,,,1,Thermopile,G;B;D
 Le Bourget-du-Lac,,,France,45.6416,5.8752,235,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,2,Thermopile,G;B
-Grimstad,,,Norway,58.3345,8.5753,40,2019-,,University of Agder,Also has Spectrafy instruments and reference cells.,,,1,G;B;D;GTI;Albedo;
-Kjeller,,,Norway,59.9725152,11.0522975,130,2022-,,IFE,Also has reference cells.,https://ife.no/service/ife-pv-module-outdoor-test-site/,1,G;B;D;GTI;Albedo
+Grimstad,,,Norway,58.3345,8.5753,40,2019-,,University of Agder,Also has Spectrafy instruments and reference cells.,,,1,Thermopile,G;B;D;GTI;Albedo
+Kjeller,,,Norway,59.9725152,11.0522975,130,2022-,,IFE,Also has reference cells.,https://ife.no/service/ife-pv-module-outdoor-test-site/,,1,Thermopile,G;B;D;GTI;Albedo
 Tromsø,,,Norway,69.661,18.939,113,2020-?,,University of Tromsø,,,,1,Thermopile,G;B;D
