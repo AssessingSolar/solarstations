@@ -59,7 +59,7 @@ Payerne,PAY,,Switzerland,46.8123,6.9422,491,1992-,BSRN,MeteoSwiss,,,Freely,1,The
 Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,1,Thermopile,G;B;D
 Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,1,Thermopile,G;B;D;IR
 Regina,REG,,Canada,50.205,-104.713,578,1995-2011,BSRN,,,,Freely,1,Thermopile,G;B;D
-Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007-2007,BSRN,,Only two months of data available.,,Freely,1,Thermopile,G;B;D
+Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of data available.,,Freely,1,Thermopile,G;B;D
 Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freely,1,Thermopile,G;B;D
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,1,Thermopile,G;B;D
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,1,Thermopile,G;B;D
