@@ -574,6 +574,7 @@ Lafayette,UL,Louisiana,USA,30.2050,-92.3979,5,2018-,,NREL,,https://midcdmz.nrel.
 University of Florida,UF,Florida,USA,29.626968,-82.360851,27.4,2022-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UFL,Freely,1,Thermopile,G;B;D
 University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UNLV,Freely,1,Thermopile,G;B;D;UV
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
+Oak Ridge,OAK,Tennessee,USA,35.92996,-84.30952,245,2007-2019,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,2,Thermopile,G;RSR
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Fairbanks,,Alaska,USA,64.86,-147.87,138,1981-1984,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
