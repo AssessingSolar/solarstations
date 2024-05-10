@@ -683,3 +683,5 @@ Grimstad,,,Norway,58.3345,8.5753,40,2019-,,University of Agder,Also has Spectraf
 Kjeller,,,Norway,59.9725152,11.0522975,130,2022-,,IFE,Also has reference cells.,https://ife.no/service/ife-pv-module-outdoor-test-site/,,1,Thermopile,G;B;D;GTI;Albedo
 Tromsø,,,Norway,69.661,18.939,113,2020-?,,University of Tromsø,,,,1,Thermopile,G;B;D
 Parkent,PAR,,Uzbekistan,41.3135,69.7408,1081,2011-?,,Uzhydromet,,,,1,Thermopile;RSP,G;B;D;RSP
+Arandis,ARA,,Namibia,-22.3656,15.0449,697,2016-?,,NamPower,,,,1,Thermopile,G;B;D
+Auas,AUA,,Namibia,-22.5882,17.3635,1880,2016-?,,NamPower,,,,1,Thermopile,G;B;D
