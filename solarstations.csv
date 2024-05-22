@@ -168,7 +168,7 @@ North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site shou
 SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,1,Thermopile,G;B;D
 SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,1,Thermopile,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,1,Thermopile,G;B;D
-Casaccia Research Center,,Lazio,Italy,42.05,12.30,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,1,Thermopile,G;B;D
+Casaccia Research Center,CAS,Lazio,Italy,42.04167,12.30667,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,1,Thermopile,G;B;D
 European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,1,Thermopile,G;B;D
 Ricerca sul Sistema Energetico,RSE,Milan,Italy,45.47488,9.26001,150,2012-,,RSE,"Tracker is installed on the roof of a building (ground elevation is 108 m). The station also makes spectral measurement using a Spectrafy instrument.",,,1,Thermopile,G;B;D
 University of Girona,,Catalonia,Spain,41.96,2.83,110,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,1,Thermopile,G;B;D
@@ -574,6 +574,7 @@ Lafayette,UL,Louisiana,USA,30.2050,-92.3979,5,2018-,,NREL,,https://midcdmz.nrel.
 University of Florida,UF,Florida,USA,29.626968,-82.360851,27.4,2022-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UFL,Freely,1,Thermopile,G;B;D
 University of Nevada,UNLV,Nevada,USA,36.107,-115.1425,615,2006-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UNLV,Freely,1,Thermopile,G;B;D;UV
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,1,Thermopile,G;B;D
+Oak Ridge,OAK,Tennessee,USA,35.92996,-84.30952,245,2007-2019,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,2,Thermopile,G;RSR
 Adam,,,Oman,22.2072,57.5230,250,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Manah,,,Oman,22.6031,57.6672,345,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,1,Thermopile,G;B;D
 Fairbanks,,Alaska,USA,64.86,-147.87,138,1981-1984,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,1,Thermopile,G;B;D
@@ -681,3 +682,6 @@ Le Bourget-du-Lac,,,France,45.6416,5.8752,235,2019-?,,INES,There is a second tra
 Grimstad,,,Norway,58.3345,8.5753,40,2019-,,University of Agder,Also has Spectrafy instruments and reference cells.,,,1,Thermopile,G;B;D;GTI;Albedo
 Kjeller,,,Norway,59.9725152,11.0522975,130,2022-,,IFE,Also has reference cells.,https://ife.no/service/ife-pv-module-outdoor-test-site/,,1,Thermopile,G;B;D;GTI;Albedo
 Tromsø,,,Norway,69.661,18.939,113,2020-?,,University of Tromsø,,,,1,Thermopile,G;B;D
+Parkent,PAR,,Uzbekistan,41.3135,69.7408,1081,2011-?,,Uzhydromet,,,,1,Thermopile;RSP,G;B;D;RSP
+Arandis,ARA,,Namibia,-22.3656,15.0449,697,2016-?,,NamPower,,,,1,Thermopile,G;B;D
+Auas,AUA,,Namibia,-22.5882,17.3635,1880,2016-?,,NamPower,,,,1,Thermopile,G;B;D
