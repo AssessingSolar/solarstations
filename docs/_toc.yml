@@ -27,6 +27,7 @@ parts:
   - caption: Other networks
     chapters:
     - file: station_network_pvlive
+    - file: other_data_sources
 
   - caption: Appendix
     chapters:
