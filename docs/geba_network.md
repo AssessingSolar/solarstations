@@ -6,7 +6,7 @@ The Global Energy Balance Archive (GEBA) is a database for the central storage o
 :height: 400px
 :alt: stations in the GEBA network
 
-Distribution of the 2500 locations with observational data contained in GEBA. Red symbols indicate locations with at least one monthly entry in GEBA; yellow symbols signify locations with multiyear records (at least 3 years of data) [Source](https://doi.org/10.5194/essd-9-601-2017).
+Distribution of the 2500 locations with observational data contained in GEBA. Red symbols indicate locations with at least one monthly entry in GEBA; yellow symbols signify locations with multiyear records (at least three years of data) [source](https://doi.org/10.5194/essd-9-601-2017).
 ```
 
 The following parameters can be obtained from GEBA:
@@ -27,4 +27,4 @@ The following parameters can be obtained from GEBA:
 * Absorbed shortwave radiation
 * Circumglobal radiation 
 
-It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal radiation. Unfortunately, GEBA does not provide infomration on the instrumentation used to measure the solar radiation components, so it is not possible for the user to estimate the quality of the data.
+It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal radiation. Unfortunately, GEBA does not provide information on the instrument used to measure solar radiation components, so the user can't estimate the quality of the data.
