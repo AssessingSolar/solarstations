@@ -1,4 +1,4 @@
-# The Global Energy Balance Archive (GEBA) network
+# GEBA
 
 The Global Energy Balance Archive (GEBA) is a database for the central storage of the worldwide measured energy fluxes at the Earth’s surface, maintained at ETH Zurich (Switzerland). Many of the historical records extend over several decades. GEBA contains monthly data from a variety of sources, namely from the World Radiation Data Centre (WRDC) in St.Petersburg, national weather services, different research networks (BSRN, ARM, SURFRAD), peer-reviewed publications, project and data reports, and personal communications. GEBA is publicly accessible [online](http://www.geba.ethz.ch). Supplementary data are also available [here](https://doi.org/10.1594/PANGAEA.873078). An overview of the measurement locations is presented in the figure below.
 
