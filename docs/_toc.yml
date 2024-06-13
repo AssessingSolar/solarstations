@@ -26,8 +26,9 @@ parts:
 
   - caption: Other networks
     chapters:
-    - file: station_network_pvlive
     - file: other_data_sources
+    - file: station_network_pvlive
+    - file: geba_network
 
   - caption: Appendix
     chapters:
