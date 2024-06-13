@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Contributing &#8212; SolarStations</title>
+    <title>GEBA &#8212; SolarStations</title>
   
   
   
@@ -69,12 +69,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'contributing';</script>
-    <link rel="canonical" href="https://SolarStations.org/contributing.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'geba_network';</script>
+    <link rel="canonical" href="https://SolarStations.org/geba_network.html" />
     <link rel="shortcut icon" href="_static/assessing_solar_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="GEBA" href="geba_network.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="PV-Live" href="station_network_pvlive.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -195,13 +196,13 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="station_network_esmap.html">ESMAP</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Other networks</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="station_network_pvlive.html">PV-Live</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geba_network.html">GEBA</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">GEBA</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://assessingsolar.org">AssessingSolar.org</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/">IEA PVPS Task 16</a></li>
 </ul>
@@ -275,7 +276,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/assessingsolar/solarstations/issues/new?title=Issue%20on%20page%20%2Fcontributing.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/assessingsolar/solarstations/issues/new?title=Issue%20on%20page%20%2Fgeba_network.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -305,7 +306,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/contributing.md" target="_blank"
+      <li><a href="_sources/geba_network.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -387,7 +388,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Contributing</h1>
+    <h1>GEBA</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -401,9 +402,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="contributing">
-<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this heading">#</a></h1>
-<p>We highly welcome contributions to the solar station catalog and website. To contribute a new station entry or update existing information, please submit a pull request to the <a class="reference external" href="https://github.com/AssessingSolar/solarstations">SolarStation GitHub repository</a>. If you’re not a savvy GitHub user, then you’re welcome to send suggestions to <a class="reference external" href="mailto:arajen&#37;&#52;&#48;dtu&#46;dk">arajen<span>&#64;</span>dtu<span>&#46;</span>dk</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="geba">
+<h1>GEBA<a class="headerlink" href="#geba" title="Permalink to this heading">#</a></h1>
+<p>The Global Energy Balance Archive (GEBA) is a global database containing measured energy fluxes at the Earth’s surface and is maintained by ETH Zurich (Switzerland). Notably, the stations included are of varying quality with many only measuring one irradiance component as part of national networks, although many of the historical records extend over several decades.</p>
+<p>GEBA contains monthly data from a variety of sources, namely from the World Radiation Data Centre (WRDC) in St. Petersburg, national weather services, research networks (BSRN, ARM, SURFRAD), peer-reviewed publications, project and data reports, and personal communications. GEBA is publicly accessible <a class="reference external" href="http://www.geba.ethz.ch">online</a>. Supplementary data are also available <a class="reference external" href="https://doi.org/10.1594/PANGAEA.873078">here</a>. An overview of the measurement locations is presented in the figure below.</p>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="_images/geba.png"><img alt="stations in the GEBA network" src="_images/geba.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Distribution of the 2500 locations with observational data contained in GEBA. Red symbols indicate locations with at least one monthly entry in GEBA; yellow symbols signify locations with multiyear records (at least three years of data) <a class="reference external" href="https://doi.org/10.5194/essd-9-601-2017">source</a>.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The following parameters can be obtained from GEBA:</p>
+<ul class="simple">
+<li><p>Global horizontal irradiance - GHI (shortwave incoming)</p></li>
+<li><p>Direct normal irradiance - DNI</p></li>
+<li><p>Diffuse horizontal irradiance - DHI</p></li>
+<li><p>Albedo</p></li>
+<li><p>Reflected shortwave radiation</p></li>
+<li><p>Longwave incoming radiation</p></li>
+<li><p>Longwave outgoing radiation</p></li>
+<li><p>Longwave net radiation</p></li>
+<li><p>Radiation balance</p></li>
+<li><p>Sensible heat flux</p></li>
+<li><p>Latent heat flux</p></li>
+<li><p>Subsurface heat flux</p></li>
+<li><p>Ultraviolet radiation</p></li>
+<li><p>Absorbed shortwave radiation</p></li>
+<li><p>Circumglobal radiation</p></li>
+</ul>
+<p>It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal irradiance. Unfortunately, GEBA does not provide information on the instrument used to measure solar radiation components, so the user can’t estimate the quality of the data.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -437,13 +464,22 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="geba_network.html"
+       href="station_network_pvlive.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">GEBA</p>
+        <p class="prev-next-title">PV-Live</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="contributing.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Contributing</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
