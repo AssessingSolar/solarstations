@@ -6,19 +6,18 @@ on:
     branches:
     - main
 
-
 jobs:
   validate-csv:
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install Python 3.11
-        uses: actions/setup-python@v4
+      - name: Install Python 3.12
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install requirements
         run: pip install requests pandas numpy
