@@ -11,6 +11,8 @@ parts:
     - file: station_requirements
       title: Station requirements
     - file: station_metadata
+    - file: station_statistics
+      title: Statistics
   - caption: High-quality networks
     chapters:
     - file: station_network_bsrn
