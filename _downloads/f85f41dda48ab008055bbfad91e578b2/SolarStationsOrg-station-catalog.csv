@@ -1,5 +1,5 @@
 Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components,Continent,Koeppen Geiger classification,Koeppen Geiger climate zone
-Abashiri,ABS,,Japan,44.0178,144.2797,38.0,2021-,BSRN,,Candidate station (no. 86),,Freely,1,Thermopile,G;B;D,Asia,Dfb,Continental
+Abashiri,ABS,,Japan,44.0178,144.2797,38.0,2021-,BSRN,,,,Freely,1,Thermopile,G;B;D,Asia,Dfb,Continental
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127.0,2004-2014,BSRN,,,,Freely,1,Thermopile,G;B;D,North America,ET,Polar
 Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.889,546.0,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,1,Thermopile,G;B;D;IR,Oceania,BWh,Dry
 Barrow,BAR,Alaska,USA,71.323,-156.607,8.0,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,1,Thermopile,G;B;D,North America,ET,Polar
@@ -40,6 +40,7 @@ Ilorin,ILO,,Nigeria,8.5333,4.5667,350.0,1992-2005,BSRN,,Station closed due to no
 Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,1,Thermopile,G;B;D,Asia,Ocean,Ocean
 Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,1,Thermopile,G;B;D,Europe,Csb,Temperate
 Kwajalein,KWA,,Marshall Islands,8.72,167.731,10.0,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,1,Thermopile,G;B;D,Oceania,Ocean,Ocean
+Lampedusa,LMP,,Italy,35.518,12.63,50.0,2023-,BSRN,,,,Freely,1,Thermopile,G;B;D,Europe,Ocean,Ocean
 Lauder,LAU,,New Zealand,-45.045,169.689,350.0,1999-,BSRN,,,,Freely,1,Thermopile,G;B;D,Oceania,Cfb,Temperate
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,1,Thermopile,G;B;D,Europe,Cfb,Temperate
 Lindenberg,LIN,,Germany,52.21,14.122,125.0,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,1,Thermopile,G;B;D,Europe,Cfb,Temperate
