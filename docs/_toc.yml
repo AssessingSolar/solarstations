@@ -10,6 +10,7 @@ parts:
     - file: station_catalog
     - file: station_requirements
       title: Station requirements
+    - file: station_metadata
   - caption: High-quality networks
     chapters:
     - file: station_network_bsrn
@@ -20,10 +21,14 @@ parts:
       title: SOLRAD
     - file: station_network_srml
       title: SRML
+    - file: station_network_esmap
+      title: ESMAP
 
   - caption: Other networks
     chapters:
+    - file: other_data_sources
     - file: station_network_pvlive
+    - file: geba_network
 
   - caption: Appendix
     chapters:
