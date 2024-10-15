@@ -4,7 +4,7 @@ sphinx-book-theme==1.0.1
 matplotlib==3.8.2
 myst-nb==0.17.2
 numpy==1.26.3
-pandas==2.1.4
+pandas==2.2
 folium==0.15.1
 itables==2.0.0
 pvlib==0.10.3
