@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Contributing &#8212; SolarStations</title>
+    <title>Statistics &#8212; SolarStations</title>
   
   
   
@@ -69,12 +69,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'contributing';</script>
-    <link rel="canonical" href="https://SolarStations.org/contributing.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'station_statistics';</script>
+    <link rel="canonical" href="https://SolarStations.org/station_statistics.html" />
     <link rel="shortcut icon" href="_static/assessing_solar_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="GEBA" href="geba_network.html" />
+    <link rel="next" title="Baseline Surface Radiation Network (BSRN)" href="station_network_bsrn.html" />
+    <link rel="prev" title="Metadata" href="station_metadata.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,11 +182,11 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="station_catalog.html">Station catalog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_requirements.html">Station requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_metadata.html">Metadata</a></li>
-<li class="toctree-l1"><a class="reference internal" href="station_statistics.html">Statistics</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Statistics</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">High-quality networks</span></p>
 <ul class="nav bd-sidenav">
@@ -204,8 +205,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="geba_network.html">GEBA</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://assessingsolar.org">AssessingSolar.org</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/">IEA PVPS Task 16</a></li>
 </ul>
@@ -279,7 +280,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/assessingsolar/solarstations/issues/new?title=Issue%20on%20page%20%2Fcontributing.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/assessingsolar/solarstations/issues/new?title=Issue%20on%20page%20%2Fstation_statistics.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -309,7 +310,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/contributing.md" target="_blank"
+      <li><a href="_sources/station_statistics.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -319,7 +320,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -380,7 +381,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -391,11 +394,26 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Contributing</h1>
+    <h1>Statistics</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-duration">Dataset duration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#historical-and-active-stations">Historical and active stations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zooming-in-on-active-stations">Zooming in on active stations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-tier">Station tier</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leading-countries">Leading countries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown-by-continent-and-climate">Breakdown by continent and climate</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown-by-elevation-and-latitude">Breakdown by elevation and latitude</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-availability">Data availability</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -405,9 +423,139 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="contributing">
-<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this heading">#</a></h1>
-<p>We highly welcome contributions to the solar station catalog and website. To contribute a new station entry or update existing information, please submit a pull request to the <a class="reference external" href="https://github.com/AssessingSolar/solarstations">SolarStation GitHub repository</a>. If you’re not a savvy GitHub user, then you’re welcome to send suggestions to <a class="reference external" href="mailto:arajen&#37;&#52;&#48;dtu&#46;dk">arajen<span>&#64;</span>dtu<span>&#46;</span>dk</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="statistics">
+<h1>Statistics<a class="headerlink" href="#statistics" title="Permalink to this heading">#</a></h1>
+<p>This page presents statistics of solar irradiance monitoring stations using data from <a class="reference external" href="http://SolarStations.org">SolarStations.org</a>.</p>
+<p>First, let’s visualize the operating period of all of the known stations.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/383ece525fcebdc59f48f41939d4f13215339d65d52ef0954d31644e8d91a258.png" src="_images/383ece525fcebdc59f48f41939d4f13215339d65d52ef0954d31644e8d91a258.png" />
+</div>
+</div>
+<p>Let’s take a closer look at the current active stations and their measurement records.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/9a933ce64a3ca54913caa86239346d180622a3e00f9da166cd2f572773d6c5cd.png" src="_images/9a933ce64a3ca54913caa86239346d180622a3e00f9da166cd2f572773d6c5cd.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<p>The following conclusions can be drawn from the figures above:</p>
+<ul class="simple">
+<li><p>There are currently 421 active stations out of the 760 known stations</p></li>
+<li><p>Of the active stations, only 14 have been in operation before 1993 (~3%)</p></li>
+<li><p>The majority of the active stations (347) have been in operation for less than 20 years (~82%)</p></li>
+<li><p>There are 111 stations (15%) whose operation status is unknown, which demonstrates a huge barrier to accessing information and data from solar stations!</p></li>
+</ul>
+</div>
+</div>
+<section id="dataset-duration">
+<h2>Dataset duration<a class="headerlink" href="#dataset-duration" title="Permalink to this heading">#</a></h2>
+<p>The figure below provides an overview of the operation duration of the active and inactive stations.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/f994a708fdf87764760c29642f22511ad67deae7078de958e5fc02143f495811.png" src="_images/f994a708fdf87764760c29642f22511ad67deae7078de958e5fc02143f495811.png" />
+</div>
+</div>
+<p>The graph shows that most of the stations with measurement record greater than 15 years remain in operation.</p>
+</section>
+<section id="historical-and-active-stations">
+<h2>Historical and active stations<a class="headerlink" href="#historical-and-active-stations" title="Permalink to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/2f2a51b0cc332af31a26ab09287ccc7afc5a63d413802aa2258870bf125aba9e.png" src="_images/2f2a51b0cc332af31a26ab09287ccc7afc5a63d413802aa2258870bf125aba9e.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/4c7278f2a66c9d910ffec5a12b515ffd21d3c27cc1a9b0556d598bd96c05d1d9.png" src="_images/4c7278f2a66c9d910ffec5a12b515ffd21d3c27cc1a9b0556d598bd96c05d1d9.png" />
+</div>
+</div>
+</section>
+<section id="zooming-in-on-active-stations">
+<h2>Zooming in on active stations<a class="headerlink" href="#zooming-in-on-active-stations" title="Permalink to this heading">#</a></h2>
+<p>The remainder of the plots and statistics will be based only on the Active stations.</p>
+</section>
+<section id="station-tier">
+<h2>Station tier<a class="headerlink" href="#station-tier" title="Permalink to this heading">#</a></h2>
+<p>The figure below shows the percentage of active stations categorized as either Tier 1 or Tier 2. It can be observed that most of the active stations are Tier 1, which means that they measure global horizontal irradiance (GHI), diffuse horizontal irradiance (DHI) using a shadow ball, and direct normal irradiance (DNI) using a pyrheliometer mounted on a solar tracker. For more information on the station tier classifications, see <a class="reference internal" href="station_requirements.html"><span class="doc std std-doc">the station requirements page</span></a>.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/36279b55999c8d54d554a61ce0f2a95d0b3f6564b60046a3bc7ba65e1a9c3edf.png" src="_images/36279b55999c8d54d554a61ce0f2a95d0b3f6564b60046a3bc7ba65e1a9c3edf.png" />
+</div>
+</div>
+</section>
+<section id="leading-countries">
+<h2>Leading countries<a class="headerlink" href="#leading-countries" title="Permalink to this heading">#</a></h2>
+<p>The figure below shows the number of active stations for the top 5 countries.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/1fd8f61445bb90ef9fab7454f93952e4f238c938e3e54af99541a4fbd21d22b4.png" src="_images/1fd8f61445bb90ef9fab7454f93952e4f238c938e3e54af99541a4fbd21d22b4.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<p>Most of the active stations belong to a network, which makes their data easier to access (partly because they usually have a website):</p>
+<ul class="simple">
+<li><p>SRRA : 123</p></li>
+<li><p>ESMAP : 63</p></li>
+<li><p>BSRN : 61</p></li>
+<li><p>IOS-net : 15</p></li>
+<li><p>QEERI : 15</p></li>
+<li><p>AEMET : 14</p></li>
+<li><p>enerMENA : 10</p></li>
+<li><p>WMORRC : 10</p></li>
+<li><p>WMOGAW : 8</p></li>
+<li><p>SURFRAD : 7</p></li>
+<li><p>SOLRAD : 7</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="breakdown-by-continent-and-climate">
+<h2>Breakdown by continent and climate<a class="headerlink" href="#breakdown-by-continent-and-climate" title="Permalink to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/aa248a1c256e03eeb36fc14f7b1f750e915677f00838569ffb76e3a6b102fcb8.png" src="_images/aa248a1c256e03eeb36fc14f7b1f750e915677f00838569ffb76e3a6b102fcb8.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/6b229d125d404741586ea32c1cce9f77d0acbcecd82f14ddd8a59f0a6b03b8e1.png" src="_images/6b229d125d404741586ea32c1cce9f77d0acbcecd82f14ddd8a59f0a6b03b8e1.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/f2a6e45c47f1ef446c69adfdb8017f614ed744c36da436f6c819b45ba9a8b8f8.png" src="_images/f2a6e45c47f1ef446c69adfdb8017f614ed744c36da436f6c819b45ba9a8b8f8.png" />
+</div>
+</div>
+</section>
+<section id="breakdown-by-elevation-and-latitude">
+<h2>Breakdown by elevation and latitude<a class="headerlink" href="#breakdown-by-elevation-and-latitude" title="Permalink to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/d5d8a7f739256fc25e0723bd343f40ca27dc0d021dcd5c6289819224927f9c90.png" src="_images/d5d8a7f739256fc25e0723bd343f40ca27dc0d021dcd5c6289819224927f9c90.png" />
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/be4e62c6734686e12c07090ff4e040660393540946ee1efef68e9d43eca9dbe4.png" src="_images/be4e62c6734686e12c07090ff4e040660393540946ee1efef68e9d43eca9dbe4.png" />
+</div>
+</div>
+</section>
+<section id="data-availability">
+<h2>Data availability<a class="headerlink" href="#data-availability" title="Permalink to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<p>Finding and downloading data from solar stations can be a tedious process. The main reason is that often there is no information on how to obtain the data. There are 208 active stations where data can be freely donwloaded and 179 stations for which there is no data access. The figure shows the corresponding percentages.</p>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/32d9146736f45d6c3fe0f3f1195dbb90ca5962a4da4fbd1dc8a5a0c9c89ea065.png" src="_images/32d9146736f45d6c3fe0f3f1195dbb90ca5962a4da4fbd1dc8a5a0c9c89ea065.png" />
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -441,13 +589,22 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="geba_network.html"
+       href="station_metadata.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">GEBA</p>
+        <p class="prev-next-title">Metadata</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="station_network_bsrn.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Baseline Surface Radiation Network (BSRN)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -455,6 +612,28 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-duration">Dataset duration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#historical-and-active-stations">Historical and active stations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zooming-in-on-active-stations">Zooming in on active stations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-tier">Station tier</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leading-countries">Leading countries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown-by-continent-and-climate">Breakdown by continent and climate</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown-by-elevation-and-latitude">Breakdown by elevation and latitude</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-availability">Data availability</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
