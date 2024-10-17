@@ -33,4 +33,5 @@ html:
   use_repository_button: true
   favicon: graphics/assessing_solar_favicon.ico  # A path to a favicon image
   baseurl                   : https://SolarStations.org
-  google_analytics_id       : G-6KXSD7FTJM
+  analytics:
+    google_analytics_id       : G-6KXSD7FTJM
