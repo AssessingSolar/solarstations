@@ -210,11 +210,11 @@
 <li class="toctree-l1"><a class="reference internal" href="station_network_srml.html">SRML</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_network_esmap.html">ESMAP</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other networks</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other data sources</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="other_data_sources.html">Other data sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_network_pvlive.html">PV-Live</a></li>
 <li class="toctree-l1"><a class="reference internal" href="geba_network.html">GEBA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_data_sources.html">Miscellaneous</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
 <ul class="nav bd-sidenav">
@@ -570,7 +570,7 @@ This is the <code>init_notebook_mode</code> cell from ITables v2.2.2<br>
 (you should not see this message - is your notebook <it>trusted</it>?)
 </noscript>
 </div>
-</div><div class="output text_html"><table id="itables_721d3ecd_7aa3_4b5a_a78c_0e4bf75f6e30" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
+</div><div class="output text_html"><table id="itables_e913e430_f310_4da4_bb2f_7abb0b15e1cd" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       
@@ -694,7 +694,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_721d3ecd_7aa3_4b5a_a78c_0e4bf75f6e30:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_e913e430_f310_4da4_bb2f_7abb0b15e1cd:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -740,7 +740,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_70ac9c9374577411de9d6f4167a6a38a {
+                #map_d68d90f29f5279247bcf0c94306b6f5c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -758,14 +758,14 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 &lt;body&gt;
     
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_70ac9c9374577411de9d6f4167a6a38a&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_d68d90f29f5279247bcf0c94306b6f5c&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_70ac9c9374577411de9d6f4167a6a38a = L.map(
-                &quot;map_70ac9c9374577411de9d6f4167a6a38a&quot;,
+            var map_d68d90f29f5279247bcf0c94306b6f5c = L.map(
+                &quot;map_d68d90f29f5279247bcf0c94306b6f5c&quot;,
                 {
                     center: [40.0, -100.0],
                     crs: L.CRS.EPSG3857,
@@ -775,43 +775,43 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            L.control.scale().addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
 
             
 
         
     
-            var tile_layer_718ea2e9ba86c1bbfd6fb91aad9887e7 = L.tileLayer(
+            var tile_layer_dfcf5da03101efb657094e4250989aa7 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 2, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_718ea2e9ba86c1bbfd6fb91aad9887e7.addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            tile_layer_dfcf5da03101efb657094e4250989aa7.addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-            var circle_marker_2c0ee0d2f083547590243b9996453033 = L.circleMarker(
+            var circle_marker_3b2d9b895526032e10d63aebe72b48d1 = L.circleMarker(
                 [35.03796, -106.62211],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_a70872fa94d0484537fbe39c92c2f406 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_9ee8ee554101f7c8f1e33186885b11ed = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_eb95e9fbe118029c11322c884e63f587 = $(`&lt;div id=&quot;html_eb95e9fbe118029c11322c884e63f587&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Albuquerque - New Mexico USA&lt;/div&gt;`)[0];
-                popup_a70872fa94d0484537fbe39c92c2f406.setContent(html_eb95e9fbe118029c11322c884e63f587);
+                var html_c3856c0d89b5e5fcf5d9acd08f10ef64 = $(`&lt;div id=&quot;html_c3856c0d89b5e5fcf5d9acd08f10ef64&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Albuquerque - New Mexico USA&lt;/div&gt;`)[0];
+                popup_9ee8ee554101f7c8f1e33186885b11ed.setContent(html_c3856c0d89b5e5fcf5d9acd08f10ef64);
             
         
 
-        circle_marker_2c0ee0d2f083547590243b9996453033.bindPopup(popup_a70872fa94d0484537fbe39c92c2f406)
+        circle_marker_3b2d9b895526032e10d63aebe72b48d1.bindPopup(popup_9ee8ee554101f7c8f1e33186885b11ed)
         ;
 
         
     
     
-            circle_marker_2c0ee0d2f083547590243b9996453033.bindTooltip(
+            circle_marker_3b2d9b895526032e10d63aebe72b48d1.bindTooltip(
                 `&lt;div&gt;
                      ABQ
                  &lt;/div&gt;`,
@@ -819,28 +819,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_1cef4c5c14a99f9dd91214ca283d85dd = L.circleMarker(
+            var circle_marker_7b0660cc258e70166497132535075ceb = L.circleMarker(
                 [46.77179, -100.75955],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_3355ce3d0d0225356a8ed2aa6dc19b15 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b4c0a91430d2176ccab6bdf49b59aab9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_526b766442fb76cf0729ab712c90a799 = $(`&lt;div id=&quot;html_526b766442fb76cf0729ab712c90a799&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bismarck - North Dakota USA&lt;/div&gt;`)[0];
-                popup_3355ce3d0d0225356a8ed2aa6dc19b15.setContent(html_526b766442fb76cf0729ab712c90a799);
+                var html_d9dc0275145f36a7f25d236c82966f01 = $(`&lt;div id=&quot;html_d9dc0275145f36a7f25d236c82966f01&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bismarck - North Dakota USA&lt;/div&gt;`)[0];
+                popup_b4c0a91430d2176ccab6bdf49b59aab9.setContent(html_d9dc0275145f36a7f25d236c82966f01);
             
         
 
-        circle_marker_1cef4c5c14a99f9dd91214ca283d85dd.bindPopup(popup_3355ce3d0d0225356a8ed2aa6dc19b15)
+        circle_marker_7b0660cc258e70166497132535075ceb.bindPopup(popup_b4c0a91430d2176ccab6bdf49b59aab9)
         ;
 
         
     
     
-            circle_marker_1cef4c5c14a99f9dd91214ca283d85dd.bindTooltip(
+            circle_marker_7b0660cc258e70166497132535075ceb.bindTooltip(
                 `&lt;div&gt;
                      BIS
                  &lt;/div&gt;`,
@@ -848,28 +848,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_bfb74e356b89b00e7a5bfa5b7caed5c4 = L.circleMarker(
+            var circle_marker_76811057f93cf3175b8e44abac510eab = L.circleMarker(
                 [36.31357, -119.63164],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_b17a26141f55cd0acf6b7fa236a39ea5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_3b2782c62814c82d219d1bb31ed7eb00 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_4cc2cc9e639869b288cacf5f46282ba0 = $(`&lt;div id=&quot;html_4cc2cc9e639869b288cacf5f46282ba0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hanford - California USA&lt;/div&gt;`)[0];
-                popup_b17a26141f55cd0acf6b7fa236a39ea5.setContent(html_4cc2cc9e639869b288cacf5f46282ba0);
+                var html_dc8d89b4a1e16928e66005c86239830d = $(`&lt;div id=&quot;html_dc8d89b4a1e16928e66005c86239830d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hanford - California USA&lt;/div&gt;`)[0];
+                popup_3b2782c62814c82d219d1bb31ed7eb00.setContent(html_dc8d89b4a1e16928e66005c86239830d);
             
         
 
-        circle_marker_bfb74e356b89b00e7a5bfa5b7caed5c4.bindPopup(popup_b17a26141f55cd0acf6b7fa236a39ea5)
+        circle_marker_76811057f93cf3175b8e44abac510eab.bindPopup(popup_3b2782c62814c82d219d1bb31ed7eb00)
         ;
 
         
     
     
-            circle_marker_bfb74e356b89b00e7a5bfa5b7caed5c4.bindTooltip(
+            circle_marker_76811057f93cf3175b8e44abac510eab.bindTooltip(
                 `&lt;div&gt;
                      HNX
                  &lt;/div&gt;`,
@@ -877,28 +877,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_1440ab122031a010a121483c33d17768 = L.circleMarker(
+            var circle_marker_f3b6ddf5fd5d919446c738035056ba79 = L.circleMarker(
                 [43.0725, -89.41133],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_9908e3375632c7d876f813fb9301d918 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_72e5037ae645f455361c1e290380535d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_6d9522f092f0b26008dcb8c3713c18f2 = $(`&lt;div id=&quot;html_6d9522f092f0b26008dcb8c3713c18f2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madison - Wisconsin USA&lt;/div&gt;`)[0];
-                popup_9908e3375632c7d876f813fb9301d918.setContent(html_6d9522f092f0b26008dcb8c3713c18f2);
+                var html_46a2f7a37c2fed5483023ee3ea5de0cc = $(`&lt;div id=&quot;html_46a2f7a37c2fed5483023ee3ea5de0cc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madison - Wisconsin USA&lt;/div&gt;`)[0];
+                popup_72e5037ae645f455361c1e290380535d.setContent(html_46a2f7a37c2fed5483023ee3ea5de0cc);
             
         
 
-        circle_marker_1440ab122031a010a121483c33d17768.bindPopup(popup_9908e3375632c7d876f813fb9301d918)
+        circle_marker_f3b6ddf5fd5d919446c738035056ba79.bindPopup(popup_72e5037ae645f455361c1e290380535d)
         ;
 
         
     
     
-            circle_marker_1440ab122031a010a121483c33d17768.bindTooltip(
+            circle_marker_f3b6ddf5fd5d919446c738035056ba79.bindTooltip(
                 `&lt;div&gt;
                      MSN
                  &lt;/div&gt;`,
@@ -906,28 +906,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_be441677cd4c139e7bf5569cc91a935a = L.circleMarker(
+            var circle_marker_8cd766d828e392aae9060c8d718896fd = L.circleMarker(
                 [35.96101, -84.28838],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_edd62b04faefbb0e939e4d8f2829a30f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_df11ebf5fd0b938a1a08baeed06884c6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_ac1ad71b7e0bbd662820e4158de39691 = $(`&lt;div id=&quot;html_ac1ad71b7e0bbd662820e4158de39691&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge - Tennessee USA&lt;/div&gt;`)[0];
-                popup_edd62b04faefbb0e939e4d8f2829a30f.setContent(html_ac1ad71b7e0bbd662820e4158de39691);
+                var html_268d0e9a814051b56f0f4990445a2036 = $(`&lt;div id=&quot;html_268d0e9a814051b56f0f4990445a2036&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge - Tennessee USA&lt;/div&gt;`)[0];
+                popup_df11ebf5fd0b938a1a08baeed06884c6.setContent(html_268d0e9a814051b56f0f4990445a2036);
             
         
 
-        circle_marker_be441677cd4c139e7bf5569cc91a935a.bindPopup(popup_edd62b04faefbb0e939e4d8f2829a30f)
+        circle_marker_8cd766d828e392aae9060c8d718896fd.bindPopup(popup_df11ebf5fd0b938a1a08baeed06884c6)
         ;
 
         
     
     
-            circle_marker_be441677cd4c139e7bf5569cc91a935a.bindTooltip(
+            circle_marker_8cd766d828e392aae9060c8d718896fd.bindTooltip(
                 `&lt;div&gt;
                      ORT
                  &lt;/div&gt;`,
@@ -935,28 +935,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d49eef555c7c0095f9f0468c564b0008 = L.circleMarker(
+            var circle_marker_e72d280d6172fe2c6a98addf1f937c9d = L.circleMarker(
                 [40.7722, -111.95495],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_a1f3b82606e79a7b8cbb2753213674b5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_4325e1c39e27f9eeb180bad81a5d8e6d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0eb486a5dbaa9fc5b94df1665d6db37b = $(`&lt;div id=&quot;html_0eb486a5dbaa9fc5b94df1665d6db37b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salt Lake City - Utah USA&lt;/div&gt;`)[0];
-                popup_a1f3b82606e79a7b8cbb2753213674b5.setContent(html_0eb486a5dbaa9fc5b94df1665d6db37b);
+                var html_f471f1a5c6af0fc306e808f1f9b5f282 = $(`&lt;div id=&quot;html_f471f1a5c6af0fc306e808f1f9b5f282&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salt Lake City - Utah USA&lt;/div&gt;`)[0];
+                popup_4325e1c39e27f9eeb180bad81a5d8e6d.setContent(html_f471f1a5c6af0fc306e808f1f9b5f282);
             
         
 
-        circle_marker_d49eef555c7c0095f9f0468c564b0008.bindPopup(popup_a1f3b82606e79a7b8cbb2753213674b5)
+        circle_marker_e72d280d6172fe2c6a98addf1f937c9d.bindPopup(popup_4325e1c39e27f9eeb180bad81a5d8e6d)
         ;
 
         
     
     
-            circle_marker_d49eef555c7c0095f9f0468c564b0008.bindTooltip(
+            circle_marker_e72d280d6172fe2c6a98addf1f937c9d.bindTooltip(
                 `&lt;div&gt;
                      SLC
                  &lt;/div&gt;`,
@@ -964,28 +964,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_3387830a001c8cccdb80b61a99ab3334 = L.circleMarker(
+            var circle_marker_8274c5e3487909a31544cd4af96c1956 = L.circleMarker(
                 [47.68685, -122.25667],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_910ef9602f4348ed1576d2810c1e6864 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_04f21325fa560beea9a3b58217c342c6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_be753f192f565a9f282f9351dbe56659 = $(`&lt;div id=&quot;html_be753f192f565a9f282f9351dbe56659&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
-                popup_910ef9602f4348ed1576d2810c1e6864.setContent(html_be753f192f565a9f282f9351dbe56659);
+                var html_997f3e5240b4dfff57d69bb1fad00969 = $(`&lt;div id=&quot;html_997f3e5240b4dfff57d69bb1fad00969&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
+                popup_04f21325fa560beea9a3b58217c342c6.setContent(html_997f3e5240b4dfff57d69bb1fad00969);
             
         
 
-        circle_marker_3387830a001c8cccdb80b61a99ab3334.bindPopup(popup_910ef9602f4348ed1576d2810c1e6864)
+        circle_marker_8274c5e3487909a31544cd4af96c1956.bindPopup(popup_04f21325fa560beea9a3b58217c342c6)
         ;
 
         
     
     
-            circle_marker_3387830a001c8cccdb80b61a99ab3334.bindTooltip(
+            circle_marker_8274c5e3487909a31544cd4af96c1956.bindTooltip(
                 `&lt;div&gt;
                      SEA
                  &lt;/div&gt;`,
@@ -993,28 +993,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_00232c85396570e3d48b00bec2ef8e44 = L.circleMarker(
+            var circle_marker_1d67cb26a607541d7232830122bf2263 = L.circleMarker(
                 [38.97203, -77.4869],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_a8ec638f1f845d77bbf143b1f48f01e5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_c165d01f7ccd7f301d88a3851b33da35 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c6dd2aa9bfaf27715479e845aa325f57 = $(`&lt;div id=&quot;html_c6dd2aa9bfaf27715479e845aa325f57&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sterling - Virginia USA&lt;/div&gt;`)[0];
-                popup_a8ec638f1f845d77bbf143b1f48f01e5.setContent(html_c6dd2aa9bfaf27715479e845aa325f57);
+                var html_18a57896ddbd34fa92e055b050b2591d = $(`&lt;div id=&quot;html_18a57896ddbd34fa92e055b050b2591d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sterling - Virginia USA&lt;/div&gt;`)[0];
+                popup_c165d01f7ccd7f301d88a3851b33da35.setContent(html_18a57896ddbd34fa92e055b050b2591d);
             
         
 
-        circle_marker_00232c85396570e3d48b00bec2ef8e44.bindPopup(popup_a8ec638f1f845d77bbf143b1f48f01e5)
+        circle_marker_1d67cb26a607541d7232830122bf2263.bindPopup(popup_c165d01f7ccd7f301d88a3851b33da35)
         ;
 
         
     
     
-            circle_marker_00232c85396570e3d48b00bec2ef8e44.bindTooltip(
+            circle_marker_1d67cb26a607541d7232830122bf2263.bindTooltip(
                 `&lt;div&gt;
                      STE
                  &lt;/div&gt;`,
@@ -1022,28 +1022,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_51a3b496c58bf64f03666bb7abdb625d = L.circleMarker(
+            var circle_marker_9f5f3a65e3fe09119350add89273d26d = L.circleMarker(
                 [30.39675, -84.32955],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-        var popup_dc0c0adbb82a0169ad4d51784e5f95f8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_3b8debd03d757f9def27d1b00537fe0d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_998f34bf19983ab17929d9953ee0478e = $(`&lt;div id=&quot;html_998f34bf19983ab17929d9953ee0478e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tallahassee - Florida USA&lt;/div&gt;`)[0];
-                popup_dc0c0adbb82a0169ad4d51784e5f95f8.setContent(html_998f34bf19983ab17929d9953ee0478e);
+                var html_87e6dd6e6261f9425ce8032d57478bd5 = $(`&lt;div id=&quot;html_87e6dd6e6261f9425ce8032d57478bd5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Tallahassee - Florida USA&lt;/div&gt;`)[0];
+                popup_3b8debd03d757f9def27d1b00537fe0d.setContent(html_87e6dd6e6261f9425ce8032d57478bd5);
             
         
 
-        circle_marker_51a3b496c58bf64f03666bb7abdb625d.bindPopup(popup_dc0c0adbb82a0169ad4d51784e5f95f8)
+        circle_marker_9f5f3a65e3fe09119350add89273d26d.bindPopup(popup_3b8debd03d757f9def27d1b00537fe0d)
         ;
 
         
     
     
-            circle_marker_51a3b496c58bf64f03666bb7abdb625d.bindTooltip(
+            circle_marker_9f5f3a65e3fe09119350add89273d26d.bindTooltip(
                 `&lt;div&gt;
                      TLH
                  &lt;/div&gt;`,
@@ -1051,53 +1051,53 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var tile_layer_95034e447857e5f615db5e93dd11e072 = L.tileLayer(
+            var tile_layer_35d939a4fcd1982f40241a9e07d470fb = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            var layer_control_2021e2332d858e5a6368acf7ca4c2613_layers = {
+            var layer_control_63712a9fa6b52ed613282e8ce37fff4a_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_718ea2e9ba86c1bbfd6fb91aad9887e7,
-                    &quot;World imagery&quot; : tile_layer_95034e447857e5f615db5e93dd11e072,
+                    &quot;openstreetmap&quot; : tile_layer_dfcf5da03101efb657094e4250989aa7,
+                    &quot;World imagery&quot; : tile_layer_35d939a4fcd1982f40241a9e07d470fb,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_2021e2332d858e5a6368acf7ca4c2613 = L.control.layers(
-                layer_control_2021e2332d858e5a6368acf7ca4c2613_layers.base_layers,
-                layer_control_2021e2332d858e5a6368acf7ca4c2613_layers.overlays,
+            let layer_control_63712a9fa6b52ed613282e8ce37fff4a = L.control.layers(
+                layer_control_63712a9fa6b52ed613282e8ce37fff4a_layers.base_layers,
+                layer_control_63712a9fa6b52ed613282e8ce37fff4a_layers.overlays,
                 {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topleft&quot;}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
 
         
     
-            var tile_layer_2ae6876ceb3aa9b08e8338e8efbb85ed = L.tileLayer(
+            var tile_layer_e5754389e7826969d4ffa40b5c0a7c2b = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
-            var mini_map_47eafd61338c15cb1fed275478c18eed = new L.Control.MiniMap(
-                tile_layer_2ae6876ceb3aa9b08e8338e8efbb85ed,
+            var mini_map_3513bb04a98d50aee6b864b9257fca29 = new L.Control.MiniMap(
+                tile_layer_e5754389e7826969d4ffa40b5c0a7c2b,
                 {&quot;autoToggleDisplay&quot;: false, &quot;centerFixed&quot;: false, &quot;collapsedHeight&quot;: 25, &quot;collapsedWidth&quot;: 25, &quot;height&quot;: 150, &quot;minimized&quot;: true, &quot;position&quot;: &quot;bottomright&quot;, &quot;toggleDisplay&quot;: true, &quot;width&quot;: 150, &quot;zoomAnimation&quot;: false, &quot;zoomLevelFixed&quot;: 1, &quot;zoomLevelOffset&quot;: -5}
             );
-            map_70ac9c9374577411de9d6f4167a6a38a.addControl(mini_map_47eafd61338c15cb1fed275478c18eed);
+            map_d68d90f29f5279247bcf0c94306b6f5c.addControl(mini_map_3513bb04a98d50aee6b864b9257fca29);
         
     
             L.control.fullscreen(
                 {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;topright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
-            ).addTo(map_70ac9c9374577411de9d6f4167a6a38a);
+            ).addTo(map_d68d90f29f5279247bcf0c94306b6f5c);
         
     
-                var lat_lng_popup_f9f1a2a7e7634c8f6d3c0ff878ed9e90 = L.popup();
+                var lat_lng_popup_6ec1802ff0813cf047b2f65d5a722e66 = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_f9f1a2a7e7634c8f6d3c0ff878ed9e90
+                    lat_lng_popup_6ec1802ff0813cf047b2f65d5a722e66
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_70ac9c9374577411de9d6f4167a6a38a);
+                        .openOn(map_d68d90f29f5279247bcf0c94306b6f5c);
                     }
-                map_70ac9c9374577411de9d6f4167a6a38a.on(&#x27;click&#x27;, latLngPop);
+                map_d68d90f29f5279247bcf0c94306b6f5c.on(&#x27;click&#x27;, latLngPop);
             
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
