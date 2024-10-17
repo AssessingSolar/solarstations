@@ -26,11 +26,12 @@ parts:
     - file: station_network_esmap
       title: ESMAP
 
-  - caption: Other networks
+  - caption: Other data sources
     chapters:
-    - file: other_data_sources
     - file: station_network_pvlive
     - file: geba_network
+    - file: other_data_sources
+      title: Miscellaneous
 
   - caption: Appendix
     chapters:
