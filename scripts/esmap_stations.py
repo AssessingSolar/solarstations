@@ -6,7 +6,7 @@ response = requests.get(url)
 esmap = pd.DataFrame(response.json()['result']['records'])
 
 columns_dict = {
-    'Nearest Settlement': 'Station full name',
+    'Nearest Settlement': 'Station name',
     'Site Name': 'Abbreviation',
     # 'Project Founder': 'Network',
     # Could also use 'documents___reports_url'
@@ -25,14 +25,11 @@ esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier2')==Tr
 esmap['State'] = ''
 esmap['Data availability'] = 'Freely'
 
-esmap['Components'] = ''
-esmap.loc[esmap['Tier']==1, 'Components'] = 'G;B;D'
-
-esmap['Instrument'] = ''
-esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Instrument'] = 'Thermopile'
+esmap['Instrumentation'] = ''
+esmap.loc[esmap['Tier']==1, 'Instrumentation'] = 'G;B;D'
 
 esmap['Comment'] = ''
-esmap.loc[esmap['Tier']!=1, 'Comment'] = 'Instrument and components has not been manually checked'
+esmap.loc[esmap['Tier']!=1, 'Comment'] = 'Instrument and components have not been checked manually.'
 
 esmap['Time period'] = (
     esmap['commission_date__m_d_y_'].str[:4] 
@@ -44,13 +41,13 @@ esmap['Time period'] = (
 stations = pd.read_csv('../solarstations.csv')
 duplicate_rows = []
 for index, row in esmap.iterrows():
-    if row['Station full name'] in stations['Station full name'].values:
-        if row['Station full name'] not in ['Hyderabad', 'Peshawar']:
-	    duplicate_rows.append(index)
+    if row['Station name'] in stations['Station name'].values:
+        if row['Station name'] not in ['Hyderabad', 'Peshawar']:
+            duplicate_rows.append(index)
 
 esmap = esmap.drop(duplicate_rows)
 
-header = 'Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components'
+header = 'Station name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Instrumentation'
 
 columns = header.split(',')
 

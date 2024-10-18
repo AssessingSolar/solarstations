@@ -1,4 +1,4 @@
-Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
+Station name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Tier,Instrument,Components
 Ashland,ASO,Oregon,USA,42.19441,-122.698158,594,,SRML,,Station id no.: 94040,,,1,,G;B;D
 Bend,BDO,Oregon,USA,44.05614,-121.30744,1104,1977-,SRML,,Station id no.: 94807,,,,RSP,
 Burns,BUO,Oregon,USA,43.5192,-119.02161,1270,,SRML,,Station id no.: 94170,,,1,,G;B;D
