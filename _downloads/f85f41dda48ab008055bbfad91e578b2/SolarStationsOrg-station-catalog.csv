@@ -240,11 +240,11 @@ Hamm-Lippstadt University of Applied Science,HSHL,,Germany,51.682,7.843,60.0,201
 Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,2,Thermopile,G;B,Oceania,BWh,Dry
 Tennant Creek,,Northern Territory,Australia,-19.6795,134.2615,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/tennant-creek,Freely,2,Thermopile,G;B,Oceania,BSh,Dry
 Katherine,,Northern Territory,Australia,-14.474694,132.305083,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/katherine,Freely,2,Thermopile,G;B,Oceania,Aw,Tropical
-Artigas Airport,ARM,,Uruguay,-30.3984,-56.5117,136.0,2011-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D,South America,Cfa,Temperate
+Artigas Airport,ARM,,Uruguay,-30.3984,-56.5117,136.0,2011-2020,,Uruguay Solar Energy Laboratory,Experimental site with mixed use of instruments.,http://les.edu.uy/en/rmcis-en/,,2,,G;SPN1;,South America,Cfa,Temperate
 Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,1,Thermopile,G;B;D;UV;IR,South America,Cfa,Temperate
-EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26.0,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,South America,Cfa,Temperate
-Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,South America,Cfa,Temperate
-EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,Thermopile,G;D,South America,Cfa,Temperate
+EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26.0,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,,G;SPN1,South America,Cfa,Temperate
+Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,,SPN1,South America,Cfa,Temperate
+EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,2,,SPN1,South America,Cfa,Temperate
 Cuiabá,CBA,,Brazil,-15.5553,-56.07,185.0,2006-2012,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/cuiaba.html,Freely,,,G;Ds,South America,Aw,Tropical
 Campo Grande,CGR,,Brazil,-20.4383,-54.5383,677.0,2004-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/campogrande.html,Freely,2,Thermopile,G;Ds,South America,Aw,Tropical
 Palmas,PMA,,Brazil,-10.1778,-48.3619,216.0,2005-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/palmas.html,Freely,2,Thermopile,G;Ds,South America,Aw,Tropical
