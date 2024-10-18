@@ -1,4 +1,4 @@
-Station full name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Instrumentation
+Station name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Instrumentation
 Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,,,Freely,G;B;D
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,G;B;D
 Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.8890,546,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR
