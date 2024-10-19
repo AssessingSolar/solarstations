@@ -686,6 +686,13 @@ Tromsø,,,Norway,69.661,18.939,113.0,2020-?,,University of Tromsø,,,,G;B;D,Euro
 Parkent,PAR,,Uzbekistan,41.3135,69.7408,1081.0,2011-?,,Uzhydromet,,,,G;B;D;RSP,Asia,Csa,Temperate,1
 Arandis,ARA,,Namibia,-22.3656,15.0449,697.0,2016-?,,NamPower,,,,G;B;D,Africa,BWh,Dry,1
 Auas,AUA,,Namibia,-22.5882,17.3635,1880.0,2016-?,,NamPower,,,,G;B;D,Africa,BSh,Dry,1
+Chiba,,,Japan,35.625,140.104,21.0,1999-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/chiba/chiba.html,Freely,G;D,Asia,Cfa,Temperate,2
+Cape Hedo,,,Japan,26.867,128.248,65.0,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/capehedo/capehedo.html,Freely,G;D,Asia,Ocean,Ocean,2
+Fukue,,,Japan,32.752,128.682,80.0,2003-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/fukue/fukue.html,Freely,G;D,Asia,Ocean,Ocean,2
+Miyako,,,Japan,24.737,125.327,50.0,2004-2018,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/miyako/miyako.html,Freely,G;D,Asia,Ocean,Ocean,2
+Sendai,,,Japan,38.26,140.84,153.0,2010-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/sendai/sendai.html,Freely,G;D,Asia,Cfa,Temperate,2
+Phimai,,,Thailand,15.184,102.564,212.0,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/phimai/phimai.html,Freely,G;D,Asia,Aw,Tropical,2
+Seoul,,,South Korea,37.46,126.95,85.0,2008-2015,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/seoul/seoul.html,Freely,G;D,Asia,Dwa,Continental,2
 Hrazdan,ARM_Solar_Hrazdan,,Armenia,40.5116,44.823,1845,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,Asia,Dfb,Continental,2
 Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,Asia,Dfb,Continental,2
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,Asia,Dfb,Continental,2
