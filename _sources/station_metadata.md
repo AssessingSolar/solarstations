@@ -1,6 +1,6 @@
 # Metadata
 
-The central part of the catalog is the list of stations and their metadata which is displayed on the [station catalog page](station_catalog). The metadata for each station includes:
+The central part of the catalog is the list of stations and their metadata which is displayed on the SolarStations.Org [station catalog page](station_catalog). The metadata for each station includes:
 * Station name
 * Station abbreviation
 * State/region and country
