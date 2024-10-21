@@ -84,7 +84,7 @@ valid_instrumentation = \
 
 def check_instrumentation(row):
     instrumentation = row['Instrumentation']
-    if instrumentation = '':
+    if instrumentation == '':
         for instrument in instrumentation:
             if instrument not in instrumentation:
                 return f"Not a valid entry for Instrumentation: {instrument}"
