@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
-url = 'https://energydata.info/api/3/action/datastore_search?resource_id=da73e4b1-7cb1-4c9c-8e54-594fad190a60&limit=500'  
+
+url = 'https://energydata.info/api/3/action/datastore_search?resource_id=da73e4b1-7cb1-4c9c-8e54-594fad190a60&limit=500'
+
 response = requests.get(url)
 
 esmap = pd.DataFrame(response.json()['result']['records'])
@@ -19,23 +21,22 @@ esmap = esmap.rename(columns=columns_dict)
 esmap['Network'] = 'ESMAP'
 
 esmap['Tier'] = ''
-esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1')==True, 'Tier'] = 1
-esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier2')==True, 'Tier'] = 2
+esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier1').fillna(False), 'Tier'] = 1
+esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier2').fillna(False), 'Tier'] = 2
 
 esmap['State'] = ''
 esmap['Data availability'] = 'Freely'
 
 esmap['Instrumentation'] = ''
-esmap.loc[esmap['Tier']==1, 'Instrumentation'] = 'G;B;D'
+esmap.loc[esmap['Tier'] == 1, 'Instrumentation'] = 'G;B;D'
 
 esmap['Comment'] = ''
-esmap.loc[esmap['Tier']!=1, 'Comment'] = 'Instrument and components have not been checked manually.'
+esmap.loc[esmap['Tier'] != 1, 'Comment'] = 'Instrument and components have not been checked manually.'
 
-esmap['Time period'] = (
-    esmap['commission_date__m_d_y_'].str[:4] 
-    + '-'
-    + esmap['End of Measurement Campaign'].str[-4:].astype(str).str.replace('None', '')
-)
+start_year = esmap['commission_date__m_d_y_'].str[:4]
+end_year = esmap['End of Measurement Campaign'].str[-4:].astype(str).str.replace('None', '')
+esmap['Time period'] = start_year + '-' + end_year
+esmap.loc[start_year == end_year, 'Time period'] = start_year
 
 # check if stations exists already
 stations = pd.read_csv('../solarstations.csv')

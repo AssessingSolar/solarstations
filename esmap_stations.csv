@@ -3,7 +3,7 @@ Hrazdan,ARM_Solar_Hrazdan,,Armenia,40.5116,44.823,1845,2016-,ESMAP,,Instrument a
 Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,
 Yerevan Agro,ARM_Solar_YerevanAgro,,Armenia,40.1887,44.3976,946,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,
-Feni,BGD_Solar_BDFE2_Feni,,Bangladesh,22.80029,91.35819,5,2017-,ESMAP,Suntrace GmbH,,https://energydata.info/dataset/bangladesh-solar-radiation-measurement-data,Freely,G;B;D
+Feni,BGD_Solar_BDFE2_Feni,,Bangladesh,22.80029,91.35819,5,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/bangladesh-solar-radiation-measurement-data,Freely,
 Malanville,BEN_Solar_Malanville,,Bénin,11.78272,3.37349,184,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
 Parakou,BEN_Solar_Parakou,,Bénin,9.33117,2.59119,387,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
 Dori,BFA_Solar_Dori,,Burkina Faso,14.03045,-0.02435,285,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D
@@ -40,11 +40,11 @@ Sanankoroba,MLI_Solar_Sanankoroba,,Mali,12.39112,-7.93737,356,2021-,ESMAP,CSP Se
 Sikasso,MLI_Solar_Sikasso,,Mali,11.30547,-5.73713,375,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/mali-solar-radiation-measurement-data,Freely,G;B;D
 Manantali,MLI_Solar_Manantali,,Mali,13.2005,-10.4308,175,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/mali-solar-radiation-measurement-data,Freely,G;B;D
 Yaren,NRU_Solar_Yaren,,Nauru,-0.543447,166.93197,28,2020-2022,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,
-Dharan,NPL_Solar_Dharan,,Nepal,26.79291,87.29263,315,2018-,ESMAP,CSP Services,,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,G;B;D
-Jumla,NPL_Solar_Jumla,,Nepal,29.27237,82.19351,2363,2018-,ESMAP,CSP Services,,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,G;B;D
-Kathmandu,NPL_Solar_Kathmandu,,Nepal,27.68157,85.31868,1315,2018-,ESMAP,CSP Services,,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,G;B;D
-Lumle,NPL_Solar_Lumle,,Nepal,28.29666,83.818,1742,2018-,ESMAP,CSP Services,,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,G;B;D
-Nepalgunj,NPL_Solar_Nepalgunj,,Nepal,28.11302,81.58899,150,2018-,ESMAP,CSP Services,,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,G;B;D
+Dharan,NPL_Solar_Dharan,,Nepal,26.79291,87.29263,315,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,
+Jumla,NPL_Solar_Jumla,,Nepal,29.27237,82.19351,2363,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,
+Kathmandu,NPL_Solar_Kathmandu,,Nepal,27.68157,85.31868,1315,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,
+Lumle,NPL_Solar_Lumle,,Nepal,28.29666,83.818,1742,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,
+Nepalgunj,NPL_Solar_Nepalgunj,,Nepal,28.11302,81.58899,150,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,
 Maradi,NER_Solar_Maradi,,Niger,13.52455,7.1678,375,2022-,ESMAP,CSP Services,,https://energydata.info/dataset/niger-solar-radiation-measurement-data,Freely,G;B;D
 Lossa,NER_Solar_Lossa,,Niger,13.94701,1.57469,205,2022-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/niger-solar-radiation-measurement-data,Freely,
 Zabori,NER_Solar_Zabori,,Niger,12.70536,3.55519,235,2022-,ESMAP,CSP Services,,https://energydata.info/dataset/niger-solar-radiation-measurement-data,Freely,G;B;D
@@ -75,17 +75,17 @@ Dapaong,TGO_Solar_Dapaong,,Togo,10.89189,0.18984,310,2021-,ESMAP,CSP Services,In
 Davié,TGO_Solar_Davié,,Togo,6.39307,1.18647,91,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/togo-solar-radiation-measurement-data,Freely,G;B;D
 Soroti,UGA_Solar_Soroti,,Uganda,1.724351,33.622098,1128,2020-2022,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/uganda-solar-radiation-measurement-data,Freely,
 Wadelai,UGA_Solar_Wadelai,,Uganda,2.725961,31.390403,644,2020-2022,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/uganda-solar-radiation-measurement-data,Freely,
-Bac Ninh,VN_Solar_VNHAN_EVN,,Vietnam,21.2013,106.0629,60,2017-,ESMAP,Suntrace GmbH,,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,G;B;D
-Central Highlands,VN_Solar_VNCEH_EVN,,Vietnam,12.7535,107.8761,290,2017-,ESMAP,Suntrace GmbH,,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,G;B;D
+Bac Ninh,VN_Solar_VNHAN_EVN,,Vietnam,21.2013,106.0629,60,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,
+Central Highlands,VN_Solar_VNCEH_EVN,,Vietnam,12.7535,107.8761,290,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,
 Da Nang,VN_Solar_VNDAN_EVN,,Vietnam,16.0125,108.1865,24,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,
 Song Binh,VN_Solar_VNSOB_EVN,,Vietnam,11.2641,108.3452,62,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,
-Tri An,VN_Solar_VNTRA_EVN,,Vietnam,11.1024,107.0378,57,2017-,ESMAP,Suntrace GmbH,,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,G;B;D
+Tri An,VN_Solar_VNTRA_EVN,,Vietnam,11.1024,107.0378,57,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,
 Chilanga,ZMB_Solar_Lusaka_Chilanga,,Zambia,-15.54831,28.24822,1224,2015-2018,ESMAP,SGS Inspection Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,
 Choma,ZMB_Solar_Choma_Mochipapa,,Zambia,-16.83822,27.07046,1282,2015-2019,ESMAP,SGS Inspection Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,
 Kaoma,ZMB_Solar_Kaoma_Longe,,Zambia,-14.83966,24.93186,1167,2015-2020,ESMAP,SGS Inspection Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,
 Kasama,ZMB_Solar_Kasama_Misamfu,,Zambia,-10.17165,31.22558,1379,2015-2021,ESMAP,SGS Inspection Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,
 Lusaka,ZMB_Solar_Lusaka_UNZA,,Zambia,-15.39465,28.33711,1262,2015-2017,ESMAP,SGS Inspection Services,,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,G;B;D
 Mutanda,ZMB_Solar_Solwezi_Mutanda,,Zambia,-12.4236,26.2153,1317,2015-2022,ESMAP,SGS Inspection Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,
-Fig Tree,ZM_Solar_FigTree_IFC,,Zambia,-15.001425,28.549047,1143,2018-2018,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data,Freely,
+Fig Tree,ZM_Solar_FigTree_IFC,,Zambia,-15.001425,28.549047,1143,2018,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data,Freely,
 Mumbwa,ZM_Solar_Mumbwa_IFC,,Zambia,-15.085303,27.0015525,1103,2018-2019,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data,Freely,
 Ndeke,ZM_Solar_Ndeke_IFC,,Zambia,-12.577451,28.292946,1287,2018-2020,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/zambia-solar-radiation-measurement-data,Freely,
