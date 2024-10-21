@@ -79,7 +79,7 @@ def check_data_availability(row):
 
 
 valid_instrumentation = \
-    ['G', 'B', 'D', 'Ds', 'IR', 'UVA', 'UVB', 'UV', 'PAR', 'SPN1', 'RSR', 'RSI', 'RSP']
+    ['G', 'B', 'D', 'Ds', 'IR', 'UVA', 'UVB', 'UV', 'PAR', 'SPN1', 'RSR', 'RSI', 'RSP', '']
 
 
 def check_instrumentation(row):
