@@ -78,12 +78,25 @@ def check_data_availability(row):
         return f"Not a valid entry for Data Availability: {data_availability}"
 
 
+valid_instrumentation = \
+    ['G', 'B', 'D', 'Ds', 'IR', 'UVA', 'UVB', 'UV', 'PAR', 'SPN1', 'RSR', 'RSI', 'RSP']
+
+
+def check_instrumentation(row):
+    instrumentation = row['Instrumentation']
+    if instrumentation == '':
+        for instrument in instrumentation:
+            if instrument not in instrumentation:
+                return f"Not a valid entry for Instrumentation: {instrument}"
+
+
 validation_functions = [
     check_country,
     check_url,
     check_elevation,
     check_coordinates,
     check_data_availability,
+    check_instrumentation,
 ]
 
 if __name__ == "__main__":
