@@ -18,12 +18,7 @@ The time period should identify for which years data is available, which is usef
 A station that started operating in 2013 which does not have data for 2014 and 2017, but is still active would have a time period entry of: `2013&2015-2016&2018-`. For BSRN stations the time period should be identified based on the available data, which can be seen [here](https://dataportals.pangaea.de/bsrn/). In case it is unknown if a station is still in operation, a question mark is added at the end of the time period, e.g., `2012-?`.
 
 ## Instruments and components
-Metadata concerning the instrumentation and which components are measured is highly useful when determining if a station is of interest for a particular study. The instrument column denotes whether irradiance is measured using traditional thermopile instruments or using special instruments (such as SPN1 or rotating shadowband pyranometers (RSR or RSI). In the components column, the measured components are denoted by one or more letters separated by semicolons. An example could be `G;B;D;UV;IR` (the order of components should be given as in the example). Where:
-* `G`: global horizontal irradiance (GHI)
-* `B`: beam (or direct normal) irradiance (DNI)
-* `D`: diffuse horizontal irradiance (DHI)
-* `UV`: UV irradiance
-* `IR`: longwave horizontal irradiance (LWD)
+Metadata concerning the instrumentation and which components are measured is highly useful when determining if a station is of interest for a particular study. The instrument column denotes whether irradiance is measured using traditional thermopile instruments or using special instruments (such as SPN1 or rotating shadowband pyranometers (RSR or RSI). In the components column, the measured components are denoted by one or more letters separated by semicolons. An example could be `G;B;D;UV;IR` (the order of components should be given as in the example).
 
 ## Latitude and longitude
 The latitude and longitude of the station should be specified with at least four decimals. This guarantees an [accuracy](http://wiki.gis.com/wiki/index.php/Decimal_degrees) of +/- 5.6 m, which allows users to identify the location of the solar tracker/platform on the map.
