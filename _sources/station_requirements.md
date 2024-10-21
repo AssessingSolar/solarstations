@@ -1,6 +1,6 @@
 # Station requirements and categorization
 
-This section defines the minimum requirements for a station to be included in the list of high-quality solar radiation monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the remaining component can be calculated.
+This section defines the minimum requirements for a station to be included in the list of multi-component solar radiation monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the remaining component can be calculated.
 
 ## Station categorization
 Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below.
