@@ -21,8 +21,8 @@ esmap = esmap.rename(columns=columns_dict)
 esmap['Network'] = 'ESMAP'
 
 esmap['Tier'] = ''
-esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier1') is True, 'Tier'] = 1
-esmap.loc[esmap['Equipment Type'].str.replace(' ', '').str.contains('Tier2') is True, 'Tier'] = 2
+esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier1').fillna(False), 'Tier'] = 1
+esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier2').fillna(False), 'Tier'] = 2
 
 esmap['State'] = ''
 esmap['Data availability'] = 'Freely'
