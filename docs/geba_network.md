@@ -17,16 +17,16 @@ The following parameters can be obtained from GEBA:
 * Direct normal irradiance - DNI
 * Diffuse horizontal irradiance - DHI
 * Albedo
-* Reflected shortwave radiation
-* Longwave incoming radiation
-* Longwave outgoing radiation
-* Longwave net radiation
+* Reflected shortwave irradiance
+* Longwave incoming irradiance
+* Longwave outgoing irradiance
+* Longwave net irradiance
 * Radiation balance
 * Sensible heat flux
 * Latent heat flux
 * Subsurface heat flux
-* Ultraviolet radiation
-* Absorbed shortwave radiation
-* Circumglobal radiation 
+* Ultraviolet irradiance
+* Absorbed shortwave irradiance
+* Circumglobal irradiance
 
-It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal irradiance. Unfortunately, GEBA does not provide information on the instrument used to measure solar radiation components, so the user can't estimate the quality of the data.
+It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal irradiance. Unfortunately, GEBA does not provide information on the instrument used to measure solar irradiance components, so the user can't estimate the quality of the data.
