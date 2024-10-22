@@ -34,10 +34,10 @@ The following instrument options are available:
 | `D` | Shaded thermopile pyranometer mounted on a solar tracker | DHI |
 | `Ds` | Thermopile pyranometer shaded by a shadowring | DHI |
 | `IR` | Pyrgeometer| LWD |
-| `UV/UVA/UVB` | UV radiometer | UV |
+| `UV`/`UVA`/`UVB` | UV radiometer | UV |
 | `PAR` | Radiometer sensitive to photoactive radiation (PAR) | PAR |
 | `SPN1` | Multi-sensor pyranometer from Delta-T | GHI/DNI/DHI |
-| `RSR/RSI/RSP` | Rotating shadowband radiometer/pyranometer | GHI/DNI/DHI |
+| `RSR`/`RSI`/`RSP` | Rotating shadowband radiometer/pyranometer | GHI/DNI/DHI |
 
 ## Latitude and longitude
-The latitude and longitude of the station should be specified with at least four decimals. This guarantees an [accuracy](http://wiki.gis.com/wiki/index.php/Decimal_degrees) of +/- 5.6 m, which allows users to identify the location of the solar tracker/platform on the map.
+The latitude and longitude of the station should be specified with at least four decimals. This guarantees an [accuracy](http://wiki.gis.com/wiki/index.php/Decimal_degrees) of +/- 5.6 m, which allows users to identify the precise location of a station on a map.
