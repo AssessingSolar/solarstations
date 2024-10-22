@@ -452,11 +452,67 @@ document.write(`
 </section>
 <section id="instruments-and-components">
 <h2>Instruments and components<a class="headerlink" href="#instruments-and-components" title="Link to this heading">#</a></h2>
-<p>Metadata concerning the instrumentation and which components are measured is highly useful when determining if a station is of interest for a particular study. The instrument column denotes whether irradiance is measured using traditional thermopile instruments or using special instruments (such as SPN1 or rotating shadowband pyranometers (RSR or RSI). In the components column, the measured components are denoted by one or more letters separated by semicolons. An example could be <code class="docutils literal notranslate"><span class="pre">G;B;D;UV;IR</span></code> (the order of components should be given as in the example).</p>
+<p>Metadata concerning the instrumentation and which components are measured is highly useful when determining if a station is of interest for a particular study. The instrumentation column denotes the type of instruments deployed at a site, from which the measured components can be derived. The possible components are:</p>
+<ul class="simple">
+<li><p>Global horizontal irradiance (GHI)</p></li>
+<li><p>Direct normal irradiance (DNI)</p></li>
+<li><p>Direct horizontal irradiance (DHI)</p></li>
+<li><p>Ultraviolet irradiance (UV)</p></li>
+<li><p>Longwave downwelling irradiance (LWD)</p></li>
+<li><p>Photosynthetic active radiation (PAR)</p></li>
+</ul>
+<p>The following instrument options are available:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Instrumentation</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Components measured</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">G</span></code></p></td>
+<td><p>Unshaded thermopile pyranometer</p></td>
+<td><p>GHI</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">B</span></code></p></td>
+<td><p>Thermopile pyrheliometer mounted on a solar tracker</p></td>
+<td><p>DNI</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">D</span></code></p></td>
+<td><p>Shaded thermopile pyranometer mounted on a solar tracker</p></td>
+<td><p>DHI</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Ds</span></code></p></td>
+<td><p>Thermopile pyranometer shaded by a shadowring</p></td>
+<td><p>DHI</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IR</span></code></p></td>
+<td><p>Pyrgeometer</p></td>
+<td><p>LWD</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">UV</span></code>/<code class="docutils literal notranslate"><span class="pre">UVA</span></code>/<code class="docutils literal notranslate"><span class="pre">UVB</span></code></p></td>
+<td><p>UV radiometer</p></td>
+<td><p>UV</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">PAR</span></code></p></td>
+<td><p>Radiometer sensitive to photoactive radiation (PAR)</p></td>
+<td><p>PAR</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SPN1</span></code></p></td>
+<td><p>Multi-sensor pyranometer from Delta-T</p></td>
+<td><p>GHI/DNI/DHI</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RSR</span></code>/<code class="docutils literal notranslate"><span class="pre">RSI</span></code>/<code class="docutils literal notranslate"><span class="pre">RSP</span></code></p></td>
+<td><p>Rotating shadowband radiometer/pyranometer</p></td>
+<td><p>GHI/DNI/DHI</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="latitude-and-longitude">
 <h2>Latitude and longitude<a class="headerlink" href="#latitude-and-longitude" title="Link to this heading">#</a></h2>
-<p>The latitude and longitude of the station should be specified with at least four decimals. This guarantees an <a class="reference external" href="http://wiki.gis.com/wiki/index.php/Decimal_degrees">accuracy</a> of +/- 5.6 m, which allows users to identify the location of the solar tracker/platform on the map.</p>
+<p>The latitude and longitude of the station should be specified with at least four decimals. This guarantees an <a class="reference external" href="http://wiki.gis.com/wiki/index.php/Decimal_degrees">accuracy</a> of +/- 5.6 m, which allows users to identify the precise location of a station on a map.</p>
 </section>
 </section>
 
