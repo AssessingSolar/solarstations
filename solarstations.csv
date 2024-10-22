@@ -693,3 +693,6 @@ Miyako,,,Japan,24.737,125.327,50,2004-2018,SKYNET,Hitoshi Irie and Tamio Takamur
 Sendai,,,Japan,38.26,140.84,153,2010-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/sendai/sendai.html,Freely,G;D
 Phimai,,,Thailand,15.184,102.564,212,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/phimai/phimai.html,Freely,G;D
 Seoul,,,South Korea,37.46,126.95,85,2008-2015,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/seoul/seoul.html,Freely,G;D
+Sodankylä Tähtelä,,,Finland,67.3670, 26.6313,179,1998-,,Finnish Meteorological Institute (FMI),,https://en.ilmatieteenlaitos.fi/observation-stations,Freely,G;B;D;IR;UV
+Jokioinen Ilmala,,,Finland,60.8143, 23.4990,104,1999-,,Finnish Meteorological Institute (FMI),,https://en.ilmatieteenlaitos.fi/observation-stations,Freely,G;B;D;IR;UV
+Helsinki Kumpula,,,Finland,60.2038,24.96171,24,2007-,,Finnish Meteorological Institute (FMI),,https://en.ilmatieteenlaitos.fi/observation-stations,Freely,G;B;D;IR;UV
