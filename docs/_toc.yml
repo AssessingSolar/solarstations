@@ -18,7 +18,7 @@ parts:
     - file: station_network_bsrn
       title: BSRN
     - file: station_network_midc
-      title: MIDC
+      title: NREL MIDC
     - file: station_network_solrad
       title: SOLRAD
     - file: station_network_srml
