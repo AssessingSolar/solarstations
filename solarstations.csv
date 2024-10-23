@@ -693,12 +693,12 @@ Miyako,,,Japan,24.737,125.327,50,2004-2018,SKYNET,Hitoshi Irie and Tamio Takamur
 Sendai,,,Japan,38.26,140.84,153,2010-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/sendai/sendai.html,Freely,G;D
 Phimai,,,Thailand,15.184,102.564,212,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/phimai/phimai.html,Freely,G;D
 Seoul,,,South Korea,37.46,126.95,85,2008-2015,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/seoul/seoul.html,Freely,G;D
-Aurere,,,La Réunion (France),-21.01977,55.42472,603,2023-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693606,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Saint Denis Bois de Nefles,,,La Réunion (France),-20.91731,55.47644,337,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693525,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-La Possession Baie,,,La Réunion (France),-20.93061,55.32897,13,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693552,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Saint Andre Chevrettes,,,La Réunion (France),-20.96280,55.62243,200,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693536,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Saint Leu Mazeau,,,La Réunion (France),-21.20064,55.30233,232,2012-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693559,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Saint Pierre La Valle,,,La Réunion (France),-21.31392,55.45107,67,2012-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693567,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Marla,,,La Réunion (France),-21.10237,55.43058,1593.25,2023-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.8419976,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
-Saint Paul Le Carat,,,La Réunion (France),-21.04323,55.25089,100,2022-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.8419974,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Aurere,,,Reunion,-21.01977,55.42472,603,2023-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693606,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Saint Denis Bois de Nefles,,,Reunion,-20.91731,55.47644,337,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693525,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+La Possession Baie,,,Reunion,-20.93061,55.32897,13,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693552,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Saint Andre Chevrettes,,,Reunion,-20.96280,55.62243,200,2012-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693536,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Saint Leu Mazeau,,,Reunion,-21.20064,55.30233,232,2012-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693559,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Saint Pierre La Valle,,,Reunion,-21.31392,55.45107,67,2012-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693567,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Marla,,,Reunion,-21.10237,55.43058,1593.25,2023-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.8419976,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
+Saint Paul Le Carat,,,Reunion,-21.04323,55.25089,100,2022-,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.8419974,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
 University of Mauritius Reduit,,,Mauritius,-20.24497,57.48770,200,2022-2023,IOS-net,,Data can be donwloaded from: doi.org/10.5281/zenodo.10693484,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
