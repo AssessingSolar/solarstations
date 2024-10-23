@@ -6,17 +6,17 @@ This section defines the minimum requirements for a station to be included in th
 Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below.
 
 ### Tier 1 stations
-Tier 1 stations are defined as those that meet all of the following requirements:
-* measurement of direct normal irradiance (DNI) with a Class A thermopile pyrheliometer mounted on a solar tracker
+Tier 1 stations are defined as those that meet all of the following requirements (classification is according to ISO 9060):
+* measurement of direct normal irradiance (DNI) with a Spectrally Flat Class A thermopile pyrheliometer mounted on a solar tracker
 * measurement of diffuse horizontal irradiance (DHI) with a Spectrally Flat Class A thermopile pyranometer shaded by a shading ball
 * measurement of global horizontal irradiance (GHI) with a Spectrally Flat Class A thermopile pyranometer
 
-Separate measurement of GHI is required for Tier 1 stations as most quality control procedures rely on comparing the measured and calculated GHI (closure equation). Stations in the [BSRN network](station_network_bsrn) are examples of Tier 1 stations.
+Separate measurement of GHI is required for Tier 1 stations as most quality control procedures rely on comparing the measured GHI and GHI derived from direct and diffuse irradiance (closure equation). Stations in the [BSRN network](station_network_bsrn) are examples of Tier 1 stations.
 
 ### Tier 2 stations
 Tier 2 stations are defined as those that do not meet the Tier 1 requirements but meet one of the following specifications:
 * Meets two of the three requirements of Tier 1 stations
-* Measures GHI and DHI using a rotating shading band pyranometer or SPN1
+* Measures GHI and DHI using a rotating shadowband pyranometer or SPN1
 
 ### Non-qualifying stations
-Stations that only measure GHI are not considered, which is in part because there are thousands of such stations worldwide. Also, stations that measure DHI using a manually adjusted shadow band are generally not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.
+Stations that only measure GHI are not considered, which is in part because there are thousands of such stations worldwide and there are limited methods for assessing the quality of the measurements. Also, stations that measure DHI using a manually adjusted shadow band are generally not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.
