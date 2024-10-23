@@ -23,6 +23,8 @@ parts:
       title: SOLRAD
     - file: station_network_srml
       title: SRML
+    - file: station_network_surfrad
+      title: SURFRAD
     - file: station_network_esmap
       title: ESMAP
 
