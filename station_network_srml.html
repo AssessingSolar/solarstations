@@ -75,7 +75,7 @@
     <link rel="icon" href="_static/assessing_solar_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="ESMAP" href="station_network_esmap.html" />
+    <link rel="next" title="SURFRAD" href="station_network_surfrad.html" />
     <link rel="prev" title="SOLRAD" href="station_network_solrad.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -208,6 +208,8 @@
 <li class="toctree-l1"><a class="reference internal" href="station_network_solrad.html">SOLRAD</a></li>
 
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">SRML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_network_surfrad.html">SURFRAD</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="station_network_esmap.html">ESMAP</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Other data sources</span></p>
@@ -563,7 +565,7 @@ This is the <code>init_notebook_mode</code> cell from ITables v2.2.2<br>
 (you should not see this message - is your notebook <it>trusted</it>?)
 </noscript>
 </div>
-</div><div class="output text_html"><table id="itables_0d10c6ca_7ebf_4971_abd4_8619cf773a7b" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
+</div><div class="output text_html"><table id="itables_218b0319_b678_47b3_a293_3f80b49121f8" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       
@@ -687,7 +689,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_0d10c6ca_7ebf_4971_abd4_8619cf773a7b:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_218b0319_b678_47b3_a293_3f80b49121f8:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -733,7 +735,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_01c64e24a5f7214bcf9d07387e7a963e {
+                #map_039edc754690f54212089624cdbd447c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -769,14 +771,14 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 
 &lt;/div&gt;
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_01c64e24a5f7214bcf9d07387e7a963e&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_039edc754690f54212089624cdbd447c&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_01c64e24a5f7214bcf9d07387e7a963e = L.map(
-                &quot;map_01c64e24a5f7214bcf9d07387e7a963e&quot;,
+            var map_039edc754690f54212089624cdbd447c = L.map(
+                &quot;map_039edc754690f54212089624cdbd447c&quot;,
                 {
                     center: [45.0, -118.0],
                     crs: L.CRS.EPSG3857,
@@ -786,43 +788,43 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            L.control.scale().addTo(map_039edc754690f54212089624cdbd447c);
 
             
 
         
     
-            var tile_layer_9457446f64f156690e169022bce3173d = L.tileLayer(
+            var tile_layer_d4fb28718560bee1d61168e703d57839 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 3, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_9457446f64f156690e169022bce3173d.addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            tile_layer_d4fb28718560bee1d61168e703d57839.addTo(map_039edc754690f54212089624cdbd447c);
         
     
-            var circle_marker_a93edc4b3562779c37079aeceed9adeb = L.circleMarker(
+            var circle_marker_2c926aa93212a937b62ef2f5eb3d1581 = L.circleMarker(
                 [42.19441, -122.698158],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_2764b1cb773f275cb81053b65f28efdf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_a1b75543639b355d6f12a1c08df7b3dd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_2e5c851b85d02cd2b0b7c3d7931b204f = $(`&lt;div id=&quot;html_2e5c851b85d02cd2b0b7c3d7931b204f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Ashland - Oregon USA&lt;/div&gt;`)[0];
-                popup_2764b1cb773f275cb81053b65f28efdf.setContent(html_2e5c851b85d02cd2b0b7c3d7931b204f);
+                var html_92c9fb64ab3b5b894fa4009249b48e47 = $(`&lt;div id=&quot;html_92c9fb64ab3b5b894fa4009249b48e47&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Ashland - Oregon USA&lt;/div&gt;`)[0];
+                popup_a1b75543639b355d6f12a1c08df7b3dd.setContent(html_92c9fb64ab3b5b894fa4009249b48e47);
             
         
 
-        circle_marker_a93edc4b3562779c37079aeceed9adeb.bindPopup(popup_2764b1cb773f275cb81053b65f28efdf)
+        circle_marker_2c926aa93212a937b62ef2f5eb3d1581.bindPopup(popup_a1b75543639b355d6f12a1c08df7b3dd)
         ;
 
         
     
     
-            circle_marker_a93edc4b3562779c37079aeceed9adeb.bindTooltip(
+            circle_marker_2c926aa93212a937b62ef2f5eb3d1581.bindTooltip(
                 `&lt;div&gt;
                      ASO
                  &lt;/div&gt;`,
@@ -830,28 +832,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_fc1de6a44c12509eba0305225da13ff0 = L.circleMarker(
+            var circle_marker_1f83871ce24e015522913af282c362c6 = L.circleMarker(
                 [44.05614, -121.30744],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_2dbd87093afe08abf6fa3df975bc81f8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_0c738736cc51307db4ab687efaa5285d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_00b4f26345b8333577d12bd8f7740292 = $(`&lt;div id=&quot;html_00b4f26345b8333577d12bd8f7740292&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bend - Oregon USA&lt;/div&gt;`)[0];
-                popup_2dbd87093afe08abf6fa3df975bc81f8.setContent(html_00b4f26345b8333577d12bd8f7740292);
+                var html_75bd4a7f0e75f26bcaa9de6d6cc55f85 = $(`&lt;div id=&quot;html_75bd4a7f0e75f26bcaa9de6d6cc55f85&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bend - Oregon USA&lt;/div&gt;`)[0];
+                popup_0c738736cc51307db4ab687efaa5285d.setContent(html_75bd4a7f0e75f26bcaa9de6d6cc55f85);
             
         
 
-        circle_marker_fc1de6a44c12509eba0305225da13ff0.bindPopup(popup_2dbd87093afe08abf6fa3df975bc81f8)
+        circle_marker_1f83871ce24e015522913af282c362c6.bindPopup(popup_0c738736cc51307db4ab687efaa5285d)
         ;
 
         
     
     
-            circle_marker_fc1de6a44c12509eba0305225da13ff0.bindTooltip(
+            circle_marker_1f83871ce24e015522913af282c362c6.bindTooltip(
                 `&lt;div&gt;
                      BDO
                  &lt;/div&gt;`,
@@ -859,28 +861,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_753fb843032425345c5655842fab065c = L.circleMarker(
+            var circle_marker_bd468505c535d96502527832e3b5d94e = L.circleMarker(
                 [43.5192, -119.02161],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_cd186c903fe40c1b21bf73a518466b33 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_eada4e995d79348b7aa14b9126c188e3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_1a6e8db7bd3b53eceace070fdfa64731 = $(`&lt;div id=&quot;html_1a6e8db7bd3b53eceace070fdfa64731&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Burns - Oregon USA&lt;/div&gt;`)[0];
-                popup_cd186c903fe40c1b21bf73a518466b33.setContent(html_1a6e8db7bd3b53eceace070fdfa64731);
+                var html_7f7213ce812fd6fecb14d1b8d2886d09 = $(`&lt;div id=&quot;html_7f7213ce812fd6fecb14d1b8d2886d09&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Burns - Oregon USA&lt;/div&gt;`)[0];
+                popup_eada4e995d79348b7aa14b9126c188e3.setContent(html_7f7213ce812fd6fecb14d1b8d2886d09);
             
         
 
-        circle_marker_753fb843032425345c5655842fab065c.bindPopup(popup_cd186c903fe40c1b21bf73a518466b33)
+        circle_marker_bd468505c535d96502527832e3b5d94e.bindPopup(popup_eada4e995d79348b7aa14b9126c188e3)
         ;
 
         
     
     
-            circle_marker_753fb843032425345c5655842fab065c.bindTooltip(
+            circle_marker_bd468505c535d96502527832e3b5d94e.bindTooltip(
                 `&lt;div&gt;
                      BUO
                  &lt;/div&gt;`,
@@ -888,28 +890,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_162b6fb1e5cf743b063224c5c59ff61c = L.circleMarker(
+            var circle_marker_9308529af3e86fe85259f92da60dba11 = L.circleMarker(
                 [43.2, -120.72805],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_41e931187f538f19c2d8091973490246 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_cc67b778a5100ae4163a8e801b861c6a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_ed1523107f1872e5a119eed3e3adfb1b = $(`&lt;div id=&quot;html_ed1523107f1872e5a119eed3e3adfb1b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Christmas Valley - Oregon USA&lt;/div&gt;`)[0];
-                popup_41e931187f538f19c2d8091973490246.setContent(html_ed1523107f1872e5a119eed3e3adfb1b);
+                var html_ac28c7ec77a12a2a3055afdcb277b3f0 = $(`&lt;div id=&quot;html_ac28c7ec77a12a2a3055afdcb277b3f0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Christmas Valley - Oregon USA&lt;/div&gt;`)[0];
+                popup_cc67b778a5100ae4163a8e801b861c6a.setContent(html_ac28c7ec77a12a2a3055afdcb277b3f0);
             
         
 
-        circle_marker_162b6fb1e5cf743b063224c5c59ff61c.bindPopup(popup_41e931187f538f19c2d8091973490246)
+        circle_marker_9308529af3e86fe85259f92da60dba11.bindPopup(popup_cc67b778a5100ae4163a8e801b861c6a)
         ;
 
         
     
     
-            circle_marker_162b6fb1e5cf743b063224c5c59ff61c.bindTooltip(
+            circle_marker_9308529af3e86fe85259f92da60dba11.bindTooltip(
                 `&lt;div&gt;
                      CHO
                  &lt;/div&gt;`,
@@ -917,28 +919,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_0dac19df005023e6779212fd8cf9f774 = L.circleMarker(
+            var circle_marker_a765e3fba180d038e04d8ee524f57aca = L.circleMarker(
                 [47.4899, -117.589126],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_f3575de7c93f0de2b4ce8e8f0704a7d2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_528195c1c9fa25b5f9a5f2ad3579e647 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b69622b5a371144f973fa12d341933c4 = $(`&lt;div id=&quot;html_b69622b5a371144f973fa12d341933c4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Cheney - Washington USA&lt;/div&gt;`)[0];
-                popup_f3575de7c93f0de2b4ce8e8f0704a7d2.setContent(html_b69622b5a371144f973fa12d341933c4);
+                var html_6b2d9ed6e0f30bd11565e1d007603c98 = $(`&lt;div id=&quot;html_6b2d9ed6e0f30bd11565e1d007603c98&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Cheney - Washington USA&lt;/div&gt;`)[0];
+                popup_528195c1c9fa25b5f9a5f2ad3579e647.setContent(html_6b2d9ed6e0f30bd11565e1d007603c98);
             
         
 
-        circle_marker_0dac19df005023e6779212fd8cf9f774.bindPopup(popup_f3575de7c93f0de2b4ce8e8f0704a7d2)
+        circle_marker_a765e3fba180d038e04d8ee524f57aca.bindPopup(popup_528195c1c9fa25b5f9a5f2ad3579e647)
         ;
 
         
     
     
-            circle_marker_0dac19df005023e6779212fd8cf9f774.bindTooltip(
+            circle_marker_a765e3fba180d038e04d8ee524f57aca.bindTooltip(
                 `&lt;div&gt;
                      CYW
                  &lt;/div&gt;`,
@@ -946,28 +948,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9b89b5128220068bfd4e29a500ed2b54 = L.circleMarker(
+            var circle_marker_3bfa0ded10a65acde299847e13ad418f = L.circleMarker(
                 [44.046761, -123.074243],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_8fd616038e7446799df3f63fbbd4da10 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e737b5e485dd546204673b4ebdedf541 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_7a70ff145f8e374ae4570c29bef62420 = $(`&lt;div id=&quot;html_7a70ff145f8e374ae4570c29bef62420&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Eugene - Oregon USA&lt;/div&gt;`)[0];
-                popup_8fd616038e7446799df3f63fbbd4da10.setContent(html_7a70ff145f8e374ae4570c29bef62420);
+                var html_c33dc487f57a1bdec9faeeb7228abc50 = $(`&lt;div id=&quot;html_c33dc487f57a1bdec9faeeb7228abc50&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Eugene - Oregon USA&lt;/div&gt;`)[0];
+                popup_e737b5e485dd546204673b4ebdedf541.setContent(html_c33dc487f57a1bdec9faeeb7228abc50);
             
         
 
-        circle_marker_9b89b5128220068bfd4e29a500ed2b54.bindPopup(popup_8fd616038e7446799df3f63fbbd4da10)
+        circle_marker_3bfa0ded10a65acde299847e13ad418f.bindPopup(popup_e737b5e485dd546204673b4ebdedf541)
         ;
 
         
     
     
-            circle_marker_9b89b5128220068bfd4e29a500ed2b54.bindTooltip(
+            circle_marker_3bfa0ded10a65acde299847e13ad418f.bindTooltip(
                 `&lt;div&gt;
                      EUO
                  &lt;/div&gt;`,
@@ -975,28 +977,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_561811c830eb69f8bcd64279c85ec945 = L.circleMarker(
+            var circle_marker_93f7c28f6b38e7c55c069b6a0ba4f223 = L.circleMarker(
                 [45.55305, -123.08361],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_f56f02ca3e834e26dafe23b928f1fdd5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_dae73ed0e07c3fa7f72c32693339d056 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d78d58ec4b2a012325f159b880283fc0 = $(`&lt;div id=&quot;html_d78d58ec4b2a012325f159b880283fc0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Forest Grove - Oregon USA&lt;/div&gt;`)[0];
-                popup_f56f02ca3e834e26dafe23b928f1fdd5.setContent(html_d78d58ec4b2a012325f159b880283fc0);
+                var html_e05da27741ec648e03b5b7346af71ce2 = $(`&lt;div id=&quot;html_e05da27741ec648e03b5b7346af71ce2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Forest Grove - Oregon USA&lt;/div&gt;`)[0];
+                popup_dae73ed0e07c3fa7f72c32693339d056.setContent(html_e05da27741ec648e03b5b7346af71ce2);
             
         
 
-        circle_marker_561811c830eb69f8bcd64279c85ec945.bindPopup(popup_f56f02ca3e834e26dafe23b928f1fdd5)
+        circle_marker_93f7c28f6b38e7c55c069b6a0ba4f223.bindPopup(popup_dae73ed0e07c3fa7f72c32693339d056)
         ;
 
         
     
     
-            circle_marker_561811c830eb69f8bcd64279c85ec945.bindTooltip(
+            circle_marker_93f7c28f6b38e7c55c069b6a0ba4f223.bindTooltip(
                 `&lt;div&gt;
                      FGO
                  &lt;/div&gt;`,
@@ -1004,28 +1006,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_84f254d394dca209acc9e00de95dab4f = L.circleMarker(
+            var circle_marker_f44c0fd56c6ab638263abbe104987e92 = L.circleMarker(
                 [45.818441, -119.284721],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_b32c2a22ff4651482ee14b7e3cb7cbce = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_bebc6479738caf6dd4eeffe8c3a3b34d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f9132efd73528169c2f6deb0a9265763 = $(`&lt;div id=&quot;html_f9132efd73528169c2f6deb0a9265763&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hermiston - Oregon USA&lt;/div&gt;`)[0];
-                popup_b32c2a22ff4651482ee14b7e3cb7cbce.setContent(html_f9132efd73528169c2f6deb0a9265763);
+                var html_e6439528ca777c41122102ccf809254b = $(`&lt;div id=&quot;html_e6439528ca777c41122102ccf809254b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Hermiston - Oregon USA&lt;/div&gt;`)[0];
+                popup_bebc6479738caf6dd4eeffe8c3a3b34d.setContent(html_e6439528ca777c41122102ccf809254b);
             
         
 
-        circle_marker_84f254d394dca209acc9e00de95dab4f.bindPopup(popup_b32c2a22ff4651482ee14b7e3cb7cbce)
+        circle_marker_f44c0fd56c6ab638263abbe104987e92.bindPopup(popup_bebc6479738caf6dd4eeffe8c3a3b34d)
         ;
 
         
     
     
-            circle_marker_84f254d394dca209acc9e00de95dab4f.bindTooltip(
+            circle_marker_f44c0fd56c6ab638263abbe104987e92.bindTooltip(
                 `&lt;div&gt;
                      HEO
                  &lt;/div&gt;`,
@@ -1033,28 +1035,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_c74c2599df92e817db7bb1515e907acb = L.circleMarker(
+            var circle_marker_6d763a1e36209b313e8fc3fd6f77f1a2 = L.circleMarker(
                 [44.68, -121.14861],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_83414061cb3c961cecf6005ae9750c9f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_982d41ff44fc7060f07bba7eba9987ed = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0f7a7208ccf6261f947a18defa5168c7 = $(`&lt;div id=&quot;html_0f7a7208ccf6261f947a18defa5168c7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madras - Oregon USA&lt;/div&gt;`)[0];
-                popup_83414061cb3c961cecf6005ae9750c9f.setContent(html_0f7a7208ccf6261f947a18defa5168c7);
+                var html_f7f624287192106602c4cbba49823365 = $(`&lt;div id=&quot;html_f7f624287192106602c4cbba49823365&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Madras - Oregon USA&lt;/div&gt;`)[0];
+                popup_982d41ff44fc7060f07bba7eba9987ed.setContent(html_f7f624287192106602c4cbba49823365);
             
         
 
-        circle_marker_c74c2599df92e817db7bb1515e907acb.bindPopup(popup_83414061cb3c961cecf6005ae9750c9f)
+        circle_marker_6d763a1e36209b313e8fc3fd6f77f1a2.bindPopup(popup_982d41ff44fc7060f07bba7eba9987ed)
         ;
 
         
     
     
-            circle_marker_c74c2599df92e817db7bb1515e907acb.bindTooltip(
+            circle_marker_6d763a1e36209b313e8fc3fd6f77f1a2.bindTooltip(
                 `&lt;div&gt;
                      MAO
                  &lt;/div&gt;`,
@@ -1062,28 +1064,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d9c925926e2e0df04f3a0e0a2c90fa31 = L.circleMarker(
+            var circle_marker_845343ea6c7100ce06e40655d5c4f0f7 = L.circleMarker(
                 [45.512679, -122.68347],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_b254d028cc79f2ff8ddb854cfc16b588 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_81c96be01d2bfdd79033d6a5b19b92d9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_4c8d03bc6263e3620bac904a7ee4ef00 = $(`&lt;div id=&quot;html_4c8d03bc6263e3620bac904a7ee4ef00&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Portland - Oregon USA&lt;/div&gt;`)[0];
-                popup_b254d028cc79f2ff8ddb854cfc16b588.setContent(html_4c8d03bc6263e3620bac904a7ee4ef00);
+                var html_be77ec6290b85a10435952bfa69979fd = $(`&lt;div id=&quot;html_be77ec6290b85a10435952bfa69979fd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Portland - Oregon USA&lt;/div&gt;`)[0];
+                popup_81c96be01d2bfdd79033d6a5b19b92d9.setContent(html_be77ec6290b85a10435952bfa69979fd);
             
         
 
-        circle_marker_d9c925926e2e0df04f3a0e0a2c90fa31.bindPopup(popup_b254d028cc79f2ff8ddb854cfc16b588)
+        circle_marker_845343ea6c7100ce06e40655d5c4f0f7.bindPopup(popup_81c96be01d2bfdd79033d6a5b19b92d9)
         ;
 
         
     
     
-            circle_marker_d9c925926e2e0df04f3a0e0a2c90fa31.bindTooltip(
+            circle_marker_845343ea6c7100ce06e40655d5c4f0f7.bindTooltip(
                 `&lt;div&gt;
                      PSO
                  &lt;/div&gt;`,
@@ -1091,28 +1093,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_722fa4b9cc6769a97082227e48c6d98f = L.circleMarker(
+            var circle_marker_6918ca82170e56277fc57a56da89883b = L.circleMarker(
                 [44.921365, -123.018425],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_2f3cf85e8d64c9222d2cdde9d738a0c5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_55db5876115bb077e05138b2e6082259 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_8fde84baaf332c845c6987298c778ae8 = $(`&lt;div id=&quot;html_8fde84baaf332c845c6987298c778ae8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salem - Oregon USA&lt;/div&gt;`)[0];
-                popup_2f3cf85e8d64c9222d2cdde9d738a0c5.setContent(html_8fde84baaf332c845c6987298c778ae8);
+                var html_cbf716086b13a64878250255dbb0dee1 = $(`&lt;div id=&quot;html_cbf716086b13a64878250255dbb0dee1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Salem - Oregon USA&lt;/div&gt;`)[0];
+                popup_55db5876115bb077e05138b2e6082259.setContent(html_cbf716086b13a64878250255dbb0dee1);
             
         
 
-        circle_marker_722fa4b9cc6769a97082227e48c6d98f.bindPopup(popup_2f3cf85e8d64c9222d2cdde9d738a0c5)
+        circle_marker_6918ca82170e56277fc57a56da89883b.bindPopup(popup_55db5876115bb077e05138b2e6082259)
         ;
 
         
     
     
-            circle_marker_722fa4b9cc6769a97082227e48c6d98f.bindTooltip(
+            circle_marker_6918ca82170e56277fc57a56da89883b.bindTooltip(
                 `&lt;div&gt;
                      SAO
                  &lt;/div&gt;`,
@@ -1120,28 +1122,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_efef2839a506174fb202b8ba170a44bb = L.circleMarker(
+            var circle_marker_0e5dc3c0ca333d01a2833c2674fe24ad = L.circleMarker(
                 [43.11896, -121.05879],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_cc1b4cb39d9d2f39848db23edad913d6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_74fefd3105d8689693d5fc029ba6def1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_946723038b9efba73d9939993ac48fe6 = $(`&lt;div id=&quot;html_946723038b9efba73d9939993ac48fe6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Silver Lake - Oregon USA&lt;/div&gt;`)[0];
-                popup_cc1b4cb39d9d2f39848db23edad913d6.setContent(html_946723038b9efba73d9939993ac48fe6);
+                var html_a193d6cbe8523af8685d317d5578d47c = $(`&lt;div id=&quot;html_a193d6cbe8523af8685d317d5578d47c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Silver Lake - Oregon USA&lt;/div&gt;`)[0];
+                popup_74fefd3105d8689693d5fc029ba6def1.setContent(html_a193d6cbe8523af8685d317d5578d47c);
             
         
 
-        circle_marker_efef2839a506174fb202b8ba170a44bb.bindPopup(popup_cc1b4cb39d9d2f39848db23edad913d6)
+        circle_marker_0e5dc3c0ca333d01a2833c2674fe24ad.bindPopup(popup_74fefd3105d8689693d5fc029ba6def1)
         ;
 
         
     
     
-            circle_marker_efef2839a506174fb202b8ba170a44bb.bindTooltip(
+            circle_marker_0e5dc3c0ca333d01a2833c2674fe24ad.bindTooltip(
                 `&lt;div&gt;
                      SIO
                  &lt;/div&gt;`,
@@ -1149,28 +1151,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_5079c5f9cedc16e0872d22140992b31f = L.circleMarker(
+            var circle_marker_977198e04b53615c3022c023b1568348 = L.circleMarker(
                 [47.68, -122.25],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;orange&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;orange&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_6429163bbd94bfe08e1240ef455cc7e5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_9939cd1ac69a86f5b646d3111df603df = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c57066c3f04646a8d3fced0ceb993a12 = $(`&lt;div id=&quot;html_c57066c3f04646a8d3fced0ceb993a12&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle (NOAA) - Washington USA&lt;/div&gt;`)[0];
-                popup_6429163bbd94bfe08e1240ef455cc7e5.setContent(html_c57066c3f04646a8d3fced0ceb993a12);
+                var html_62ab3c3287cdb7bf36e9b37844126e27 = $(`&lt;div id=&quot;html_62ab3c3287cdb7bf36e9b37844126e27&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle (NOAA) - Washington USA&lt;/div&gt;`)[0];
+                popup_9939cd1ac69a86f5b646d3111df603df.setContent(html_62ab3c3287cdb7bf36e9b37844126e27);
             
         
 
-        circle_marker_5079c5f9cedc16e0872d22140992b31f.bindPopup(popup_6429163bbd94bfe08e1240ef455cc7e5)
+        circle_marker_977198e04b53615c3022c023b1568348.bindPopup(popup_9939cd1ac69a86f5b646d3111df603df)
         ;
 
         
     
     
-            circle_marker_5079c5f9cedc16e0872d22140992b31f.bindTooltip(
+            circle_marker_977198e04b53615c3022c023b1568348.bindTooltip(
                 `&lt;div&gt;
                      SEW
                  &lt;/div&gt;`,
@@ -1178,28 +1180,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_7e3f35284a7a3ab4718dfe1546619f9f = L.circleMarker(
+            var circle_marker_45d9582a494f4e91a8705a935043ad87 = L.circleMarker(
                 [47.653871, -122.309481],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;purple&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;purple&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 9, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-        var popup_c2051978a935595824bd1473a20ae0df = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_cdede73883c2ab013e0581196e8c1094 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_9543230bd73ea9d6e919728658be5f12 = $(`&lt;div id=&quot;html_9543230bd73ea9d6e919728658be5f12&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
-                popup_c2051978a935595824bd1473a20ae0df.setContent(html_9543230bd73ea9d6e919728658be5f12);
+                var html_15b290ab207e57b312e72f778cec3afa = $(`&lt;div id=&quot;html_15b290ab207e57b312e72f778cec3afa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Seattle - Washington USA&lt;/div&gt;`)[0];
+                popup_cdede73883c2ab013e0581196e8c1094.setContent(html_15b290ab207e57b312e72f778cec3afa);
             
         
 
-        circle_marker_7e3f35284a7a3ab4718dfe1546619f9f.bindPopup(popup_c2051978a935595824bd1473a20ae0df)
+        circle_marker_45d9582a494f4e91a8705a935043ad87.bindPopup(popup_cdede73883c2ab013e0581196e8c1094)
         ;
 
         
     
     
-            circle_marker_7e3f35284a7a3ab4718dfe1546619f9f.bindTooltip(
+            circle_marker_45d9582a494f4e91a8705a935043ad87.bindTooltip(
                 `&lt;div&gt;
                      STW
                  &lt;/div&gt;`,
@@ -1207,53 +1209,53 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var tile_layer_f55eed252a6dea8e8490dc42ed7b79af = L.tileLayer(
+            var tile_layer_62fdc791c8dfdee96e5a6bb4c10791f2 = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            var layer_control_43a6e458ecb86d8dd33baeebe5c30eca_layers = {
+            var layer_control_a579b2e9812a060e31d71e98dd9f619e_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_9457446f64f156690e169022bce3173d,
-                    &quot;World imagery&quot; : tile_layer_f55eed252a6dea8e8490dc42ed7b79af,
+                    &quot;openstreetmap&quot; : tile_layer_d4fb28718560bee1d61168e703d57839,
+                    &quot;World imagery&quot; : tile_layer_62fdc791c8dfdee96e5a6bb4c10791f2,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_43a6e458ecb86d8dd33baeebe5c30eca = L.control.layers(
-                layer_control_43a6e458ecb86d8dd33baeebe5c30eca_layers.base_layers,
-                layer_control_43a6e458ecb86d8dd33baeebe5c30eca_layers.overlays,
+            let layer_control_a579b2e9812a060e31d71e98dd9f619e = L.control.layers(
+                layer_control_a579b2e9812a060e31d71e98dd9f619e_layers.base_layers,
+                layer_control_a579b2e9812a060e31d71e98dd9f619e_layers.overlays,
                 {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topleft&quot;}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
 
         
     
-            var tile_layer_ae79a121cb7cc8864a4d07e72dcb0ab0 = L.tileLayer(
+            var tile_layer_e76e28dd07f6de567ebe64cdc382ff5b = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
-            var mini_map_672295d750f93c5ad79a46a9c2cbb5f3 = new L.Control.MiniMap(
-                tile_layer_ae79a121cb7cc8864a4d07e72dcb0ab0,
+            var mini_map_1de324c3eacadf9ac0f9849279f5d63e = new L.Control.MiniMap(
+                tile_layer_e76e28dd07f6de567ebe64cdc382ff5b,
                 {&quot;autoToggleDisplay&quot;: false, &quot;centerFixed&quot;: false, &quot;collapsedHeight&quot;: 25, &quot;collapsedWidth&quot;: 25, &quot;height&quot;: 150, &quot;minimized&quot;: true, &quot;position&quot;: &quot;bottomright&quot;, &quot;toggleDisplay&quot;: true, &quot;width&quot;: 150, &quot;zoomAnimation&quot;: false, &quot;zoomLevelFixed&quot;: 2, &quot;zoomLevelOffset&quot;: -5}
             );
-            map_01c64e24a5f7214bcf9d07387e7a963e.addControl(mini_map_672295d750f93c5ad79a46a9c2cbb5f3);
+            map_039edc754690f54212089624cdbd447c.addControl(mini_map_1de324c3eacadf9ac0f9849279f5d63e);
         
     
             L.control.fullscreen(
                 {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;topright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
-            ).addTo(map_01c64e24a5f7214bcf9d07387e7a963e);
+            ).addTo(map_039edc754690f54212089624cdbd447c);
         
     
-                var lat_lng_popup_6dba4e9b3aa840a44f18e504514c536e = L.popup();
+                var lat_lng_popup_eb3b883bc153a514b0a9e979388b1d0d = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_6dba4e9b3aa840a44f18e504514c536e
+                    lat_lng_popup_eb3b883bc153a514b0a9e979388b1d0d
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_01c64e24a5f7214bcf9d07387e7a963e);
+                        .openOn(map_039edc754690f54212089624cdbd447c);
                     }
-                map_01c64e24a5f7214bcf9d07387e7a963e.on(&#x27;click&#x27;, latLngPop);
+                map_039edc754690f54212089624cdbd447c.on(&#x27;click&#x27;, latLngPop);
             
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
@@ -1291,7 +1293,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
   months = pd.date_range(
 </pre></div>
 </div>
-<div class="output text_html"><table id="itables_8e3c67f6_ac01_4104_8b5e_f55fe96542bd" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
+<div class="output text_html"><table id="itables_d4a77c64_a4ad_4def_a33a_0cd869f0891f" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1430,7 +1432,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_8e3c67f6_ac01_4104_8b5e_f55fe96542bd:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_d4a77c64_a4ad_4def_a33a_0cd869f0891f:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -1520,11 +1522,11 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
       </div>
     </a>
     <a class="right-next"
-       href="station_network_esmap.html"
+       href="station_network_surfrad.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">ESMAP</p>
+        <p class="prev-next-title">SURFRAD</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
