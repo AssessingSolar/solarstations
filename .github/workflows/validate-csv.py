@@ -27,6 +27,8 @@ def check_url(row):
         'climate.lzu.edu.cn',
         'niwe.res.in',
         'dwd.de/DE/forschung/atmosphaerenbeob',
+        'idmp.entpe.fr',  # bad certificate, but renders ok
+        'solardata.uoregon.edu/Ashland.html',  # expected back-up online at some point
     ]
     for domain in domains_to_skip:
         if domain in url:
