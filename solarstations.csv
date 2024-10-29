@@ -64,7 +64,7 @@ Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of dat
 Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freely,G;B;D
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,G;B;D
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,G;B;D
-Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602,2020-,BSRN,,,,Freely,G;B;D
+Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602,2017-,,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,G;B;D;IR
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,G;B;D
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D
@@ -152,7 +152,6 @@ Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21,2016-,,Mexica
 Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
-Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
 Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D
