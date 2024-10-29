@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: SolarStations.Org
-author: AssessingSolar.Org
+author: Adam R. Jensen, Ioannis Sifnaios, Kevin Anderson
 logo: graphics/solarstationsorg_logo_padded.png
 
 # Force re-execution of notebooks on each build.
