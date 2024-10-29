@@ -13,10 +13,13 @@ parts:
     - file: station_metadata
     - file: station_statistics
       title: Statistics
+
   - caption: Networks
     chapters:
     - file: station_network_bsrn
       title: BSRN
+    - file: station_network_esmap
+      title: ESMAP
     - file: station_network_midc
       title: NREL MIDC
     - file: station_network_solrad
@@ -25,8 +28,6 @@ parts:
       title: SRML
     - file: station_network_surfrad
       title: SURFRAD
-    - file: station_network_esmap
-      title: ESMAP
 
   - caption: Other data sources
     chapters:
