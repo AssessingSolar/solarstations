@@ -64,7 +64,7 @@ Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252.0,2007,BSRN,,Only two months of d
 Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116.0,2019-,BSRN,,,,Freely,G;B;D,Africa,Ocean,Ocean,1,2106.0,704.0,2113.0
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,G;B;D,Asia,Dfb,Continental,1,1183.0,635.0,945.0
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500.0,2003-2012,BSRN,,,,Freely,G;B;D,Asia,BSh,Dry,1,2190.0,664.0,2376.0
-Selegua& Mexico Solarimetric Station,SEL,,Mexico,15.784,-91.9902,602.0,2020-,BSRN,,,,Freely,G;B;D,North America,Aw,Tropical,1,1883.0,759.0,1683.0
+Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602.0,2017-,,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Aw,Tropical,1,1883.0,759.0,1683.0
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489.0,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,G;B;D;IR,South America,Cfa,Temperate,1,1716.0,602.0,1825.0
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,G;B;D,Europe,ET,Polar,1,1201.0,602.0,1172.0
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650.0,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2259.0,818.0,2132.0
@@ -152,7 +152,6 @@ Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21.0,2016-,,Mexi
 Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSh,Dry,1,2051.0,726.0,1967.0
 Morelos,Mor,Quintana Roo,Mexico,19.759,-88.7243,17.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Aw,Tropical,1,1872.0,756.0,1737.0
 Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSh,Dry,1,1869.0,624.0,1967.0
-Selegua,SEL,Chiapas,Mexico,15.7839,-91.9902,598.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Aw,Tropical,1,1883.0,759.0,1683.0
 Tepic,TEP,Nayarit,Mexico,21.4916,-104.8947,959.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Csa,Temperate,1,2175.0,624.0,2394.0
 Zacatecas City,ZAC,Zacatecas ,Mexico,22.7725,-102.6436,2316.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSk,Dry,1,2201.0,646.0,2449.0
 Hermosillo,HMO,Sonora,Mexico,29.0279,-111.1456,157.0,2018-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BWh,Dry,1,2226.0,482.0,2880.0
@@ -274,12 +273,6 @@ Kabed,,,Kuwait,29.173152,47.728054,76.0,2012-?,,KISR,,,,G;B;D;RSI,Asia,BWh,Dry,1
 Mutribah,,,Kuwait,29.9,47.28,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2077.0,803.0,1934.0
 Sabryia,,,Kuwait,29.67,47.93,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2077.0,803.0,1934.0
 Gudair,,,Kuwait,28.88,47.71,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2124.0,814.0,1982.0
-Varennes,,Quebec,Canada,45.6265,-73.38203,22.0,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,G;B;D,North America,Dfb,Continental,1,1310.0,562.0,1420.0
-Shagaya,,,Kuwait,29.2099,47.0603,241.0,2012-,,KISR,,,,G;B;D;RSI,Asia,BWh,Dry,1,2077.0,803.0,1934.0
-Kabed,,,Kuwait,29.173152,47.728054,76.0,2012-,,KISR,,,,G;B;D;RSI,Asia,BWh,Dry,1,2077.0,803.0,1934.0
-Mutribah,,,Kuwait,29.9,47.28,,2012-,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2077.0,803.0,1934.0
-Sabryia,,,Kuwait,29.67,47.93,,2012-,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2077.0,803.0,1934.0
-Gudair,,,Kuwait,28.88,47.71,,2012-,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2124.0,814.0,1982.0
 Arctic Space Centre Sodankylä Tähtelä,,,Finland,67.36664,26.628253,195.0,1998-,,Finnish Meteorological Institute (FMI),Data is likely of poor quality. They can be downloaded from: https://en.ilmatieteenlaitos.fi/observation-stations,https://litdb.fmi.fi/soundingst_radiation.php,Freely,G;B;D;IR;UV,Europe,Dfc,Continental,1,832.0,449.0,1015.0
 Odeillo,,,France,42.4942,2.0295,1530.0,1996-?,,PROMES,Altitude is approximate,,,G;B;D,Europe,Cfb,Temperate,1,1504.0,602.0,1668.0
 Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024.0,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2570.0,412.0,3380.0
@@ -450,7 +443,7 @@ Moradabad,,,India,28.872,78.758,200.0,2013-,SRRA,National Institute of wind ener
 Sultanpur,,,India,26.288,82.082,90.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1719.0,807.0,1347.0
 Dehradun,,,India,30.416,77.967,844.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1821.0,752.0,1737.0
 Nainital,,,India,29.357,79.551,1323.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1781.0,788.0,1602.0
-Murshidabad,,,India,26.288,82.082,29.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1719.0,807.0,1347.0
+Murshidabad,,,India,24.1,88.54,40.0,2013-,SRRA,National Institute of wind energy,Coordinates were updated as they were incorrect on the website.,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1624.0,850.0,1153.0
 Jalpaiguri,,,India,26.546,88.703,87.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1559.0,836.0,1106.0
 Aurangabad,,,India,19.868,75.323,576.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1938.0,799.0,1668.0
 Nanded,,,India,19.111,77.293,392.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1905.0,839.0,1548.0
