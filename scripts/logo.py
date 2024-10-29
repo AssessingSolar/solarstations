@@ -59,8 +59,8 @@ fig, ax = plt.subplots(figsize=(4, 4), subplot_kw={'projection': crs})
 #ax.set_extent([-179, 180, -90, 90])
 
 # Add land borders, coastline, and gridlines to main map
-ax.add_feature(cartopy.feature.LAND, facecolor='lightgrey', alpha=0.7, zorder=0)
-ax.coastlines(color='black', lw=0.7, alpha=1, zorder=3)
+ax.add_feature(cartopy.feature.LAND, facecolor='lightgrey', alpha=0.9, zorder=0)
+ax.coastlines(color='black', lw=0.3, alpha=1, zorder=3)
 ax.gridlines(draw_labels=False, dms=True, x_inline=False, y_inline=False, alpha=0.7, lw=0.1, zorder=-1)
 
 # Add points of solar stations
@@ -68,7 +68,7 @@ ax.gridlines(draw_labels=False, dms=True, x_inline=False, y_inline=False, alpha=
 # regular latitude/longitude (PlateCarree) to the specific map projection
 stations.plot.scatter(
     ax=ax, x='Longitude', y='Latitude',
-    c='Color', alpha=0.95, s=12, edgecolor='k', lw=0.2,
+    c='white', alpha=0.9, s=12, edgecolor='black', lw=0.8,
     transform=ccrs.PlateCarree(), zorder=4)
 
 # Create the figure

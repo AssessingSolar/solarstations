@@ -3,7 +3,7 @@
 
 title: SolarStations
 author: AssessingSolar.org
-logo: graphics/solarstationsorg_logo.png
+logo: graphics/solarstationsorg_logo_padded.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
