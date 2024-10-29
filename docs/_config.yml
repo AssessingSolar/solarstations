@@ -3,6 +3,7 @@
 
 title: SolarStations.Org
 author: Adam R. Jensen, Ioannis Sifnaios, Kevin Anderson
+copyright: "2022"
 logo: graphics/solarstationsorg_logo_padded.png
 
 # Force re-execution of notebooks on each build.
