@@ -11,6 +11,7 @@ The central part of the catalog is the list of stations and their metadata which
 * Data availability ("Freely", "Upon request", "Not available", or blank if unknown)
 * Station tier (see [station requirements](station_requirements)).
 * Instruments and components
+* Long-term annual irradiance (climatology) from NASA POWER (GHI, DNI, and DHI)
 
 ## Time-period
 The time period should identify for which years data is available, which is useful for several reasons. Knowing the time period allows for identifying which stations are still active and how long of a historical record of data is available.
