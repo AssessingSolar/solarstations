@@ -10,7 +10,7 @@ DEFAULT_PARAMETERS = [
 URL = 'https://power.larc.nasa.gov/api/temporal/climatology/regional?'
 
 
-def get_nasa_power(latitude, longitude, start='1990-01-01', end='2009-01-01',
+def get_nasa_power(latitude, longitude, start='2001-01-01', end='2020-01-01',
                    community='RE', parameters=DEFAULT_PARAMETERS, url=URL):
 
     latitude_min, latitude_max = latitude  # bottom, top
@@ -40,9 +40,9 @@ def get_nasa_power(latitude, longitude, start='1990-01-01', end='2009-01-01',
     data = data.replace(-999, np.nan)
 
     data = data.rename(columns={
-        'properties.parameter.ALLSKY_SFC_SW_DWN.ANN': 'GHI',
-        'properties.parameter.ALLSKY_SFC_SW_DIFF.ANN': 'DHI',
-        'properties.parameter.ALLSKY_SFC_SW_DNI.ANN': 'DNI',
+        'properties.parameter.ALLSKY_SFC_SW_DWN.ANN': 'GHI_typical_kWh_m2',
+        'properties.parameter.ALLSKY_SFC_SW_DIFF.ANN': 'DHI_typical_kWh_m2',
+        'properties.parameter.ALLSKY_SFC_SW_DNI.ANN': 'DNI_typical_kWh_m2',
     })
 
     data[['longitude', 'latitude']] = \
@@ -50,7 +50,8 @@ def get_nasa_power(latitude, longitude, start='1990-01-01', end='2009-01-01',
 
     data = data.set_index(['latitude', 'longitude'])
 
-    data = data[['GHI', 'DHI', 'DNI']]
+    data = \
+        data[['GHI_typical_kWh_m2', 'DHI_typical_kWh_m2', 'DNI_typical_kWh_m2']]
 
     data = data.multiply(365)  # convert kWh/m2/day to kWh/m2/yr
 
@@ -58,7 +59,7 @@ def get_nasa_power(latitude, longitude, start='1990-01-01', end='2009-01-01',
 
 
 # %%
-step_size = 10
+step_size = 10  # max allowed box dimension
 latitudes = np.arange(-90, 90, step_size)
 longitudes = np.arange(-180, 180, step_size)
 
@@ -72,4 +73,4 @@ for lat in latitudes:
 
 df = pd.concat(dfs, axis='rows')
 
-df.to_csv('data/nasa_power_annual_irradiance_global.csv')
+df.round(0).to_csv('data/nasa_power_annual_irradiance_global.csv')
