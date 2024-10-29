@@ -3,7 +3,7 @@
 
 title: SolarStations
 author: AssessingSolar.org
-logo: graphics/assessing_solar_logo.png
+logo: graphics/solarstationsorg_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -35,7 +35,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: graphics/assessing_solar_favicon.ico  # A path to a favicon image
+  favicon: graphics/solarstationsorg_favicon.ico  # A path to a favicon image
   baseurl                   : https://SolarStations.Org
   analytics:
     google_analytics_id       : G-6KXSD7FTJM
