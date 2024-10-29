@@ -5,7 +5,7 @@ import json
 import sys
 
 
-with open('country_by_continent.json') as f:
+with open('data/country_by_continent.json') as f:
     country_data = json.load(f)
 
 
