@@ -3,7 +3,6 @@
 
 root: intro
 format: jb-book
-numbered: false
 
 parts:
 - caption:
