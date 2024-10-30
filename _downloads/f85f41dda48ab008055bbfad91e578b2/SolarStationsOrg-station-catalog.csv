@@ -64,7 +64,7 @@ Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252.0,2007,BSRN,,Only two months of d
 Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116.0,2019-,BSRN,,,,Freely,G;B;D,Africa,Ocean,Ocean,1,2106.0,704.0,2113.0
 Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,G;B;D,Asia,Dfb,Continental,1,1183.0,635.0,945.0
 Sede Boqer,SBO,,Israel,30.8597,34.7794,500.0,2003-2012,BSRN,,,,Freely,G;B;D,Asia,BSh,Dry,1,2190.0,664.0,2376.0
-Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602.0,2017-,,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Aw,Tropical,1,1883.0,759.0,1683.0
+Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602.0,2017-,BSRN,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,Aw,Tropical,1,1883.0,759.0,1683.0
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489.0,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,G;B;D;IR,South America,Cfa,Temperate,1,1716.0,602.0,1825.0
 Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,G;B;D,Europe,ET,Polar,1,1201.0,602.0,1172.0
 Solar Village,SOV,,Saudi Arabia,24.91,46.41,650.0,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2259.0,818.0,2132.0
