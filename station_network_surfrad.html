@@ -202,17 +202,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Networks</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="station_network_bsrn.html">Baseline Surface Radiation Network (BSRN)</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="station_network_bsrn.html">BSRN</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_network_esmap.html">ESMAP</a></li>
-<li class="toctree-l1"><a class="reference internal" href="station_network_midc.html">NREL MIDC station network</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="station_network_midc.html">NREL MIDC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_network_solrad.html">SOLRAD</a></li>
-
-<li class="toctree-l1"><a class="reference internal" href="station_network_srml.html">Solar Radiation Monitoring Laboratory (SRML)</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="station_network_srml.html">SRML</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">SURFRAD</a></li>
-
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Other data sources</span></p>
 <ul class="nav bd-sidenav">
@@ -420,13 +415,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SURFRAD</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-retrieval">Data retrieval</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -577,7 +568,7 @@ This is the <code>init_notebook_mode</code> cell from ITables v2.2.2<br>
 (you should not see this message - is your notebook <it>trusted</it>?)
 </noscript>
 </div>
-</div><div class="output text_html"><table id="itables_9fc3974b_4729_44d0_a504_ddfa937b3913" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
+</div><div class="output text_html"><table id="itables_cb7edf86_b14f_4d8b_9fe3_3dc787ae75c6" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       
@@ -699,7 +690,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_9fc3974b_4729_44d0_a504_ddfa937b3913:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_cb7edf86_b14f_4d8b_9fe3_3dc787ae75c6:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -745,7 +736,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_7ad4093e444209c043070f8cea05ff2d {
+                #map_03886f1cd33832624aa7bc90b4f88bbd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -763,14 +754,14 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 &lt;body&gt;
     
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_7ad4093e444209c043070f8cea05ff2d&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_03886f1cd33832624aa7bc90b4f88bbd&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_7ad4093e444209c043070f8cea05ff2d = L.map(
-                &quot;map_7ad4093e444209c043070f8cea05ff2d&quot;,
+            var map_03886f1cd33832624aa7bc90b4f88bbd = L.map(
+                &quot;map_03886f1cd33832624aa7bc90b4f88bbd&quot;,
                 {
                     center: [40.0, -100.0],
                     crs: L.CRS.EPSG3857,
@@ -780,43 +771,43 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            L.control.scale().addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
 
             
 
         
     
-            var tile_layer_e5de0771484acaff5c815592ef375f4f = L.tileLayer(
+            var tile_layer_0ed0c2d1c6150fd2974cc8bf8034bd74 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 2, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_e5de0771484acaff5c815592ef375f4f.addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            tile_layer_0ed0c2d1c6150fd2974cc8bf8034bd74.addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-            var circle_marker_63da2540960ca1877ced930729824918 = L.circleMarker(
+            var circle_marker_caf1b573e6a7ec51de79011ddd5c98c9 = L.circleMarker(
                 [40.05192, -88.37309],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_caf9f7490c0b7be7d0cb466660afe4ab = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_daaab48c417819c6ca405e7a65937235 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0c83b0fd2fc9ff22a8a205be59a1b8e8 = $(`&lt;div id=&quot;html_0c83b0fd2fc9ff22a8a205be59a1b8e8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bondville - Illinois USA&lt;/div&gt;`)[0];
-                popup_caf9f7490c0b7be7d0cb466660afe4ab.setContent(html_0c83b0fd2fc9ff22a8a205be59a1b8e8);
+                var html_c13d5d4cf49c0e18dfa9eacc5ac7bcfd = $(`&lt;div id=&quot;html_c13d5d4cf49c0e18dfa9eacc5ac7bcfd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bondville - Illinois USA&lt;/div&gt;`)[0];
+                popup_daaab48c417819c6ca405e7a65937235.setContent(html_c13d5d4cf49c0e18dfa9eacc5ac7bcfd);
             
         
 
-        circle_marker_63da2540960ca1877ced930729824918.bindPopup(popup_caf9f7490c0b7be7d0cb466660afe4ab)
+        circle_marker_caf1b573e6a7ec51de79011ddd5c98c9.bindPopup(popup_daaab48c417819c6ca405e7a65937235)
         ;
 
         
     
     
-            circle_marker_63da2540960ca1877ced930729824918.bindTooltip(
+            circle_marker_caf1b573e6a7ec51de79011ddd5c98c9.bindTooltip(
                 `&lt;div&gt;
                      BON
                  &lt;/div&gt;`,
@@ -824,28 +815,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_c0c3d83f21a37b25703d232db6245d2b = L.circleMarker(
+            var circle_marker_25b758c2e2067aa3b5ffb0dd3ac2cf05 = L.circleMarker(
                 [40.12498, -105.2368],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_b932dde841299422145d3fe4d05fa3e5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e2320154abd3686b51be87efdb87b646 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c455700cefd3d0f5489be1210441c83a = $(`&lt;div id=&quot;html_c455700cefd3d0f5489be1210441c83a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Boulder - Colorado USA&lt;/div&gt;`)[0];
-                popup_b932dde841299422145d3fe4d05fa3e5.setContent(html_c455700cefd3d0f5489be1210441c83a);
+                var html_19ed6cafe083c8925be38446205f9416 = $(`&lt;div id=&quot;html_19ed6cafe083c8925be38446205f9416&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Boulder - Colorado USA&lt;/div&gt;`)[0];
+                popup_e2320154abd3686b51be87efdb87b646.setContent(html_19ed6cafe083c8925be38446205f9416);
             
         
 
-        circle_marker_c0c3d83f21a37b25703d232db6245d2b.bindPopup(popup_b932dde841299422145d3fe4d05fa3e5)
+        circle_marker_25b758c2e2067aa3b5ffb0dd3ac2cf05.bindPopup(popup_e2320154abd3686b51be87efdb87b646)
         ;
 
         
     
     
-            circle_marker_c0c3d83f21a37b25703d232db6245d2b.bindTooltip(
+            circle_marker_25b758c2e2067aa3b5ffb0dd3ac2cf05.bindTooltip(
                 `&lt;div&gt;
                      BOS
                  &lt;/div&gt;`,
@@ -853,28 +844,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_14793368dadf349cdbf7c728f3aad34d = L.circleMarker(
+            var circle_marker_93dd49712139ac375ef620e5c21cb614 = L.circleMarker(
                 [36.62373, -116.01947],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_104418618615dbd41699441898811332 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_5eabe934b04b4b2002dde0b1af5c3151 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_cc78fdd584f1daa3268ceddc48ee7244 = $(`&lt;div id=&quot;html_cc78fdd584f1daa3268ceddc48ee7244&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Desert Rock - Nevada USA&lt;/div&gt;`)[0];
-                popup_104418618615dbd41699441898811332.setContent(html_cc78fdd584f1daa3268ceddc48ee7244);
+                var html_9b4633c72c214b985cacf14d43a3f5de = $(`&lt;div id=&quot;html_9b4633c72c214b985cacf14d43a3f5de&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Desert Rock - Nevada USA&lt;/div&gt;`)[0];
+                popup_5eabe934b04b4b2002dde0b1af5c3151.setContent(html_9b4633c72c214b985cacf14d43a3f5de);
             
         
 
-        circle_marker_14793368dadf349cdbf7c728f3aad34d.bindPopup(popup_104418618615dbd41699441898811332)
+        circle_marker_93dd49712139ac375ef620e5c21cb614.bindPopup(popup_5eabe934b04b4b2002dde0b1af5c3151)
         ;
 
         
     
     
-            circle_marker_14793368dadf349cdbf7c728f3aad34d.bindTooltip(
+            circle_marker_93dd49712139ac375ef620e5c21cb614.bindTooltip(
                 `&lt;div&gt;
                      DRA
                  &lt;/div&gt;`,
@@ -882,28 +873,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_1e394754e6f318afc1636cfe5c14b058 = L.circleMarker(
+            var circle_marker_b8a0fef0932203d8820ff893dd2a2870 = L.circleMarker(
                 [48.30783, -105.1017],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_5ee09e65d5865aa702f1697015b51f5a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_51fdebe672a5d2d9a486f730c66a2d49 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_3efb4b8076f42441e94448cabadaf645 = $(`&lt;div id=&quot;html_3efb4b8076f42441e94448cabadaf645&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Fort Peck - Montana USA&lt;/div&gt;`)[0];
-                popup_5ee09e65d5865aa702f1697015b51f5a.setContent(html_3efb4b8076f42441e94448cabadaf645);
+                var html_6e10308d5dab22ccd3d855c0cf66de4c = $(`&lt;div id=&quot;html_6e10308d5dab22ccd3d855c0cf66de4c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Fort Peck - Montana USA&lt;/div&gt;`)[0];
+                popup_51fdebe672a5d2d9a486f730c66a2d49.setContent(html_6e10308d5dab22ccd3d855c0cf66de4c);
             
         
 
-        circle_marker_1e394754e6f318afc1636cfe5c14b058.bindPopup(popup_5ee09e65d5865aa702f1697015b51f5a)
+        circle_marker_b8a0fef0932203d8820ff893dd2a2870.bindPopup(popup_51fdebe672a5d2d9a486f730c66a2d49)
         ;
 
         
     
     
-            circle_marker_1e394754e6f318afc1636cfe5c14b058.bindTooltip(
+            circle_marker_b8a0fef0932203d8820ff893dd2a2870.bindTooltip(
                 `&lt;div&gt;
                      FPE
                  &lt;/div&gt;`,
@@ -911,28 +902,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_a5cafc962ca3f3310a9fba9e8668fda6 = L.circleMarker(
+            var circle_marker_b71515647cb966a70a96efeedad71bc3 = L.circleMarker(
                 [34.2547, -89.8729],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_51754b53005be6eff4aa1626e4e43c0c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_dd3feb20b90cf6ca3b27b71c4091d930 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_28c55f8fc29e0ed7264fdcd025eca85c = $(`&lt;div id=&quot;html_28c55f8fc29e0ed7264fdcd025eca85c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Goodwin Creek - Mississippi USA&lt;/div&gt;`)[0];
-                popup_51754b53005be6eff4aa1626e4e43c0c.setContent(html_28c55f8fc29e0ed7264fdcd025eca85c);
+                var html_6bce9adc906bc5eeaee7de406c227009 = $(`&lt;div id=&quot;html_6bce9adc906bc5eeaee7de406c227009&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Goodwin Creek - Mississippi USA&lt;/div&gt;`)[0];
+                popup_dd3feb20b90cf6ca3b27b71c4091d930.setContent(html_6bce9adc906bc5eeaee7de406c227009);
             
         
 
-        circle_marker_a5cafc962ca3f3310a9fba9e8668fda6.bindPopup(popup_51754b53005be6eff4aa1626e4e43c0c)
+        circle_marker_b71515647cb966a70a96efeedad71bc3.bindPopup(popup_dd3feb20b90cf6ca3b27b71c4091d930)
         ;
 
         
     
     
-            circle_marker_a5cafc962ca3f3310a9fba9e8668fda6.bindTooltip(
+            circle_marker_b71515647cb966a70a96efeedad71bc3.bindTooltip(
                 `&lt;div&gt;
                      GCR
                  &lt;/div&gt;`,
@@ -940,28 +931,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_85c66ce8f821af2e6d0a88dae0ab4652 = L.circleMarker(
+            var circle_marker_2a1808445c526225e1096815ce755ba0 = L.circleMarker(
                 [40.72012, -77.93085],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_08702715277a7d1c1ac395ac6aafb2f6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_1b71b0d90fb6a2fb08e96f16a46b1c2a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_ee056e1c4a4418840941a568d91654d5 = $(`&lt;div id=&quot;html_ee056e1c4a4418840941a568d91654d5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Rock Springs - Pennsylvania USA&lt;/div&gt;`)[0];
-                popup_08702715277a7d1c1ac395ac6aafb2f6.setContent(html_ee056e1c4a4418840941a568d91654d5);
+                var html_e2da9f5a1b6806daf9335510d1a4b67b = $(`&lt;div id=&quot;html_e2da9f5a1b6806daf9335510d1a4b67b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Rock Springs - Pennsylvania USA&lt;/div&gt;`)[0];
+                popup_1b71b0d90fb6a2fb08e96f16a46b1c2a.setContent(html_e2da9f5a1b6806daf9335510d1a4b67b);
             
         
 
-        circle_marker_85c66ce8f821af2e6d0a88dae0ab4652.bindPopup(popup_08702715277a7d1c1ac395ac6aafb2f6)
+        circle_marker_2a1808445c526225e1096815ce755ba0.bindPopup(popup_1b71b0d90fb6a2fb08e96f16a46b1c2a)
         ;
 
         
     
     
-            circle_marker_85c66ce8f821af2e6d0a88dae0ab4652.bindTooltip(
+            circle_marker_2a1808445c526225e1096815ce755ba0.bindTooltip(
                 `&lt;div&gt;
                      PSU
                  &lt;/div&gt;`,
@@ -969,28 +960,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_f4a37863eb9ba71c138cd7d50f505225 = L.circleMarker(
+            var circle_marker_957c489285e21385f481f6ea87984120 = L.circleMarker(
                 [43.73403, -96.62328],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_86a39c1c63db0319cd8c289e44395096 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_25799a74c460cf68bbacd20195ef4389 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_ae3ad18c01eec8cf849d7ff62f7ec742 = $(`&lt;div id=&quot;html_ae3ad18c01eec8cf849d7ff62f7ec742&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sioux Falls - South Dakota USA&lt;/div&gt;`)[0];
-                popup_86a39c1c63db0319cd8c289e44395096.setContent(html_ae3ad18c01eec8cf849d7ff62f7ec742);
+                var html_67fe8d6c060d62ee0f7b65035b971151 = $(`&lt;div id=&quot;html_67fe8d6c060d62ee0f7b65035b971151&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sioux Falls - South Dakota USA&lt;/div&gt;`)[0];
+                popup_25799a74c460cf68bbacd20195ef4389.setContent(html_67fe8d6c060d62ee0f7b65035b971151);
             
         
 
-        circle_marker_f4a37863eb9ba71c138cd7d50f505225.bindPopup(popup_86a39c1c63db0319cd8c289e44395096)
+        circle_marker_957c489285e21385f481f6ea87984120.bindPopup(popup_25799a74c460cf68bbacd20195ef4389)
         ;
 
         
     
     
-            circle_marker_f4a37863eb9ba71c138cd7d50f505225.bindTooltip(
+            circle_marker_957c489285e21385f481f6ea87984120.bindTooltip(
                 `&lt;div&gt;
                      SXF
                  &lt;/div&gt;`,
@@ -998,28 +989,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_b948c1d411bb5a2fc6f0b285ca639ff5 = L.circleMarker(
+            var circle_marker_e582893488405336dc698450f9ec6d90 = L.circleMarker(
                 [37.7, -105.92],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_f5647f5eb75909c70a880985710cbe67 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7ea490af9b2dcfbf57fa61f4bed122a6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f608615070098c7765a45a53c9189bd7 = $(`&lt;div id=&quot;html_f608615070098c7765a45a53c9189bd7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Alamosa - Colorado USA&lt;/div&gt;`)[0];
-                popup_f5647f5eb75909c70a880985710cbe67.setContent(html_f608615070098c7765a45a53c9189bd7);
+                var html_423f1a3c896a95328484e7718a3978b9 = $(`&lt;div id=&quot;html_423f1a3c896a95328484e7718a3978b9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Alamosa - Colorado USA&lt;/div&gt;`)[0];
+                popup_7ea490af9b2dcfbf57fa61f4bed122a6.setContent(html_423f1a3c896a95328484e7718a3978b9);
             
         
 
-        circle_marker_b948c1d411bb5a2fc6f0b285ca639ff5.bindPopup(popup_f5647f5eb75909c70a880985710cbe67)
+        circle_marker_e582893488405336dc698450f9ec6d90.bindPopup(popup_7ea490af9b2dcfbf57fa61f4bed122a6)
         ;
 
         
     
     
-            circle_marker_b948c1d411bb5a2fc6f0b285ca639ff5.bindTooltip(
+            circle_marker_e582893488405336dc698450f9ec6d90.bindTooltip(
                 `&lt;div&gt;
                      SLV
                  &lt;/div&gt;`,
@@ -1027,28 +1018,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_a65e9c88dc642013938a515cfe2f9aa9 = L.circleMarker(
+            var circle_marker_e82aed7b14ceb6ca2092bda06ceb7ca8 = L.circleMarker(
                 [43.64, -72.97],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_4d416d48f0a7f9e8fc2aaebf8ffb9ea6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8a41ada534a3431286448e524f81d29a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f59221523142930d925dd31ee9158c4f = $(`&lt;div id=&quot;html_f59221523142930d925dd31ee9158c4f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Rutland - Vermont USA&lt;/div&gt;`)[0];
-                popup_4d416d48f0a7f9e8fc2aaebf8ffb9ea6.setContent(html_f59221523142930d925dd31ee9158c4f);
+                var html_8b5436e51b36e69a10c43a9436267f04 = $(`&lt;div id=&quot;html_8b5436e51b36e69a10c43a9436267f04&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Rutland - Vermont USA&lt;/div&gt;`)[0];
+                popup_8a41ada534a3431286448e524f81d29a.setContent(html_8b5436e51b36e69a10c43a9436267f04);
             
         
 
-        circle_marker_a65e9c88dc642013938a515cfe2f9aa9.bindPopup(popup_4d416d48f0a7f9e8fc2aaebf8ffb9ea6)
+        circle_marker_e82aed7b14ceb6ca2092bda06ceb7ca8.bindPopup(popup_8a41ada534a3431286448e524f81d29a)
         ;
 
         
     
     
-            circle_marker_a65e9c88dc642013938a515cfe2f9aa9.bindTooltip(
+            circle_marker_e82aed7b14ceb6ca2092bda06ceb7ca8.bindTooltip(
                 `&lt;div&gt;
                      RUT
                  &lt;/div&gt;`,
@@ -1056,28 +1047,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_2bd316e7a237045c00301bcaa35b0dda = L.circleMarker(
+            var circle_marker_2dc4c7e6b38e3d0126f2d2883b540bfa = L.circleMarker(
                 [45.59, -120.67],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-        var popup_9c50c5e3073285d4d6991eb50e62c1d4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_82f89c14823b5f474faa402e066ec58c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c4372297d95bfeab1a47cca39da2167a = $(`&lt;div id=&quot;html_c4372297d95bfeab1a47cca39da2167a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Wasco - Oregon USA&lt;/div&gt;`)[0];
-                popup_9c50c5e3073285d4d6991eb50e62c1d4.setContent(html_c4372297d95bfeab1a47cca39da2167a);
+                var html_a29052ac2e293e8ceb05560bd556e206 = $(`&lt;div id=&quot;html_a29052ac2e293e8ceb05560bd556e206&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Wasco - Oregon USA&lt;/div&gt;`)[0];
+                popup_82f89c14823b5f474faa402e066ec58c.setContent(html_a29052ac2e293e8ceb05560bd556e206);
             
         
 
-        circle_marker_2bd316e7a237045c00301bcaa35b0dda.bindPopup(popup_9c50c5e3073285d4d6991eb50e62c1d4)
+        circle_marker_2dc4c7e6b38e3d0126f2d2883b540bfa.bindPopup(popup_82f89c14823b5f474faa402e066ec58c)
         ;
 
         
     
     
-            circle_marker_2bd316e7a237045c00301bcaa35b0dda.bindTooltip(
+            circle_marker_2dc4c7e6b38e3d0126f2d2883b540bfa.bindTooltip(
                 `&lt;div&gt;
                      WAS
                  &lt;/div&gt;`,
@@ -1085,53 +1076,53 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var tile_layer_72d37aefbe6640223bcd560ae8271ab0 = L.tileLayer(
+            var tile_layer_5f027f4140c788137d24b5c1c51c5519 = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            var layer_control_1e634cfabdd8f94c52972630960d8b7d_layers = {
+            var layer_control_1a6e8560ceccbb0f10f6ca3317135045_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_e5de0771484acaff5c815592ef375f4f,
-                    &quot;World imagery&quot; : tile_layer_72d37aefbe6640223bcd560ae8271ab0,
+                    &quot;openstreetmap&quot; : tile_layer_0ed0c2d1c6150fd2974cc8bf8034bd74,
+                    &quot;World imagery&quot; : tile_layer_5f027f4140c788137d24b5c1c51c5519,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_1e634cfabdd8f94c52972630960d8b7d = L.control.layers(
-                layer_control_1e634cfabdd8f94c52972630960d8b7d_layers.base_layers,
-                layer_control_1e634cfabdd8f94c52972630960d8b7d_layers.overlays,
+            let layer_control_1a6e8560ceccbb0f10f6ca3317135045 = L.control.layers(
+                layer_control_1a6e8560ceccbb0f10f6ca3317135045_layers.base_layers,
+                layer_control_1a6e8560ceccbb0f10f6ca3317135045_layers.overlays,
                 {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topleft&quot;}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
 
         
     
-            var tile_layer_563331dded6209dcb7618d1c2d183c0f = L.tileLayer(
+            var tile_layer_44d47e6ff5240f2676da67034f9f22ba = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
-            var mini_map_3e866b9337b054e93d0860128eb0836b = new L.Control.MiniMap(
-                tile_layer_563331dded6209dcb7618d1c2d183c0f,
+            var mini_map_a1fef34f992360247fa5f6ff85a89638 = new L.Control.MiniMap(
+                tile_layer_44d47e6ff5240f2676da67034f9f22ba,
                 {&quot;autoToggleDisplay&quot;: false, &quot;centerFixed&quot;: false, &quot;collapsedHeight&quot;: 25, &quot;collapsedWidth&quot;: 25, &quot;height&quot;: 150, &quot;minimized&quot;: true, &quot;position&quot;: &quot;bottomright&quot;, &quot;toggleDisplay&quot;: true, &quot;width&quot;: 150, &quot;zoomAnimation&quot;: false, &quot;zoomLevelFixed&quot;: 1, &quot;zoomLevelOffset&quot;: -5}
             );
-            map_7ad4093e444209c043070f8cea05ff2d.addControl(mini_map_3e866b9337b054e93d0860128eb0836b);
+            map_03886f1cd33832624aa7bc90b4f88bbd.addControl(mini_map_a1fef34f992360247fa5f6ff85a89638);
         
     
             L.control.fullscreen(
                 {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;topright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
-            ).addTo(map_7ad4093e444209c043070f8cea05ff2d);
+            ).addTo(map_03886f1cd33832624aa7bc90b4f88bbd);
         
     
-                var lat_lng_popup_fa33300f88d514ce0d8ddea107d40162 = L.popup();
+                var lat_lng_popup_49843ed0336637d475d6d6fd48d5932f = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_fa33300f88d514ce0d8ddea107d40162
+                    lat_lng_popup_49843ed0336637d475d6d6fd48d5932f
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_7ad4093e444209c043070f8cea05ff2d);
+                        .openOn(map_03886f1cd33832624aa7bc90b4f88bbd);
                     }
-                map_7ad4093e444209c043070f8cea05ff2d.on(&#x27;click&#x27;, latLngPop);
+                map_03886f1cd33832624aa7bc90b4f88bbd.on(&#x27;click&#x27;, latLngPop);
             
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
@@ -1159,7 +1150,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <span class="expanded">Hide code cell output</span>
 </summary>
 <div class="cell_output docutils container">
-<div class="output text_html"><table id="itables_8f848c56_b304_44d5_b6c3_d30027e9205b" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
+<div class="output text_html"><table id="itables_3f898035_4955_4e0e_8644_94e9f3fb816b" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1309,7 +1300,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_8f848c56_b304_44d5_b6c3_d30027e9205b:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_3f898035_4955_4e0e_8644_94e9f3fb816b:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -1350,15 +1341,15 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 </div>
 </div>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="references">
-<h1>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h1>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Adam R. Jensen, Kevin S. Anderson, William F. Holmgren, Mark A. Mikofski, Clifford W. Hansen, Leland J. Boeman, and Roel Loonen. Pvlib iotools—open-source python functions for seamless access to solar irradiance data. Solar Energy, 266:112092, 2023. doi: <a class="reference external" href="https://doi.org/10.1016/j.solener.2023.112092">10.1016/j.solener.2023.112092</a>.</p></li>
 <li><p>J. A. Augustine, J. J. DeLuisi, and C. N. Long. SURFRAD — A national surface radiation budget network for atmospheric research. Bulletin of the American Meteorological Society, 81:2341–2357, 2000. doi: <a class="reference external" href="https://doi.org/10.1175/1520-0477(2000)081%3C2341:SANSRB%3E2.3.CO;2">10.1175/1520-0477(2000)081&lt;2341:SANSRB&gt;2.3.CO;2</a>.</p></li>
 <li></li>
 </ul>
 <p>J. A. Augustine, G. B. Hodges, C. R. Cornwall, J. J. Michalsky, and C. I. Medina. An update on SURFRAD — the GCOS surface radiation budget network for the continental United States. Journal of Atmospheric and Oceanic Technology, 22:1460–1472, 2005. do <a class="reference external" href="https://doi.org/10.1175/JTECH1806.1">10.1175/JTECH1806.1</a>.1.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1425,13 +1416,9 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SURFRAD</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-retrieval">Data retrieval</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
-</ul>
-
   </nav></div>
 
 </div></div>
