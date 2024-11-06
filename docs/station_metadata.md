@@ -3,15 +3,18 @@
 The central part of the catalog is the list of stations and their metadata which is displayed on the SolarStations.Org [station catalog page](station_catalog). The metadata for each station includes:
 * Station name
 * Station abbreviation
-* State/region and country
-* Latitude, longitude, and elevation (according to ISO 6709)
-* Time period of operation
+* Country and state/region
+* Latitude and longitude (according to ISO 6709)
+* Elevation in meters above mean sea level
+* Time period of operation (see below)
 * Station owner and network (e.g., BSRN, SURFRAD)
 * Link to the station or network website
 * Data availability ("Freely", "Upon request", "Not available", or blank if unknown)
 * Station tier (see [station requirements](station_requirements)).
-* Instruments and components
+* Instruments and components (see below)
 * Long-term annual irradiance (climatology) from NASA POWER (GHI, DNI, and DHI)
+
+Additional information of some of the metadata fields is provided below.
 
 ## Time-period
 The time period should identify for which years data is available, which is useful for several reasons. Knowing the time period allows for identifying which stations are still active and how long of a historical record of data is available.
