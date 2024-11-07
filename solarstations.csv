@@ -700,3 +700,6 @@ University of Mauritius Reduit,,,Mauritius,-20.24497,57.48770,200,2022-2023,IOS-
 Sandia,,New Mexico,USA,35.05,106.54,1657,1994-,,Sandia National Laboratories,Data is available upon request with use conditions. ,https://photovoltaics.sandia.gov,Upon request,G;B;D
 Hohenpeissenberg,,Bavaria,Germany,47.8009,11.0108,977,1997-,WMO GAW;AERONET,DWD,DNI only available as hourly sums prior to 2021.,https://www.dwd.de/EN/research/observing_atmosphere/composition_atmosphere/hohenpeissenberg/start_mohp_node.html,Upon request,G;B;D
 Zugspitze,,Bavaria,Germany,47.4210,10.9848,2965,1995-,,DWD,Measurements are hampered by the harsh environmental conditions which prior to 2021 caused frequent tracker issues.,https://www.imk-ifu.kit.edu,Upon request,G;B;D
+Niamey,,,Niger,13.4773 2.1758,223,2005-2007,ARM,ARM,,https://doi.org/10.5439/1377836,Freely,G;B;D;IR;UVB
+Nevada Power Clark Station,NPC,Nevada,USA,36.08581,-115.05189,523,2006-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NPC,Freely,G;B
+BMSOLx Black Mountain,,Canberra,Australia,-35.275,149.1136,595,2012-2014,,CSIRO,Unknown status.,https://www.csiro.au/en/about/locations/state-locations/ACT/Black-Mountain,Unknown,G;B;D
