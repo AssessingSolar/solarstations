@@ -244,16 +244,8 @@ Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56.0,2015-,,Uruguay Solar Energy Lab
 EE Palo a Pique,PPI,,Uruguay,-33.2581,-54.4804,26.0,2016-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,G;SPN1,South America,Cfa,Temperate,2,1741.0,661.0,1836.0
 Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,SPN1,South America,Cfa,Temperate,2,1774.0,624.0,1938.0
 EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,SPN1,South America,Cfa,Temperate,2,1734.0,606.0,1869.0
-Cuiabá,CBA,,Brazil,-15.5553,-56.07,185.0,2006-2012,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/cuiaba.html,Freely,G;Ds,South America,Aw,Tropical,2,1920.0,763.0,1726.0
-Campo Grande,CGR,,Brazil,-20.4383,-54.5383,677.0,2004-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/campogrande.html,Freely,G;Ds,South America,Aw,Tropical,2,1905.0,694.0,1865.0
-Palmas,PMA,,Brazil,-10.1778,-48.3619,216.0,2005-2016,SONDA,INPE,Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/palmas.html,Freely,G;Ds,South America,Aw,Tropical,2,2000.0,756.0,1829.0
-São Luiz,SLZ,,Brazil,-2.5933,-44.2122,40.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/saoluiz.html,Freely,G;Ds,South America,As,Tropical,2,1902.0,825.0,1537.0
 Caicó,CAI,,Brazil,-6.4669,-37.0847,176.0,2002-2019,SONDA,INPE,No maintenance between 2016-2017,http://sonda.ccst.inpe.br/basedados/caico.html,Freely,G;B;IR,South America,Aw,Tropical,2,2267.0,788.0,2157.0
-Natal,NAT,,Brazil,-5.8367,-35.2064,58.0,2007-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/natal.html,Freely,G;Ds,South America,As,Tropical,2,2070.0,905.0,1741.0
 Cachoeira Paulista,CPA,,Brazil,-22.6896,-45.0062,574.0,2014-2019,SONDA,INPE,No maintenance between 2016-2017. No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/cachoeira.html,Freely,G;B;D,South America,Cfa,Temperate,1,1796.0,701.0,1719.0
-Joinville,JOI,,Brazil,-26.2525,-48.8578,48.0,2009-2015,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/joinville.html,Freely,G;Ds,South America,Af,Tropical,2,1537.0,664.0,1372.0
-Sombrio,SBR,,Brazil,-29.0956,-49.8133,15.0,2004-2016,SONDA,INPE,No photos or instument info was provided,http://sonda.ccst.inpe.br/basedados/sombrio.html,Freely,G;Ds,South America,Cfa,Temperate,2,1661.0,610.0,1675.0
-Ourinhos,ORN,,Brazil,-22.9486,-49.8942,446.0,2006-2019,SONDA,INPE,No maintenance between 2016-2017. Diffuse is measured with a shadowband,http://sonda.ccst.inpe.br/basedados/ourinhos.html,Freely,G;Ds,South America,Aw,Tropical,2,1887.0,694.0,1869.0
 Abha,,,Saudi Arabia,18.23,42.66,2039.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWk,Dry,1,2270.0,810.0,2124.0
 Al-ahsa,,,Saudi Arabia,25.3,49.48,178.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2194.0,887.0,1920.0
 Gizan,,,Saudi Arabia,16.9,42.58,7.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2172.0,883.0,1799.0
@@ -275,18 +267,7 @@ Sabryia,,,Kuwait,29.67,47.93,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,
 Gudair,,,Kuwait,28.88,47.71,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2124.0,814.0,1982.0
 Arctic Space Centre Sodankylä Tähtelä,,,Finland,67.36664,26.628253,195.0,1998-,,Finnish Meteorological Institute (FMI),Data is likely of poor quality. They can be downloaded from: https://en.ilmatieteenlaitos.fi/observation-stations,https://litdb.fmi.fi/soundingst_radiation.php,Freely,G;B;D;IR;UV,Europe,Dfc,Continental,1,832.0,449.0,1015.0
 Odeillo,,,France,42.4942,2.0295,1530.0,1996-?,,PROMES,Altitude is approximate,,,G;B;D,Europe,Cfb,Temperate,1,1504.0,602.0,1668.0
-Pozo Almonte,PALM,,Chile,-20.26,-69.78,1024.0,2008-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2570.0,412.0,3380.0
 Crucero II,Crucero2,,Chile,-22.27,-69.57,1183.0,2012-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;B;D,South America,BWk,Dry,1,2621.0,380.0,3562.0
-Aeropuerto Copiapo,ADDA,,Chile,-27.26,-70.78,210.0,2013-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2219.0,453.0,2894.0
-Inca de Oro,IDEO,,Chile,-26.75,-69.91,1541.0,2010-2021,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2537.0,420.0,3511.0
-Pampa Camarones,CAMA,,Chile,-18.86,-70.22,795.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2029.0,734.0,1836.0
-San Pedro de Atacama,SPED,,Chile,-22.98,-68.16,2390.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2639.0,438.0,3530.0
-Aerodromo Salvador,SALV,,Chile,-26.31,-69.75,1617.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2537.0,420.0,3511.0
-Puerto Angamos,PANG,,Chile,-23.07,-70.39,10.0,2010-2017,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWh,Dry,2,2252.0,697.0,2343.0
-Cerro Calan,CCALAN,,Chile,-33.4,-70.54,850.0,2013-2022,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BSk,Dry,2,1986.0,551.0,2398.0
-Armazones,ARMA,,Chile,-24.63,-70.24,2581.0,2010-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2172.0,861.0,1967.0
-Crucero,CRUC,,Chile,-22.27,-69.57,1176.0,2009-2014,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2621.0,380.0,3562.0
-Salar (Chuquicamata),SLAR,,Chile,-22.34,-68.88,2407.0,2010-2013,,Ministry of Energy of Chile,,https://solar.minenergia.cl/mediciones,Freely,G;Ds,South America,BWk,Dry,2,2639.0,438.0,3530.0
 Arica,,,Chile,-18.47,-70.31,,2011-?,FONDEF,,,,,RSP,South America,BWh,Dry,2,2029.0,734.0,1836.0
 Pozo Almonte,,,Chile,-20.25,-69.78,,2012-?,FONDEF,,,,,RSP,South America,BWk,Dry,2,2570.0,412.0,3380.0
 Patache,,,Chile,-20.8,-70.19,,2013-?,FONDEF,,,,,RSP,South America,BWh,Dry,2,2033.0,843.0,1686.0
@@ -306,19 +287,9 @@ Florida Regional Test Center,RTC-FL,Florida,USA,28.40509,-80.7709,10.0,2014-,DOE
 Vermont Regional Test Center,RTC-VT,Vermont,USA,44.4665,-73.1024,107.0,2014-2020,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,G;B;D,North America,Dfb,Continental,1,1307.0,580.0,1350.0
 Colorado Regional Test Center,RTC-CO,Colorado,USA,39.7407,-105.1771,1783.0,2014-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,G;B;D,North America,BSk,Dry,1,1737.0,661.0,2011.0
 Michigan Regional Test Center,RTC-MI,Michigan,USA,47.1699,-88.5061,336.0,2021-,DOE RTC,US DOE,,https://rtc.sandia.gov/about-the-us-doe-regional-test-centers/rtc-fact-sheets/,Not available,G;B;D,North America,Dfb,Continental,1,1270.0,588.0,1259.0
-Barrani,,,Egypt,31.6,26.0,23.7,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;Ds,Africa,BWh,Dry,2,1913.0,821.0,1675.0
-Matruh,,,Egypt,31.33,27.22,25.0,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;Ds,Africa,BWh,Dry,2,1883.0,766.0,1752.0
-El-Arish,,,Egypt,31.08,33.82,27.2,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;Ds,Africa,BWh,Dry,2,1960.0,708.0,1942.0
 Cairo,,,Egypt,30.08,31.28,34.4,2004-?,WMO RRC,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;B;D,Africa,BWh,Dry,1,2084.0,741.0,2077.0
-El-Kharga,,,Egypt,25.45,30.53,77.8,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;Ds,Africa,BWh,Dry,2,2372.0,704.0,2515.0
 El-Farafra,,,Egypt,27.06,27.99,82.2,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;B;D,Africa,BWh,Dry,1,2307.0,701.0,2435.0
-Asyut,,,Egypt,27.2,31.17,52.0,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;Ds,Africa,BWh,Dry,2,2329.0,657.0,2559.0
 Aswan,,,Egypt,23.97,32.78,192.5,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;B;D,Africa,BWh,Dry,1,2394.0,726.0,2497.0
-La Quiaca,LQ,,Argentina,-22.1,-65.6,3468.0,2005-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,G;Ds,South America,BSk,Dry,2,2387.0,544.0,2931.0
-Pilar,PIL,,Argentina,-31.67,-63.88,335.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,G;Ds,South America,Cwa,Temperate,2,1851.0,577.0,2110.0
-Buenos Aires,BSAS,,Argentina,-34.5901,-58.4837,30.0,2013-,SMN;WMO RRC,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,G;Ds,South America,Cfa,Temperate,2,1759.0,599.0,1971.0
-Pto. San Julián,PSJu,,Argentina,-49.31,-67.8,50.0,2013-,SMN,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowring,,Upon request,G;Ds,South America,BSk,Dry,2,1420.0,569.0,1734.0
-Ushuaia,USH,,Argentina,-54.85,-68.31,11.0,2013-,SMN;WMO GAW,Argentine Servicio Meteorologico Nacional,Diffuse measured with shadowband,,Upon request,G;Ds,South America,ET,Polar,2,993.0,544.0,1044.0
 Broome Airport,,Western Australia,Australia,-17.9475,122.2352,7.42,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,BSh,Dry,1,2270.0,558.0,2624.0
 Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,BWh,Dry,1,2329.0,566.0,2708.0
 Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Csa,Temperate,1,2143.0,580.0,2529.0
@@ -334,8 +305,6 @@ Cairns Aero,,Queensland,Australia,-16.8736,145.7458,2.22,1997-2004,BOM,BOM,,http
 Wagga Wagga,,New South Wales,Australia,-35.1583,147.4575,212.0,1997-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Cfa,Temperate,1,1847.0,588.0,2208.0
 Rockhampton Aero,,Queensland,Australia,-23.3753,150.4775,10.4,1996-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Cfa,Temperate,1,2040.0,617.0,2321.0
 Townsville,,Queensland,Australia,-19.2483,146.7661,4.34,2012-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Aw,Tropical,1,2088.0,639.0,2281.0
-Lagos,,,Nigeria,6.6,3.43,10.0,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,G;Ds;UV,Africa,Aw,Tropical,2,1675.0,960.0,1004.0
-Oshogbo,,,Nigeria,7.78,4.48,304.5,1993-?,WMO GAW;WMO RRC,NIMET,DHI is possibly measured with a shadownband.,,,G;Ds;UV,Africa,Aw,Tropical,2,1664.0,978.0,953.0
 Chilakapalem,,,India,18.27,83.809,87.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1763.0,905.0,1219.0
 Rajahmundry,,,India,17.065,81.867,93.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1814.0,872.0,1343.0
 Kadiri,,,India,14.11,78.147,531.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1967.0,905.0,1504.0
