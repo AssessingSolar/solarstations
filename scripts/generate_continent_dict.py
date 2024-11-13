@@ -19,7 +19,8 @@ country_continent_dict['Czech Republic'] = country_continent_dict['Czechia']
 country_continent_dict['USA'] = country_continent_dict['United States']
 # Areas that aren't actual countries
 country_continent_dict['Antarctica'] = 'Antarctica'
-country_continent_dict['Reunion'] = 'Africa'
+country_continent_dict['Reunion'] = 'Africa'  # Territory of France
+country_continent_dict['Mayotte'] = 'Africa'  # Territory of France
 country_continent_dict['American Samoa'] = 'Oceania'
 country_continent_dict['Canary Islands'] = 'Africa'
 country_continent_dict['Greenland'] = 'North America'
