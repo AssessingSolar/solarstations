@@ -26,4 +26,4 @@ country_continent_dict['Canary Islands'] = 'Africa'
 country_continent_dict['Greenland'] = 'North America'
 
 with open("../data/country_by_continent.json", "w") as file: 
-    json.dump(country_continent_dict, file)
+    json.dump(country_continent_dict, file, indent="")
