@@ -3,7 +3,8 @@ import pandas as pd
 import json
 
 # Read list of countries by continent from Wikipedia
-cc = pd.read_html('https://simple.wikipedia.org/wiki/List_of_countries_by_continents', header=[0])[1:]
+cc = pd.read_html('https://simple.wikipedia.org/wiki/List_of_countries_by_continents', header=[0])
+cc = cc[:1] + cc[2:]  # skip the territories section
 
 continents = ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania']
 
