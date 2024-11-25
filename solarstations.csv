@@ -703,3 +703,12 @@ Zugspitze,,Bavaria,Germany,47.4210,10.9848,2965,1995-,,DWD,Measurements are hamp
 Niamey,,,Niger,13.4773,2.1758,223,2005-2007,ARM,ARM,,https://doi.org/10.5439/1377836,Freely,G;B;D;IR;UVB
 Nevada Power Clark Station,NPC,Nevada,USA,36.08581,-115.05189,523,2006-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NPC,Freely,G;B
 BMSOLx Black Mountain,,Canberra,Australia,-35.275,149.1136,595,2012-2014,,CSIRO,Unknown status.,https://www.csiro.au/en/about/locations/state-locations/ACT/Black-Mountain,,G;B;D
+Cedar City,USEP Cedar,Utah,USA,37.69601,-113.16483,1675,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=USEPCC,Freely,RSR
+Elizabeth City,ECSU,North Carolina,USA,36.282,-76.216,26,1985-2014,MIDC,NREL,Data on this web site have not been reviewed for accuracy or completeness. There are several periods of time were the Direct NIP is not pointing at the sun and/or the Diffuse PSP is not shaded,https://midcdmz.nrel.gov/apps/sitehome.pl?site=EC,Freely,G;B;Ds
+Escalante,TSE,New Mexico,USA,35.41861,-108.08828,2106,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=TSESC,Freely,RSR
+La Ola Lanai,Lanai,Hawaii,USA,20.76685,-156.92291,381,2009-2012,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=LANAI,Freely,RSR
+Loyola Marymount University,Loyola,California,USA,33.966674,-118.4226,27,2010-2016,MIDC,NREL,Notice: The RSR Battery has not been taking a full charge since December 2014, as a result there are large gaps in data each day. Battery was replaced July 9, 2015. Data should be used with caution during the period with battery problems,https://midcdmz.nrel.gov/apps/sitehome.pl?site=LMU,Freely,RSR
+Milford,USEPMF,Utah,USA,38.41431,-113.02967,1550,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=USEPMF,Freely,RSR
+Oak Ridge National Laboratory,ORNL,Tennessee,USA,35.92996,-84.30952,245,2007-2019,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,RSR
+San Luis Valley,SS1,Colorado,USA,37.561,-106.0864,2335,2008-2010,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SS1,Freely,RSR
+Swink,SS2,Colorado,USA,38.01221,-103.61696,1255,2010-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SS2,Freely,RSR
