@@ -35,7 +35,7 @@ def check_url(row):
             return None  # URL is a special case; don't check it
 
     # use HEAD request for efficiency
-    response = requests.head(url, timeout=60)
+    response = requests.head(url, timeout=10)
     try:
         response.raise_for_status()
     except Exception as e:
