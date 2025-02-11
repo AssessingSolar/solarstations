@@ -86,7 +86,7 @@ Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271,1996-,SOLRAD,NOAA,Madison statio
 Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,G;B;D
 Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,G;B;D
 Seattle,SEA,Washington,USA,47.68685,-122.25667,20,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,G;B;D
-Sterling,STE,Virginia,USA,38.97203,-77.48690,85,1995-,SOLRAD,NOAA,Site location pre Oct 28 2014 (38.97673, -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,G;B;D
+Sterling,STE,Virginia,USA,38.97203,-77.48690,85,1995-,SOLRAD,NOAA,"Site location pre Oct 28 2014 (38.97673, -77.48379)",https://gml.noaa.gov/grad/solrad/ste.html,Freely,G;B;D
 Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18,1995-2002,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,G;B;D
 Portland,PT,Oregon,USA,45.51,-122.69,70,2004-,SRML,University of Oregon,5-min data between 2004 and 2011.,http://solardata.uoregon.edu/PortlandPV.html,Freely,RSR
 Burns,BU,Oregon,USA,43.52,-119.02,1265,1994-,SRML,University of Oregon,5 min data from 1994 to 2011.,http://solardata.uoregon.edu/Burns.html,Freely,G;B;D
