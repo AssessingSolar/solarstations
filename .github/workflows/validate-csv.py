@@ -118,6 +118,8 @@ def check_time_period(row):
             int(time_period[-4:])
         except ValueError:
             return f"Not a valid time period: {time_period}"
+    elif len(time_period) > 9:
+        pass # unable to assess the time period, e.g., "2020-2022&2023-"
     elif time_period == '?':
         pass
     else:
