@@ -17,5 +17,6 @@ python:
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
+  configuration: docs/_config.yml
   builder: html
   fail_on_warning: true
