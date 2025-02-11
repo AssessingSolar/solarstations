@@ -92,6 +92,35 @@ def check_instrumentation(row):
                 return f"Not a valid entry for Instrumentation: {instrument}"
 
 
+def check_time_period(row):
+    time_period = row['Time period']
+    if len(time_period)==4:
+        try:
+            int(time_period)
+        except ValueError:
+            return f"Not a valid time period: {time_period}"
+    elif (len(time_period)==5) & time_period.endswith('-'):
+        try:
+            int(time_period[:4])
+        except ValueError:
+            return f"Not a valid time period: {time_period}"
+    elif (len(time_period)==5) & time_period.startswith('-'):
+        try:
+            int(time_period[-4:])
+        except ValueError:
+            return f"Not a valid time period: {time_period}"
+    elif len(time_period)==9:
+        try:
+            int(time_period[:4])
+            int(time_period[-4:])
+        except ValueError:
+            return f"Not a valid time period: {time_period}"
+    elif time_period == '?':
+        pass
+    else:
+        return f"Not a valid time period: {time_period}"
+
+
 validation_functions = [
     check_country,
     check_url,
@@ -99,6 +128,7 @@ validation_functions = [
     check_coordinates,
     check_data_availability,
     check_instrumentation,
+    check_time_period,
 ]
 
 if __name__ == "__main__":
