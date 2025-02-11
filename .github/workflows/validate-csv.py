@@ -94,22 +94,25 @@ def check_instrumentation(row):
 
 def check_time_period(row):
     time_period = row['Time period']
-    if len(time_period)==4:
+    if len(time_period) == 4:
         try:
             int(time_period)
         except ValueError:
             return f"Not a valid time period: {time_period}"
-    elif (len(time_period)==5) & time_period.endswith('-'):
-        try:
-            int(time_period[:4])
-        except ValueError:
+    elif (len(time_period) == 5) | (len(time_period) == 6):
+        if time_period.endswith('-') | time_period.endswith('-?'):
+            try:
+                int(time_period[:4])
+            except ValueError:
+                return f"Not a valid time period: {time_period}"
+        elif time_period.startswith('-') | time_period.startswith('?-'):
+            try:
+                int(time_period[-4:])
+            except ValueError:
+                return f"Not a valid time period: {time_period}"
+        else:
             return f"Not a valid time period: {time_period}"
-    elif (len(time_period)==5) & time_period.startswith('-'):
-        try:
-            int(time_period[-4:])
-        except ValueError:
-            return f"Not a valid time period: {time_period}"
-    elif len(time_period)==9:
+    elif len(time_period) == 9:
         try:
             int(time_period[:4])
             int(time_period[-4:])
