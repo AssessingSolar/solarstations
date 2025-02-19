@@ -39,9 +39,9 @@ Alamosa,SLV,Colorado,USA,37.7,-105.92,2317.0,2014-2016,SURFRAD,NOAA,,https://gml
 Alamosa,,Colorado,USA,37.48,-105.87,2304.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1938.0,580.0,2431.0
 Alappuzha,,,India,9.46,76.331,19.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Am,Tropical,1,1891.0,949.0,1296.0
 Albany,,New York,USA,42.7,-73.83,72.0,1979-1982,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,G;B;D,North America,Dfa,Continental,1,1380.0,584.0,1449.0
-Albuquerque,,New Mexico,USA,35.03,-106.62,1623.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,2026.0,548.0,2599.0
 Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,G;B;D,North America,BSk,Dry,1,2026.0,548.0,2599.0
 Albuquerque,,New Mexico,USA,35.17,-106.6,1577.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,2026.0,548.0,2599.0
+Albuquerque,,New Mexico,USA,35.03,-106.62,1623.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,2026.0,548.0,2599.0
 Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127.0,2004-2014,BSRN,,,,Freely,G;B;D,North America,ET,Polar,1,891.0,434.0,1555.0
 Alhambra,,California,USA,34.08,-118.15,143.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,2070.0,456.0,2767.0
 Alice Springs,,Northern Territory,Australia,-23.762361,133.875389,,2019-,,DKA Solar Centre,Parameters sampled at 1-second intervals and averaged at 5-second intervals,https://dkasolarcentre.com.au/locations/nt-solar-resource/alice-springs-2,Freely,G;B,Oceania,BWh,Dry,2,2281.0,496.0,2865.0
@@ -65,8 +65,8 @@ Ashland,AS,Oregon,USA,42.19,-122.7,595.0,2000-,SRML,University of Oregon,5-minut
 Aswan,,,Egypt,23.97,32.78,192.5,2004-?,,Egyptian Meteorological Authority (EMA),Data from 2004-2010 can be downloaded from http://www.pangaea.de/ using the unique identifier doi:10.1594/PANGAEA.848804,,Freely,G;B;D,Africa,BWh,Dry,1,2394.0,726.0,2497.0
 Atlanta,,Georgia,USA,33.77,-84.38,327.0,1980-1981,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,G;B;D,North America,Cfa,Temperate,1,1657.0,650.0,1690.0
 Auas,AUA,,Namibia,-22.5882,17.3635,1880.0,2016-?,,NamPower,,,,G;B;D,Africa,BSh,Dry,1,2307.0,569.0,2734.0
-Aurangabad,,,India,19.868,75.323,576.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1938.0,799.0,1668.0
 Aurangabad,,,India,24.837,84.284,104.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1803.0,799.0,1482.0
+Aurangabad,,,India,19.868,75.323,576.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1938.0,799.0,1668.0
 Aurere,aurere,,Reunion,-21.01977,55.42472,603.0,2023-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.10693606,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
 BMSOLx Black Mountain,,Canberra,Australia,-35.275,149.1136,595.0,2012-2014,,CSIRO,Unknown status.,https://www.csiro.au/en/about/locations/state-locations/ACT/Black-Mountain,,G;B;D,Oceania,Cfb,Temperate,1,1756.0,610.0,2037.0
 Bac Ninh,VN_Solar_VNHAN_EVN,,Vietnam,21.2013,106.0629,60,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/vietnam-solar-radiation-measurement-data,Freely,,Asia,Cwa,Temperate,2,1325.0,788.0,803.0
@@ -94,17 +94,17 @@ Bismarck,BIS,North Dakota,USA,46.77179,-100.75955,503.0,1995-,SOLRAD,NOAA,,https
 Bissau,GNB_Solar_Bissau,,Guinée-Bissau,11.85643,-15.58877,20,2022-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/guinea-bissau-solar-radiation-measurement-data,Freely,,,Aw,Tropical,2,1989.0,927.0,1467.0
 Blantyre,MWI_Solar_Blantyre_BLZ,,Malawi,-15.67996,34.97203,770,2016-2018,ESMAP,SGS Malawi,,https://energydata.info/dataset/malawi-solar-radiation-measurement-data,Freely,G;B;D,Africa,Cwa,Temperate,1,1993.0,836.0,1716.0
 Blue Hill,,Massachusetts,USA,42.22,-71.12,200.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Cfa,Temperate,2,1405.0,569.0,1562.0
-Bluefield State College,BSC,West Virginia,USA,37.265,-81.24,803.0,1985-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BS,Freely,G;B;Ds,North America,Cfb,Temperate,2,1486.0,646.0,1467.0
 Bluefield State College,,West Virginia,USA,37.27,-81.24,803.0,1985-1996,HBCU,NREL,Diffuse was measured with a shadowband.,https://www.nrel.gov/grid/solar-resource/hbcu.html,Freely,G;B;Ds,North America,Cfb,Temperate,2,1486.0,646.0,1467.0
+Bluefield State College,BSC,West Virginia,USA,37.265,-81.24,803.0,1985-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BS,Freely,G;B;Ds,North America,Cfb,Temperate,2,1486.0,646.0,1467.0
 Blythe,,California,USA,33.6,-114.6,81.0,1976-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2164.0,460.0,2913.0
 Bodana,,,India,27.606,72.109,168.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BWh,Dry,1,2070.0,730.0,2059.0
 Boise,,Idaho,USA,43.57,-116.22,873.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,1672.0,533.0,2080.0
 Bondville,BON,Illinois,USA,40.05192,-88.37309,230.0,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,G;B;D,North America,Cfa,Temperate,1,1478.0,610.0,1555.0
 Borlänge,,,Sweden,60.488,15.43,164.0,1983-2010,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B,Europe,Dfc,Continental,2,956.0,460.0,1161.0
 Bougouni,MLI_Solar_Bougouni,,Mali,11.40743,-7.48193,335,2021-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/mali-solar-radiation-measurement-data,Freely,,Africa,Aw,Tropical,2,2102.0,902.0,1694.0
+Boulder,BOU,Colorado,USA,40.05,-105.007,1577.0,1992-2016,BSRN,,,,Freely,G;B;D,North America,BSk,Dry,1,1679.0,664.0,1894.0
 Boulder,,Colorado,USA,40.1,-105.25,1634.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,1679.0,664.0,1894.0
 Boulder,BOS,Colorado,USA,40.12498,-105.2368,1689.0,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,G;B;D,North America,BSk,Dry,1,1679.0,664.0,1894.0
-Boulder,BOU,Colorado,USA,40.05,-105.007,1577.0,1992-2016,BSRN,,,,Freely,G;B;D,North America,BSk,Dry,1,1679.0,664.0,1894.0
 Boulder City,,Nevada,USA,36.02,-114.77,457.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2073.0,474.0,2807.0
 Bras Panon Moreau,braspanonmoreau,,Reunion,-21.002649,55.682897,20.0,2010-2014,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092821,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
 Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023.0,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,G;B;D;IR,South America,Aw,Tropical,1,2022.0,723.0,1982.0
@@ -189,8 +189,8 @@ Dembeni,dembeni,,Mayotte,-12.846892,45.18093,107.0,2024-,IOS-net,,Data can be do
 Denver 1 (SE),,Colorado,USA,39.65,-104.85,1628.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1778.0,558.0,2201.0
 Denver 2 (Holly),,Colorado,USA,39.75,-104.9,1625.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1778.0,558.0,2201.0
 Deoghar,,,India,24.513,86.656,262.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1723.0,839.0,1299.0
-Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007.0,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,G;B;D,North America,BWk,Dry,1,2095.0,467.0,2862.0
 Desert Rock,,Nevada,USA,36.62,-116.02,1007.0,1979-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BWk,Dry,2,2095.0,467.0,2862.0
+Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007.0,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,G;B;D,North America,BWk,Dry,1,2095.0,467.0,2862.0
 Dharan,NPL_Solar_Dharan,,Nepal,26.79291,87.29263,315,2018-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/nepal-solar-radiation-measurement-data,Freely,,Asia,Cwa,Temperate,2,1624.0,858.0,1172.0
 Diego de Almagro,,,Chile,-26.38,-70.04,,2011-?,FONDEF,,,,,RSP,South America,BWk,Dry,2,2183.0,646.0,2409.0
 Dobele,,,Latvia,56.62,23.32,42.0,?,Latvian Environment Geology and Meteorology Centre (LEGMC),,,,,,Europe,Cfb,Temperate,2,1055.0,526.0,1121.0
@@ -199,6 +199,7 @@ Dodoma,TZA_Solarn_Dodoma,,Tanzania,-6.180039,35.699039,1139,2019-2021,ESMAP,GeoS
 Dongsha Atoll,DON,,Taiwan,20.7,116.73,2.0,?,BSRN,,Candidate,,Freely,G;B;D,Asia,Ocean,Ocean,1,1679.0,814.0,1245.0
 Dori,BFA_Solar_Dori,,Burkina Faso,14.03045,-0.02435,285,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2219.0,902.0,1858.0
 Duba Technical Institute,,,Saudi Arabia,27.34103,35.72295,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2281.0,617.0,2559.0
+Dubai,,,United Arab Emirates,24.77,55.36,,2022-?,,Dubai Electricity and Water Authority (DEWA),Dubai Electricity and Water Authority’s (DEWA) Research and Development Center Outdoor Testing Facility (OTF) monitoring station.,,,G;B;D,Asia,BWh,Dry,1,2168.0,891.0,1887.0
 Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2117.0,880.0,1818.0
 Durban,durban,,South Africa,-29.87098,30.97695,150.0,2013-2018,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092844,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Cfa,Temperate,2,1705.0,675.0,1708.0
 Dédougou,BFA_Solar_Dédougou,,Burkina Faso,12.4662,-3.47294,305,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2135.0,887.0,1759.0
@@ -229,8 +230,8 @@ Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85.0,2007-2011,BSRN,,,"https:
 European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220.0,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,G;B;D,Europe,Cfa,Temperate,1,1405.0,580.0,1526.0
 Evora;Mitra,,,Portugal,38.531,-8.011,220.0,2014-,,University of Évora,,,,G;B;D,Europe,Csa,Temperate,1,1789.0,599.0,2048.0
 Fairbanks,,Alaska,USA,64.86,-147.87,138.0,1981-1984,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,G;B;D,North America,Dfc,Continental,1,956.0,467.0,1259.0
-Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,G;B;D,North America,Dfc,Continental,1,956.0,467.0,1259.0
 Fairbanks,,Alaska,USA,64.82,-147.87,143.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Dfb,Continental,2,956.0,467.0,1259.0
+Fairbanks,,Alaska,USA,64.853,-147.8603,138.0,2018-,,University of Alaska Fairbanks (UAF),Cleaned once a week. Also measures soiling and albedo.,,Upon request,G;B;D,North America,Dfc,Continental,1,956.0,467.0,1259.0
 Fana,MLI_Solar_Fana,,Mali,12.76684,-6.96159,329,2021-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/mali-solar-radiation-measurement-data,Freely,,Africa,BSh,Dry,2,2135.0,891.0,1752.0
 Farafenni,GMB_Solar_Farafenni,,Gambia,13.57301,-15.59253,19,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/the-gambia-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2124.0,912.0,1697.0
 Fatick,SEN_Solar_Fatick,,Senegal,14.36751,-16.41346,8,2016-2017,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/senegal-solar-radiation-measurement-data,Freely,,Africa,BSh,Dry,2,2183.0,931.0,1752.0
@@ -320,8 +321,8 @@ Itanagar,,,India,27.1,93.62,333.0,2014-,SRRA,National Institute of wind energy,,
 Ixmiquilpan,IXM,Hedalgo,Mexico,20.4955,-99.181,1761.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSh,Dry,1,2051.0,726.0,1967.0
 Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,G;B;D,Europe,Csb,Temperate,1,1902.0,818.0,1694.0
 Jabalpur,,,India,23.201,79.912,385.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,As,Tropical,1,1865.0,788.0,1606.0
-Jaipur,JPR,,India,26.81,75.8,390.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,G;B;Ds,Asia,BSh,Dry,2,1978.0,745.0,1902.0
 Jaipur,,,India,26.809,75.862,403.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1978.0,745.0,1902.0
+Jaipur,JPR,,India,26.81,75.8,390.0,1986-?,,India Meteorological Department (IMD),DHI is probably measured with shadowring,,,G;B;Ds,Asia,BSh,Dry,2,1978.0,745.0,1902.0
 Jalgaon,,,India,21.002,75.548,254.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1909.0,759.0,1712.0
 Jalpaiguri,,,India,26.546,88.703,87.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1559.0,836.0,1106.0
 Jambua,,,India,22.216,73.19,29.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1945.0,796.0,1716.0
@@ -401,8 +402,8 @@ Lanyu Station,LYU,,Taiwan,22.037,121.5583,324.0,2018-,BSRN,,,,Freely,G;B;D,Asia,
 Lanzhou,,,China,36.05,103.88,1517.2,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Freely,G;B;Ds,Asia,BSk,Dry,2,1657.0,704.0,1668.0
 Lari Tal Amara,LBAMA,,Lebanon,33.85679,35.98659,935.0,2019-2021,ESMAP,,,https://energydata.info/dataset/lebanon-solar-radiation-measurements,Freely,G;RSI,Asia,Csa,Temperate,2,1942.0,726.0,1924.0
 Las Brujas,LBI,,Uruguay,-34.672,-56.3401,38.0,2010-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,SPN1,South America,Cfa,Temperate,2,1774.0,624.0,1938.0
-Las Vegas,,Nevada,USA,36.08,-115.17,661.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BWh,Dry,2,2062.0,478.0,2800.0
 Las Vegas,,Nevada,USA,36.15,-115.17,634.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2062.0,478.0,2800.0
+Las Vegas,,Nevada,USA,36.08,-115.17,661.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BWh,Dry,2,2062.0,478.0,2800.0
 Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Freely,G;B;Ds,Asia,BSk,Dry,2,2000.0,839.0,2029.0
 Latur,,,India,18.4,76.56,638.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1931.0,839.0,1588.0
 Lauder,LAU,,New Zealand,-45.045,169.689,350.0,1999-,BSRN,,,,Freely,G;B;D,Oceania,Cfb,Temperate,1,1380.0,620.0,1507.0
@@ -429,8 +430,8 @@ Lumle,NPL_Solar_Lumle,,Nepal,28.29666,83.818,1742,2018-,ESMAP,CSP Services,Instr
 Lund,,,Sweden,55.714,13.212,85.0,1983-2015,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B,Europe,Cfb,Temperate,2,1084.0,511.0,1175.0
 Lusaka,ZMB_Solar_Lusaka_UNZA,,Zambia,-15.39465,28.33711,1262,2015-2017,ESMAP,SGS Inspection Services,,https://energydata.info/dataset/zambia-solar-radiation-measurement-data-0,Freely,G;B;D,Africa,Cwa,Temperate,1,2084.0,777.0,1975.0
 Ma'an,,,Jordan,30.172,35.818,1012.0,2011-,enerMENA,University of Jordan,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Asia,BWh,Dry,2,2201.0,628.0,2486.0
-Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271.0,1996-,SOLRAD,NOAA,Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt),https://gml.noaa.gov/grad/solrad/msn.html,Freely,G;B;D,North America,Dfb,Continental,1,1416.0,591.0,1551.0
 Madison,,Wisconsin,USA,43.13,-89.33,271.0,1977,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Dfb,Continental,2,1416.0,591.0,1551.0
+Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271.0,1996-,SOLRAD,NOAA,Madison station file format changed after Jun 2009 (https://gml.noaa.gov/aftp/data/radiation/solrad/README_SOLRAD.txt),https://gml.noaa.gov/grad/solrad/msn.html,Freely,G;B;D,North America,Dfb,Continental,1,1416.0,591.0,1551.0
 Madrid,,,Spain,40.4528,-3.7242,664.0,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,G;B;D;IR;UV;PAR,Europe,Csa,Temperate,1,1730.0,624.0,1967.0
 Mahbubnagar,,,India,16.698,77.94,461.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1989.0,887.0,1577.0
 Majmaah University,,,Saudi Arabia,25.85891,45.41889,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2263.0,766.0,2234.0
@@ -505,8 +506,8 @@ Norrköping,,,Sweden,58.582,16.148,43.0,1983-,SMHI;WMO RRC,SMHI,,"https://www.sm
 North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8.0,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,G;B;D,North America,ET,Polar,1,847.0,507.0,956.0
 Nuevo Laredo,NVL,Tamaulipas,Mexico,27.4526,-99.5185,128.0,2017-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSh,Dry,1,1869.0,624.0,1967.0
 Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11.0,1992-,BSRN,,,https://www.awi.de/en/fleet-stations/stations/awipev-arctic-research-base.html,Freely,G;B;D,Europe,ET,Polar,1,602.0,372.0,712.0
-Oak Ridge,OAK,Tennessee,USA,35.92996,-84.30952,245.0,2007-2019,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,G;RSR,North America,Cfa,Temperate,2,1584.0,646.0,1610.0
 Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334.0,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,G;B;D,North America,Cfa,Temperate,1,1584.0,646.0,1610.0
+Oak Ridge,OAK,Tennessee,USA,35.92996,-84.30952,245.0,2007-2019,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,G;RSR,North America,Cfa,Temperate,2,1584.0,646.0,1610.0
 Oak Ridge National Laboratory,ORNL,Tennessee,USA,35.92996,-84.30952,245.0,2007-2019,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,RSR,North America,Cfa,Temperate,2,1584.0,646.0,1610.0
 Observatoire du Piton de La Fournaise,observatoirevolcan,,Reunion,-21.208587,55.571453,1556.0,2016-2018,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092871,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
 Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314.0,2017-,BSRN,,,,Freely,G;B;D,South America,Cwb,Temperate,1,1989.0,861.0,1719.0
@@ -540,8 +541,8 @@ Peshawar,PK_Solar_Peshawar_UET,,Pakistan,34.0017,71.4854,370,2015-,ESMAP,CSP Ser
 Petrolina,PTR,,Brazil,-9.068,-40.319,387.0,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,G;B;D;IR,South America,BSh,Dry,1,2143.0,792.0,2011.0
 Phalodi,,,India,27.118,72.345,242.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BWh,Dry,1,2070.0,730.0,2059.0
 Phimai,,,Thailand,15.184,102.564,212.0,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/phimai/phimai.html,Freely,G;D,Asia,Aw,Tropical,2,1898.0,920.0,1413.0
-Phoenix,,Arizona,USA,33.57,-113.93,381.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2157.0,464.0,2894.0
 Phoenix,,Arizona,USA,33.43,-112.02,339.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BWh,Dry,2,2146.0,474.0,2851.0
+Phoenix,,Arizona,USA,33.57,-113.93,381.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2157.0,464.0,2894.0
 Piton des Neiges,pitondesneiges,,Reunion,-21.09559639,55.48030484,2990.0,2021-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092867,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
 Pittsburgh,,Pennsylvania,USA,40.5,-80.22,371.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Cfa,Temperate,2,1383.0,628.0,1340.0
 Plaine des Palmistes Parc National,plaineparcnational,,Reunion,-21.1367,55.6241,1057.0,2018-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408677,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
@@ -609,16 +610,16 @@ Saline Water Conversion Corporation (Hagl),,,Saudi Arabia,29.28997,34.93002,,201
 Saline Water Conversion Corporation (Umluj),,,Saudi Arabia,25.00411,37.27382,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2289.0,679.0,2449.0
 Saline Water Desalination Research Institute,,,Saudi Arabia,26.9042,49.76274,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2099.0,942.0,1697.0
 Salmanbin Abdulaziz University,,,Saudi Arabia,24.14717,47.26999,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2263.0,821.0,2128.0
-Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,G;B;D,North America,BSk,Dry,1,1759.0,588.0,2139.0
 Salt Lake City,,Utah,USA,40.77,-111.97,1288.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,1759.0,588.0,2139.0
+Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288.0,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,G;B;D,North America,BSk,Dry,1,1759.0,588.0,2139.0
 Salto Grande,LES,,Uruguay,-31.2827,-57.9181,56.0,2015-,,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,G;B;D;UV;IR,South America,Cfa,Temperate,1,1778.0,617.0,1934.0
 San Antonio,,Texas,USA,29.46,-98.49,253.0,1981-1982,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,G;B;D,North America,Cfa,Temperate,1,1770.0,635.0,1851.0
 San Bartolome Tirajana,,,Canary Islands,27.7581,-15.5756,50.0,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,G;B;D;IR;UV;PAR,Africa,BWk,Dry,1,2073.0,715.0,2084.0
 San Diego,,California,USA,32.72,-117.17,18.0,1979-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1803.0,766.0,1719.0
 San Juan,,Puerto Rico,USA,18.43,-66.0,19.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Af,Tropical,2,2018.0,799.0,1803.0
 San Luis Valley,SS1,Colorado,USA,37.561,-106.0864,2335.0,2008-2010,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SS1,Freely,RSR,North America,Dfb,Continental,2,1913.0,613.0,2387.0
-San Pedro,,,Chile,-22.9,-68.19,,2010-2011,FONDEF,,,,,G;B;D,South America,BWk,Dry,1,2639.0,438.0,3530.0
 San Pedro,,California,USA,33.75,-118.28,12.0,1979-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1847.0,694.0,1916.0
+San Pedro,,,Chile,-22.9,-68.19,,2010-2011,FONDEF,,,,,G;B;D,South America,BWk,Dry,1,2639.0,438.0,3530.0
 San Sebastian,,,Spain,43.3075,-2.0394,252.0,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,G;B;D;IR;UV;PAR,Europe,Cfb,Temperate,1,1340.0,624.0,1270.0
 Sanankoroba,MLI_Solar_Sanankoroba,,Mali,12.39112,-7.93737,356,2021-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/mali-solar-radiation-measurement-data,Freely,,Africa,Aw,Tropical,2,2132.0,887.0,1752.0
 Sandia,,New Mexico,USA,35.05,106.54,1657.0,1994-,,Sandia National Laboratories,Data is available upon request with use conditions. ,https://photovoltaics.sandia.gov,Upon request,G;B;D,North America,Dwb,Continental,1,1467.0,686.0,1332.0
@@ -684,8 +685,8 @@ Taif University,,,Saudi Arabia,21.43278,40.49173,,2013-?,,KACARE,,https://rratla
 Tajoura,,,Libya,32.815147,13.438943,,?,,,,,,,Africa,BSh,Dry,2,1971.0,792.0,1843.0
 Talca,,,Chile,-35.42,-71.64,,2012-?,FONDEF,,,,,G;B;D,South America,Csb,Temperate,1,1902.0,482.0,2405.0
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,Asia,Dfb,Continental,2,1683.0,788.0,1529.0
-Tallahassee,,Florida,USA,30.38,-84.37,18.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Cfa,Temperate,2,1752.0,653.0,1818.0
 Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18.0,1995-2002,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,G;B;D,North America,Cfa,Temperate,1,1752.0,653.0,1818.0
+Tallahassee,,Florida,USA,30.38,-84.37,18.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Cfa,Temperate,2,1752.0,653.0,1818.0
 Talwandi Sabo,,,India,29.961,75.122,341.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1810.0,818.0,1511.0
 Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385.0,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,G;B;D,Africa,BWh,Dry,1,2336.0,796.0,2300.0
 Tambacounda,SEN_Solar_Tambacounda,,Senegal,13.77689,-13.72924,40,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/senegal-2021-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2121.0,905.0,1705.0
