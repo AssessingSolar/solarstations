@@ -33,6 +33,7 @@ parts:
   chapters:
   - file: station_network_pvlive
   - file: station_network_eye2sky
+    title: Eye2sky
   - file: geba_network
   - file: other_data_sources
     title: Miscellaneous
