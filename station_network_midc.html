@@ -212,6 +212,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Other data sources</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="station_network_pvlive.html">PV-Live</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_network_eye2sky.html">Eye2sky</a></li>
 <li class="toctree-l1"><a class="reference internal" href="geba_network.html">GEBA</a></li>
 <li class="toctree-l1"><a class="reference internal" href="other_data_sources.html">Miscellaneous</a></li>
 </ul>
@@ -564,7 +565,7 @@ This is the <code>init_notebook_mode</code> cell from ITables v2.2.2<br>
 (you should not see this message - is your notebook <it>trusted</it>?)
 </noscript>
 </div>
-</div><div class="output text_html"><table id="itables_51a6e57b_9b0c_48d3_8196_f8ca46a5cc5e" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
+</div><div class="output text_html"><table id="itables_fa954d23_1515_4509_924d_091300f9670b" class="display" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:0;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       
@@ -680,7 +681,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_51a6e57b_9b0c_48d3_8196_f8ca46a5cc5e:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_fa954d23_1515_4509_924d_091300f9670b:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
@@ -726,7 +727,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_0ba44b9b4f5913137d3e69b9c3b3054a {
+                #map_9ad83f108a6aa3883181fe26fa5a8a4b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -760,14 +761,14 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 
 &lt;/div&gt;
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_0ba44b9b4f5913137d3e69b9c3b3054a&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_9ad83f108a6aa3883181fe26fa5a8a4b&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_0ba44b9b4f5913137d3e69b9c3b3054a = L.map(
-                &quot;map_0ba44b9b4f5913137d3e69b9c3b3054a&quot;,
+            var map_9ad83f108a6aa3883181fe26fa5a8a4b = L.map(
+                &quot;map_9ad83f108a6aa3883181fe26fa5a8a4b&quot;,
                 {
                     center: [35.0, -107.0],
                     crs: L.CRS.EPSG3857,
@@ -777,43 +778,43 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            L.control.scale().addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
 
             
 
         
     
-            var tile_layer_131358d15a6aebd69f9f91d707ebde4a = L.tileLayer(
+            var tile_layer_418702ed3202a680d475b0f040f9d03d = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 1, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_131358d15a6aebd69f9f91d707ebde4a.addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            tile_layer_418702ed3202a680d475b0f040f9d03d.addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-            var circle_marker_d5cf4e875af90d6240f814e58a6862d1 = L.circleMarker(
+            var circle_marker_d7ea00e4794b6934b8b599485a50dbf9 = L.circleMarker(
                 [36.606, -97.486],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_e232c5ff376ca88b98d5454c3ba8a516 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b0a2e2807c2681aabc42190e3825f948 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b85d4aa92029cd82305cb0d18608d4f5 = $(`&lt;div id=&quot;html_b85d4aa92029cd82305cb0d18608d4f5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;ARM Radiometer Characterization System (RCS) (RCS)&lt;/div&gt;`)[0];
-                popup_e232c5ff376ca88b98d5454c3ba8a516.setContent(html_b85d4aa92029cd82305cb0d18608d4f5);
+                var html_ce4af59918f15ebbb467321ea7979831 = $(`&lt;div id=&quot;html_ce4af59918f15ebbb467321ea7979831&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;ARM Radiometer Characterization System (RCS) (RCS)&lt;/div&gt;`)[0];
+                popup_b0a2e2807c2681aabc42190e3825f948.setContent(html_ce4af59918f15ebbb467321ea7979831);
             
         
 
-        circle_marker_d5cf4e875af90d6240f814e58a6862d1.bindPopup(popup_e232c5ff376ca88b98d5454c3ba8a516)
+        circle_marker_d7ea00e4794b6934b8b599485a50dbf9.bindPopup(popup_b0a2e2807c2681aabc42190e3825f948)
         ;
 
         
     
     
-            circle_marker_d5cf4e875af90d6240f814e58a6862d1.bindTooltip(
+            circle_marker_d7ea00e4794b6934b8b599485a50dbf9.bindTooltip(
                 `&lt;div&gt;
                      ARM Radiometer Characterization System (RCS) (RCS)
                  &lt;/div&gt;`,
@@ -821,28 +822,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_924fc34250a43800d9335e6307e9671f = L.circleMarker(
+            var circle_marker_bfc7b0dc3a0aa57ad032142485484360 = L.circleMarker(
                 [37.265, -81.24],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_d8dfcbf589ed961a305f5488f6cdfa2e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e792dc15e67d520717f26a936fafcc07 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_1a45bd8a677830531160b85db3cebfd5 = $(`&lt;div id=&quot;html_1a45bd8a677830531160b85db3cebfd5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bluefield State College (BS)&lt;/div&gt;`)[0];
-                popup_d8dfcbf589ed961a305f5488f6cdfa2e.setContent(html_1a45bd8a677830531160b85db3cebfd5);
+                var html_c60f86e7e898682ed01dd6fbd7459693 = $(`&lt;div id=&quot;html_c60f86e7e898682ed01dd6fbd7459693&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Bluefield State College (BS)&lt;/div&gt;`)[0];
+                popup_e792dc15e67d520717f26a936fafcc07.setContent(html_c60f86e7e898682ed01dd6fbd7459693);
             
         
 
-        circle_marker_924fc34250a43800d9335e6307e9671f.bindPopup(popup_d8dfcbf589ed961a305f5488f6cdfa2e)
+        circle_marker_bfc7b0dc3a0aa57ad032142485484360.bindPopup(popup_e792dc15e67d520717f26a936fafcc07)
         ;
 
         
     
     
-            circle_marker_924fc34250a43800d9335e6307e9671f.bindTooltip(
+            circle_marker_bfc7b0dc3a0aa57ad032142485484360.bindTooltip(
                 `&lt;div&gt;
                      Bluefield State College (BS)
                  &lt;/div&gt;`,
@@ -850,28 +851,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_88b26b8d71164b5081054649d8a4e2d5 = L.circleMarker(
+            var circle_marker_87f630c6851822a0a2b3844ae6c8170d = L.circleMarker(
                 [40.876, -124.08],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_c47c5712ab4af90f16e9adc58934f4c6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e5f0da30df1b2ec5a6e65e240eb24ce7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_1dcb05f5844b0889d41233b862d7a35a = $(`&lt;div id=&quot;html_1dcb05f5844b0889d41233b862d7a35a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Cal Poly Humboldt (SoRMS) (HSU)&lt;/div&gt;`)[0];
-                popup_c47c5712ab4af90f16e9adc58934f4c6.setContent(html_1dcb05f5844b0889d41233b862d7a35a);
+                var html_c521f8e7acea916defa135092c02da8d = $(`&lt;div id=&quot;html_c521f8e7acea916defa135092c02da8d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Cal Poly Humboldt (SoRMS) (HSU)&lt;/div&gt;`)[0];
+                popup_e5f0da30df1b2ec5a6e65e240eb24ce7.setContent(html_c521f8e7acea916defa135092c02da8d);
             
         
 
-        circle_marker_88b26b8d71164b5081054649d8a4e2d5.bindPopup(popup_c47c5712ab4af90f16e9adc58934f4c6)
+        circle_marker_87f630c6851822a0a2b3844ae6c8170d.bindPopup(popup_e5f0da30df1b2ec5a6e65e240eb24ce7)
         ;
 
         
     
     
-            circle_marker_88b26b8d71164b5081054649d8a4e2d5.bindTooltip(
+            circle_marker_87f630c6851822a0a2b3844ae6c8170d.bindTooltip(
                 `&lt;div&gt;
                      Cal Poly Humboldt (SoRMS) (HSU)
                  &lt;/div&gt;`,
@@ -879,28 +880,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_84ef1ea72aa6ff1c79b953ab307addd6 = L.circleMarker(
+            var circle_marker_a6a9f47cfe562fccc9250cbe2383667c = L.circleMarker(
                 [36.282, -76.216],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_14baf148504f57e680521bf8a25052c4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_c4915dcf3f9018876bb26454f5203fd8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f791e23029f4dfb708def2a207ee548c = $(`&lt;div id=&quot;html_f791e23029f4dfb708def2a207ee548c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Elizabeth City State University (EC)&lt;/div&gt;`)[0];
-                popup_14baf148504f57e680521bf8a25052c4.setContent(html_f791e23029f4dfb708def2a207ee548c);
+                var html_9274ae6d48aba762d7480d315b2a4273 = $(`&lt;div id=&quot;html_9274ae6d48aba762d7480d315b2a4273&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Elizabeth City State University (EC)&lt;/div&gt;`)[0];
+                popup_c4915dcf3f9018876bb26454f5203fd8.setContent(html_9274ae6d48aba762d7480d315b2a4273);
             
         
 
-        circle_marker_84ef1ea72aa6ff1c79b953ab307addd6.bindPopup(popup_14baf148504f57e680521bf8a25052c4)
+        circle_marker_a6a9f47cfe562fccc9250cbe2383667c.bindPopup(popup_c4915dcf3f9018876bb26454f5203fd8)
         ;
 
         
     
     
-            circle_marker_84ef1ea72aa6ff1c79b953ab307addd6.bindTooltip(
+            circle_marker_a6a9f47cfe562fccc9250cbe2383667c.bindTooltip(
                 `&lt;div&gt;
                      Elizabeth City State University (EC)
                  &lt;/div&gt;`,
@@ -908,28 +909,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_869c88652a506901170b4a6c26e9a394 = L.circleMarker(
+            var circle_marker_cdbde5ae4df8a984b3c75dbd50c4cab1 = L.circleMarker(
                 [39.60701, -104.58017],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_a2757b92a238447422d8f2f6a778d332 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_ba3333676a285bbf74b84b075be3a74b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_e82d67919832699d42364e4b56554fe8 = $(`&lt;div id=&quot;html_e82d67919832699d42364e4b56554fe8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lowry Range Solar Station (RSR) (LRSS)&lt;/div&gt;`)[0];
-                popup_a2757b92a238447422d8f2f6a778d332.setContent(html_e82d67919832699d42364e4b56554fe8);
+                var html_bc1c399e585f4cc4369adf8780d7f75e = $(`&lt;div id=&quot;html_bc1c399e585f4cc4369adf8780d7f75e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Lowry Range Solar Station (RSR) (LRSS)&lt;/div&gt;`)[0];
+                popup_ba3333676a285bbf74b84b075be3a74b.setContent(html_bc1c399e585f4cc4369adf8780d7f75e);
             
         
 
-        circle_marker_869c88652a506901170b4a6c26e9a394.bindPopup(popup_a2757b92a238447422d8f2f6a778d332)
+        circle_marker_cdbde5ae4df8a984b3c75dbd50c4cab1.bindPopup(popup_ba3333676a285bbf74b84b075be3a74b)
         ;
 
         
     
     
-            circle_marker_869c88652a506901170b4a6c26e9a394.bindTooltip(
+            circle_marker_cdbde5ae4df8a984b3c75dbd50c4cab1.bindTooltip(
                 `&lt;div&gt;
                      Lowry Range Solar Station (RSR) (LRSS)
                  &lt;/div&gt;`,
@@ -937,28 +938,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_99fd1e19f1db0f3b6aa4b03f4713c9e8 = L.circleMarker(
+            var circle_marker_1db624eff43a3120d157b72a3245e2ba = L.circleMarker(
                 [39.7427, -105.1701],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_74aafeaae6161455cc446a4d4e35bd01 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_245db3326af795387ff52e53dfe20ac3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_86513ce19105db77a7dd45177ae25e00 = $(`&lt;div id=&quot;html_86513ce19105db77a7dd45177ae25e00&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Energy Systems Integration Facility (ESIF)&lt;/div&gt;`)[0];
-                popup_74aafeaae6161455cc446a4d4e35bd01.setContent(html_86513ce19105db77a7dd45177ae25e00);
+                var html_015d71f72826f28ca2ff13140370288b = $(`&lt;div id=&quot;html_015d71f72826f28ca2ff13140370288b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Energy Systems Integration Facility (ESIF)&lt;/div&gt;`)[0];
+                popup_245db3326af795387ff52e53dfe20ac3.setContent(html_015d71f72826f28ca2ff13140370288b);
             
         
 
-        circle_marker_99fd1e19f1db0f3b6aa4b03f4713c9e8.bindPopup(popup_74aafeaae6161455cc446a4d4e35bd01)
+        circle_marker_1db624eff43a3120d157b72a3245e2ba.bindPopup(popup_245db3326af795387ff52e53dfe20ac3)
         ;
 
         
     
     
-            circle_marker_99fd1e19f1db0f3b6aa4b03f4713c9e8.bindTooltip(
+            circle_marker_1db624eff43a3120d157b72a3245e2ba.bindTooltip(
                 `&lt;div&gt;
                      NREL Energy Systems Integration Facility (ESIF)
                  &lt;/div&gt;`,
@@ -966,28 +967,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_4fc1ec173b57e948970de519b1c1b374 = L.circleMarker(
+            var circle_marker_be8bc9142523e2719df23ea7b04c4108 = L.circleMarker(
                 [39.9106, -105.2347],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_82749402004984aa62dd139db5027899 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b77ab3c4c86b4b0cf5377a7a6ae86ccc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0a6c2972c95b118ea3ad18c2285ee069 = $(`&lt;div id=&quot;html_0a6c2972c95b118ea3ad18c2285ee069&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Flatirons Campus (M2) (NWTC)&lt;/div&gt;`)[0];
-                popup_82749402004984aa62dd139db5027899.setContent(html_0a6c2972c95b118ea3ad18c2285ee069);
+                var html_fda0ef41241588114e80a7ce4d97ba46 = $(`&lt;div id=&quot;html_fda0ef41241588114e80a7ce4d97ba46&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Flatirons Campus (M2) (NWTC)&lt;/div&gt;`)[0];
+                popup_b77ab3c4c86b4b0cf5377a7a6ae86ccc.setContent(html_fda0ef41241588114e80a7ce4d97ba46);
             
         
 
-        circle_marker_4fc1ec173b57e948970de519b1c1b374.bindPopup(popup_82749402004984aa62dd139db5027899)
+        circle_marker_be8bc9142523e2719df23ea7b04c4108.bindPopup(popup_b77ab3c4c86b4b0cf5377a7a6ae86ccc)
         ;
 
         
     
     
-            circle_marker_4fc1ec173b57e948970de519b1c1b374.bindTooltip(
+            circle_marker_be8bc9142523e2719df23ea7b04c4108.bindTooltip(
                 `&lt;div&gt;
                      NREL Flatirons Campus (M2) (NWTC)
                  &lt;/div&gt;`,
@@ -995,28 +996,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_3324836d7b503884b060080da8706179 = L.circleMarker(
+            var circle_marker_8b3a3b9ef7d0e59bfddad2598d9b5d61 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_8ba325aa438ff52cc7df11b2875cbbd3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_25f1dd31869e22117a73383e67da8f57 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_2677f60353aa604ca8c9288e9edb8632 = $(`&lt;div id=&quot;html_2677f60353aa604ca8c9288e9edb8632&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL SRRL All Sky Imager (ASI-16) (SRRLASI)&lt;/div&gt;`)[0];
-                popup_8ba325aa438ff52cc7df11b2875cbbd3.setContent(html_2677f60353aa604ca8c9288e9edb8632);
+                var html_8ebb0359084209a76f9308697cd944ec = $(`&lt;div id=&quot;html_8ebb0359084209a76f9308697cd944ec&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL SRRL All Sky Imager (ASI-16) (SRRLASI)&lt;/div&gt;`)[0];
+                popup_25f1dd31869e22117a73383e67da8f57.setContent(html_8ebb0359084209a76f9308697cd944ec);
             
         
 
-        circle_marker_3324836d7b503884b060080da8706179.bindPopup(popup_8ba325aa438ff52cc7df11b2875cbbd3)
+        circle_marker_8b3a3b9ef7d0e59bfddad2598d9b5d61.bindPopup(popup_25f1dd31869e22117a73383e67da8f57)
         ;
 
         
     
     
-            circle_marker_3324836d7b503884b060080da8706179.bindTooltip(
+            circle_marker_8b3a3b9ef7d0e59bfddad2598d9b5d61.bindTooltip(
                 `&lt;div&gt;
                      NREL SRRL All Sky Imager (ASI-16) (SRRLASI)
                  &lt;/div&gt;`,
@@ -1024,28 +1025,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_355b27e831154cec78da6eca63cc2fb4 = L.circleMarker(
+            var circle_marker_03ad4e01c70ae09c9a724bdcb7e84879 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_7f3d9a28f59eb469de877402002de150 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7c8e52c54228289931f301aaa9da4a8c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_df68f70105ec3e541438aaf5aaa16d4d = $(`&lt;div id=&quot;html_df68f70105ec3e541438aaf5aaa16d4d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOCS) (AOCS)&lt;/div&gt;`)[0];
-                popup_7f3d9a28f59eb469de877402002de150.setContent(html_df68f70105ec3e541438aaf5aaa16d4d);
+                var html_fa6762c2a9e32e6b3ac71db470a8fef9 = $(`&lt;div id=&quot;html_fa6762c2a9e32e6b3ac71db470a8fef9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOCS) (AOCS)&lt;/div&gt;`)[0];
+                popup_7c8e52c54228289931f301aaa9da4a8c.setContent(html_fa6762c2a9e32e6b3ac71db470a8fef9);
             
         
 
-        circle_marker_355b27e831154cec78da6eca63cc2fb4.bindPopup(popup_7f3d9a28f59eb469de877402002de150)
+        circle_marker_03ad4e01c70ae09c9a724bdcb7e84879.bindPopup(popup_7c8e52c54228289931f301aaa9da4a8c)
         ;
 
         
     
     
-            circle_marker_355b27e831154cec78da6eca63cc2fb4.bindTooltip(
+            circle_marker_03ad4e01c70ae09c9a724bdcb7e84879.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOCS) (AOCS)
                  &lt;/div&gt;`,
@@ -1053,28 +1054,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_bddcd0397f260dd3e2e5ba13b1f7f91b = L.circleMarker(
+            var circle_marker_fde65abb053cf22855f266eab53c5624 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_3c70c1fbf1a8de5fb527e3349429227b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_4b699bb94525aad57b665a166da9f4da = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_93d442b7c0512cb9e4611f45056494f1 = $(`&lt;div id=&quot;html_93d442b7c0512cb9e4611f45056494f1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2) (AODSRRLBM)&lt;/div&gt;`)[0];
-                popup_3c70c1fbf1a8de5fb527e3349429227b.setContent(html_93d442b7c0512cb9e4611f45056494f1);
+                var html_aa62ca1c1d50e3a847a78cc03d1961f3 = $(`&lt;div id=&quot;html_aa62ca1c1d50e3a847a78cc03d1961f3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2) (AODSRRLBM)&lt;/div&gt;`)[0];
+                popup_4b699bb94525aad57b665a166da9f4da.setContent(html_aa62ca1c1d50e3a847a78cc03d1961f3);
             
         
 
-        circle_marker_bddcd0397f260dd3e2e5ba13b1f7f91b.bindPopup(popup_3c70c1fbf1a8de5fb527e3349429227b)
+        circle_marker_fde65abb053cf22855f266eab53c5624.bindPopup(popup_4b699bb94525aad57b665a166da9f4da)
         ;
 
         
     
     
-            circle_marker_bddcd0397f260dd3e2e5ba13b1f7f91b.bindTooltip(
+            circle_marker_fde65abb053cf22855f266eab53c5624.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2) (AODSRRLBM)
                  &lt;/div&gt;`,
@@ -1082,28 +1083,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_1f81dea4aa584fbd4200d29ae0369219 = L.circleMarker(
+            var circle_marker_b2bf22ad705bc49b4ef4c78438ea1557 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_b9996568cc837cd5641bc7af0be1cc16 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_40dd89844aff64bb1a0e01b9f98551dc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_02a509b7643872e6f57e7e092a75a657 = $(`&lt;div id=&quot;html_02a509b7643872e6f57e7e092a75a657&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2A) (AODSRRLAM)&lt;/div&gt;`)[0];
-                popup_b9996568cc837cd5641bc7af0be1cc16.setContent(html_02a509b7643872e6f57e7e092a75a657);
+                var html_cef9ed3636e805ba5139c0452ae42e60 = $(`&lt;div id=&quot;html_cef9ed3636e805ba5139c0452ae42e60&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2A) (AODSRRLAM)&lt;/div&gt;`)[0];
+                popup_40dd89844aff64bb1a0e01b9f98551dc.setContent(html_cef9ed3636e805ba5139c0452ae42e60);
             
         
 
-        circle_marker_1f81dea4aa584fbd4200d29ae0369219.bindPopup(popup_b9996568cc837cd5641bc7af0be1cc16)
+        circle_marker_b2bf22ad705bc49b4ef4c78438ea1557.bindPopup(popup_40dd89844aff64bb1a0e01b9f98551dc)
         ;
 
         
     
     
-            circle_marker_1f81dea4aa584fbd4200d29ae0369219.bindTooltip(
+            circle_marker_b2bf22ad705bc49b4ef4c78438ea1557.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOD ESR-MRI L2A) (AODSRRLAM)
                  &lt;/div&gt;`,
@@ -1111,28 +1112,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d676a2f40a5ce8337355f22a8376b43b = L.circleMarker(
+            var circle_marker_45da34fee92bdb5fad445714f75027ef = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_06fb78a84302e199914ef779f088a91b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8ff0f2b672c867407a8a5a455e1232b7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_77045672fb1899279aa90d15ab3643ec = $(`&lt;div id=&quot;html_77045672fb1899279aa90d15ab3643ec&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2) (AODSRRLBE)&lt;/div&gt;`)[0];
-                popup_06fb78a84302e199914ef779f088a91b.setContent(html_77045672fb1899279aa90d15ab3643ec);
+                var html_e9fd4c5dde6615de726212195ca72fa9 = $(`&lt;div id=&quot;html_e9fd4c5dde6615de726212195ca72fa9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2) (AODSRRLBE)&lt;/div&gt;`)[0];
+                popup_8ff0f2b672c867407a8a5a455e1232b7.setContent(html_e9fd4c5dde6615de726212195ca72fa9);
             
         
 
-        circle_marker_d676a2f40a5ce8337355f22a8376b43b.bindPopup(popup_06fb78a84302e199914ef779f088a91b)
+        circle_marker_45da34fee92bdb5fad445714f75027ef.bindPopup(popup_8ff0f2b672c867407a8a5a455e1232b7)
         ;
 
         
     
     
-            circle_marker_d676a2f40a5ce8337355f22a8376b43b.bindTooltip(
+            circle_marker_45da34fee92bdb5fad445714f75027ef.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2) (AODSRRLBE)
                  &lt;/div&gt;`,
@@ -1140,28 +1141,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_5bfb6e210af9d81229b9bbfec5fce328 = L.circleMarker(
+            var circle_marker_7e7818767864c1597e8ad6dcce823d43 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_efb75c2b4efb7259587ae029bf6c61b0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_923928d1c123cb3f46deeeeaf2ebe5d5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_7b308e495b6dcaed8eb010e94271d653 = $(`&lt;div id=&quot;html_7b308e495b6dcaed8eb010e94271d653&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2A) (AODSRRLAE)&lt;/div&gt;`)[0];
-                popup_efb75c2b4efb7259587ae029bf6c61b0.setContent(html_7b308e495b6dcaed8eb010e94271d653);
+                var html_65a13c9fa4943fad021f24a00c997ace = $(`&lt;div id=&quot;html_65a13c9fa4943fad021f24a00c997ace&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2A) (AODSRRLAE)&lt;/div&gt;`)[0];
+                popup_923928d1c123cb3f46deeeeaf2ebe5d5.setContent(html_65a13c9fa4943fad021f24a00c997ace);
             
         
 
-        circle_marker_5bfb6e210af9d81229b9bbfec5fce328.bindPopup(popup_efb75c2b4efb7259587ae029bf6c61b0)
+        circle_marker_7e7818767864c1597e8ad6dcce823d43.bindPopup(popup_923928d1c123cb3f46deeeeaf2ebe5d5)
         ;
 
         
     
     
-            circle_marker_5bfb6e210af9d81229b9bbfec5fce328.bindTooltip(
+            circle_marker_7e7818767864c1597e8ad6dcce823d43.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOD ESR-Sunrad L2A) (AODSRRLAE)
                  &lt;/div&gt;`,
@@ -1169,28 +1170,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_7545f6ee3dc4d3ed46b95359fec1e282 = L.circleMarker(
+            var circle_marker_77c8ece4a45cf3e6558ff9c1e322a1da = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_638e49e1f64b0193eaad1aff5324357f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b61fa48a91b349519a7204ce8ecb0d47 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0f85ccb2b99b18950956eaf2e6c7896a = $(`&lt;div id=&quot;html_0f85ccb2b99b18950956eaf2e6c7896a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD SR-CEReS L2) (AODSRRLBC)&lt;/div&gt;`)[0];
-                popup_638e49e1f64b0193eaad1aff5324357f.setContent(html_0f85ccb2b99b18950956eaf2e6c7896a);
+                var html_fff613eeb7ecf67564b8a84d4fdf8ad3 = $(`&lt;div id=&quot;html_fff613eeb7ecf67564b8a84d4fdf8ad3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (AOD SR-CEReS L2) (AODSRRLBC)&lt;/div&gt;`)[0];
+                popup_b61fa48a91b349519a7204ce8ecb0d47.setContent(html_fff613eeb7ecf67564b8a84d4fdf8ad3);
             
         
 
-        circle_marker_7545f6ee3dc4d3ed46b95359fec1e282.bindPopup(popup_638e49e1f64b0193eaad1aff5324357f)
+        circle_marker_77c8ece4a45cf3e6558ff9c1e322a1da.bindPopup(popup_b61fa48a91b349519a7204ce8ecb0d47)
         ;
 
         
     
     
-            circle_marker_7545f6ee3dc4d3ed46b95359fec1e282.bindTooltip(
+            circle_marker_77c8ece4a45cf3e6558ff9c1e322a1da.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (AOD SR-CEReS L2) (AODSRRLBC)
                  &lt;/div&gt;`,
@@ -1198,28 +1199,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_bb4a2aa38ee6cdce99c59a02a8f9dd0e = L.circleMarker(
+            var circle_marker_4a108a6a1ceadf1ec730d4a447f10e15 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_5d9e2faf44863962373e66dc9556a684 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_eff8433d7168e43cf7671a200a33e4c5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_66f49ceb124e7d92832600f7d0030878 = $(`&lt;div id=&quot;html_66f49ceb124e7d92832600f7d0030878&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (ATI RSP) (ATI)&lt;/div&gt;`)[0];
-                popup_5d9e2faf44863962373e66dc9556a684.setContent(html_66f49ceb124e7d92832600f7d0030878);
+                var html_7d81c893225c8853528ff931a9971bfd = $(`&lt;div id=&quot;html_7d81c893225c8853528ff931a9971bfd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (ATI RSP) (ATI)&lt;/div&gt;`)[0];
+                popup_eff8433d7168e43cf7671a200a33e4c5.setContent(html_7d81c893225c8853528ff931a9971bfd);
             
         
 
-        circle_marker_bb4a2aa38ee6cdce99c59a02a8f9dd0e.bindPopup(popup_5d9e2faf44863962373e66dc9556a684)
+        circle_marker_4a108a6a1ceadf1ec730d4a447f10e15.bindPopup(popup_eff8433d7168e43cf7671a200a33e4c5)
         ;
 
         
     
     
-            circle_marker_bb4a2aa38ee6cdce99c59a02a8f9dd0e.bindTooltip(
+            circle_marker_4a108a6a1ceadf1ec730d4a447f10e15.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (ATI RSP) (ATI)
                  &lt;/div&gt;`,
@@ -1227,28 +1228,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_a4ad43f51e38f3417cece365a84320d1 = L.circleMarker(
+            var circle_marker_0cfe6c49bcfc517c73cd6331f59ff1ac = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_1a29b50a95ec8f7ed7cb5cc15b4fbdb0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_14311d88d695571dff3ba7053ed45a63 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_dabbf475137361231323192de42f1313 = $(`&lt;div id=&quot;html_dabbf475137361231323192de42f1313&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BMS) (BMS)&lt;/div&gt;`)[0];
-                popup_1a29b50a95ec8f7ed7cb5cc15b4fbdb0.setContent(html_dabbf475137361231323192de42f1313);
+                var html_e66c1ae580609dc6a160347910e44e02 = $(`&lt;div id=&quot;html_e66c1ae580609dc6a160347910e44e02&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BMS) (BMS)&lt;/div&gt;`)[0];
+                popup_14311d88d695571dff3ba7053ed45a63.setContent(html_e66c1ae580609dc6a160347910e44e02);
             
         
 
-        circle_marker_a4ad43f51e38f3417cece365a84320d1.bindPopup(popup_1a29b50a95ec8f7ed7cb5cc15b4fbdb0)
+        circle_marker_0cfe6c49bcfc517c73cd6331f59ff1ac.bindPopup(popup_14311d88d695571dff3ba7053ed45a63)
         ;
 
         
     
     
-            circle_marker_a4ad43f51e38f3417cece365a84320d1.bindTooltip(
+            circle_marker_0cfe6c49bcfc517c73cd6331f59ff1ac.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (BMS) (BMS)
                  &lt;/div&gt;`,
@@ -1256,28 +1257,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_106c6b8a8295bad91e2f4744f667cf86 = L.circleMarker(
+            var circle_marker_2ba78c263196cf50ffb0a37196815d08 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_c7115938254787eb067387d493247f85 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_a8b79e61dbfcf98fe51d8761f5e9ac30 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0d9ffc43fcf627dedd5cd8b524173678 = $(`&lt;div id=&quot;html_0d9ffc43fcf627dedd5cd8b524173678&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BSRN) (BSRN)&lt;/div&gt;`)[0];
-                popup_c7115938254787eb067387d493247f85.setContent(html_0d9ffc43fcf627dedd5cd8b524173678);
+                var html_740b2d28e393e7255c2326875613ecbf = $(`&lt;div id=&quot;html_740b2d28e393e7255c2326875613ecbf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BSRN) (BSRN)&lt;/div&gt;`)[0];
+                popup_a8b79e61dbfcf98fe51d8761f5e9ac30.setContent(html_740b2d28e393e7255c2326875613ecbf);
             
         
 
-        circle_marker_106c6b8a8295bad91e2f4744f667cf86.bindPopup(popup_c7115938254787eb067387d493247f85)
+        circle_marker_2ba78c263196cf50ffb0a37196815d08.bindPopup(popup_a8b79e61dbfcf98fe51d8761f5e9ac30)
         ;
 
         
     
     
-            circle_marker_106c6b8a8295bad91e2f4744f667cf86.bindTooltip(
+            circle_marker_2ba78c263196cf50ffb0a37196815d08.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (BSRN) (BSRN)
                  &lt;/div&gt;`,
@@ -1285,28 +1286,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_54e0811d3f5169103540b72f705df05d = L.circleMarker(
+            var circle_marker_afc2f05b9ed208b7262b842e2370b0d8 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_868ad312f34c33aa70b506b71c398619 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e0e8c08182206c38adf3ec46e4a96979 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d6a6922a3483b731e0c7a685ab317b89 = $(`&lt;div id=&quot;html_d6a6922a3483b731e0c7a685ab317b89&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (GPS-based PWV) (PWVSRRL)&lt;/div&gt;`)[0];
-                popup_868ad312f34c33aa70b506b71c398619.setContent(html_d6a6922a3483b731e0c7a685ab317b89);
+                var html_018c7baf64049afd7b3989f76407f6b7 = $(`&lt;div id=&quot;html_018c7baf64049afd7b3989f76407f6b7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (GPS-based PWV) (PWVSRRL)&lt;/div&gt;`)[0];
+                popup_e0e8c08182206c38adf3ec46e4a96979.setContent(html_018c7baf64049afd7b3989f76407f6b7);
             
         
 
-        circle_marker_54e0811d3f5169103540b72f705df05d.bindPopup(popup_868ad312f34c33aa70b506b71c398619)
+        circle_marker_afc2f05b9ed208b7262b842e2370b0d8.bindPopup(popup_e0e8c08182206c38adf3ec46e4a96979)
         ;
 
         
     
     
-            circle_marker_54e0811d3f5169103540b72f705df05d.bindTooltip(
+            circle_marker_afc2f05b9ed208b7262b842e2370b0d8.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (GPS-based PWV) (PWVSRRL)
                  &lt;/div&gt;`,
@@ -1314,28 +1315,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_68e050da6c1bee5006fe29c86464596e = L.circleMarker(
+            var circle_marker_7a656b8d6bedefc37d58691a1f51b248 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_f5d0827e1adf3226094f8b9193e75988 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_321944eca51452c17b0481a6e8aad36c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b80dbbf9c432d9be6bd4c3f1f64d3216 = $(`&lt;div id=&quot;html_b80dbbf9c432d9be6bd4c3f1f64d3216&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (Irradiance Inc. RSP v2) (IRRSP)&lt;/div&gt;`)[0];
-                popup_f5d0827e1adf3226094f8b9193e75988.setContent(html_b80dbbf9c432d9be6bd4c3f1f64d3216);
+                var html_f494e5883e70edcb8333ccd398fe5b7e = $(`&lt;div id=&quot;html_f494e5883e70edcb8333ccd398fe5b7e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (Irradiance Inc. RSP v2) (IRRSP)&lt;/div&gt;`)[0];
+                popup_321944eca51452c17b0481a6e8aad36c.setContent(html_f494e5883e70edcb8333ccd398fe5b7e);
             
         
 
-        circle_marker_68e050da6c1bee5006fe29c86464596e.bindPopup(popup_f5d0827e1adf3226094f8b9193e75988)
+        circle_marker_7a656b8d6bedefc37d58691a1f51b248.bindPopup(popup_321944eca51452c17b0481a6e8aad36c)
         ;
 
         
     
     
-            circle_marker_68e050da6c1bee5006fe29c86464596e.bindTooltip(
+            circle_marker_7a656b8d6bedefc37d58691a1f51b248.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (Irradiance Inc. RSP v2) (IRRSP)
                  &lt;/div&gt;`,
@@ -1343,28 +1344,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d702722f59d950c48378383916d6c615 = L.circleMarker(
+            var circle_marker_6ecdb1fc24109ae58e4ce2b9c1464f1e = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_2e2950c7702f6fad5c6777d3826017b5 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_296b53f0cd7a35b7fbd775d54f47a021 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_1ea62f1179524c377bd2911accfcbf57 = $(`&lt;div id=&quot;html_1ea62f1179524c377bd2911accfcbf57&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (RaZON+) (RAZON)&lt;/div&gt;`)[0];
-                popup_2e2950c7702f6fad5c6777d3826017b5.setContent(html_1ea62f1179524c377bd2911accfcbf57);
+                var html_e5109e53f72bc8eff5eab4edf4682a66 = $(`&lt;div id=&quot;html_e5109e53f72bc8eff5eab4edf4682a66&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (RaZON+) (RAZON)&lt;/div&gt;`)[0];
+                popup_296b53f0cd7a35b7fbd775d54f47a021.setContent(html_e5109e53f72bc8eff5eab4edf4682a66);
             
         
 
-        circle_marker_d702722f59d950c48378383916d6c615.bindPopup(popup_2e2950c7702f6fad5c6777d3826017b5)
+        circle_marker_6ecdb1fc24109ae58e4ce2b9c1464f1e.bindPopup(popup_296b53f0cd7a35b7fbd775d54f47a021)
         ;
 
         
     
     
-            circle_marker_d702722f59d950c48378383916d6c615.bindTooltip(
+            circle_marker_6ecdb1fc24109ae58e4ce2b9c1464f1e.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (RaZON+) (RAZON)
                  &lt;/div&gt;`,
@@ -1372,28 +1373,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_c06b34a63bb4e314cda8b1d7143695cb = L.circleMarker(
+            var circle_marker_55e18c6d36aca4ba78fa0807a891fe26 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_16ce0fa05d82a87a05d835beb0bf5fc6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_0a6d76edd33ef944515ea1a071544d64 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_e743eb23f4e8462a1484e281ba9b5c23 = $(`&lt;div id=&quot;html_e743eb23f4e8462a1484e281ba9b5c23&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (Schott RSP) (RSP)&lt;/div&gt;`)[0];
-                popup_16ce0fa05d82a87a05d835beb0bf5fc6.setContent(html_e743eb23f4e8462a1484e281ba9b5c23);
+                var html_fd222ef72205de23ec2c2a1e2b5e0638 = $(`&lt;div id=&quot;html_fd222ef72205de23ec2c2a1e2b5e0638&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (Schott RSP) (RSP)&lt;/div&gt;`)[0];
+                popup_0a6d76edd33ef944515ea1a071544d64.setContent(html_fd222ef72205de23ec2c2a1e2b5e0638);
             
         
 
-        circle_marker_c06b34a63bb4e314cda8b1d7143695cb.bindPopup(popup_16ce0fa05d82a87a05d835beb0bf5fc6)
+        circle_marker_55e18c6d36aca4ba78fa0807a891fe26.bindPopup(popup_0a6d76edd33ef944515ea1a071544d64)
         ;
 
         
     
     
-            circle_marker_c06b34a63bb4e314cda8b1d7143695cb.bindTooltip(
+            circle_marker_55e18c6d36aca4ba78fa0807a891fe26.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (Schott RSP) (RSP)
                  &lt;/div&gt;`,
@@ -1401,28 +1402,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_f20838f2d0c6c4e5f2719283cd55c30a = L.circleMarker(
+            var circle_marker_336fa25a6594b72c52355a0e2106f49f = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_d8aedcb4dab3a803282d6b26c2f6348a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_13b0992ff38585731189c74a67e5d513 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b6eefe178cfe153b0e9964b9967f1e8d = $(`&lt;div id=&quot;html_b6eefe178cfe153b0e9964b9967f1e8d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (YES MFR) (MFR)&lt;/div&gt;`)[0];
-                popup_d8aedcb4dab3a803282d6b26c2f6348a.setContent(html_b6eefe178cfe153b0e9964b9967f1e8d);
+                var html_9b43c593289707f5591ac299dd0332cf = $(`&lt;div id=&quot;html_9b43c593289707f5591ac299dd0332cf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (YES MFR) (MFR)&lt;/div&gt;`)[0];
+                popup_13b0992ff38585731189c74a67e5d513.setContent(html_9b43c593289707f5591ac299dd0332cf);
             
         
 
-        circle_marker_f20838f2d0c6c4e5f2719283cd55c30a.bindPopup(popup_d8aedcb4dab3a803282d6b26c2f6348a)
+        circle_marker_336fa25a6594b72c52355a0e2106f49f.bindPopup(popup_13b0992ff38585731189c74a67e5d513)
         ;
 
         
     
     
-            circle_marker_f20838f2d0c6c4e5f2719283cd55c30a.bindTooltip(
+            circle_marker_336fa25a6594b72c52355a0e2106f49f.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (YES MFR) (MFR)
                  &lt;/div&gt;`,
@@ -1430,28 +1431,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_46a87fb22271b6fa3bcae945f14df259 = L.circleMarker(
+            var circle_marker_4b09039b28b6c82f17040b50b35d8320 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_820b71e2c9daae8e745628c951917dd6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_6a4f69bcfc54dfc1c666d65f10b40d22 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f2cb602e15be4114bb93fac08a41a956 = $(`&lt;div id=&quot;html_f2cb602e15be4114bb93fac08a41a956&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (YES TSR) (TSR)&lt;/div&gt;`)[0];
-                popup_820b71e2c9daae8e745628c951917dd6.setContent(html_f2cb602e15be4114bb93fac08a41a956);
+                var html_0993bd81b1850cf68b5b36ad7975e147 = $(`&lt;div id=&quot;html_0993bd81b1850cf68b5b36ad7975e147&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (YES TSR) (TSR)&lt;/div&gt;`)[0];
+                popup_6a4f69bcfc54dfc1c666d65f10b40d22.setContent(html_0993bd81b1850cf68b5b36ad7975e147);
             
         
 
-        circle_marker_46a87fb22271b6fa3bcae945f14df259.bindPopup(popup_820b71e2c9daae8e745628c951917dd6)
+        circle_marker_4b09039b28b6c82f17040b50b35d8320.bindPopup(popup_6a4f69bcfc54dfc1c666d65f10b40d22)
         ;
 
         
     
     
-            circle_marker_46a87fb22271b6fa3bcae945f14df259.bindTooltip(
+            circle_marker_4b09039b28b6c82f17040b50b35d8320.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (YES TSR) (TSR)
                  &lt;/div&gt;`,
@@ -1459,28 +1460,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_c54da04d9352ea43b3ecaa88150e70b7 = L.circleMarker(
+            var circle_marker_5d2d75b5c76c17c907aad37950ae6f7e = L.circleMarker(
                 [39.74211, -105.17572],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_802e191780e85799ea74c9b4ded49b89 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8bf4646a1616f5f33c633ae04009e9ee = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_7f85e495de8ccf5769c4adf32a014af8 = $(`&lt;div id=&quot;html_7f85e495de8ccf5769c4adf32a014af8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Vehicle Testing and Integration Facility RSR (VTIF)&lt;/div&gt;`)[0];
-                popup_802e191780e85799ea74c9b4ded49b89.setContent(html_7f85e495de8ccf5769c4adf32a014af8);
+                var html_77ae0c92dee145ad8d57b83b8176c27a = $(`&lt;div id=&quot;html_77ae0c92dee145ad8d57b83b8176c27a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Vehicle Testing and Integration Facility RSR (VTIF)&lt;/div&gt;`)[0];
+                popup_8bf4646a1616f5f33c633ae04009e9ee.setContent(html_77ae0c92dee145ad8d57b83b8176c27a);
             
         
 
-        circle_marker_c54da04d9352ea43b3ecaa88150e70b7.bindPopup(popup_802e191780e85799ea74c9b4ded49b89)
+        circle_marker_5d2d75b5c76c17c907aad37950ae6f7e.bindPopup(popup_8bf4646a1616f5f33c633ae04009e9ee)
         ;
 
         
     
     
-            circle_marker_c54da04d9352ea43b3ecaa88150e70b7.bindTooltip(
+            circle_marker_5d2d75b5c76c17c907aad37950ae6f7e.bindTooltip(
                 `&lt;div&gt;
                      NREL Vehicle Testing and Integration Facility RSR (VTIF)
                  &lt;/div&gt;`,
@@ -1488,28 +1489,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_be6ee41f1f30c3bd47acc6e043be7407 = L.circleMarker(
+            var circle_marker_b646440aabe9535448647a4b334b26f8 = L.circleMarker(
                 [19.728144, -156.058936],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_911a274d05d300c454c31671e7539495 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8d1c0d03a1468f39eb3ac1ba38d5a44d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_3331cca80106d8460e8cd8f6e184efb1 = $(`&lt;div id=&quot;html_3331cca80106d8460e8cd8f6e184efb1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Natural Energy Laboratory of Hawaii Authority (NELHA) (NELHA)&lt;/div&gt;`)[0];
-                popup_911a274d05d300c454c31671e7539495.setContent(html_3331cca80106d8460e8cd8f6e184efb1);
+                var html_2ea8ef98faf9c8a55b08cdb365c26e8e = $(`&lt;div id=&quot;html_2ea8ef98faf9c8a55b08cdb365c26e8e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Natural Energy Laboratory of Hawaii Authority (NELHA) (NELHA)&lt;/div&gt;`)[0];
+                popup_8d1c0d03a1468f39eb3ac1ba38d5a44d.setContent(html_2ea8ef98faf9c8a55b08cdb365c26e8e);
             
         
 
-        circle_marker_be6ee41f1f30c3bd47acc6e043be7407.bindPopup(popup_911a274d05d300c454c31671e7539495)
+        circle_marker_b646440aabe9535448647a4b334b26f8.bindPopup(popup_8d1c0d03a1468f39eb3ac1ba38d5a44d)
         ;
 
         
     
     
-            circle_marker_be6ee41f1f30c3bd47acc6e043be7407.bindTooltip(
+            circle_marker_b646440aabe9535448647a4b334b26f8.bindTooltip(
                 `&lt;div&gt;
                      Natural Energy Laboratory of Hawaii Authority (NELHA) (NELHA)
                  &lt;/div&gt;`,
@@ -1517,28 +1518,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_05f3d03a838c849f3b5d1694a3ffc0cd = L.circleMarker(
+            var circle_marker_1b93d7f406bca11771513329cf38140c = L.circleMarker(
                 [36.08581, -115.05189],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_40002c62f0242790ebf237a9c6141a6b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_f04307c0cc263107937717b5ed8849b6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_18479806d1366228b684dcf40ae93c0c = $(`&lt;div id=&quot;html_18479806d1366228b684dcf40ae93c0c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nevada Power Clark Station (NPC)&lt;/div&gt;`)[0];
-                popup_40002c62f0242790ebf237a9c6141a6b.setContent(html_18479806d1366228b684dcf40ae93c0c);
+                var html_33109006896937d83404c538c592bfae = $(`&lt;div id=&quot;html_33109006896937d83404c538c592bfae&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nevada Power Clark Station (NPC)&lt;/div&gt;`)[0];
+                popup_f04307c0cc263107937717b5ed8849b6.setContent(html_33109006896937d83404c538c592bfae);
             
         
 
-        circle_marker_05f3d03a838c849f3b5d1694a3ffc0cd.bindPopup(popup_40002c62f0242790ebf237a9c6141a6b)
+        circle_marker_1b93d7f406bca11771513329cf38140c.bindPopup(popup_f04307c0cc263107937717b5ed8849b6)
         ;
 
         
     
     
-            circle_marker_05f3d03a838c849f3b5d1694a3ffc0cd.bindTooltip(
+            circle_marker_1b93d7f406bca11771513329cf38140c.bindTooltip(
                 `&lt;div&gt;
                      Nevada Power Clark Station (NPC)
                  &lt;/div&gt;`,
@@ -1546,28 +1547,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_2873cce481b2087cdaee04218e73e5f7 = L.circleMarker(
+            var circle_marker_c62af6988daea6ba5b49774a796e44f9 = L.circleMarker(
                 [35.92996, -84.30952],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_6a959e270dcb4104b464dbd4651eabae = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_6dcc87f208ed835e4164429c3d1c7c0a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_9c66310bd14ab5b5460a4a2fc65856e9 = $(`&lt;div id=&quot;html_9c66310bd14ab5b5460a4a2fc65856e9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge National Laboratory (RSR) (ORNL)&lt;/div&gt;`)[0];
-                popup_6a959e270dcb4104b464dbd4651eabae.setContent(html_9c66310bd14ab5b5460a4a2fc65856e9);
+                var html_53ea0dc904590b3192cefbaebdaa55bd = $(`&lt;div id=&quot;html_53ea0dc904590b3192cefbaebdaa55bd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Oak Ridge National Laboratory (RSR) (ORNL)&lt;/div&gt;`)[0];
+                popup_6dcc87f208ed835e4164429c3d1c7c0a.setContent(html_53ea0dc904590b3192cefbaebdaa55bd);
             
         
 
-        circle_marker_2873cce481b2087cdaee04218e73e5f7.bindPopup(popup_6a959e270dcb4104b464dbd4651eabae)
+        circle_marker_c62af6988daea6ba5b49774a796e44f9.bindPopup(popup_6dcc87f208ed835e4164429c3d1c7c0a)
         ;
 
         
     
     
-            circle_marker_2873cce481b2087cdaee04218e73e5f7.bindTooltip(
+            circle_marker_c62af6988daea6ba5b49774a796e44f9.bindTooltip(
                 `&lt;div&gt;
                      Oak Ridge National Laboratory (RSR) (ORNL)
                  &lt;/div&gt;`,
@@ -1575,28 +1576,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_b528de6c9d268fa0446a851b6bf4489b = L.circleMarker(
+            var circle_marker_7ec84f5684d5887bf1a1476ab6e820da = L.circleMarker(
                 [21.31347, -158.08257],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_8279a85d780e32ba75aeeeef110f21d0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_a465327b472b3f7ebcfb4aa8d44e3615 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_db79a462b3c9a25e48cef33b43b6bcc3 = $(`&lt;div id=&quot;html_db79a462b3c9a25e48cef33b43b6bcc3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Kalaeloa Oahu (RSR) (OAHURS1M)&lt;/div&gt;`)[0];
-                popup_8279a85d780e32ba75aeeeef110f21d0.setContent(html_db79a462b3c9a25e48cef33b43b6bcc3);
+                var html_c7246a4fb8b1f8623e557c7b737106ba = $(`&lt;div id=&quot;html_c7246a4fb8b1f8623e557c7b737106ba&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Kalaeloa Oahu (RSR) (OAHURS1M)&lt;/div&gt;`)[0];
+                popup_a465327b472b3f7ebcfb4aa8d44e3615.setContent(html_c7246a4fb8b1f8623e557c7b737106ba);
             
         
 
-        circle_marker_b528de6c9d268fa0446a851b6bf4489b.bindPopup(popup_8279a85d780e32ba75aeeeef110f21d0)
+        circle_marker_7ec84f5684d5887bf1a1476ab6e820da.bindPopup(popup_a465327b472b3f7ebcfb4aa8d44e3615)
         ;
 
         
     
     
-            circle_marker_b528de6c9d268fa0446a851b6bf4489b.bindTooltip(
+            circle_marker_7ec84f5684d5887bf1a1476ab6e820da.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Kalaeloa Oahu (RSR) (OAHURS1M)
                  &lt;/div&gt;`,
@@ -1604,28 +1605,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_eac028c35b2fd988a4645f0ce52e91f6 = L.circleMarker(
+            var circle_marker_96dfd7de99301f05ec6157288b46ebdc = L.circleMarker(
                 [20.76685, -156.92291],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_7caa011dab865c32c7a3e44232b92e3d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_c787ff1f4f4bac44f4e866d5f9866ad8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_64d0b1014250ca2438f9a43eb67bb19f = $(`&lt;div id=&quot;html_64d0b1014250ca2438f9a43eb67bb19f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP La Ola Lanai (RSR) (LANAI)&lt;/div&gt;`)[0];
-                popup_7caa011dab865c32c7a3e44232b92e3d.setContent(html_64d0b1014250ca2438f9a43eb67bb19f);
+                var html_35e24ee7542660e406866a972866d3d7 = $(`&lt;div id=&quot;html_35e24ee7542660e406866a972866d3d7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP La Ola Lanai (RSR) (LANAI)&lt;/div&gt;`)[0];
+                popup_c787ff1f4f4bac44f4e866d5f9866ad8.setContent(html_35e24ee7542660e406866a972866d3d7);
             
         
 
-        circle_marker_eac028c35b2fd988a4645f0ce52e91f6.bindPopup(popup_7caa011dab865c32c7a3e44232b92e3d)
+        circle_marker_96dfd7de99301f05ec6157288b46ebdc.bindPopup(popup_c787ff1f4f4bac44f4e866d5f9866ad8)
         ;
 
         
     
     
-            circle_marker_eac028c35b2fd988a4645f0ce52e91f6.bindTooltip(
+            circle_marker_96dfd7de99301f05ec6157288b46ebdc.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP La Ola Lanai (RSR) (LANAI)
                  &lt;/div&gt;`,
@@ -1633,28 +1634,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_509bd4a40300dddd2c36fc76908a03e2 = L.circleMarker(
+            var circle_marker_99c3ab52674d9b3f6f2bbad86f68a411 = L.circleMarker(
                 [33.966674, -118.4226],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_c7003953fcf75c4e6dddda5fe4a4a6fa = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_69abd80bca303b9dde2e455d7566a87b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b36ca14eda55d27583165381b5ba5aae = $(`&lt;div id=&quot;html_b36ca14eda55d27583165381b5ba5aae&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Loyola Marymount University (RSR) (LMU)&lt;/div&gt;`)[0];
-                popup_c7003953fcf75c4e6dddda5fe4a4a6fa.setContent(html_b36ca14eda55d27583165381b5ba5aae);
+                var html_3c91745be6d0d7f5b2b2b34fb9550dd1 = $(`&lt;div id=&quot;html_3c91745be6d0d7f5b2b2b34fb9550dd1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Loyola Marymount University (RSR) (LMU)&lt;/div&gt;`)[0];
+                popup_69abd80bca303b9dde2e455d7566a87b.setContent(html_3c91745be6d0d7f5b2b2b34fb9550dd1);
             
         
 
-        circle_marker_509bd4a40300dddd2c36fc76908a03e2.bindPopup(popup_c7003953fcf75c4e6dddda5fe4a4a6fa)
+        circle_marker_99c3ab52674d9b3f6f2bbad86f68a411.bindPopup(popup_69abd80bca303b9dde2e455d7566a87b)
         ;
 
         
     
     
-            circle_marker_509bd4a40300dddd2c36fc76908a03e2.bindTooltip(
+            circle_marker_99c3ab52674d9b3f6f2bbad86f68a411.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Loyola Marymount University (RSR) (LMU)
                  &lt;/div&gt;`,
@@ -1662,28 +1663,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_cf32baa65ef65afde45d7459d51bcabc = L.circleMarker(
+            var circle_marker_6c0bb47bcb5cae08d47453b817298974 = L.circleMarker(
                 [33.41663, -112.01875],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_13b5753c02df689ed0c7e24f2c144b96 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8856bf54b78a70f3b87f78888d4e60c1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_a0a799e518e4873c392603727e258e2f = $(`&lt;div id=&quot;html_a0a799e518e4873c392603727e258e2f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Southwest Solar Research Park (SSSCAT)&lt;/div&gt;`)[0];
-                popup_13b5753c02df689ed0c7e24f2c144b96.setContent(html_a0a799e518e4873c392603727e258e2f);
+                var html_f4601577197d7a4193665bdb6af77e5a = $(`&lt;div id=&quot;html_f4601577197d7a4193665bdb6af77e5a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Southwest Solar Research Park (SSSCAT)&lt;/div&gt;`)[0];
+                popup_8856bf54b78a70f3b87f78888d4e60c1.setContent(html_f4601577197d7a4193665bdb6af77e5a);
             
         
 
-        circle_marker_cf32baa65ef65afde45d7459d51bcabc.bindPopup(popup_13b5753c02df689ed0c7e24f2c144b96)
+        circle_marker_6c0bb47bcb5cae08d47453b817298974.bindPopup(popup_8856bf54b78a70f3b87f78888d4e60c1)
         ;
 
         
     
     
-            circle_marker_cf32baa65ef65afde45d7459d51bcabc.bindTooltip(
+            circle_marker_6c0bb47bcb5cae08d47453b817298974.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Southwest Solar Research Park (SSSCAT)
                  &lt;/div&gt;`,
@@ -1691,28 +1692,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9ad869406f6ee881d1199bd9a7f8c7ec = L.circleMarker(
+            var circle_marker_5a76ee37549c9845402be5c6e52ae622 = L.circleMarker(
                 [38.01221, -103.61696],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_cbac3ee5709448dae86b689b5c4388d6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e4bdf126234f076e43e733b5cd1f2a51 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_8b5466afe42380c76ad50c5f4db77391 = $(`&lt;div id=&quot;html_8b5466afe42380c76ad50c5f4db77391&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Sun Spot Two - Swink (RSR) (SS2)&lt;/div&gt;`)[0];
-                popup_cbac3ee5709448dae86b689b5c4388d6.setContent(html_8b5466afe42380c76ad50c5f4db77391);
+                var html_17c829f22b653bc3e29c350f43d8910a = $(`&lt;div id=&quot;html_17c829f22b653bc3e29c350f43d8910a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Sun Spot Two - Swink (RSR) (SS2)&lt;/div&gt;`)[0];
+                popup_e4bdf126234f076e43e733b5cd1f2a51.setContent(html_17c829f22b653bc3e29c350f43d8910a);
             
         
 
-        circle_marker_9ad869406f6ee881d1199bd9a7f8c7ec.bindPopup(popup_cbac3ee5709448dae86b689b5c4388d6)
+        circle_marker_5a76ee37549c9845402be5c6e52ae622.bindPopup(popup_e4bdf126234f076e43e733b5cd1f2a51)
         ;
 
         
     
     
-            circle_marker_9ad869406f6ee881d1199bd9a7f8c7ec.bindTooltip(
+            circle_marker_5a76ee37549c9845402be5c6e52ae622.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Sun Spot Two - Swink (RSR) (SS2)
                  &lt;/div&gt;`,
@@ -1720,28 +1721,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_ae5a44e115b717cefbfc62c329b25665 = L.circleMarker(
+            var circle_marker_68588dc77cc2d81eb21fc74f0a6b3068 = L.circleMarker(
                 [35.41861, -108.08828],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_eeb0f3212db92272558ff7bb028191fd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_786f8118306986770c2dd972f7bab0de = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_a8a5e209f1982c7ccd317dd4f26efb1c = $(`&lt;div id=&quot;html_a8a5e209f1982c7ccd317dd4f26efb1c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Tri-State Escalante (RSR) (TSESC)&lt;/div&gt;`)[0];
-                popup_eeb0f3212db92272558ff7bb028191fd.setContent(html_a8a5e209f1982c7ccd317dd4f26efb1c);
+                var html_e54fffeeb17cfb1b46d638f9edc3c131 = $(`&lt;div id=&quot;html_e54fffeeb17cfb1b46d638f9edc3c131&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Tri-State Escalante (RSR) (TSESC)&lt;/div&gt;`)[0];
+                popup_786f8118306986770c2dd972f7bab0de.setContent(html_e54fffeeb17cfb1b46d638f9edc3c131);
             
         
 
-        circle_marker_ae5a44e115b717cefbfc62c329b25665.bindPopup(popup_eeb0f3212db92272558ff7bb028191fd)
+        circle_marker_68588dc77cc2d81eb21fc74f0a6b3068.bindPopup(popup_786f8118306986770c2dd972f7bab0de)
         ;
 
         
     
     
-            circle_marker_ae5a44e115b717cefbfc62c329b25665.bindTooltip(
+            circle_marker_68588dc77cc2d81eb21fc74f0a6b3068.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Tri-State Escalante (RSR) (TSESC)
                  &lt;/div&gt;`,
@@ -1749,28 +1750,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d565c9eafaceff3bfdd803260d6ddcd9 = L.circleMarker(
+            var circle_marker_62fbd6c25ffaaed93697560c5d9b0d41 = L.circleMarker(
                 [32.22969, -110.95534],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_1879df85bc4619f57971c894eb6a70b3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_4f76b98228a3fda398f172e87a8f9726 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_fa67f7f68eff654d6651fb2117602c69 = $(`&lt;div id=&quot;html_fa67f7f68eff654d6651fb2117602c69&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP University of Arizona (OASIS) (UAT)&lt;/div&gt;`)[0];
-                popup_1879df85bc4619f57971c894eb6a70b3.setContent(html_fa67f7f68eff654d6651fb2117602c69);
+                var html_cb26843d9fd6d76b746bebc4b00526e5 = $(`&lt;div id=&quot;html_cb26843d9fd6d76b746bebc4b00526e5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP University of Arizona (OASIS) (UAT)&lt;/div&gt;`)[0];
+                popup_4f76b98228a3fda398f172e87a8f9726.setContent(html_cb26843d9fd6d76b746bebc4b00526e5);
             
         
 
-        circle_marker_d565c9eafaceff3bfdd803260d6ddcd9.bindPopup(popup_1879df85bc4619f57971c894eb6a70b3)
+        circle_marker_62fbd6c25ffaaed93697560c5d9b0d41.bindPopup(popup_4f76b98228a3fda398f172e87a8f9726)
         ;
 
         
     
     
-            circle_marker_d565c9eafaceff3bfdd803260d6ddcd9.bindTooltip(
+            circle_marker_62fbd6c25ffaaed93697560c5d9b0d41.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP University of Arizona (OASIS) (UAT)
                  &lt;/div&gt;`,
@@ -1778,28 +1779,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_5c7dcc8b8aab1444bae41f95c53b2287 = L.circleMarker(
+            var circle_marker_d81bb4c06d647c1f638b0573baf5b1fc = L.circleMarker(
                 [37.69601, -113.16483],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_7ad5bb62fbbf1db7367931d5f9769afb = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_6ae1a13e984243b1b8917d8c6fb4f92c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_8fbb09db75d58cb93f8bd96e5e012361 = $(`&lt;div id=&quot;html_8fbb09db75d58cb93f8bd96e5e012361&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Utah Geological Survey - State Energy Program (Cedar City) (USEPCC)&lt;/div&gt;`)[0];
-                popup_7ad5bb62fbbf1db7367931d5f9769afb.setContent(html_8fbb09db75d58cb93f8bd96e5e012361);
+                var html_d08315288f7c8032c0590127bf0247bf = $(`&lt;div id=&quot;html_d08315288f7c8032c0590127bf0247bf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Utah Geological Survey - State Energy Program (Cedar City) (USEPCC)&lt;/div&gt;`)[0];
+                popup_6ae1a13e984243b1b8917d8c6fb4f92c.setContent(html_d08315288f7c8032c0590127bf0247bf);
             
         
 
-        circle_marker_5c7dcc8b8aab1444bae41f95c53b2287.bindPopup(popup_7ad5bb62fbbf1db7367931d5f9769afb)
+        circle_marker_d81bb4c06d647c1f638b0573baf5b1fc.bindPopup(popup_6ae1a13e984243b1b8917d8c6fb4f92c)
         ;
 
         
     
     
-            circle_marker_5c7dcc8b8aab1444bae41f95c53b2287.bindTooltip(
+            circle_marker_d81bb4c06d647c1f638b0573baf5b1fc.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Utah Geological Survey - State Energy Program (Cedar City) (USEPCC)
                  &lt;/div&gt;`,
@@ -1807,28 +1808,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_6bb47d6d9fa25a4c8b98a0a5aeaa7e32 = L.circleMarker(
+            var circle_marker_8a461207244ef35c245ab1928298eae7 = L.circleMarker(
                 [38.41431, -113.02967],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_36f841832c4f65ba960da6081c74359c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_9ac625f0746a4a449c76b5043c6a46e0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_aeaa6e327d9d8e69f206ef074dc74f75 = $(`&lt;div id=&quot;html_aeaa6e327d9d8e69f206ef074dc74f75&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Utah Geological Survey - State Energy Program (Milford) (USEPMF)&lt;/div&gt;`)[0];
-                popup_36f841832c4f65ba960da6081c74359c.setContent(html_aeaa6e327d9d8e69f206ef074dc74f75);
+                var html_1ab537409c73cde3374617499dd9b2a3 = $(`&lt;div id=&quot;html_1ab537409c73cde3374617499dd9b2a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SOLRMAP Utah Geological Survey - State Energy Program (Milford) (USEPMF)&lt;/div&gt;`)[0];
+                popup_9ac625f0746a4a449c76b5043c6a46e0.setContent(html_1ab537409c73cde3374617499dd9b2a3);
             
         
 
-        circle_marker_6bb47d6d9fa25a4c8b98a0a5aeaa7e32.bindPopup(popup_36f841832c4f65ba960da6081c74359c)
+        circle_marker_8a461207244ef35c245ab1928298eae7.bindPopup(popup_9ac625f0746a4a449c76b5043c6a46e0)
         ;
 
         
     
     
-            circle_marker_6bb47d6d9fa25a4c8b98a0a5aeaa7e32.bindTooltip(
+            circle_marker_8a461207244ef35c245ab1928298eae7.bindTooltip(
                 `&lt;div&gt;
                      SOLRMAP Utah Geological Survey - State Energy Program (Milford) (USEPMF)
                  &lt;/div&gt;`,
@@ -1836,28 +1837,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_483d32f94a0409c58056d420ef1d7cb6 = L.circleMarker(
+            var circle_marker_6c1c36e8f9fe68b9f6f900f5e7669190 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_6ed9853b66f661794c8555b7b76ab47f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_fa3ab4db244c747b4a1ebda115ffe9d6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_8ebe38b3f147c7eae6e0f21087eee91f = $(`&lt;div id=&quot;html_8ebe38b3f147c7eae6e0f21087eee91f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (1-Axis Tracker Status) (AUXB)&lt;/div&gt;`)[0];
-                popup_6ed9853b66f661794c8555b7b76ab47f.setContent(html_8ebe38b3f147c7eae6e0f21087eee91f);
+                var html_29f9dad0dc1b073875ef3d94ef85bfc9 = $(`&lt;div id=&quot;html_29f9dad0dc1b073875ef3d94ef85bfc9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (1-Axis Tracker Status) (AUXB)&lt;/div&gt;`)[0];
+                popup_fa3ab4db244c747b4a1ebda115ffe9d6.setContent(html_29f9dad0dc1b073875ef3d94ef85bfc9);
             
         
 
-        circle_marker_483d32f94a0409c58056d420ef1d7cb6.bindPopup(popup_6ed9853b66f661794c8555b7b76ab47f)
+        circle_marker_6c1c36e8f9fe68b9f6f900f5e7669190.bindPopup(popup_fa3ab4db244c747b4a1ebda115ffe9d6)
         ;
 
         
     
     
-            circle_marker_483d32f94a0409c58056d420ef1d7cb6.bindTooltip(
+            circle_marker_6c1c36e8f9fe68b9f6f900f5e7669190.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (1-Axis Tracker Status) (AUXB)
                  &lt;/div&gt;`,
@@ -1865,28 +1866,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_2c4ce15e892026ed58f95827673db20e = L.circleMarker(
+            var circle_marker_e8a2c0153669518d96bfe1478747c90a = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_cea22b54b902f440ffca4fa30f9bccc0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8fdd666d7805446952d4aca1c96ca56d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_cfd53a37f8214baf0175cd5fd8cfe69b = $(`&lt;div id=&quot;html_cfd53a37f8214baf0175cd5fd8cfe69b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Digital Status) (AUXG)&lt;/div&gt;`)[0];
-                popup_cea22b54b902f440ffca4fa30f9bccc0.setContent(html_cfd53a37f8214baf0175cd5fd8cfe69b);
+                var html_4a13e83dbcb36797cdc9fd831c01c6a3 = $(`&lt;div id=&quot;html_4a13e83dbcb36797cdc9fd831c01c6a3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Digital Status) (AUXG)&lt;/div&gt;`)[0];
+                popup_8fdd666d7805446952d4aca1c96ca56d.setContent(html_4a13e83dbcb36797cdc9fd831c01c6a3);
             
         
 
-        circle_marker_2c4ce15e892026ed58f95827673db20e.bindPopup(popup_cea22b54b902f440ffca4fa30f9bccc0)
+        circle_marker_e8a2c0153669518d96bfe1478747c90a.bindPopup(popup_8fdd666d7805446952d4aca1c96ca56d)
         ;
 
         
     
     
-            circle_marker_2c4ce15e892026ed58f95827673db20e.bindTooltip(
+            circle_marker_e8a2c0153669518d96bfe1478747c90a.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (Digital Status) (AUXG)
                  &lt;/div&gt;`,
@@ -1894,28 +1895,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9fcaf1ad2d9e0881154edd7487fc4e75 = L.circleMarker(
+            var circle_marker_3e03e075345d6a51f4ce48750cf4650c = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_087cb63586f7bebf35f36ab69f6ce9f7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_9ccfa78f22e0222665eceb1563ccbaaf = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_2810dbaac8a94ff3003d15c1820bf025 = $(`&lt;div id=&quot;html_2810dbaac8a94ff3003d15c1820bf025&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (High Wind Alerts) (AUXC)&lt;/div&gt;`)[0];
-                popup_087cb63586f7bebf35f36ab69f6ce9f7.setContent(html_2810dbaac8a94ff3003d15c1820bf025);
+                var html_81c366e15fddb99aca860c3c3f7f2a1f = $(`&lt;div id=&quot;html_81c366e15fddb99aca860c3c3f7f2a1f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (High Wind Alerts) (AUXC)&lt;/div&gt;`)[0];
+                popup_9ccfa78f22e0222665eceb1563ccbaaf.setContent(html_81c366e15fddb99aca860c3c3f7f2a1f);
             
         
 
-        circle_marker_9fcaf1ad2d9e0881154edd7487fc4e75.bindPopup(popup_087cb63586f7bebf35f36ab69f6ce9f7)
+        circle_marker_3e03e075345d6a51f4ce48750cf4650c.bindPopup(popup_9ccfa78f22e0222665eceb1563ccbaaf)
         ;
 
         
     
     
-            circle_marker_9fcaf1ad2d9e0881154edd7487fc4e75.bindTooltip(
+            circle_marker_3e03e075345d6a51f4ce48750cf4650c.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (High Wind Alerts) (AUXC)
                  &lt;/div&gt;`,
@@ -1923,28 +1924,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_ad574d35fa1c54026c2ba30735ff22dc = L.circleMarker(
+            var circle_marker_5b23295d0245b4939d6fb630fe651268 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_22c921b17e5f5ad38945735b482f8d26 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_f367796a2292b8fdd2b3018941858a45 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_6c8d8313772c8457a67c74d8f7afad5a = $(`&lt;div id=&quot;html_6c8d8313772c8457a67c74d8f7afad5a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Research Channels #1) (AUXE)&lt;/div&gt;`)[0];
-                popup_22c921b17e5f5ad38945735b482f8d26.setContent(html_6c8d8313772c8457a67c74d8f7afad5a);
+                var html_fe33f4e8508e9f48f328b768716f7c62 = $(`&lt;div id=&quot;html_fe33f4e8508e9f48f328b768716f7c62&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Research Channels #1) (AUXE)&lt;/div&gt;`)[0];
+                popup_f367796a2292b8fdd2b3018941858a45.setContent(html_fe33f4e8508e9f48f328b768716f7c62);
             
         
 
-        circle_marker_ad574d35fa1c54026c2ba30735ff22dc.bindPopup(popup_22c921b17e5f5ad38945735b482f8d26)
+        circle_marker_5b23295d0245b4939d6fb630fe651268.bindPopup(popup_f367796a2292b8fdd2b3018941858a45)
         ;
 
         
     
     
-            circle_marker_ad574d35fa1c54026c2ba30735ff22dc.bindTooltip(
+            circle_marker_5b23295d0245b4939d6fb630fe651268.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (Research Channels #1) (AUXE)
                  &lt;/div&gt;`,
@@ -1952,28 +1953,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_38fc2d504c85f8c40668470778e69e30 = L.circleMarker(
+            var circle_marker_a4b5b33e8930b9dae7a06ffb011ba3a5 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_70715ccbeaeddd065636aa88aacb004b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_3487be83fe29b8086794986520e1e3cd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_424d35ccdef721d2c874aa905d2cc8f2 = $(`&lt;div id=&quot;html_424d35ccdef721d2c874aa905d2cc8f2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Research Channels #2) (AUXF)&lt;/div&gt;`)[0];
-                popup_70715ccbeaeddd065636aa88aacb004b.setContent(html_424d35ccdef721d2c874aa905d2cc8f2);
+                var html_edb230f455c3fa50f62ff687ddde1e81 = $(`&lt;div id=&quot;html_edb230f455c3fa50f62ff687ddde1e81&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Research Channels #2) (AUXF)&lt;/div&gt;`)[0];
+                popup_3487be83fe29b8086794986520e1e3cd.setContent(html_edb230f455c3fa50f62ff687ddde1e81);
             
         
 
-        circle_marker_38fc2d504c85f8c40668470778e69e30.bindPopup(popup_70715ccbeaeddd065636aa88aacb004b)
+        circle_marker_a4b5b33e8930b9dae7a06ffb011ba3a5.bindPopup(popup_3487be83fe29b8086794986520e1e3cd)
         ;
 
         
     
     
-            circle_marker_38fc2d504c85f8c40668470778e69e30.bindTooltip(
+            circle_marker_a4b5b33e8930b9dae7a06ffb011ba3a5.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (Research Channels #2) (AUXF)
                  &lt;/div&gt;`,
@@ -1981,28 +1982,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_03b4a7061ba3c7694ff4dd623d4f0b29 = L.circleMarker(
+            var circle_marker_f22f5a3b3840a24c0d635cb1fb368062 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_6636485399921bd14309b2d32b2d2955 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_87bf48709eab1114f824bbaeecf9bd26 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f67f0673b18915e9fc77be75d8a18e53 = $(`&lt;div id=&quot;html_f67f0673b18915e9fc77be75d8a18e53&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Tracker and TEC Status) (AUXD)&lt;/div&gt;`)[0];
-                popup_6636485399921bd14309b2d32b2d2955.setContent(html_f67f0673b18915e9fc77be75d8a18e53);
+                var html_f86c205f3bf385c5e829f22145e53ca6 = $(`&lt;div id=&quot;html_f86c205f3bf385c5e829f22145e53ca6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (Tracker and TEC Status) (AUXD)&lt;/div&gt;`)[0];
+                popup_87bf48709eab1114f824bbaeecf9bd26.setContent(html_f86c205f3bf385c5e829f22145e53ca6);
             
         
 
-        circle_marker_03b4a7061ba3c7694ff4dd623d4f0b29.bindPopup(popup_6636485399921bd14309b2d32b2d2955)
+        circle_marker_f22f5a3b3840a24c0d635cb1fb368062.bindPopup(popup_87bf48709eab1114f824bbaeecf9bd26)
         ;
 
         
     
     
-            circle_marker_03b4a7061ba3c7694ff4dd623d4f0b29.bindTooltip(
+            circle_marker_f22f5a3b3840a24c0d635cb1fb368062.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (Tracker and TEC Status) (AUXD)
                  &lt;/div&gt;`,
@@ -2010,28 +2011,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_fb3baefd736e58a9f671816e7a97e534 = L.circleMarker(
+            var circle_marker_3f1ab3d50c83ddc34db0eabb7caf21d6 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_b18c9356267263ab451ebb3c94fee1fd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_612f5d2ddc022a367f80aa19c8c7fe33 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_07ad53c482575f6168cd50cc2f6ff59f = $(`&lt;div id=&quot;html_07ad53c482575f6168cd50cc2f6ff59f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (AUXA)&lt;/div&gt;`)[0];
-                popup_b18c9356267263ab451ebb3c94fee1fd.setContent(html_07ad53c482575f6168cd50cc2f6ff59f);
+                var html_2077e16f50dd879370e7450a19db3f2e = $(`&lt;div id=&quot;html_2077e16f50dd879370e7450a19db3f2e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL Ancillary Data (AUXA)&lt;/div&gt;`)[0];
+                popup_612f5d2ddc022a367f80aa19c8c7fe33.setContent(html_2077e16f50dd879370e7450a19db3f2e);
             
         
 
-        circle_marker_fb3baefd736e58a9f671816e7a97e534.bindPopup(popup_b18c9356267263ab451ebb3c94fee1fd)
+        circle_marker_3f1ab3d50c83ddc34db0eabb7caf21d6.bindPopup(popup_612f5d2ddc022a367f80aa19c8c7fe33)
         ;
 
         
     
     
-            circle_marker_fb3baefd736e58a9f671816e7a97e534.bindTooltip(
+            circle_marker_3f1ab3d50c83ddc34db0eabb7caf21d6.bindTooltip(
                 `&lt;div&gt;
                      SRRL Ancillary Data (AUXA)
                  &lt;/div&gt;`,
@@ -2039,28 +2040,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_39f72eec0a87da31c464973cadb2dfcd = L.circleMarker(
+            var circle_marker_d542488002585d58ce58d75e068599db = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_83b285498653e0dc998b861aeebf375c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7ddf09cabcf5e9fe7c44b07b9c129e72 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_6663d8ac67017b07ec3efa4f7d7d1204 = $(`&lt;div id=&quot;html_6663d8ac67017b07ec3efa4f7d7d1204&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (BMS-Samples) (PVSBMSMP)&lt;/div&gt;`)[0];
-                popup_83b285498653e0dc998b861aeebf375c.setContent(html_6663d8ac67017b07ec3efa4f7d7d1204);
+                var html_e19c39141b54fed779c3c1f11c03e41b = $(`&lt;div id=&quot;html_e19c39141b54fed779c3c1f11c03e41b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (BMS-Samples) (PVSBMSMP)&lt;/div&gt;`)[0];
+                popup_7ddf09cabcf5e9fe7c44b07b9c129e72.setContent(html_e19c39141b54fed779c3c1f11c03e41b);
             
         
 
-        circle_marker_39f72eec0a87da31c464973cadb2dfcd.bindPopup(popup_83b285498653e0dc998b861aeebf375c)
+        circle_marker_d542488002585d58ce58d75e068599db.bindPopup(popup_7ddf09cabcf5e9fe7c44b07b9c129e72)
         ;
 
         
     
     
-            circle_marker_39f72eec0a87da31c464973cadb2dfcd.bindTooltip(
+            circle_marker_d542488002585d58ce58d75e068599db.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (BMS-Samples) (PVSBMSMP)
                  &lt;/div&gt;`,
@@ -2068,28 +2069,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_77915d1568f51d55ce281f8e81f5fde6 = L.circleMarker(
+            var circle_marker_c303692cba29d2cfa683f832b88a300c = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_26fd56d3ebd7546b6674368032d14d9b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_f6313d11368b3c116dce9277f714e50b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_5f97351a9bfdd31a1e0706ec7038a81c = $(`&lt;div id=&quot;html_5f97351a9bfdd31a1e0706ec7038a81c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (FT-Samples) (PVSFTSMP)&lt;/div&gt;`)[0];
-                popup_26fd56d3ebd7546b6674368032d14d9b.setContent(html_5f97351a9bfdd31a1e0706ec7038a81c);
+                var html_c45343a21d68a71e0702e1318433598f = $(`&lt;div id=&quot;html_c45343a21d68a71e0702e1318433598f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (FT-Samples) (PVSFTSMP)&lt;/div&gt;`)[0];
+                popup_f6313d11368b3c116dce9277f714e50b.setContent(html_c45343a21d68a71e0702e1318433598f);
             
         
 
-        circle_marker_77915d1568f51d55ce281f8e81f5fde6.bindPopup(popup_26fd56d3ebd7546b6674368032d14d9b)
+        circle_marker_c303692cba29d2cfa683f832b88a300c.bindPopup(popup_f6313d11368b3c116dce9277f714e50b)
         ;
 
         
     
     
-            circle_marker_77915d1568f51d55ce281f8e81f5fde6.bindTooltip(
+            circle_marker_c303692cba29d2cfa683f832b88a300c.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (FT-Samples) (PVSFTSMP)
                  &lt;/div&gt;`,
@@ -2097,28 +2098,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_285dcebb9fbe45cb78b0fbf4e29735bc = L.circleMarker(
+            var circle_marker_632979d4646bb144746bd2415104b9f4 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_395bc969e3ad8a2b37fbc99bfd03e9a6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_099fbf7480738d4bb25554911a66a143 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_f755c310537a405361f3da18bb7f3a2c = $(`&lt;div id=&quot;html_f755c310537a405361f3da18bb7f3a2c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (Fixed Tilt) (PVSFT)&lt;/div&gt;`)[0];
-                popup_395bc969e3ad8a2b37fbc99bfd03e9a6.setContent(html_f755c310537a405361f3da18bb7f3a2c);
+                var html_74c588b59d514bc09e94a40c16173df8 = $(`&lt;div id=&quot;html_74c588b59d514bc09e94a40c16173df8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (Fixed Tilt) (PVSFT)&lt;/div&gt;`)[0];
+                popup_099fbf7480738d4bb25554911a66a143.setContent(html_74c588b59d514bc09e94a40c16173df8);
             
         
 
-        circle_marker_285dcebb9fbe45cb78b0fbf4e29735bc.bindPopup(popup_395bc969e3ad8a2b37fbc99bfd03e9a6)
+        circle_marker_632979d4646bb144746bd2415104b9f4.bindPopup(popup_099fbf7480738d4bb25554911a66a143)
         ;
 
         
     
     
-            circle_marker_285dcebb9fbe45cb78b0fbf4e29735bc.bindTooltip(
+            circle_marker_632979d4646bb144746bd2415104b9f4.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (Fixed Tilt) (PVSFT)
                  &lt;/div&gt;`,
@@ -2126,28 +2127,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_37362f8530b15de8c34ddbbbf7521a98 = L.circleMarker(
+            var circle_marker_4f8b648bf1edc1ae9e997319b62d2a87 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_b619fde996be2f95b413eee80ea9761f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_62443418a0bfc4a2d5596ce05ceeef9f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0e66de53fd36d0ce0caf7ab6e3d69fb1 = $(`&lt;div id=&quot;html_0e66de53fd36d0ce0caf7ab6e3d69fb1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (GH-Samples) (PVSGHSMP)&lt;/div&gt;`)[0];
-                popup_b619fde996be2f95b413eee80ea9761f.setContent(html_0e66de53fd36d0ce0caf7ab6e3d69fb1);
+                var html_1f46ca9f0809c62599cc8814ad56e989 = $(`&lt;div id=&quot;html_1f46ca9f0809c62599cc8814ad56e989&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (GH-Samples) (PVSGHSMP)&lt;/div&gt;`)[0];
+                popup_62443418a0bfc4a2d5596ce05ceeef9f.setContent(html_1f46ca9f0809c62599cc8814ad56e989);
             
         
 
-        circle_marker_37362f8530b15de8c34ddbbbf7521a98.bindPopup(popup_b619fde996be2f95b413eee80ea9761f)
+        circle_marker_4f8b648bf1edc1ae9e997319b62d2a87.bindPopup(popup_62443418a0bfc4a2d5596ce05ceeef9f)
         ;
 
         
     
     
-            circle_marker_37362f8530b15de8c34ddbbbf7521a98.bindTooltip(
+            circle_marker_4f8b648bf1edc1ae9e997319b62d2a87.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (GH-Samples) (PVSGHSMP)
                  &lt;/div&gt;`,
@@ -2155,28 +2156,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_386467c186b2fc21b9feb11a27ec6f26 = L.circleMarker(
+            var circle_marker_f8cc037c523c09a9d499332d7b1c441e = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_817a3a369384b7c4bfc937b1f4066ea9 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_6807c28874bc8b1dcfe6802ab6209415 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_e58f6a63b15fed45df8302a833098324 = $(`&lt;div id=&quot;html_e58f6a63b15fed45df8302a833098324&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (Global Horiz) (PVSGH)&lt;/div&gt;`)[0];
-                popup_817a3a369384b7c4bfc937b1f4066ea9.setContent(html_e58f6a63b15fed45df8302a833098324);
+                var html_86d3ca01a00ee9ad5fc5a27e37f7fcfd = $(`&lt;div id=&quot;html_86d3ca01a00ee9ad5fc5a27e37f7fcfd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (Global Horiz) (PVSGH)&lt;/div&gt;`)[0];
+                popup_6807c28874bc8b1dcfe6802ab6209415.setContent(html_86d3ca01a00ee9ad5fc5a27e37f7fcfd);
             
         
 
-        circle_marker_386467c186b2fc21b9feb11a27ec6f26.bindPopup(popup_817a3a369384b7c4bfc937b1f4066ea9)
+        circle_marker_f8cc037c523c09a9d499332d7b1c441e.bindPopup(popup_6807c28874bc8b1dcfe6802ab6209415)
         ;
 
         
     
     
-            circle_marker_386467c186b2fc21b9feb11a27ec6f26.bindTooltip(
+            circle_marker_f8cc037c523c09a9d499332d7b1c441e.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (Global Horiz) (PVSGH)
                  &lt;/div&gt;`,
@@ -2184,28 +2185,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_95cdfac2b69e7badb703fd256a26cb12 = L.circleMarker(
+            var circle_marker_d322a9f1f0d890bf77acbf63b39b933d = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_8403f9aad5f50da334b35ea2bba98916 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_1e981140ac142070d90cf8beb2b9d6d7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_4b985d66a3df53deac275f3b5384c224 = $(`&lt;div id=&quot;html_4b985d66a3df53deac275f3b5384c224&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (ST-Samples) (PVSSASMP)&lt;/div&gt;`)[0];
-                popup_8403f9aad5f50da334b35ea2bba98916.setContent(html_4b985d66a3df53deac275f3b5384c224);
+                var html_e5ab9618e35b97a749fb61beea527101 = $(`&lt;div id=&quot;html_e5ab9618e35b97a749fb61beea527101&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (ST-Samples) (PVSSASMP)&lt;/div&gt;`)[0];
+                popup_1e981140ac142070d90cf8beb2b9d6d7.setContent(html_e5ab9618e35b97a749fb61beea527101);
             
         
 
-        circle_marker_95cdfac2b69e7badb703fd256a26cb12.bindPopup(popup_8403f9aad5f50da334b35ea2bba98916)
+        circle_marker_d322a9f1f0d890bf77acbf63b39b933d.bindPopup(popup_1e981140ac142070d90cf8beb2b9d6d7)
         ;
 
         
     
     
-            circle_marker_95cdfac2b69e7badb703fd256a26cb12.bindTooltip(
+            circle_marker_d322a9f1f0d890bf77acbf63b39b933d.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (ST-Samples) (PVSSASMP)
                  &lt;/div&gt;`,
@@ -2213,28 +2214,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9a659bfabbfdeaece3e5fe0b68a7ed96 = L.circleMarker(
+            var circle_marker_0f61d6ba9c96997a8422f587fbc648c7 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_57e0ef892f07e9717310a5fdb90cccf2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_261b024eb075c84b050eb0ee3316a377 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_28d2266a41ee5e5d7f9c7309e74cdb80 = $(`&lt;div id=&quot;html_28d2266a41ee5e5d7f9c7309e74cdb80&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (PVSSA)&lt;/div&gt;`)[0];
-                popup_57e0ef892f07e9717310a5fdb90cccf2.setContent(html_28d2266a41ee5e5d7f9c7309e74cdb80);
+                var html_3bcaa99740345093c1ff529ae3aefc99 = $(`&lt;div id=&quot;html_3bcaa99740345093c1ff529ae3aefc99&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL PV Resource (PVSSA)&lt;/div&gt;`)[0];
+                popup_261b024eb075c84b050eb0ee3316a377.setContent(html_3bcaa99740345093c1ff529ae3aefc99);
             
         
 
-        circle_marker_9a659bfabbfdeaece3e5fe0b68a7ed96.bindPopup(popup_57e0ef892f07e9717310a5fdb90cccf2)
+        circle_marker_0f61d6ba9c96997a8422f587fbc648c7.bindPopup(popup_261b024eb075c84b050eb0ee3316a377)
         ;
 
         
     
     
-            circle_marker_9a659bfabbfdeaece3e5fe0b68a7ed96.bindTooltip(
+            circle_marker_0f61d6ba9c96997a8422f587fbc648c7.bindTooltip(
                 `&lt;div&gt;
                      SRRL PV Resource (PVSSA)
                  &lt;/div&gt;`,
@@ -2242,28 +2243,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_e2fb02c8cc1fdd9844c67f94a1649244 = L.circleMarker(
+            var circle_marker_f3aa45092184458addbda731ef580b2f = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_1affde3d2bdf1bd00da103955258b454 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_1a045f8d5ab8ca2c79ce125ec2387631 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_38e39a53b87542db4cc577a9abad4d6f = $(`&lt;div id=&quot;html_38e39a53b87542db4cc577a9abad4d6f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL SolarSIM-D2+ Direct Normal (SSIM)&lt;/div&gt;`)[0];
-                popup_1affde3d2bdf1bd00da103955258b454.setContent(html_38e39a53b87542db4cc577a9abad4d6f);
+                var html_d43f5483e8b9cb5810d6dfafccf0fe12 = $(`&lt;div id=&quot;html_d43f5483e8b9cb5810d6dfafccf0fe12&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL SolarSIM-D2+ Direct Normal (SSIM)&lt;/div&gt;`)[0];
+                popup_1a045f8d5ab8ca2c79ce125ec2387631.setContent(html_d43f5483e8b9cb5810d6dfafccf0fe12);
             
         
 
-        circle_marker_e2fb02c8cc1fdd9844c67f94a1649244.bindPopup(popup_1affde3d2bdf1bd00da103955258b454)
+        circle_marker_f3aa45092184458addbda731ef580b2f.bindPopup(popup_1a045f8d5ab8ca2c79ce125ec2387631)
         ;
 
         
     
     
-            circle_marker_e2fb02c8cc1fdd9844c67f94a1649244.bindTooltip(
+            circle_marker_f3aa45092184458addbda731ef580b2f.bindTooltip(
                 `&lt;div&gt;
                      SRRL SolarSIM-D2+ Direct Normal (SSIM)
                  &lt;/div&gt;`,
@@ -2271,28 +2272,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_b13c02846b24b6cac82201384b0a31dd = L.circleMarker(
+            var circle_marker_d19fe6f7282dc094f1576604cffdcb50 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_21c16c434fd9e8f24e0e8ca903c0757b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_08bf645addf95529135e88b2b7e7e219 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_4ab87081c75932a01be24dfe0c151c41 = $(`&lt;div id=&quot;html_4ab87081c75932a01be24dfe0c151c41&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL SolarSIM-G Global Horizontal (SSIMG)&lt;/div&gt;`)[0];
-                popup_21c16c434fd9e8f24e0e8ca903c0757b.setContent(html_4ab87081c75932a01be24dfe0c151c41);
+                var html_bd2c444dab3b4e2457ab9f687b51701e = $(`&lt;div id=&quot;html_bd2c444dab3b4e2457ab9f687b51701e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;SRRL SolarSIM-G Global Horizontal (SSIMG)&lt;/div&gt;`)[0];
+                popup_08bf645addf95529135e88b2b7e7e219.setContent(html_bd2c444dab3b4e2457ab9f687b51701e);
             
         
 
-        circle_marker_b13c02846b24b6cac82201384b0a31dd.bindPopup(popup_21c16c434fd9e8f24e0e8ca903c0757b)
+        circle_marker_d19fe6f7282dc094f1576604cffdcb50.bindPopup(popup_08bf645addf95529135e88b2b7e7e219)
         ;
 
         
     
     
-            circle_marker_b13c02846b24b6cac82201384b0a31dd.bindTooltip(
+            circle_marker_d19fe6f7282dc094f1576604cffdcb50.bindTooltip(
                 `&lt;div&gt;
                      SRRL SolarSIM-G Global Horizontal (SSIMG)
                  &lt;/div&gt;`,
@@ -2300,28 +2301,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_5bf367b4cd2e2290ea9c379beeb29512 = L.circleMarker(
+            var circle_marker_4d98550f9e01dfec0cd03c9405f9dea8 = L.circleMarker(
                 [38.54586, -121.24029],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_e37f4898207d6bdaf7b44128943c15ad = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7b5d2b203f14ab03648a21f6382f019d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_fbf75aa17f0d287a10e44481de1d6642 = $(`&lt;div id=&quot;html_fbf75aa17f0d287a10e44481de1d6642&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sacramento Municipal Utility District (Anatolia) (SMUDA)&lt;/div&gt;`)[0];
-                popup_e37f4898207d6bdaf7b44128943c15ad.setContent(html_fbf75aa17f0d287a10e44481de1d6642);
+                var html_b19d6c9f4eb01d0a57f17200ef6c5666 = $(`&lt;div id=&quot;html_b19d6c9f4eb01d0a57f17200ef6c5666&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sacramento Municipal Utility District (Anatolia) (SMUDA)&lt;/div&gt;`)[0];
+                popup_7b5d2b203f14ab03648a21f6382f019d.setContent(html_b19d6c9f4eb01d0a57f17200ef6c5666);
             
         
 
-        circle_marker_5bf367b4cd2e2290ea9c379beeb29512.bindPopup(popup_e37f4898207d6bdaf7b44128943c15ad)
+        circle_marker_4d98550f9e01dfec0cd03c9405f9dea8.bindPopup(popup_7b5d2b203f14ab03648a21f6382f019d)
         ;
 
         
     
     
-            circle_marker_5bf367b4cd2e2290ea9c379beeb29512.bindTooltip(
+            circle_marker_4d98550f9e01dfec0cd03c9405f9dea8.bindTooltip(
                 `&lt;div&gt;
                      Sacramento Municipal Utility District (Anatolia) (SMUDA)
                  &lt;/div&gt;`,
@@ -2329,28 +2330,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_ffcbe913d59293ad8eeb684e2fdd5cab = L.circleMarker(
+            var circle_marker_e3524c4f3e0112a62ef313593d21022e = L.circleMarker(
                 [32.9, -118.4833],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_ff71af0efa6be087ee48bc195f947464 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_405d877f2c27384301094a8b99d9a444 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d105dbe425e69e6825c707d3e27ba8ae = $(`&lt;div id=&quot;html_d105dbe425e69e6825c707d3e27ba8ae&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;San Clemente Island Data (SCI)&lt;/div&gt;`)[0];
-                popup_ff71af0efa6be087ee48bc195f947464.setContent(html_d105dbe425e69e6825c707d3e27ba8ae);
+                var html_31e174875ba9e5b97910253809819f5a = $(`&lt;div id=&quot;html_31e174875ba9e5b97910253809819f5a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;San Clemente Island Data (SCI)&lt;/div&gt;`)[0];
+                popup_405d877f2c27384301094a8b99d9a444.setContent(html_31e174875ba9e5b97910253809819f5a);
             
         
 
-        circle_marker_ffcbe913d59293ad8eeb684e2fdd5cab.bindPopup(popup_ff71af0efa6be087ee48bc195f947464)
+        circle_marker_e3524c4f3e0112a62ef313593d21022e.bindPopup(popup_405d877f2c27384301094a8b99d9a444)
         ;
 
         
     
     
-            circle_marker_ffcbe913d59293ad8eeb684e2fdd5cab.bindTooltip(
+            circle_marker_e3524c4f3e0112a62ef313593d21022e.bindTooltip(
                 `&lt;div&gt;
                      San Clemente Island Data (SCI)
                  &lt;/div&gt;`,
@@ -2358,28 +2359,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_8bfe07fa6fa9f859ebd5e5189166da25 = L.circleMarker(
+            var circle_marker_938af363d85462b8e3476475c9cf2754 = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_ac7403eae14a01c41cfdac92b7a03faa = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_9d4547d503523c3746d37d69adc4360f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_27ee1f97f9d1e8e988efb6c224e8bda4 = $(`&lt;div id=&quot;html_27ee1f97f9d1e8e988efb6c224e8bda4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD ESR Level 0) (AODSTAC0E)&lt;/div&gt;`)[0];
-                popup_ac7403eae14a01c41cfdac92b7a03faa.setContent(html_27ee1f97f9d1e8e988efb6c224e8bda4);
+                var html_3eee24054b6c3e3d888573bacaa9ad64 = $(`&lt;div id=&quot;html_3eee24054b6c3e3d888573bacaa9ad64&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD ESR Level 0) (AODSTAC0E)&lt;/div&gt;`)[0];
+                popup_9d4547d503523c3746d37d69adc4360f.setContent(html_3eee24054b6c3e3d888573bacaa9ad64);
             
         
 
-        circle_marker_8bfe07fa6fa9f859ebd5e5189166da25.bindPopup(popup_ac7403eae14a01c41cfdac92b7a03faa)
+        circle_marker_938af363d85462b8e3476475c9cf2754.bindPopup(popup_9d4547d503523c3746d37d69adc4360f)
         ;
 
         
     
     
-            circle_marker_8bfe07fa6fa9f859ebd5e5189166da25.bindTooltip(
+            circle_marker_938af363d85462b8e3476475c9cf2754.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (AOD ESR Level 0) (AODSTAC0E)
                  &lt;/div&gt;`,
@@ -2387,28 +2388,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_19c54321701fb45f25bff8b6ee4d5f37 = L.circleMarker(
+            var circle_marker_935854df53f9e12465f6982501c41b6a = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_9d41dbdb121fdd11eeb9622f84cf5dce = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_43b4391a2911664e152f0c1d27dc4a93 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c5a51a50ad287c124f8d6f40ed54897c = $(`&lt;div id=&quot;html_c5a51a50ad287c124f8d6f40ed54897c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD ESR Level 1.1) (AODSTAC1E)&lt;/div&gt;`)[0];
-                popup_9d41dbdb121fdd11eeb9622f84cf5dce.setContent(html_c5a51a50ad287c124f8d6f40ed54897c);
+                var html_99459e6cc5d80fe8bc016b0c75818540 = $(`&lt;div id=&quot;html_99459e6cc5d80fe8bc016b0c75818540&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD ESR Level 1.1) (AODSTAC1E)&lt;/div&gt;`)[0];
+                popup_43b4391a2911664e152f0c1d27dc4a93.setContent(html_99459e6cc5d80fe8bc016b0c75818540);
             
         
 
-        circle_marker_19c54321701fb45f25bff8b6ee4d5f37.bindPopup(popup_9d41dbdb121fdd11eeb9622f84cf5dce)
+        circle_marker_935854df53f9e12465f6982501c41b6a.bindPopup(popup_43b4391a2911664e152f0c1d27dc4a93)
         ;
 
         
     
     
-            circle_marker_19c54321701fb45f25bff8b6ee4d5f37.bindTooltip(
+            circle_marker_935854df53f9e12465f6982501c41b6a.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (AOD ESR Level 1.1) (AODSTAC1E)
                  &lt;/div&gt;`,
@@ -2416,28 +2417,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_3644f5149986fa6073e834c31bafc51d = L.circleMarker(
+            var circle_marker_3420f3cf3be2f1964ef625778f49f84f = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_b56c4b788c890d07e1229bc569a413d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e210e822a7c78b300be724cd81d5d5e3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_1eb2d60aabe3698938afe02c3c26007d = $(`&lt;div id=&quot;html_1eb2d60aabe3698938afe02c3c26007d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD SkyRad Level 0) (AODSTAC0S)&lt;/div&gt;`)[0];
-                popup_b56c4b788c890d07e1229bc569a413d1.setContent(html_1eb2d60aabe3698938afe02c3c26007d);
+                var html_1f0ef5e8543b27ebc2a86c9984c78dbf = $(`&lt;div id=&quot;html_1f0ef5e8543b27ebc2a86c9984c78dbf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD SkyRad Level 0) (AODSTAC0S)&lt;/div&gt;`)[0];
+                popup_e210e822a7c78b300be724cd81d5d5e3.setContent(html_1f0ef5e8543b27ebc2a86c9984c78dbf);
             
         
 
-        circle_marker_3644f5149986fa6073e834c31bafc51d.bindPopup(popup_b56c4b788c890d07e1229bc569a413d1)
+        circle_marker_3420f3cf3be2f1964ef625778f49f84f.bindPopup(popup_e210e822a7c78b300be724cd81d5d5e3)
         ;
 
         
     
     
-            circle_marker_3644f5149986fa6073e834c31bafc51d.bindTooltip(
+            circle_marker_3420f3cf3be2f1964ef625778f49f84f.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (AOD SkyRad Level 0) (AODSTAC0S)
                  &lt;/div&gt;`,
@@ -2445,28 +2446,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_efd9dfbd1485c6d80cf90fd30912d855 = L.circleMarker(
+            var circle_marker_35bb7861f43086bf08ea0fed3f221583 = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_e1d74cf6fd80ec4021e680d5d8b5625e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b07770fceadd54341545291c65e35b61 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_08b34c637e8ca159ece40ef32f93a59b = $(`&lt;div id=&quot;html_08b34c637e8ca159ece40ef32f93a59b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD SkyRad Level 1.1) (AODSTAC1S)&lt;/div&gt;`)[0];
-                popup_e1d74cf6fd80ec4021e680d5d8b5625e.setContent(html_08b34c637e8ca159ece40ef32f93a59b);
+                var html_92253e3a29840ae13f9d25b719a0bf85 = $(`&lt;div id=&quot;html_92253e3a29840ae13f9d25b719a0bf85&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (AOD SkyRad Level 1.1) (AODSTAC1S)&lt;/div&gt;`)[0];
+                popup_b07770fceadd54341545291c65e35b61.setContent(html_92253e3a29840ae13f9d25b719a0bf85);
             
         
 
-        circle_marker_efd9dfbd1485c6d80cf90fd30912d855.bindPopup(popup_e1d74cf6fd80ec4021e680d5d8b5625e)
+        circle_marker_35bb7861f43086bf08ea0fed3f221583.bindPopup(popup_b07770fceadd54341545291c65e35b61)
         ;
 
         
     
     
-            circle_marker_efd9dfbd1485c6d80cf90fd30912d855.bindTooltip(
+            circle_marker_35bb7861f43086bf08ea0fed3f221583.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (AOD SkyRad Level 1.1) (AODSTAC1S)
                  &lt;/div&gt;`,
@@ -2474,28 +2475,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_e55b8e2f746ca265c669e63360db73c8 = L.circleMarker(
+            var circle_marker_4ba9bd9c5feaacb9e72e28ca14d5be54 = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_57983d0c2b9a3f19209eed48f0a1b8f6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_566bbb95c6c86f5722f9548cd2f487d1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_9df0db1fe97d198124066ce450067250 = $(`&lt;div id=&quot;html_9df0db1fe97d198124066ce450067250&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (GPS-based PWV) (PWVSTAC)&lt;/div&gt;`)[0];
-                popup_57983d0c2b9a3f19209eed48f0a1b8f6.setContent(html_9df0db1fe97d198124066ce450067250);
+                var html_a879c0fdfb28720af6b54adfd444815c = $(`&lt;div id=&quot;html_a879c0fdfb28720af6b54adfd444815c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (GPS-based PWV) (PWVSTAC)&lt;/div&gt;`)[0];
+                popup_566bbb95c6c86f5722f9548cd2f487d1.setContent(html_a879c0fdfb28720af6b54adfd444815c);
             
         
 
-        circle_marker_e55b8e2f746ca265c669e63360db73c8.bindPopup(popup_57983d0c2b9a3f19209eed48f0a1b8f6)
+        circle_marker_4ba9bd9c5feaacb9e72e28ca14d5be54.bindPopup(popup_566bbb95c6c86f5722f9548cd2f487d1)
         ;
 
         
     
     
-            circle_marker_e55b8e2f746ca265c669e63360db73c8.bindTooltip(
+            circle_marker_4ba9bd9c5feaacb9e72e28ca14d5be54.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (GPS-based PWV) (PWVSTAC)
                  &lt;/div&gt;`,
@@ -2503,28 +2504,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9708e6b22fc1240b36c113f21ca201f4 = L.circleMarker(
+            var circle_marker_c5866c422228c2ae80c5d4a8cc2112a3 = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_6e86c83a2202867075fbf91a7e441b28 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8c27ccf0d182444f3c6af2f7754b0aa6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b7eeda3b3cbe50204d70db1e882208cd = $(`&lt;div id=&quot;html_b7eeda3b3cbe50204d70db1e882208cd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (SolarTAC) (STAC)&lt;/div&gt;`)[0];
-                popup_6e86c83a2202867075fbf91a7e441b28.setContent(html_b7eeda3b3cbe50204d70db1e882208cd);
+                var html_9061cad0449c3459d8befaa5f1bd7399 = $(`&lt;div id=&quot;html_9061cad0449c3459d8befaa5f1bd7399&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (SolarTAC) (STAC)&lt;/div&gt;`)[0];
+                popup_8c27ccf0d182444f3c6af2f7754b0aa6.setContent(html_9061cad0449c3459d8befaa5f1bd7399);
             
         
 
-        circle_marker_9708e6b22fc1240b36c113f21ca201f4.bindPopup(popup_6e86c83a2202867075fbf91a7e441b28)
+        circle_marker_c5866c422228c2ae80c5d4a8cc2112a3.bindPopup(popup_8c27ccf0d182444f3c6af2f7754b0aa6)
         ;
 
         
     
     
-            circle_marker_9708e6b22fc1240b36c113f21ca201f4.bindTooltip(
+            circle_marker_c5866c422228c2ae80c5d4a8cc2112a3.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (SolarTAC) (STAC)
                  &lt;/div&gt;`,
@@ -2532,28 +2533,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_2181ac822b49f58f3116e4db2719a1c7 = L.circleMarker(
+            var circle_marker_c7f683291dfde353a9352db9f739795b = L.circleMarker(
                 [39.27278, -105.62472],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_4fb1fc394a40599671281a538ca0448e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_58fdbd18d6ad0ab1016c90f59a7dbc3f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_70fe14ee3fa821bc23818b0d3f98ed7c = $(`&lt;div id=&quot;html_70fe14ee3fa821bc23818b0d3f98ed7c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;South Park Mountain Data (SPMD)&lt;/div&gt;`)[0];
-                popup_4fb1fc394a40599671281a538ca0448e.setContent(html_70fe14ee3fa821bc23818b0d3f98ed7c);
+                var html_37184d76a6c49f905423372f8d6ebadf = $(`&lt;div id=&quot;html_37184d76a6c49f905423372f8d6ebadf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;South Park Mountain Data (SPMD)&lt;/div&gt;`)[0];
+                popup_58fdbd18d6ad0ab1016c90f59a7dbc3f.setContent(html_37184d76a6c49f905423372f8d6ebadf);
             
         
 
-        circle_marker_2181ac822b49f58f3116e4db2719a1c7.bindPopup(popup_4fb1fc394a40599671281a538ca0448e)
+        circle_marker_c7f683291dfde353a9352db9f739795b.bindPopup(popup_58fdbd18d6ad0ab1016c90f59a7dbc3f)
         ;
 
         
     
     
-            circle_marker_2181ac822b49f58f3116e4db2719a1c7.bindTooltip(
+            circle_marker_c7f683291dfde353a9352db9f739795b.bindTooltip(
                 `&lt;div&gt;
                      South Park Mountain Data (SPMD)
                  &lt;/div&gt;`,
@@ -2561,28 +2562,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_3e11e82cf02ce9c7d694d31a0bb629fd = L.circleMarker(
+            var circle_marker_1d906951b988326ce88200cb0c0cce04 = L.circleMarker(
                 [37.561, -106.0864],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_a6a6142ef957d869481dbfaaaf9c8523 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_ba9114ace370dfb108ea72390143bd06 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_549f5b343392e897d436080bd8d20cd9 = $(`&lt;div id=&quot;html_549f5b343392e897d436080bd8d20cd9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sun Spot One - San Luis Valley (RSR) (SS1)&lt;/div&gt;`)[0];
-                popup_a6a6142ef957d869481dbfaaaf9c8523.setContent(html_549f5b343392e897d436080bd8d20cd9);
+                var html_cac89d21929d7ed5119db003ff8ac09f = $(`&lt;div id=&quot;html_cac89d21929d7ed5119db003ff8ac09f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Sun Spot One - San Luis Valley (RSR) (SS1)&lt;/div&gt;`)[0];
+                popup_ba9114ace370dfb108ea72390143bd06.setContent(html_cac89d21929d7ed5119db003ff8ac09f);
             
         
 
-        circle_marker_3e11e82cf02ce9c7d694d31a0bb629fd.bindPopup(popup_a6a6142ef957d869481dbfaaaf9c8523)
+        circle_marker_1d906951b988326ce88200cb0c0cce04.bindPopup(popup_ba9114ace370dfb108ea72390143bd06)
         ;
 
         
     
     
-            circle_marker_3e11e82cf02ce9c7d694d31a0bb629fd.bindTooltip(
+            circle_marker_1d906951b988326ce88200cb0c0cce04.bindTooltip(
                 `&lt;div&gt;
                      Sun Spot One - San Luis Valley (RSR) (SS1)
                  &lt;/div&gt;`,
@@ -2590,28 +2591,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_8efc0dd6849664263b22d0831bdde58f = L.circleMarker(
+            var circle_marker_3e5106ba70d477076487ec1ccfacf76f = L.circleMarker(
                 [18.3055, -64.8763],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_7f6d17fa2b9892b937037f7404147608 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_e0cdb41673c47dbc48e0dbe81244525c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_80187b4a579c3218caaf982e15a21869 = $(`&lt;div id=&quot;html_80187b4a579c3218caaf982e15a21869&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;US Virgin Islands Bovoni 2 (USVIBOVB)&lt;/div&gt;`)[0];
-                popup_7f6d17fa2b9892b937037f7404147608.setContent(html_80187b4a579c3218caaf982e15a21869);
+                var html_21022e3325ed2682cc0283b6e8ddfeda = $(`&lt;div id=&quot;html_21022e3325ed2682cc0283b6e8ddfeda&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;US Virgin Islands Bovoni 2 (USVIBOVB)&lt;/div&gt;`)[0];
+                popup_e0cdb41673c47dbc48e0dbe81244525c.setContent(html_21022e3325ed2682cc0283b6e8ddfeda);
             
         
 
-        circle_marker_8efc0dd6849664263b22d0831bdde58f.bindPopup(popup_7f6d17fa2b9892b937037f7404147608)
+        circle_marker_3e5106ba70d477076487ec1ccfacf76f.bindPopup(popup_e0cdb41673c47dbc48e0dbe81244525c)
         ;
 
         
     
     
-            circle_marker_8efc0dd6849664263b22d0831bdde58f.bindTooltip(
+            circle_marker_3e5106ba70d477076487ec1ccfacf76f.bindTooltip(
                 `&lt;div&gt;
                      US Virgin Islands Bovoni 2 (USVIBOVB)
                  &lt;/div&gt;`,
@@ -2619,28 +2620,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9d8d78be3c01701348f9772f0e3774a7 = L.circleMarker(
+            var circle_marker_971c0f3ae4caeb7d1e83029a07c853c1 = L.circleMarker(
                 [17.70799, -64.69328],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_49017be561f98a166386f057c0cd128d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_527af0bf846d4544fa8f7eabf9d0d651 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_65a377d5f57af4d2bc4786978bc612c2 = $(`&lt;div id=&quot;html_65a377d5f57af4d2bc4786978bc612c2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;US Virgin Islands Longford (USVILONA)&lt;/div&gt;`)[0];
-                popup_49017be561f98a166386f057c0cd128d.setContent(html_65a377d5f57af4d2bc4786978bc612c2);
+                var html_f56ea6fc1d1abf64613ce24c6f863ca6 = $(`&lt;div id=&quot;html_f56ea6fc1d1abf64613ce24c6f863ca6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;US Virgin Islands Longford (USVILONA)&lt;/div&gt;`)[0];
+                popup_527af0bf846d4544fa8f7eabf9d0d651.setContent(html_f56ea6fc1d1abf64613ce24c6f863ca6);
             
         
 
-        circle_marker_9d8d78be3c01701348f9772f0e3774a7.bindPopup(popup_49017be561f98a166386f057c0cd128d)
+        circle_marker_971c0f3ae4caeb7d1e83029a07c853c1.bindPopup(popup_527af0bf846d4544fa8f7eabf9d0d651)
         ;
 
         
     
     
-            circle_marker_9d8d78be3c01701348f9772f0e3774a7.bindTooltip(
+            circle_marker_971c0f3ae4caeb7d1e83029a07c853c1.bindTooltip(
                 `&lt;div&gt;
                      US Virgin Islands Longford (USVILONA)
                  &lt;/div&gt;`,
@@ -2648,28 +2649,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_c117949e24dc1e3fcf78f90cafe1addd = L.circleMarker(
+            var circle_marker_3697898910b328fa814d2f6d434c51c5 = L.circleMarker(
                 [29.626968, -82.360851],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_0cb157b51edb753e17fdbd227f94383a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_899aa99aef106f5150cbe9da6224e764 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d917992e4cd3609c8e1463fc79bbaa10 = $(`&lt;div id=&quot;html_d917992e4cd3609c8e1463fc79bbaa10&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Florida (UFL)&lt;/div&gt;`)[0];
-                popup_0cb157b51edb753e17fdbd227f94383a.setContent(html_d917992e4cd3609c8e1463fc79bbaa10);
+                var html_762c745dbe099f225e51317e45f60a05 = $(`&lt;div id=&quot;html_762c745dbe099f225e51317e45f60a05&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Florida (UFL)&lt;/div&gt;`)[0];
+                popup_899aa99aef106f5150cbe9da6224e764.setContent(html_762c745dbe099f225e51317e45f60a05);
             
         
 
-        circle_marker_c117949e24dc1e3fcf78f90cafe1addd.bindPopup(popup_0cb157b51edb753e17fdbd227f94383a)
+        circle_marker_3697898910b328fa814d2f6d434c51c5.bindPopup(popup_899aa99aef106f5150cbe9da6224e764)
         ;
 
         
     
     
-            circle_marker_c117949e24dc1e3fcf78f90cafe1addd.bindTooltip(
+            circle_marker_3697898910b328fa814d2f6d434c51c5.bindTooltip(
                 `&lt;div&gt;
                      University of Florida (UFL)
                  &lt;/div&gt;`,
@@ -2677,28 +2678,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_a93b989f4147778d5edd92447d4413aa = L.circleMarker(
+            var circle_marker_81514c07a48a386f629f27c70a41a553 = L.circleMarker(
                 [30.20506, -92.39793],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_b2cbca19376165158213a301df5fe1de = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_f32b1d3e2166b1184a51b00769d3cda3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_da5ba187f5bc7d9e1ae8594036c2be6b = $(`&lt;div id=&quot;html_da5ba187f5bc7d9e1ae8594036c2be6b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Louisiana at Lafayette (ULL)&lt;/div&gt;`)[0];
-                popup_b2cbca19376165158213a301df5fe1de.setContent(html_da5ba187f5bc7d9e1ae8594036c2be6b);
+                var html_7cf8e6d07218d473978f1bdcf24ee421 = $(`&lt;div id=&quot;html_7cf8e6d07218d473978f1bdcf24ee421&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Louisiana at Lafayette (ULL)&lt;/div&gt;`)[0];
+                popup_f32b1d3e2166b1184a51b00769d3cda3.setContent(html_7cf8e6d07218d473978f1bdcf24ee421);
             
         
 
-        circle_marker_a93b989f4147778d5edd92447d4413aa.bindPopup(popup_b2cbca19376165158213a301df5fe1de)
+        circle_marker_81514c07a48a386f629f27c70a41a553.bindPopup(popup_f32b1d3e2166b1184a51b00769d3cda3)
         ;
 
         
     
     
-            circle_marker_a93b989f4147778d5edd92447d4413aa.bindTooltip(
+            circle_marker_81514c07a48a386f629f27c70a41a553.bindTooltip(
                 `&lt;div&gt;
                      University of Louisiana at Lafayette (ULL)
                  &lt;/div&gt;`,
@@ -2706,28 +2707,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_2f3c2f29a4fcc01fa6da518c90aed1fc = L.circleMarker(
+            var circle_marker_5cd02b28dbf08b63303443036c069f91 = L.circleMarker(
                 [36.107, -115.1425],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_788fe339e0381250c5d4c1aa0c7ad27d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_aff60e055091f47561b6dc79e92ae2a7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_6b18155e95309ee8ba6f8d3c6d0bf7cf = $(`&lt;div id=&quot;html_6b18155e95309ee8ba6f8d3c6d0bf7cf&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Nevada - Las Vegas (UNLV)&lt;/div&gt;`)[0];
-                popup_788fe339e0381250c5d4c1aa0c7ad27d.setContent(html_6b18155e95309ee8ba6f8d3c6d0bf7cf);
+                var html_d0fca5d4970c9aa6957951a0cccd198d = $(`&lt;div id=&quot;html_d0fca5d4970c9aa6957951a0cccd198d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Nevada - Las Vegas (UNLV)&lt;/div&gt;`)[0];
+                popup_aff60e055091f47561b6dc79e92ae2a7.setContent(html_d0fca5d4970c9aa6957951a0cccd198d);
             
         
 
-        circle_marker_2f3c2f29a4fcc01fa6da518c90aed1fc.bindPopup(popup_788fe339e0381250c5d4c1aa0c7ad27d)
+        circle_marker_5cd02b28dbf08b63303443036c069f91.bindPopup(popup_aff60e055091f47561b6dc79e92ae2a7)
         ;
 
         
     
     
-            circle_marker_2f3c2f29a4fcc01fa6da518c90aed1fc.bindTooltip(
+            circle_marker_5cd02b28dbf08b63303443036c069f91.bindTooltip(
                 `&lt;div&gt;
                      University of Nevada - Las Vegas (UNLV)
                  &lt;/div&gt;`,
@@ -2735,28 +2736,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_12a468157255c58384e826df50ddeaf7 = L.circleMarker(
+            var circle_marker_7fa776803f0e41ef8b3e7f9907fcfb55 = L.circleMarker(
                 [44.0467, -123.0743],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_fd494403ee03d12611803a9bb4093cda = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b23ba3c8cca5dbd78028e85307da1387 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0b8aec24ac9080b005355248623cf20f = $(`&lt;div id=&quot;html_0b8aec24ac9080b005355248623cf20f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (GPS-based PWV) (PWVUO)&lt;/div&gt;`)[0];
-                popup_fd494403ee03d12611803a9bb4093cda.setContent(html_0b8aec24ac9080b005355248623cf20f);
+                var html_a696bd90f82b0e83986a38ffb1936061 = $(`&lt;div id=&quot;html_a696bd90f82b0e83986a38ffb1936061&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (GPS-based PWV) (PWVUO)&lt;/div&gt;`)[0];
+                popup_b23ba3c8cca5dbd78028e85307da1387.setContent(html_a696bd90f82b0e83986a38ffb1936061);
             
         
 
-        circle_marker_12a468157255c58384e826df50ddeaf7.bindPopup(popup_fd494403ee03d12611803a9bb4093cda)
+        circle_marker_7fa776803f0e41ef8b3e7f9907fcfb55.bindPopup(popup_b23ba3c8cca5dbd78028e85307da1387)
         ;
 
         
     
     
-            circle_marker_12a468157255c58384e826df50ddeaf7.bindTooltip(
+            circle_marker_7fa776803f0e41ef8b3e7f9907fcfb55.bindTooltip(
                 `&lt;div&gt;
                      University of Oregon (GPS-based PWV) (PWVUO)
                  &lt;/div&gt;`,
@@ -2764,28 +2765,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_0665ddd5de60bead8b83544136f8c413 = L.circleMarker(
+            var circle_marker_1a0d173b51804d3912b8915b5a3ee34b = L.circleMarker(
                 [44.0467, -123.0743],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_53b7bea47f3ed6b798185e7bbec28448 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_26cecec615e13e3cece9f2de44a2a242 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_ffeba9dc2249e90f65d82ae7faf07715 = $(`&lt;div id=&quot;html_ffeba9dc2249e90f65d82ae7faf07715&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (SRML) (UOSMRL)&lt;/div&gt;`)[0];
-                popup_53b7bea47f3ed6b798185e7bbec28448.setContent(html_ffeba9dc2249e90f65d82ae7faf07715);
+                var html_fcfb818bd0bc2957e3e1c02f6bad79a2 = $(`&lt;div id=&quot;html_fcfb818bd0bc2957e3e1c02f6bad79a2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (SRML) (UOSMRL)&lt;/div&gt;`)[0];
+                popup_26cecec615e13e3cece9f2de44a2a242.setContent(html_fcfb818bd0bc2957e3e1c02f6bad79a2);
             
         
 
-        circle_marker_0665ddd5de60bead8b83544136f8c413.bindPopup(popup_53b7bea47f3ed6b798185e7bbec28448)
+        circle_marker_1a0d173b51804d3912b8915b5a3ee34b.bindPopup(popup_26cecec615e13e3cece9f2de44a2a242)
         ;
 
         
     
     
-            circle_marker_0665ddd5de60bead8b83544136f8c413.bindTooltip(
+            circle_marker_1a0d173b51804d3912b8915b5a3ee34b.bindTooltip(
                 `&lt;div&gt;
                      University of Oregon (SRML) (UOSMRL)
                  &lt;/div&gt;`,
@@ -2793,28 +2794,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_9dca44d3c1bfc376169f341664f7bd71 = L.circleMarker(
+            var circle_marker_e0eca35fdf335e39630571c5a0c3c6f9 = L.circleMarker(
                 [26.3059, -98.1716],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_04eb23cd34fedb8b5a6d8c2160032d62 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_d5a062e339618216ba3cd1d06e639ef3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_2cda64352e194eae90c2495152282c44 = $(`&lt;div id=&quot;html_2cda64352e194eae90c2495152282c44&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Texas Rio Grande Valley Solar Radiation Lab (UTPASRL)&lt;/div&gt;`)[0];
-                popup_04eb23cd34fedb8b5a6d8c2160032d62.setContent(html_2cda64352e194eae90c2495152282c44);
+                var html_475618ba56e9ad2068b5fa8386615c2a = $(`&lt;div id=&quot;html_475618ba56e9ad2068b5fa8386615c2a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Texas Rio Grande Valley Solar Radiation Lab (UTPASRL)&lt;/div&gt;`)[0];
+                popup_d5a062e339618216ba3cd1d06e639ef3.setContent(html_475618ba56e9ad2068b5fa8386615c2a);
             
         
 
-        circle_marker_9dca44d3c1bfc376169f341664f7bd71.bindPopup(popup_04eb23cd34fedb8b5a6d8c2160032d62)
+        circle_marker_e0eca35fdf335e39630571c5a0c3c6f9.bindPopup(popup_d5a062e339618216ba3cd1d06e639ef3)
         ;
 
         
     
     
-            circle_marker_9dca44d3c1bfc376169f341664f7bd71.bindTooltip(
+            circle_marker_e0eca35fdf335e39630571c5a0c3c6f9.bindTooltip(
                 `&lt;div&gt;
                      University of Texas Rio Grande Valley Solar Radiation Lab (UTPASRL)
                  &lt;/div&gt;`,
@@ -2822,28 +2823,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_d31c5732d2d47ce646c1354cec9b21d7 = L.circleMarker(
+            var circle_marker_cdc989e7a41335cae143f34f55ad6350 = L.circleMarker(
                 [44.0467, -123.0743],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_7c44446e6b37ba398236255082b424ba = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_8d6a36bf6c4dc0fbc145783975ca4321 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_9d3369558aa34f4939f55fc0fdb997c3 = $(`&lt;div id=&quot;html_9d3369558aa34f4939f55fc0fdb997c3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;UofO PV Resource (Samples) (PVSUOSMP)&lt;/div&gt;`)[0];
-                popup_7c44446e6b37ba398236255082b424ba.setContent(html_9d3369558aa34f4939f55fc0fdb997c3);
+                var html_ffbfb3886e1ef0c0c6b2693b25c72c4b = $(`&lt;div id=&quot;html_ffbfb3886e1ef0c0c6b2693b25c72c4b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;UofO PV Resource (Samples) (PVSUOSMP)&lt;/div&gt;`)[0];
+                popup_8d6a36bf6c4dc0fbc145783975ca4321.setContent(html_ffbfb3886e1ef0c0c6b2693b25c72c4b);
             
         
 
-        circle_marker_d31c5732d2d47ce646c1354cec9b21d7.bindPopup(popup_7c44446e6b37ba398236255082b424ba)
+        circle_marker_cdc989e7a41335cae143f34f55ad6350.bindPopup(popup_8d6a36bf6c4dc0fbc145783975ca4321)
         ;
 
         
     
     
-            circle_marker_d31c5732d2d47ce646c1354cec9b21d7.bindTooltip(
+            circle_marker_cdc989e7a41335cae143f34f55ad6350.bindTooltip(
                 `&lt;div&gt;
                      UofO PV Resource (Samples) (PVSUOSMP)
                  &lt;/div&gt;`,
@@ -2851,28 +2852,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_cda0f35b1538e664d7374130a1f67f01 = L.circleMarker(
+            var circle_marker_205120b3c580ffeab40c268eff5d22b1 = L.circleMarker(
                 [44.0467, -123.0743],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_aba429275405fd726759ed36e17d06ac = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_3b37e97465186337e969341e35542fae = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_fcd4822e9c69da5753a7af3edb125355 = $(`&lt;div id=&quot;html_fcd4822e9c69da5753a7af3edb125355&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;UofO PV Resource (PVSUO)&lt;/div&gt;`)[0];
-                popup_aba429275405fd726759ed36e17d06ac.setContent(html_fcd4822e9c69da5753a7af3edb125355);
+                var html_18ce51c2cc0e06f47950a3903d89ebca = $(`&lt;div id=&quot;html_18ce51c2cc0e06f47950a3903d89ebca&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;UofO PV Resource (PVSUO)&lt;/div&gt;`)[0];
+                popup_3b37e97465186337e969341e35542fae.setContent(html_18ce51c2cc0e06f47950a3903d89ebca);
             
         
 
-        circle_marker_cda0f35b1538e664d7374130a1f67f01.bindPopup(popup_aba429275405fd726759ed36e17d06ac)
+        circle_marker_205120b3c580ffeab40c268eff5d22b1.bindPopup(popup_3b37e97465186337e969341e35542fae)
         ;
 
         
     
     
-            circle_marker_cda0f35b1538e664d7374130a1f67f01.bindTooltip(
+            circle_marker_205120b3c580ffeab40c268eff5d22b1.bindTooltip(
                 `&lt;div&gt;
                      UofO PV Resource (PVSUO)
                  &lt;/div&gt;`,
@@ -2880,28 +2881,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_99755858b065e112f2f218757d614fe8 = L.circleMarker(
+            var circle_marker_1ffe574a2087f05c72a3ee555a4704f7 = L.circleMarker(
                 [38.2098, -104.5724],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#ff422b&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#ff422b&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_d2ee79000dc3c8b035e728ca59d77139 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_5fc8bcdcf2c8b1ff40bfee1ff89ec06e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_87294c1bf1b5253e5235196500e75e52 = $(`&lt;div id=&quot;html_87294c1bf1b5253e5235196500e75e52&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Xcel Energy Comanche Station (RSR) (XECS)&lt;/div&gt;`)[0];
-                popup_d2ee79000dc3c8b035e728ca59d77139.setContent(html_87294c1bf1b5253e5235196500e75e52);
+                var html_6545e0f3d08d010ba0741b2a51584c41 = $(`&lt;div id=&quot;html_6545e0f3d08d010ba0741b2a51584c41&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Xcel Energy Comanche Station (RSR) (XECS)&lt;/div&gt;`)[0];
+                popup_5fc8bcdcf2c8b1ff40bfee1ff89ec06e.setContent(html_6545e0f3d08d010ba0741b2a51584c41);
             
         
 
-        circle_marker_99755858b065e112f2f218757d614fe8.bindPopup(popup_d2ee79000dc3c8b035e728ca59d77139)
+        circle_marker_1ffe574a2087f05c72a3ee555a4704f7.bindPopup(popup_5fc8bcdcf2c8b1ff40bfee1ff89ec06e)
         ;
 
         
     
     
-            circle_marker_99755858b065e112f2f218757d614fe8.bindTooltip(
+            circle_marker_1ffe574a2087f05c72a3ee555a4704f7.bindTooltip(
                 `&lt;div&gt;
                      Xcel Energy Comanche Station (RSR) (XECS)
                  &lt;/div&gt;`,
@@ -2909,28 +2910,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_3970473b4984f5b26f3bd2545b0bcd2b = L.circleMarker(
+            var circle_marker_ac43090956cae5b590d6e5baf3dc3bdf = L.circleMarker(
                 [44.0467, -123.0743],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_1bff69dd1c1488bd3001875c9568927c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_24f28c125969c8d79b1245dec9627360 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_3c3c2b3ad5fa8a2bd8c1be57c3a415f7 = $(`&lt;div id=&quot;html_3c3c2b3ad5fa8a2bd8c1be57c3a415f7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (SRML) (UOSMRL)&lt;/div&gt;`)[0];
-                popup_1bff69dd1c1488bd3001875c9568927c.setContent(html_3c3c2b3ad5fa8a2bd8c1be57c3a415f7);
+                var html_6aac8654afd5c01733645fc9cc9f8607 = $(`&lt;div id=&quot;html_6aac8654afd5c01733645fc9cc9f8607&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;University of Oregon (SRML) (UOSMRL)&lt;/div&gt;`)[0];
+                popup_24f28c125969c8d79b1245dec9627360.setContent(html_6aac8654afd5c01733645fc9cc9f8607);
             
         
 
-        circle_marker_3970473b4984f5b26f3bd2545b0bcd2b.bindPopup(popup_1bff69dd1c1488bd3001875c9568927c)
+        circle_marker_ac43090956cae5b590d6e5baf3dc3bdf.bindPopup(popup_24f28c125969c8d79b1245dec9627360)
         ;
 
         
     
     
-            circle_marker_3970473b4984f5b26f3bd2545b0bcd2b.bindTooltip(
+            circle_marker_ac43090956cae5b590d6e5baf3dc3bdf.bindTooltip(
                 `&lt;div&gt;
                      University of Oregon (SRML) (UOSMRL)
                  &lt;/div&gt;`,
@@ -2938,28 +2939,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_14dca240ffb3f95da7bdb3e88b1e9f86 = L.circleMarker(
+            var circle_marker_0388416ec8fad1fe5445001204e28362 = L.circleMarker(
                 [39.7423, -105.1785],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_6d4de19332481b887aec26dd910a1e24 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_21fd9bd1961c13646900de4ff251ee84 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_bfe3bd8fa675a961fa5367c1546c7438 = $(`&lt;div id=&quot;html_bfe3bd8fa675a961fa5367c1546c7438&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BMS) (BMS)&lt;/div&gt;`)[0];
-                popup_6d4de19332481b887aec26dd910a1e24.setContent(html_bfe3bd8fa675a961fa5367c1546c7438);
+                var html_1bebec3a4507f3d1837fac223084a053 = $(`&lt;div id=&quot;html_1bebec3a4507f3d1837fac223084a053&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;NREL Solar Radiation Research Laboratory (BMS) (BMS)&lt;/div&gt;`)[0];
+                popup_21fd9bd1961c13646900de4ff251ee84.setContent(html_1bebec3a4507f3d1837fac223084a053);
             
         
 
-        circle_marker_14dca240ffb3f95da7bdb3e88b1e9f86.bindPopup(popup_6d4de19332481b887aec26dd910a1e24)
+        circle_marker_0388416ec8fad1fe5445001204e28362.bindPopup(popup_21fd9bd1961c13646900de4ff251ee84)
         ;
 
         
     
     
-            circle_marker_14dca240ffb3f95da7bdb3e88b1e9f86.bindTooltip(
+            circle_marker_0388416ec8fad1fe5445001204e28362.bindTooltip(
                 `&lt;div&gt;
                      NREL Solar Radiation Research Laboratory (BMS) (BMS)
                  &lt;/div&gt;`,
@@ -2967,28 +2968,28 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var circle_marker_05eb213e6546495eb7a810490d130c99 = L.circleMarker(
+            var circle_marker_3ff760648fb42ecb8197e01288ab4c34 = L.circleMarker(
                 [39.75685, -104.62025],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#008000&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#008000&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 5, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-        var popup_350790bdf2856b83fef1a2e6991cd739 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_490d670f5e2e1835037fd910f888eaf1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_0787b38e068e16aa18fe54622249d3d3 = $(`&lt;div id=&quot;html_0787b38e068e16aa18fe54622249d3d3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (SolarTAC) (STAC)&lt;/div&gt;`)[0];
-                popup_350790bdf2856b83fef1a2e6991cd739.setContent(html_0787b38e068e16aa18fe54622249d3d3);
+                var html_9a4a88deb09702268333b6c6ecc42aed = $(`&lt;div id=&quot;html_9a4a88deb09702268333b6c6ecc42aed&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Solar Technology Acceleration Center (SolarTAC) (STAC)&lt;/div&gt;`)[0];
+                popup_490d670f5e2e1835037fd910f888eaf1.setContent(html_9a4a88deb09702268333b6c6ecc42aed);
             
         
 
-        circle_marker_05eb213e6546495eb7a810490d130c99.bindPopup(popup_350790bdf2856b83fef1a2e6991cd739)
+        circle_marker_3ff760648fb42ecb8197e01288ab4c34.bindPopup(popup_490d670f5e2e1835037fd910f888eaf1)
         ;
 
         
     
     
-            circle_marker_05eb213e6546495eb7a810490d130c99.bindTooltip(
+            circle_marker_3ff760648fb42ecb8197e01288ab4c34.bindTooltip(
                 `&lt;div&gt;
                      Solar Technology Acceleration Center (SolarTAC) (STAC)
                  &lt;/div&gt;`,
@@ -2996,42 +2997,42 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
             );
         
     
-            var tile_layer_ea8efb96355bd44451129325fb0be73e = L.tileLayer(
+            var tile_layer_14efd9d0af5c63da41c875f01abc0501 = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {&quot;attribution&quot;: &quot;Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community&quot;, &quot;detectRetina&quot;: false, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            var layer_control_b4edb5de477de166bf01bf00b2d74c60_layers = {
+            var layer_control_8866fe11e47fca9cc94513c7328d2f9b_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_131358d15a6aebd69f9f91d707ebde4a,
-                    &quot;World imagery&quot; : tile_layer_ea8efb96355bd44451129325fb0be73e,
+                    &quot;openstreetmap&quot; : tile_layer_418702ed3202a680d475b0f040f9d03d,
+                    &quot;World imagery&quot; : tile_layer_14efd9d0af5c63da41c875f01abc0501,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_b4edb5de477de166bf01bf00b2d74c60 = L.control.layers(
-                layer_control_b4edb5de477de166bf01bf00b2d74c60_layers.base_layers,
-                layer_control_b4edb5de477de166bf01bf00b2d74c60_layers.overlays,
+            let layer_control_8866fe11e47fca9cc94513c7328d2f9b = L.control.layers(
+                layer_control_8866fe11e47fca9cc94513c7328d2f9b_layers.base_layers,
+                layer_control_8866fe11e47fca9cc94513c7328d2f9b_layers.overlays,
                 {&quot;autoZIndex&quot;: true, &quot;collapsed&quot;: true, &quot;position&quot;: &quot;topright&quot;}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
 
         
     
             L.control.fullscreen(
                 {&quot;forceSeparateButton&quot;: false, &quot;position&quot;: &quot;bottomright&quot;, &quot;title&quot;: &quot;Full Screen&quot;, &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;}
-            ).addTo(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+            ).addTo(map_9ad83f108a6aa3883181fe26fa5a8a4b);
         
     
-                var lat_lng_popup_4f896a7ee2dde5ec19cd7e2c7f3b0f06 = L.popup();
+                var lat_lng_popup_f3a8ef932fa2d22b7cf23417b24ebea7 = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_4f896a7ee2dde5ec19cd7e2c7f3b0f06
+                    lat_lng_popup_f3a8ef932fa2d22b7cf23417b24ebea7
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_0ba44b9b4f5913137d3e69b9c3b3054a);
+                        .openOn(map_9ad83f108a6aa3883181fe26fa5a8a4b);
                     }
-                map_0ba44b9b4f5913137d3e69b9c3b3054a.on(&#x27;click&#x27;, latLngPop);
+                map_9ad83f108a6aa3883181fe26fa5a8a4b.on(&#x27;click&#x27;, latLngPop);
             
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
@@ -3062,7 +3063,7 @@ Measurement System (BMS); Golden, Colorado (Data); NREL Report No. DA-5500-56488
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><table id="itables_4a532ea1_da52_48d2_9972_07355a715380" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
+<div class="output text_html"><table id="itables_45094eb2_e03b_43f0_9fcb_02c69a806bf7" class="display nowrap" data-quarto-disable-processing="true" style="table-layout:auto;width:auto;margin:auto;caption-side:bottom">
 <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -3176,7 +3177,7 @@ Loading ITables v2.2.2 from the <code>init_notebook_mode</code> cell...
 <script type="module">
     const { DataTable, jQuery: $ } = await import(window._datatables_src_for_itables_2_2_2);
 
-    document.querySelectorAll("#itables_4a532ea1_da52_48d2_9972_07355a715380:not(.dataTable)").forEach(table => {
+    document.querySelectorAll("#itables_45094eb2_e03b_43f0_9fcb_02c69a806bf7:not(.dataTable)").forEach(table => {
         if (!(table instanceof HTMLTableElement))
             return;
 
