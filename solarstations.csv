@@ -20,7 +20,7 @@ Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN
 De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,G;B;D
 Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR
 Concordia Station & Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006-,BSRN,,,,Freely,G;B;D
-Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,?,BSRN,,Candidate,,Freely,G;B;D
+Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,?,,National Central University Taiwan,Previously a BSRN provisional station.,https://gml.noaa.gov/dv/site/index.php?stacode=DSI,Freely,G;B;D
 Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,G;B;D
 Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,G;B;D
 Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,G;B;D
@@ -44,7 +44,7 @@ Lampedusa,LMP,,Italy,35.5180,12.6300,50.0,2023-,BSRN,,,,Freely,G;B;D
 Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,G;B;D
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,G;B;D
 Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,G;B;D
-Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,G;B;D
+Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,BSRN,,Previously a BSRN provisional stations.,http://lulin.tw/,Freely,G;B;D
 Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,G;B;D
 Lanyu Station,LYU,,Taiwan,22.037,121.5583,324,2018-,BSRN,,,,Freely,G;B;D
 Momote,MAN,,Papua New Guinea,-2.058,147.425,6,1996-2013,BSRN,,,,Freely,G;B;D
