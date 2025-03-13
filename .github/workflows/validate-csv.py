@@ -157,7 +157,7 @@ if __name__ == "__main__":
             log_output = f"solarstations.csv, line {line_num}: {msg}"
             print(log_output)
 
-            found_a_problem = True
+            found_a_problem += 1  # Increment to fail in either case
 
     if found_a_problem:
         sys.exit(1)  # fail the GH Action
