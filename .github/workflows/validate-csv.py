@@ -157,7 +157,7 @@ if __name__ == "__main__":
                 log_output = f"{filename}, line {line_num}: {msg}"
                 print(log_output)
 
-                found_a_problem = True
+                found_a_problem += 1  # increment to fail the action in either case
 
     if found_a_problem:
         sys.exit(1)  # fail the GH Action
