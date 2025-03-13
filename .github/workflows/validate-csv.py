@@ -138,8 +138,7 @@ validation_functions = [
 
 if __name__ == "__main__":
 
-    filename = 'solarstations.csv'
-    for filename in ['solarstations.csv', 'esamp_stations.csv']:
+    for filename in ['solarstations.csv', 'esmap_stations.csv']:
         df = pd.read_csv(filename)
 
         found_a_problem = False
