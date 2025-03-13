@@ -50,7 +50,7 @@ def check_elevation(row):
         return None  # elevation is optional
 
     if not isinstance(elevation, (int, float)):
-        return f"Elevation must be type 'float': {elevation}"
+        return f"Elevation must be type 'int' or float': {elevation}"
     if not -500 < elevation < 9000:
         return f"Elevation must be between -500 and 9000 meters: {elevation}"
 
