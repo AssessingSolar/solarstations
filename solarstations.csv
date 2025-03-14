@@ -707,3 +707,8 @@ Nevada Power Clark Station,NPC,Nevada,USA,36.08581,-115.05189,523,2006-2015,MIDC
 BMSOLx Black Mountain,,Canberra,Australia,-35.275,149.1136,595,2012-2014,,CSIRO,Unknown status.,https://www.csiro.au/en/about/locations/state-locations/ACT/Black-Mountain,,G;B;D
 Helmos Hellenic Atmospheric Aerosol & Climate Change station,Helmos Mt,,Greece,37.98399,22.19589,2314,2024-,CHOPIN,NCSR-Demokritos,,https://www.epfl.ch/labs/lapi/chopin-campaign/,Upon request,G;B;D
 Monte Cimone,,,Italy,44.19350,10.70069,2165,2004-,CHOPIN;GAW-WMO,National Research Council (CNR),,https://cimone.isac.cnr.it/,Freely,G;B;D
+Gangneung-Wonju National University,GWNU,,South Korea,37.7707,128.8661,63.5,2010-,,Gangneung-Wonju National University,,Solar radiation is blocked by mountains during the sunset,,,G;B;D;IR
+Kookmin University,KMU,,South Korea,37.61200,126.99770,140,2018-?,,Kookmin University,,,,G;B;D
+ENEA Portici,,,Italy,40.8066,14.3368,,?,,ENEA,,,Upon request,G;B;D
+ENEA Casaccia,,,Italy,42.0419,12.3039,,?,,ENEA,,,Upon request,G;B;D
+RSE Piacenza,,,Italy,45.03,9.76,?,,RSE,,,,G;B;D
