@@ -725,5 +725,5 @@ Sacramento Municipal Utility District (Anatolia),SMUDA,California,USA,38.54586,-
 Xcel Energy Comanche Station,XECS,Colorado,USA,38.2098,-104.5724,1490,2007-2011,MIDC,NREL,During winter months data from this station may be affected by shading from nearby stacks or steam plumes. Users should understand these effects if trying to use the data for general solar resource assessment,https://midcdmz.nrel.gov/apps/sitehome.pl?site=XECS,Freely,RSR
 Burgos,,,Spain,42.351111,-3.688889,856,?,,Burgos University,Also has an all sky imager and sky scanner of illuminance.,,,G;B;D
 Dubai,,,United Arab Emirates,24.77,55.36,,2022-?,,Dubai Electricity and Water Authority (DEWA),Dubai Electricity and Water Authority’s (DEWA) Research and Development Center Outdoor Testing Facility (OTF) monitoring station.,,,G;B;D
-Chilbolton,,,United Kingdom,51.145,-1.438,?-,,Chilbolton Observatory,Coordinates are approximate. Upwelling irradiances are also available.,https://www.chilbolton.stfc.ac.uk/Pages/Solar-and-infrared-upwelling-and-downwelling-radiation.aspx,Freely,G;B;D;IR
+Chilbolton,,,United Kingdom,51.14270,-1.4270,,2013-,,Chilbolton Observatory,Coordinates are approximate. Upwelling irradiances are also available.,https://www.chilbolton.stfc.ac.uk/Pages/Solar-and-infrared-upwelling-and-downwelling-radiation.aspx,Freely,G;B;D;IR
 
