@@ -49,8 +49,8 @@ def check_elevation(row):
     if np.isnan(elevation):
         return None  # elevation is optional
 
-    if not isinstance(elevation, float):
-        return f"Elevation must be type 'float': {elevation}"
+    if not isinstance(elevation, (int, float)):
+        return f"Elevation must be type 'int' or float': {elevation}"
     if not -500 < elevation < 9000:
         return f"Elevation must be between -500 and 9000 meters: {elevation}"
 
@@ -119,7 +119,7 @@ def check_time_period(row):
         except ValueError:
             return f"Not a valid time period: {time_period}"
     elif len(time_period) > 9:
-        pass # unable to assess the time period, e.g., "2020-2022&2023-"
+        pass  # unable to assess the time period, e.g., "2020-2022&2023-"
     elif time_period == '?':
         pass
     else:
@@ -138,26 +138,26 @@ validation_functions = [
 
 if __name__ == "__main__":
 
-    filename = 'solarstations.csv'
-    df = pd.read_csv(filename)
-
     found_a_problem = False
 
-    for i, row in df.iterrows():
-        for func in validation_functions:
-            try:
-                msg = func(row)
-                if msg is None:
-                    continue
-            except Exception as e:
-                msg = str(e)
+    for filename in ['solarstations.csv', 'esmap_stations.csv']:
+        df = pd.read_csv(filename)
 
-            check_name = func.__name__
-            line_num = i + 2  # +1 for header, +1 for zero-based indexing
-            log_output = f"solarstations.csv, line {line_num}: {msg}"
-            print(log_output)
+        for i, row in df.iterrows():
+            for func in validation_functions:
+                try:
+                    msg = func(row)
+                    if msg is None:
+                        continue
+                except Exception as e:
+                    msg = str(e)
 
-            found_a_problem = True
+                check_name = func.__name__
+                line_num = i + 2  # +1 for header, +1 for zero-based indexing
+                log_output = f"{filename}, line {line_num}: {msg}"
+                print(log_output)
+
+                found_a_problem += 1  # increment to fail the action in either case
 
     if found_a_problem:
         sys.exit(1)  # fail the GH Action

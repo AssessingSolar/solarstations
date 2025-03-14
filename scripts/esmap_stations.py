@@ -16,10 +16,17 @@ columns_dict = {
     'Equipment Owner': 'Owner',
 }
 
+country_corrections = {
+    'Guinée-Bissau': 'Guinea-Bissau',  # Change to English spelling
+    'Bénin': 'Benin',  # Change to English spelling
+    'Guinée': 'Guinea',  # Change to English spelling
+}
+
 esmap = esmap.rename(columns=columns_dict)
 
 esmap['Network'] = 'ESMAP'
 
+pd.set_option('future.no_silent_downcasting', True)  # avoid warning
 esmap['Tier'] = ''
 esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier1').fillna(False), 'Tier'] = 1
 esmap.loc[esmap['Equipment Type'].str.strip().str.contains('Tier2').fillna(False), 'Tier'] = 2
@@ -45,6 +52,8 @@ for index, row in esmap.iterrows():
     if row['Station name'] in stations['Station name'].values:
         if row['Station name'] not in ['Hyderabad', 'Peshawar']:
             duplicate_rows.append(index)
+    if row['Country'] in country_corrections.keys():
+        esmap.loc[index, 'Country'] = country_corrections[row['Country']]
 
 esmap = esmap.drop(duplicate_rows)
 
