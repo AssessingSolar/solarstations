@@ -1,84 +1,84 @@
 Station name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Instrumentation
-Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,,,Freely,G;B;D
-Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,G;B;D
+Abashiri,ABS,,Japan,44.0178,144.2797,38,2021-,BSRN,,,,Freely,G;B;D;IR
+Alert,ALE,Lincoln Sea,Canada,82.49,-62.42,127,2004-2014,BSRN,,,,Freely,G;B;D;IR
 Alice Springs,ASP,Northern Territory,Australia,-23.7951,133.8890,546,1995-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR
-Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,G;B;D
-Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013& 2016-,BSRN,,,,Freely,G;B;D
-Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,G;B;D
-Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,G;B;D
-Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,G;B;D
-Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,G;B;D
+Barrow,BAR,Alaska,USA,71.323,-156.607,8,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/brw/,Freely,G;B;D;IR
+Bermuda,BER,Bermuda,USA,32.267,-64.667,8,1992-2013&2016-,BSRN,,,,Freely,G;B;D;IR
+Billings,BIL,Oklahoma,USA,36.605,-97.516,317,1993-,BSRN,,,,Freely,G;B;D;IR
+Bondville,BON,Illinois,USA,40.05192,-88.37309,230,1995-,BSRN; SURFRAD,NOAA,,http://www.srrb.noaa.gov/surfrad/bondvill.html,Freely,G;B;D;IR
+Boulder,BOS,Colorado,USA,40.12498,-105.23680,1689,1995-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/tablemt.html,Freely,G;B;D;IR
+Boulder,BOU,Colorado,USA,40.05,-105.007,1577,1992-2016,BSRN,,,,Freely,G;B;D;IR
 Brasilia,BRB,,Brazil,-15.601259,-47.713774,1023,2006-2015&2018-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/brasilia.html,Freely,G;B;D;IR
-Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,G;B;D
-Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,G;B;D
-Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,G;B;D
-Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,G;B;D
-Carpentras,CAR,,France,44.083,5.059,100,1996-2018,BSRN;WMO RRC,,,,Freely,G;B;D
-Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,G;B;D
-Cener,CNR,Navarra,Spain,42.816,-1.601,471,2009-,BSRN,,,,Freely,G;B;D
-Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D
-De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,G;B;D
+Budapest-Lorinc,BUD,Budapest,Hungary,47.4291,19.1822,139.1,2019-,BSRN;WMO RRC,,,,Freely,G;B;D;IR
+Cabauw,CAB,,Netherlands,51.9711,4.9267,0,2005-,BSRN,,,https://dataplatform.knmi.nl/dataset/cesar-bsrn-irraddown-la1-t1-v1-0,Freely,G;B;D;IR
+Camborne,CAM,,United Kingdom,50.2167,-5.3167,88,2001-,BSRN,,,https://epic.awi.de/id/eprint/40425/1/Camborne_BSRN_Station_Info.pdf,Freely,G;B;D;IR
+Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,G;B;D;IR
+Carpentras,CAR,,France,44.083,5.059,100,1996-2018,BSRN;WMO RRC,,,,Freely,G;B;D;IR
+Chesapeake Light,CLH,North Atlantic Ocean,USA,36.905,-75.713,37,2000-2016,BSRN,NASA,Closed due to structural issues,https://science.larc.nasa.gov/crave/,Freely,G;B;D;IR
+Cener,CNR,Navarra,Spain,42.816,-1.601,471,2009-,BSRN,,,,Freely,G;B;D;IR
+Cocos Island,COC,Cocos (Keeling) Islands,Australia,-12.1892,96.8344,3,2004-,BSRN,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR
+De Aar,DAA,,South Africa,-30.6667,23.993,1287,2000-,BSRN,,,,Freely,G;B;D;IR
 Darwin,DAR,Northern Territory,Australia,-12.4239,130.8925,30.4,2002-2021,BSRN,BOM,BSRN data available until 2015,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR
-Concordia Station& Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006-,BSRN,,,,Freely,G;B;D
-Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,?,BSRN,,Candidate,,Freely,G;B;D
-Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,G;B;D
-Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,G;B;D
-Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,G;B;D
-Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015-,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,G;B;D
-Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,"https://en.wikipedia.org/wiki/Eureka,_Nunavut",Freely,G;B;D
+Concordia Station & Dome C,DOM,,Antarctica,-75.1,123.383,3233,2006-,BSRN,,,,Freely,G;B;D;IR
+Dongsha Atoll,DON,,Taiwan,20.7,116.73,2,?,,National Central University Taiwan,Previously a BSRN provisional station.,https://gml.noaa.gov/dv/site/index.php?stacode=DSI,Freely,G;B;D
+Desert Rock,DRA,Nevada,USA,36.62373,-116.01947,1007,1994-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/desrock.html,Freely,G;B;D;IR
+Darwin Met Office,DWN,Northern Territory,Australia,-12.424,130.8925,32,2008-,BSRN,,,,Freely,G;B;D;IR
+Southern Great Plains,E13,Oklahoma,USA,36.60406,-97.48525,314,1994-,BSRN; ARM,,,http://www.arm.gov/sites/sgp,Freely,G;B;D;IR
+Eastern North Atlantic,ENA,Azores,Portugal,39.0911,-28.0292,15.2,2015-,BSRN; ARM,,Ongoing issues with calibration.,https://www.arm.gov/capabilities/observatories/ena/locations/c1,Freely,G;B;D;IR
+Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka%2C_Nunavut,Freely,G;B;D;IR
 Florianopolis,FLO;FLN,,Brazil,-27.6017,-48.5178,31,1994-2005&2013-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/florianopolis.html,Freely,G;B;D;IR
-Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,G;B;D
-Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,G;B;D
-Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D
-Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,G;B;D
-Granite Island,GIM,Michigan,USA,46.721,-87.411,208,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,G;B;D
-Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407,2012-,BSRN,,,,Freely,G;B;D
-Gurgaon,GUR,,India,28.4249,77.156,259,2014-2015& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D
-Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42,1982-,BSRN,,Neumayer-station II from 1992-2009& Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,G;B;D
-Howrah,HOW,,India,22.5535,88.3064,51,2014-2016& 2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D
-Ilorin,ILO,,Nigeria,8.5333,4.5667,350,1992-2005,BSRN,,Station closed due to no funding,,Freely,G;B;D
-Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,G;B;D
-Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,G;B;D
-Kwajalein,KWA,,Marshall Islands,8.72,167.731,10,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,G;B;D
-Lampedusa,LMP,,Italy,35.5180,12.6300,50.0,2023-,BSRN,,,,Freely,G;B;D
-Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,G;B;D
-Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,G;B;D
-Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,G;B;D
-Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,BSRN,,Not on Pangea or FTP,http://lulin.tw/,Freely,G;B;D
-Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,G;B;D
-Lanyu Station,LYU,,Taiwan,22.037,121.5583,324,2018-,BSRN,,,,Freely,G;B;D
-Momote,MAN,,Papua New Guinea,-2.058,147.425,6,1996-2013,BSRN,,,,Freely,G;B;D
-Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,G;B;D
-Marguele,MRS,,Romania,44.3439,26.0123,110,?,BSRN,,Candidate Station (no. 88),,Freely,G;B;D
-Nauru Island,NAU,,Nauru,-0.521,166.9167,7,1998-2013,BSRN,,,,Freely,G;B;D
-Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,G;B;D
-Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/fleet-stations/stations/awipev-arctic-research-base.html,Freely,G;B;D
-Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,G;B;D
-Palaiseau& SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,G;B;D
-Paramaribo,PAR,,Suriname,5.806,-55.2146,4,2019-,BSRN,,,,Freely,G;B;D
-Payerne,PAY,,Switzerland,46.8123,6.9422,491,1992-,BSRN,MeteoSwiss,,,Freely,G;B;D
-Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,G;B;D
+Fort Peck,FPE,Montana,USA,48.30783,-105.10170,634,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/ftpeck.html,Freely,G;B;D;IR
+Fukuoka,FUA,,Japan,33.5822,130.3764,3,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,G;B;D;IR
+Gandhinagar,GAN,,India,23.1101,72.6276,65,2014-2015&2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D;IR
+Goodwin Creek,GCR,Mississippi,USA,34.2547,-89.8729,98,1995-,BSRN;SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/goodwin.html,Freely,G;B;D;IR
+Granite Island,GIM,Michigan,USA,46.721,-87.411,208,2019-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,G;B;D;IR
+Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407,2012-,BSRN,,,,Freely,G;B;D;IR
+Gurgaon,GUR,,India,28.4249,77.156,259,2014-2015&2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D;IR
+Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42,1982-,BSRN,,Neumayer-station II from 1992-2009 & Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,G;B;D;IR
+Howrah,HOW,,India,22.5535,88.3064,51,2014-2016&2018-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D;IR
+Ilorin,ILO,,Nigeria,8.5333,4.5667,350,1992-2005,BSRN,,Station closed due to no funding,,Freely,G;B;D;IR
+Ishigakijima,ISH,,Japan,24.3367,124.1644,5.7,2010-,BSRN,,,,Freely,G;B;D;IR
+Izaña,IZA,Tenerife,Spain,28.3093,-16.4993,2372.9,2009-,BSRN,,,,Freely,G;B;D;IR
+Kwajalein,KWA,,Marshall Islands,8.72,167.731,10,1992-2017,BSRN,,,https://gml.noaa.gov/grad/sites/kwa.html,Freely,G;B;D;IR
+Lampedusa,LMP,,Italy,35.5180,12.6300,50.0,2023-,BSRN,,,,Freely,G;B;D;IR
+Lauder,LAU,,New Zealand,-45.045,169.689,350,1999-,BSRN,,,,Freely,G;B;D;IR
+Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,G;B;D;IR
+Lindenberg,LIN,,Germany,52.21,14.122,125,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,G;B;D;IR
+Lulin,LLN,,Taiwan,23.4686,120.8736,2862,2009-,,,Previously a BSRN provisional stations.,http://lulin.tw/,Freely,G;B;D
+Langley Research Center,LRC,Virginia,USA,37.1038,-76.3872,3,2014-,BSRN,NASA,,https://science.larc.nasa.gov/crave/,Freely,G;B;D;IR
+Lanyu Station,LYU,,Taiwan,22.037,121.5583,324,2018-,BSRN,,,,Freely,G;B;D;IR
+Momote,MAN,,Papua New Guinea,-2.058,147.425,6,1996-2013,BSRN,,,,Freely,G;B;D;IR
+Minamitorishima,MNM,Minami-Torishima,Japan,24.2883,153.9833,7.1,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/3/Minamitorishima.pdf,Freely,G;B;D;IR
+Marguele,MRS,,Romania,44.3439,26.0123,110,?,BSRN,,Candidate Station (no. 88),,Freely,G;B;D;IR
+Nauru Island,NAU,,Nauru,-0.521,166.9167,7,1998-2013,BSRN,,,,Freely,G;B;D;IR
+Newcastle,NEW,New South Wales,Australia,-32.8842,151.7289,18.5,2017-,BSRN,,,,Freely,G;B;D;IR
+Ny-Ålesund,NYA,Spitsberger,Norway,78.925,11.93,11,1992-,BSRN,,,https://www.awi.de/en/fleet-stations/stations/awipev-arctic-research-base.html,Freely,G;B;D;IR
+Observatory of Huancayo,OHY,,Peru,-12.05,-75.32,3314,2017-,BSRN,,,,Freely,G;B;D;IR
+Palaiseau & SIRTA Observatory,PAL,,France,48.713,2.208,156,2003-,BSRN,,,,Freely,G;B;D;IR
+Paramaribo,PAR,,Suriname,5.806,-55.2146,4,2019-,BSRN,,,,Freely,G;B;D;IR
+Payerne,PAY,,Switzerland,46.8123,6.9422,491,1992-,BSRN,MeteoSwiss,,,Freely,G;B;D;IR
+Rock Springs,PSU,Pennsylvania,USA,40.72012,-77.93085,376,1998-,BSRN;SURFRAD,NOAA,SURFRAD station known as Penn State,https://gml.noaa.gov/grad/surfrad/pennstat.html,Freely,G;B;D;IR
 Petrolina,PTR,,Brazil,-9.068,-40.319,387,2006-,BSRN;SONDA,INPE,SONDA station (2004-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/petrolina.html,Freely,G;B;D;IR
-Regina,REG,,Canada,50.205,-104.713,578,1995-2011,BSRN,,,,Freely,G;B;D
-Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of data available.,,Freely,G;B;D
-Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freely,G;B;D
-Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,G;B;D
-Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,G;B;D
-Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602,2017-,BSRN,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D
+Regina,REG,,Canada,50.205,-104.713,578,1995-2011,BSRN,,,,Freely,G;B;D;IR
+Rolim de Moura,RLM,,Brazil,-11.582,-61.773,252,2007,BSRN,,Only two months of data available.,,Freely,G;B;D;IR
+Reunion Island & University,RUN,,Reunion,-20.9014,55.4836,116,2019-,BSRN,,,,Freely,G;B;D;IR
+Sapporo,SAP,,Japan,43.06,141.3286,17.2,2010-2020,BSRN,,,https://epic.awi.de/id/eprint/36862/28/Sapporo.pdf,Freely,G;B;D;IR
+Sede Boqer,SBO,,Israel,30.8597,34.7794,500,2003-2012,BSRN,,,,Freely,G;B;D;IR
+Selegua - Mexico Solarimetric Station,SEL,,Mexico,15.7839,-91.9902,602,2017-,BSRN,Mexican Solarimetric Service,BSRN data from 2020.,https://solarimetrico.geofisica.unam.mx/,,G;B;D;IR
 São Martinho da Serra,SMS,,Brazil,-29.4428,-53.8231,489,2006-,BSRN;SONDA,INPE,SONDA station (2005-2019). No maintenance between 2016-2017.,http://sonda.ccst.inpe.br/basedados/saomartinho.html,Freely,G;B;D;IR
-Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,G;B;D
-Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D
-South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,G;B;D
-Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,G;B;D
-Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,G;B;D
-Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,G;B;D
+Sonnblick,SON,,Austria,47.054,12.9577,3108.9,2013-,BSRN;ARAD,,,https://www.sonnblick.net/en/,Freely,G;B;D;IR
+Solar Village,SOV,,Saudi Arabia,24.91,46.41,650,1998-2003,BSRN; AERONET,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D;IR
+South Pole,SPO,,Antarctica,-89.983,-24.799,2800,1992-,BSRN; ABO,NOAA,,https://gml.noaa.gov/obop/spo/,Freely,G;B;D;IR
+Sioux Falls,SXF,South Dakota,USA,43.73403,-96.62328,473,2003-,BSRN; SURFRAD,NOAA,,https://gml.noaa.gov/grad/surfrad/siouxfalls.html,Freely,G;B;D;IR
+Syowa,SYO,,Antarctica,-69.005,39.589,18,1994-,BSRN,AWI,,https://epic.awi.de/id/eprint/47515/,Freely,G;B;D;IR
+Tamanrasset,TAM,,Algeria,22.7903,5.5292,1385,2000-,BSRN;WMO RRC,,No DIR and DIF data at TAM since 2018: Due to a broken tracker which could not yet be replaced the DIR and DIF data at Tamanrasset is missing since February 2018.,,Freely,G;B;D;IR
 Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN;WMO RRC,JMA,,https://epic.awi.de/id/eprint/36862/27/Tateno.pdf,Freely,G;B;D;IR
-Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,G;B;D
-Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D
-Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,?,BSRN,,Candidate Station (no. 89),,Freely,G;B;D
-Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,G;B;D
-Xianghe,XIA,,China,39.754,116.962,32,2005-2016,BSRN,,Station obstructed& no longer in BSRN since 2016,,Freely,G;B;D
-Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858,2018-,BSRN,,,,Freely,G;B;D
+Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,G;B;D;IR
+Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D;IR
+Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,?,BSRN,,Candidate Station (no. 89),,Freely,G;B;D;IR
+Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,G;B;D;IR
+Xianghe,XIA,,China,39.754,116.962,32,2005-2016,BSRN,,Station obstructed & no longer in BSRN since 2016,,Freely,G;B;D;IR
+Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858,2018-,BSRN,,,,Freely,G;B;D;IR
 Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,G;B;D
 Bismarck,BIS,North Dakota,USA,46.77179,-100.75955,503,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/bis.html,Freely,G;B;D
 Hanford,HNX,California,USA,36.31357,-119.63164,73,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/hnx.html,Freely,G;B;D
@@ -86,7 +86,7 @@ Madison,MSN,Wisconsin,USA,43.0725,-89.41133,271,1996-,SOLRAD,NOAA,Madison statio
 Oak Ridge,ORT,Tennessee,USA,35.96101,-84.28838,334,1995-2007,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/ort.html,Freely,G;B;D
 Salt Lake City,SLC,Utah,USA,40.7722,-111.95495,1288,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/slc.html,Freely,G;B;D
 Seattle,SEA,Washington,USA,47.68685,-122.25667,20,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/sea.html,Freely,G;B;D
-Sterling,STE,Virginia,USA,38.97203,-77.48690,85,1995-,SOLRAD,NOAA,Site location pre Oct 28& 2014 (38.97673& -77.48379),https://gml.noaa.gov/grad/solrad/ste.html,Freely,G;B;D
+Sterling,STE,Virginia,USA,38.97203,-77.48690,85,1995-,SOLRAD,NOAA,Site location pre Oct 28 2014 (lat:38.97673; lon:-77.48379).,https://gml.noaa.gov/grad/solrad/ste.html,Freely,G;B;D
 Tallahassee,TLH,Florida,USA,30.39675,-84.32955,18,1995-2002,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/tlh.html,Freely,G;B;D
 Portland,PT,Oregon,USA,45.51,-122.69,70,2004-,SRML,University of Oregon,5-min data between 2004 and 2011.,http://solardata.uoregon.edu/PortlandPV.html,Freely,RSR
 Burns,BU,Oregon,USA,43.52,-119.02,1265,1994-,SRML,University of Oregon,5 min data from 1994 to 2011.,http://solardata.uoregon.edu/Burns.html,Freely,G;B;D
@@ -122,9 +122,9 @@ University of KwaZulu-Natal Pietermaritzburg,,Pietermaritzburg,South Africa,-29.
 Anmyeondo GAW station,AMY,,South Korea,36.53,126.32,47,1999-,WMO GAW,,Also measured upwards shortwave and longwave irradiance and has a skyradiometer and a Brewer.,,,
 Jeju Gosan GAW station,JGS,,South Korea,33.3,126.21,52,2008-,WMO GAW,,The station also has a sky radiometer.,,,
 Weather Station De Veenkampen,,Wageningen,Netherlands,51.9812,5.6202,,2010-,,Wageningen University,The quality of the radiation measurements are questionable.,https://ruisdael-observatory.nl/veenkampen/,,G;B;D
-Kiruna,,,Sweden,67.842,20.41,424,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,G;B;D
-Norrköping,,,Sweden,58.582,16.148,43,1983-,SMHI;WMO RRC,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,G;B;D
-Visby,,,Sweden,57.673,18.345,49,1983-,SMHI,SMHI,,"https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer/#param=globalIrradians,stations=all",Upon request,G;B;D
+Kiruna,,,Sweden,67.842,20.41,424,1983-,SMHI,SMHI,,https://www.smhi.se/data/hitta-data-for-en-plats/ladda-ner-vaderobservationer,Upon request,G;B;D
+Norrköping,,,Sweden,58.582,16.148,43,1983-,SMHI;WMO RRC,SMHI,,https://www.smhi.se/data/hitta-data-for-en-plats/ladda-ner-vaderobservationer,Upon request,G;B;D
+Visby,,,Sweden,57.673,18.345,49,1983-,SMHI,SMHI,,https://www.smhi.se/data/hitta-data-for-en-plats/ladda-ner-vaderobservationer,Upon request,G;B;D
 Luleå,,,Sweden,65.544,22.111,32,1983-2007,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B
 Umeå,,,Sweden,63.811,20.240,23,1983-2008,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B
 Östersund,,,Sweden,63.197,14.48,374,1983-2009,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B
@@ -166,17 +166,17 @@ Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397,1976-,ABO,NOAA,Also downwelling l
 Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,G;B;D
 North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,G;B;D
 SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,G;B;D
-SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,"Relatively good quality data, but somewhat inconsistent cleaning.",https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,G;B;D
+SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,Relatively good quality data but somewhat inconsistent cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,G;B;D
-Casaccia Research Center,CAS,Lazio,Italy,42.04167,12.30667,,2001-,,ENEA,"Since 2020 also has PAR,albedo,UVA,UVB,spectral",,,G;B;D
+Casaccia Research Center,CAS,Lazio,Italy,42.04167,12.30667,,2001-,,ENEA,Since 2020 also has PAR; albedo; UVA; UVB; spectral.,,,G;B;D;UVA;UVB;PAR
 European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,G;B;D
 Ricerca sul Sistema Energetico,RSE,Milan,Italy,45.47488,9.26001,150,2012-,,RSE,Tracker is installed on the roof of a building (ground elevation is 108 m). The station also makes spectral measurement using a Spectrafy instrument.,,,G;B;D
 University of Girona,,Catalonia,Spain,41.96,2.83,110,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,G;B;D
 Alamosa,SLV,Colorado,USA,37.70,-105.92,2317,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
 Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
 Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016-2017,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
-Airai,,,Palau,7.368513,134.539830,47,2020-2022,PPA,,"Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2), a SPN-1, three reference cells, and a weather station.",https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,G;SPN1
-Efate,,,Vanuatu,-17.709738,168.211453,152,2020-2022,PPA,,"The station is located on the UNELCO wind farm on Efate Island, Vanuatu.",https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,G;SPN1
+Airai,,,Palau,7.368513,134.539830,47,2020-2022,PPA,,Two GHI thermopile pyranometers (Hukseflux SR30-D1 and SR20-T2); a SPN-1; three reference cells; and a weather station.,https://energydata.info/dataset/palau-solar-radiation-measurement-data,Freely,G;SPN1
+Efate,,,Vanuatu,-17.709738,168.211453,152,2020-2022,PPA,,The station is located on the UNELCO wind farm on Efate Island innuatu.,https://energydata.info/dataset/vanuatu-solar-radiation-measurement-data,Freely,G;SPN1
 Nauru,,,Nauru,0.543447,166.931970,28,2020-2022,PPA,,,https://energydata.info/dataset/nauru-solar-radiation-measurement-data,Freely,G;SPN1
 Chuuk,,,Federated States of Micronesia,7.467517,151.849834,4,2020-2022,PPA,,,https://energydata.info/dataset/federates-states-of-micronesia-solar-radiation-measurement-data,Freely,G;SPN1
 Alotau,,,Papua New Guinea,-10.310113,150.337975,20,2020-2022,PPA,,,https://energydata.info/dataset/papua-new-guinea-solar-radiation-measurement-data,Freely,G;SPN1
@@ -189,9 +189,9 @@ Wien,,,Austria,48.25,16.36,198,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/kl
 Graz,,,Austria,47.08,15.45,398,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,G;B;D
 Innsbruck,,,Austria,47.26,11.38,578,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,G;B;D
 Kanzelhöhe,,,Austria,46.68,13.90,1540,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,G;B;D
-Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO RRC,MeteoSwiss,"GHI started in 1995, DNI in 2000, and diffuse in 2003.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
+Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO RRC,MeteoSwiss,GHI started in 1995; DNI in 2000; and diffuse in 2003.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,No diffuse measurements due to too hars meteorological conditions.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
-Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,"GHI from 1996, DNI from 2000, and diffuse from 2001.",https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
+Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,GHI from 1996; DNI from 2000; and diffuse from 2001.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408667,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
 Anse Boileau,anseboileau,,Seychelles,-4.710958,55.484732,2,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408665,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
 Antananarivo,antananarivo,,Madagascar,-18.89833,47.546422,1309,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408673,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
@@ -278,7 +278,7 @@ Tabouk,,,Saudi Arabia,28.38,36.61,768,1998-2003,,NREL;KACST,,https://www.nrel.go
 Wadi Al-Dawaser,,,Saudi Arabia,20.44,44.68,701,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D
 Evora;Mitra,,,Portugal,38.531,-8.011,220,2014-,,University of Évora,,,,G;B;D
 Badajoz,,,Spain,38.886028,-7.009250,190,2008-,,University of Extremadura,,,,G;B;D
-Varennes,,Quebec,Canada,45.62650,-73.38203,22,1995-,,Natural Resources Canada,"Complete station upgrade in 2017. Prior to 2017, station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors also available.",,Upon request,G;B;D
+Varennes,,Quebec,Canada,45.62650,-73.38203,22,1995-,,Natural Resources Canada,Complete station upgrade in 2017. Prior to 2017 station was rather unreliable and maintenance was less rigorous. Spectral radiation measurements using Spectrafy sensors are also available.,,Upon request,G;B;D
 Shagaya,,,Kuwait,29.2099,47.0603,241,2012-?,,KISR,,,,G;B;D;RSI
 Kabed,,,Kuwait,29.173152,47.728054,76,2012-?,,KISR,,,,G;B;D;RSI
 Mutribah,,,Kuwait,29.90,47.28,,2012-?,,KISR,Location is approximate,,,G;RSI
@@ -707,6 +707,26 @@ Nevada Power Clark Station,NPC,Nevada,USA,36.08581,-115.05189,523,2006-2015,MIDC
 BMSOLx Black Mountain,,Canberra,Australia,-35.275,149.1136,595,2012-2014,,CSIRO,Unknown status.,https://www.csiro.au/en/about/locations/state-locations/ACT/Black-Mountain,,G;B;D
 Helmos Hellenic Atmospheric Aerosol & Climate Change station,Helmos Mt,,Greece,37.98399,22.19589,2314,2024-,CHOPIN,NCSR-Demokritos,,https://www.epfl.ch/labs/lapi/chopin-campaign/,Upon request,G;B;D
 Monte Cimone,,,Italy,44.19350,10.70069,2165,2004-,CHOPIN;GAW-WMO,National Research Council (CNR),,https://cimone.isac.cnr.it/,Freely,G;B;D
+Cedar City,USEP Cedar,Utah,USA,37.69601,-113.16483,1675,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=USEPCC,Freely,RSR
+Elizabeth City,ECSU,North Carolina,USA,36.282,-76.216,26,1985-2014,MIDC,NREL,Data on this web site have not been reviewed for accuracy or completeness. There are several periods of time were the Direct NIP is not pointing at the sun and/or the Diffuse PSP is not shaded,https://midcdmz.nrel.gov/apps/sitehome.pl?site=EC,Freely,G;B;Ds
+Escalante,TSE,New Mexico,USA,35.41861,-108.08828,2106,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=TSESC,Freely,RSR
+La Ola Lanai,Lanai,Hawaii,USA,20.76685,-156.92291,381,2009-2012,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=LANAI,Freely,RSR
+Loyola Marymount University,Loyola,California,USA,33.966674,-118.4226,27,2010-2016,MIDC,NREL,The RSR Battery has not been taking a full charge since December 2014 as a result there are large gaps in data each day. Battery was replaced July 9th 2015. Data should be used with caution during the period with battery problems,https://midcdmz.nrel.gov/apps/sitehome.pl?site=LMU,Freely,RSR
+Milford,USEPMF,Utah,USA,38.41431,-113.02967,1550,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=USEPMF,Freely,RSR
+Oak Ridge National Laboratory,ORNL,Tennessee,USA,35.92996,-84.30952,245,2007-2019,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=ORNL,Freely,RSR
+San Luis Valley,SS1,Colorado,USA,37.561,-106.0864,2335,2008-2010,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SS1,Freely,RSR
+Swink,SS2,Colorado,USA,38.01221,-103.61696,1255,2010-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SS2,Freely,RSR
+SOLRMAP Southwest Solar Research Park,SSSCAT,Arizona,USA,33.41663,-112.0187,347,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SSSCAT,Freely,RSR
+ARM Radiometer Characterization System,ARMRCS,Oclahoma,USA,36.606,-97.486,320,2003-2004,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=RCS,Freely,G;B;D
+Bluefield State College,BSC,West Virginia,USA,37.265,-81.24,803,1985-2015,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BS,Freely,G;B;Ds
+SOLRMAP Kalaeloa Oahu,OAHU,Hawaii,USA,21.31347,-158.08257,11,2010-2011,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=OAHURS1M,Freely,RSR
+Lowry Range Solar Station,LRSS,Colorado,USA,39.60701,-104.58017,1860,2008-2014,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=LRSS,Freely,RSR
+Sacramento Municipal Utility District (Anatolia),SMUDA,California,USA,38.54586,-121.24029,51,2009-2015,MIDC,NREL,The RSR Instrument has been intermittently malfunctioning since August 2014-DATA SHOULD BE USED WITH CAUTION,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SMUDA,Freely,RSR
+Xcel Energy Comanche Station,XECS,Colorado,USA,38.2098,-104.5724,1490,2007-2011,MIDC,NREL,During winter months data from this station may be affected by shading from nearby stacks or steam plumes. Users should understand these effects if trying to use the data for general solar resource assessment,https://midcdmz.nrel.gov/apps/sitehome.pl?site=XECS,Freely,RSR
+Burgos,,,Spain,42.351111,-3.688889,856,?,,Burgos University,Also has an all sky imager and sky scanner of illuminance.,,,G;B;D
+Dubai,,,United Arab Emirates,24.77,55.36,,2022-?,,Dubai Electricity and Water Authority (DEWA),Dubai Electricity and Water Authority’s (DEWA) Research and Development Center Outdoor Testing Facility (OTF) monitoring station.,,,G;B;D
+Chilbolton,,,United Kingdom,51.14270,-1.4270,,2013-,,Chilbolton Observatory,Coordinates are approximate. Upwelling irradiances are also available.,https://www.chilbolton.stfc.ac.uk/Pages/Solar-and-infrared-upwelling-and-downwelling-radiation.aspx,Freely,G;B;D;IR
+Seville,,,Spain,37.41,-6.01,12,2000-,,University of Seville,,,,G;B;D
 Gangneung-Wonju National University,GWNU,,South Korea,37.7707,128.8661,63.5,2010-,,Gangneung-Wonju National University,,Solar radiation is blocked by mountains during the sunset,,,G;B;D;IR
 Kookmin University,KMU,,South Korea,37.61200,126.99770,140,2018-?,,Kookmin University,,,,G;B;D
 ENEA Portici,,,Italy,40.8066,14.3368,,?,,ENEA,,,Upon request,G;B;D

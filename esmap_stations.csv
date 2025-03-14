@@ -4,8 +4,8 @@ Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument an
 Talin,ARM_Solar_Talin,,Armenia,40.386,43.8972,1641,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,
 Yerevan Agro,ARM_Solar_YerevanAgro,,Armenia,40.1887,44.3976,946,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,
 Feni,BGD_Solar_BDFE2_Feni,,Bangladesh,22.80029,91.35819,5,2017-,ESMAP,Suntrace GmbH,Instrument and components have not been checked manually.,https://energydata.info/dataset/bangladesh-solar-radiation-measurement-data,Freely,
-Malanville,BEN_Solar_Malanville,,Bénin,11.78272,3.37349,184,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
-Parakou,BEN_Solar_Parakou,,Bénin,9.33117,2.59119,387,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
+Malanville,BEN_Solar_Malanville,,Benin,11.78272,3.37349,184,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
+Parakou,BEN_Solar_Parakou,,Benin,9.33117,2.59119,387,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/benin-solar-radiation-measurement-data,Freely,G;B;D
 Dori,BFA_Solar_Dori,,Burkina Faso,14.03045,-0.02435,285,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D
 Dédougou,BFA_Solar_Dédougou,,Burkina Faso,12.4662,-3.47294,305,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D
 Kaya,BFA_Solar_Kaya,,Burkina Faso,13.08301,-1.07272,324,2021-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,
@@ -16,10 +16,10 @@ Weno,FSM_Solar_Weno,,Federated States of Micronesia,7.467517,151.849834,4,2020-2
 Farafenni,GMB_Solar_Farafenni,,Gambia,13.57301,-15.59253,19,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/the-gambia-solar-radiation-measurement-data,Freely,G;B;D
 Sunyani,GHA_Solar_Sunyani,,Ghana,7.34865,-2.34034,330,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/ghana-solar-radiation-measurement-data,Freely,G;B;D
 Navrongo,GHA_Solar_Navrongo,,Ghana,10.87554,-1.06293,180,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/ghana-solar-radiation-measurement-data,Freely,G;B;D
-Kankan,GIN_Solar_Kankan,,Guinée,10.36465,-9.30466,375,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-solar-radiation-measurement-data,Freely,G;B;D
-Tarambaly,GIN_Solar_Tarambaly,,Guinée,11.356,-12.13706,860,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-solar-radiation-measurement-data,Freely,G;B;D
-Gabu,GNB_Solar_Gabu,,Guinée-Bissau,12.30108,-14.24273,75,2022-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-bissau-solar-radiation-measurement-data,Freely,G;B;D
-Bissau,GNB_Solar_Bissau,,Guinée-Bissau,11.85643,-15.58877,20,2022-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/guinea-bissau-solar-radiation-measurement-data,Freely,
+Kankan,GIN_Solar_Kankan,,Guinea,10.36465,-9.30466,375,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-solar-radiation-measurement-data,Freely,G;B;D
+Tarambaly,GIN_Solar_Tarambaly,,Guinea,11.356,-12.13706,860,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-solar-radiation-measurement-data,Freely,G;B;D
+Gabu,GNB_Solar_Gabu,,Guinea-Bissau,12.30108,-14.24273,75,2022-,ESMAP,CSP Services,,https://energydata.info/dataset/guinea-bissau-solar-radiation-measurement-data,Freely,G;B;D
+Bissau,GNB_Solar_Bissau,,Guinea-Bissau,11.85643,-15.58877,20,2022-,ESMAP,CSP Services,Instrument and components have not been checked manually.,https://energydata.info/dataset/guinea-bissau-solar-radiation-measurement-data,Freely,
 Laisamis,KEN_Solar_Laisamis,,Kenya,1.601891,37.802681,576,2019-2021,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/kenya-solar-radiation-measurement-data,Freely,
 Narok,KEN_Solar_Narok,,Kenya,-1.321097,35.705708,1914,2019-2021,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/kenya-solar-radiation-measurement-data,Freely,
 Homa Bay,KEN_Solar_Homa Bay,,Kenya,-0.764707,34.360379,1335,2019-2021,ESMAP,GeoSUN Africa,Instrument and components have not been checked manually.,https://energydata.info/dataset/kenya-solar-radiation-measurement-data,Freely,
