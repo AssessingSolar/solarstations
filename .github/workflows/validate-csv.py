@@ -122,6 +122,8 @@ def check_time_period(row):
         pass  # unable to assess the time period, e.g., "2020-2022&2023-"
     elif time_period == '?':
         pass
+    elif time_period == '-':
+        pass
     else:
         return f"Not a valid time period: {time_period}"
 
