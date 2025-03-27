@@ -734,7 +734,7 @@ ENEA Portici,,,Italy,40.8066,14.3368,,?,,ENEA,,,Upon request,G;B;D
 ENEA Casaccia,,,Italy,42.0419,12.3039,,?,,ENEA,,,Upon request,G;B;D
 RSE Piacenza,,,Italy,45.03,9.76,,?,,RSE,,,,G;B;D
 EE Paso de la Laguna,,,Uruguay,-33.2751,-54.1724,35,2010-2016,RMCIS,Uruguay Solar Energy Laboratory,,http://les.edu.uy/rmcis/,Freely,G;D
-Lujan,,,Argentina,-34.5885,-59.0631,30,-,,Lujan National University,,https://www.gersolar.unlu.edu.ar/?q=node/4,,G;B;D;UV;PAR;IR
+Lujan,,,Argentina,-34.5885,-59.0631,30,2005-,,Lujan National University,Oldest measurements are from 2000.,https://www.gersolar.unlu.edu.ar/?q=node/4,,G;B;D;UV;PAR;IR
 Qiqihar,QIQ,,China,47.7957,124.4852,170,2023-?,,Meteorological Bureau of Fuyu County,BSRN candidate station,,Freely,G;B;D;IR
 Chiang Mai,CM,,Thailand,18.78,98.98,,2011-?,,Silpakorn University,,,,G;B;D;UV
 Ubon Ratchathani,UB,,Thailand,15.25,104.87,,2011-?,,Silpakorn University,,,,G;B;D;UV
