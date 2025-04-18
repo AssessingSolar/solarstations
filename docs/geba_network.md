@@ -1,6 +1,6 @@
 # GEBA
 
-The Global Energy Balance Archive (GEBA) is a global database containing measured energy fluxes at the Earth’s surface and is maintained by ETH Zurich (Switzerland). Notably, the stations included are of varying quality with many only measuring one irradiance component as part of national networks, although many of the historical records extend over several decades.
+The Global Energy Balance Archive (GEBA) is a global database containing measured energy fluxes at the Earth’s surface and is maintained by ETH Zurich in Switzerland. Notably, the stations included are of varying quality with most only measuring one irradiance component as part of national networks, although many of the historical records extend over several decades.
 
 GEBA contains monthly data from a variety of sources, namely from the World Radiation Data Centre (WRDC) in St. Petersburg, national weather services, research networks (BSRN, ARM, SURFRAD), peer-reviewed publications, project and data reports, and personal communications. GEBA is publicly accessible [online](http://www.geba.ethz.ch). Supplementary data are also available [here](https://doi.org/10.1594/PANGAEA.873078). An overview of the measurement locations is presented in the figure below.
 
@@ -17,16 +17,16 @@ The following parameters can be obtained from GEBA:
 * Direct normal irradiance - DNI
 * Diffuse horizontal irradiance - DHI
 * Albedo
-* Reflected shortwave radiation
-* Longwave incoming radiation
-* Longwave outgoing radiation
-* Longwave net radiation
+* Reflected shortwave irradiance
+* Longwave incoming irradiance
+* Longwave outgoing irradiance
+* Longwave net irradiance
 * Radiation balance
 * Sensible heat flux
 * Latent heat flux
 * Subsurface heat flux
-* Ultraviolet radiation
-* Absorbed shortwave radiation
-* Circumglobal radiation 
+* Ultraviolet irradiance
+* Absorbed shortwave irradiance
+* Circumglobal irradiance
 
-It should be noted that not all the measurement locations are still in operation and have all the parameters available. Additionally, most locations only measure global horizontal irradiance. Unfortunately, GEBA does not provide information on the instrument used to measure solar radiation components, so the user can't estimate the quality of the data.
+It should be noted that not all the measurement locations are still in operation and have all the parameters available. Unfortunately, GEBA does not provide information on the instrument used to measure solar irradiance components, so the user can't estimate the quality of the data.

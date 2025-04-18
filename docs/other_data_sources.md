@@ -10,12 +10,12 @@ This page provides information about alternative sources for obtaining irradianc
 
 * [CANSIM](https://pubs.aip.org/aip/acp/article/1881/1/090002/794031/Deployment-and-early-results-from-the-CanSIM) is a Canadian network with 7 stations measuring spectral irradiance using Spectrafy sensors.
 
-* Eye2Sky ([link_1](https://www.dlr.de/en/images/2019/4/the-eye2sky-measurement-network-will-comprise-34-stations-when-complete), [link_2](https://www.dlr.de/en/ve/research-and-transfer/research-infrastructure/laboratories-infrastructures/eye2sky)) is a network of all-sky cameras near Oldenburg, Germany. A third of the stations are equipped with a rotating shadowband irradiometer (RSI) for measuring solar radiation.
+* Eye2Sky ([link_1](https://www.dlr.de/en/images/2019/4/the-eye2sky-measurement-network-will-comprise-34-stations-when-complete), [link_2](https://www.dlr.de/en/ve/research-and-transfer/research-infrastructure/laboratories-infrastructures/eye2sky)) is a network of all-sky cameras near Oldenburg, Germany. A third of the stations are equipped with a rotating shadowband irradiometer (RSI) for measuring solar irradiance.
 
 * [Oklahoma Mesonet](https://www.mesonet.org/weather/solar-radiation-satellite/solar-radiation) is a network of weather stations equipped with LI-COR pyranometers. Information about this network is also given [here](https://journals.ametsoc.org/view/journals/atot/17/4/1520-0426_2000_017_0474_qapito_2_0_co_2.xml).
 
 * [German Weather Services - Deutscher Wetterdienst (DWD)](https://www.dwd.de/DE/leistungen/solarenergie/Strahlungsmessnetz.html?nn=495490) operates a network of 120 sites measuring global horizontal irradiance and diffuse irradiance with thermopile pyranometers with a resolution of 10 minutes. Data can be downloaded from [here](https://cdc.dwd.de/portal/)
 
-* [Natural Resources Canada](https://natural-resources.canada.ca/energy/renewable-electricity/solar-photovoltaic/18409) operates a small network of LI-COR pyranometers for measuring solar radiation in two locations in Canada.
+* [Natural Resources Canada](https://natural-resources.canada.ca/energy/renewable-electricity/solar-photovoltaic/18409) operates a small network of LI-COR pyranometers for measuring solar irradiance in two locations in Canada.
 
 * [The Global Solar Atlas](https://globalsolaratlas.info/map) is a global reanalysis dataset funded by the World Bank Group and created by the company Solargis.

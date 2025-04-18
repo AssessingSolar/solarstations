@@ -1,10 +1,8 @@
 # Solar Stations
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://solarstations.org)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://SolarStations.Org)
 
-A catalog of high-quality solar radiation monitoring stations.
+A catalog of multi-component solar irradiance monitoring stations.
 
-An interactive map and catalog of the stations can be found at [SolarStations.org](https://SolarStations.org).
-
-The file [station-listing.csv](https://solarstations.org/station-listing.csv) contains the list of stations and their metadata.
+An interactive map and catalog of the stations can be found at [SolarStations.Org](https://SolarStations.Org).
 
 Pull requests with new stations or updates are highly welcome!
