@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: "Jensen"
+  given-names: "Adam R."
+  orcid: "https://orcid.org/0000-0002-5554-9856"
+- family-names: "Sifnaios"
+  given-names: "Ioannis"
+  orcid: "https://orcid.org/0000-0003-0933-2952"
+- family-names: "Anderson S."
+  given-names: "Kevin"
+  orcid: "https://orcid.org/0000-0002-1166-7957"
+- family-names: "Gueymard"
+  given-names: "Christian A."
+  orcid: "https://orcid.org/0000-0003-0362-4655"
+doi: 10.5281/zenodo.14223818
+url: "https://github.com/assessingsolar/solarstations"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Jensen"
+    given-names: "Adam R."
+    orcid: "https://orcid.org/0000-0002-5554-9856"
+  - family-names: "Sifnaios"
+    given-names: "Ioannis"
+    orcid: "https://orcid.org/0000-0003-0933-2952"
+  - family-names: "Anderson S."
+    given-names: "Kevin"
+    orcid: "https://orcid.org/0000-0002-1166-7957"
+  - family-names: "Gueymard"
+    given-names: "Christian A."
+    orcid: "https://orcid.org/0000-0003-0362-4655"
+  doi: "10.1016/j.solener.2025.113457"
+  journal: "Solar Energy"
+  month: 7
+  pages: 113457
+  title: "SolarStations.org — A global catalog of solar irradiance monitoring stations"
+  volume: 295
+  year: 2025
