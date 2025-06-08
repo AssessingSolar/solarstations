@@ -18,9 +18,6 @@ url: "https://github.com/assessingsolar/solarstations"
 preferred-citation:
   type: article
   authors:
-  - family-names: "Lisa"
-    given-names: "Mona"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
   - family-names: "Jensen"
     given-names: "Adam R."
     orcid: "https://orcid.org/0000-0002-5554-9856"
@@ -36,7 +33,7 @@ preferred-citation:
   doi: "10.1016/j.solener.2025.113457"
   journal: "Solar Energy"
   month: 7
-  pages: 113457 # First page number
+  pages: 113457
   title: "SolarStations.org — A global catalog of solar irradiance monitoring stations"
   volume: 295
   year: 2025
