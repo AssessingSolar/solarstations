@@ -4,7 +4,7 @@ ARM Radiometer Characterization System,ARMRCS,Oclahoma,USA,36.606,-97.486,320.0,
 Abashiri,ABS,,Japan,44.0178,144.2797,38.0,2021-,BSRN,,,,Freely,G;B;D;IR,Asia,Dfb,Continental,1,1248.0,642.0,1117.0
 Abha,,,Saudi Arabia,18.23,42.66,2039.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWk,Dry,1,2270.0,810.0,2124.0
 Abu Road,,,India,24.519,72.783,276.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1989.0,763.0,1861.0
-Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2216.0,898.0,1920.0
+Abu Samra,Abu,,Qatar,24.75,50.82,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2216.0,898.0,1920.0
 Adam,,,Oman,22.2072,57.523,250.0,2011-?,,OPWP,Instruments were not regularly cleaned which led to inconsistencies in the data collected from the monitoring stations,,,G;B;D,Asia,BWh,Dry,1,2270.0,766.0,2230.0
 Adelaide Airport,,South Australia,Australia,-34.9524,138.5196,2.0,2003-2020,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Csb,Temperate,1,1880.0,573.0,2263.0
 Adrar,,,Algeria,27.88,-0.274,262.0,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Africa,BWh,Dry,2,2223.0,803.0,2179.0
@@ -16,21 +16,21 @@ Aizawl,,,India,23.743,92.719,1188.0,2014-,SRRA,National Institute of wind energy
 Ajmer,,,India,26.4,74.661,501.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BWh,Dry,1,2004.0,737.0,1956.0
 Al Aflaaj Technical Institute,,,Saudi Arabia,22.27948,46.73319,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2321.0,836.0,2164.0
 Al Baha University,,,Saudi Arabia,20.17933,41.63561,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,G;B;D,Asia,BWh,Dry,1,2270.0,770.0,2197.0
-Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Batna,Bat,,Qatar,25.1,51.17,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
 Al Dawadmi College of Technology,,,Saudi Arabia,24.5569,44.47411,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2270.0,796.0,2179.0
-Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Ghuwayriyah,Ghu,,Qatar,25.84,51.27,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
 Al Hanakiyah Technical Institute,,,Saudi Arabia,24.85577,40.536,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2263.0,756.0,2245.0
 Al Jouf Technical Institute,,,Saudi Arabia,29.79383,40.04886,,2014-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,G;B;D,Asia,BWh,Dry,1,2234.0,708.0,2354.0
-Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
-Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
-Al Kharsaah,Kha,,Qatar,25.22,51.0,,2019-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
-Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Jumayliyah,Jum,,Qatar,25.61,51.08,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Karaanah,Kar,,Qatar,25.01,51.04,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Kharsaah,Kha,,Qatar,25.22,51.0,,2019-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Khor,Kho,,Qatar,25.66,51.46,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
 Al Qunfudhah Technical Institute,,,Saudi Arabia,19.15197,41.08111,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2201.0,839.0,1960.0
-Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D;UV;IR,Asia,BWh,Dry,1,1887.0,993.0,1318.0
-Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2117.0,880.0,1818.0
+Al Shahaniya,Sha,,Qatar,25.39,51.11,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D;UV;IR,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Shehaimiyah,She,,Qatar,25.86,50.96,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2117.0,880.0,1818.0
 Al Uyaynah Research Station,,,Saudi Arabia,24.90689,46.39721,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,G;B;D,Asia,BWh,Dry,1,2259.0,818.0,2132.0
 Al Wajh Technical Institute,,,Saudi Arabia,26.2561,36.443,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,G;B;D,Asia,BWh,Dry,1,2263.0,715.0,2365.0
-Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+Al Wakrah,Wak,,Qatar,25.19,51.62,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
 Al-Jouf,,,Saudi Arabia,29.79,40.1,669.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2234.0,708.0,2354.0
 Al-Madinah,,,Saudi Arabia,24.55,39.7,626.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2278.0,726.0,2336.0
 Al-ahsa,,,Saudi Arabia,25.3,49.48,178.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2194.0,887.0,1920.0
@@ -209,7 +209,7 @@ Dongsha Atoll,DON,,Taiwan,20.7,116.73,2.0,?,,National Central University Taiwan,
 Dori,BFA_Solar_Dori,,Burkina Faso,14.03045,-0.02435,285,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2219.0,902.0,1858.0
 Duba Technical Institute,,,Saudi Arabia,27.34103,35.72295,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2281.0,617.0,2559.0
 Dubai,,,United Arab Emirates,24.77,55.36,,2019-,AERONET,Dubai Electricity and Water Authority (DEWA),Dubai Electricity and Water Authority’s (DEWA) Research and Development Center Outdoor Testing Facility (OTF) monitoring station. The site is associated with an AERONET station.,,,G;B;D,Asia,BWh,Dry,1,2168.0,891.0,1887.0
-Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2117.0,880.0,1818.0
+Dukhan,Duk,,Qatar,25.41,50.76,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2117.0,880.0,1818.0
 Durban,durban,,South Africa,-29.87098,30.97695,150.0,2013-2018,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092844,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Cfa,Temperate,2,1705.0,675.0,1708.0
 Dédougou,BFA_Solar_Dédougou,,Burkina Faso,12.4662,-3.47294,305,2021-,ESMAP,CSP Services,,https://energydata.info/dataset/burkina-faso-solar-radiation-measurement-data,Freely,G;B;D,Africa,BSh,Dry,1,2135.0,887.0,1759.0
 EE La Magnolia,TAI,,Uruguay,-31.709,-55.8269,142.0,2015-,RMCIS,Uruguay Solar Energy Laboratory,,http://les.edu.uy/en/rmcis-en/,,SPN1,South America,Cfa,Temperate,2,1734.0,606.0,1869.0
@@ -274,7 +274,7 @@ Geermu,,,China,36.42,94.9,2807.6,1993-,,China Meteorological Administration,Diff
 Georg von Neumayer,GVN,Dronning Maud Island,Antarctica,-70.65,-8.25,42.0,1982-,BSRN,,Neumayer-station II from 1992-2009 & Neumayer station III from 2009. BSRN FTP server only has data from 1992.,https://www.awi.de/en/science/long-term-observations/atmosphere/antarctic-neumayer.html,Freely,G;B;D;IR,Antarctica,Ocean,Ocean,1,978.0,573.0,1132.0
 Geraldton Airport,,Western Australia,Australia,-28.7953,114.6975,33.0,1996-2006,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Csa,Temperate,1,2143.0,580.0,2529.0
 Ghardaia,,,Algeria,32.386,3.78,463.0,2012-,enerMENA,CDER,,https://www.dlr.de/sf/en/desktopdefault.aspx/tabid-8680/12865_read-32404/,,,Africa,BWh,Dry,2,2124.0,679.0,2376.0
-Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2066.0,931.0,1657.0
+Ghasham Farm,Gha,,Qatar,24.85,51.27,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2066.0,931.0,1657.0
 Gila Bend,,Arizona,USA,32.93,-112.72,224.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BWh,Dry,2,2168.0,471.0,2884.0
 Gizan,,,Saudi Arabia,16.9,42.58,7.0,1998-2003,,NREL;KACST,,https://www.nrel.gov/grid/solar-resource/saudi-arabia.html,Freely,G;B;D,Asia,BWh,Dry,1,2172.0,883.0,1799.0
 Gobabeb,GOB,Namib Desert,Namibia,-23.5614,15.042,407.0,2012-,BSRN,,,,Freely,G;B;D;IR,Africa,BWh,Dry,1,2416.0,485.0,2978.0
@@ -295,7 +295,7 @@ Gurgaon,GUR,,India,28.4249,77.156,259.0,2014-2015&2018-,BSRN;SRRA,National Insti
 Gwalior,,,India,26.223,78.19,210.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1829.0,792.0,1562.0
 Gómez Palacio,VEN,Durango,Mexico,24.9568,-104.5704,1877.0,2015-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BSh,Dry,1,2186.0,591.0,2551.0
 Göteborg,,,Sweden,57.708,11.992,30.0,1983-2013,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B,Europe,Cfb,Temperate,2,1058.0,496.0,1150.0
-HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
+HBKU-B2,B2,,Qatar,25.32,51.42,,2012-2017&2021-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,1887.0,993.0,1318.0
 Haerbin,,,China,45.75,126.77,142.3,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Freely,G;B;Ds,Asia,Dwa,Continental,2,1427.0,628.0,1621.0
 Hafar Al Batin Technical College,,,Saudi Arabia,28.33202,45.95708,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2186.0,766.0,2150.0
 Hahaya,hahaya,,Comoros,-11.539412,43.278112,32.0,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408671,https://galilee.univ-reunion.fr/,Freely,SPN1;UV,Africa,Af,Tropical,2,2113.0,756.0,1960.0
@@ -692,7 +692,7 @@ Stellenbosch University,STB,Stellenbosch,South Africa,-33.92810059,18.86540031,1
 Sterling,STE,Virginia,USA,38.97203,-77.4869,85.0,1995-,SOLRAD,NOAA,Site location pre Oct 28 2014 (lat:38.97673; lon:-77.48379).,https://gml.noaa.gov/grad/solrad/ste.html,Freely,G;B;D,North America,Cfa,Temperate,1,1515.0,610.0,1599.0
 Sterling,,Virginia,USA,38.98,-77.47,87.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Cfa,Temperate,2,1515.0,610.0,1599.0
 Stockholm,,,Sweden,59.353,18.063,30.0,1983-2012,SMHI,SMHI,,https://www.smhi.se/polopoly_fs/1.166869!/Meteorologi_148%20Upgrade%20of%20SMHI%E2%80%99s%20meteorological%20radiation%20netwrok%202006-2007%20-%20Effects%20on%20direct%20and%20global%20solar%20radiation.pdf,Upon request,G;B,Europe,Cfb,Temperate,2,1048.0,474.0,1201.0
-Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D;UV;IR,Asia,BWh,Dry,1,2066.0,931.0,1657.0
+Sudanthile,Sud,,Qatar,24.63,51.06,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D;UV;IR,Asia,BWh,Dry,1,2066.0,931.0,1657.0
 Sulov,,,Slovakia,49.16385,18.58569,393.0,2017-,,Solargis,The SPN1 was installed in August 2019,,Upon request,G;SPN1,Europe,Dfb,Continental,2,1113.0,562.0,1055.0
 Sultanpur,,,India,26.288,82.082,90.0,2013-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1719.0,807.0,1347.0
 Summit Station,,,Greenland,72.579583,-38.459186,3216.0,?,,Battelle Arctic Research Operations (ARO),Frequent issues with tracker malfunction resulting in many outages.,https://geo-summit.org/instruments,Upon request,G;B;D,North America,EF,Polar,1,1164.0,591.0,1548.0
@@ -742,7 +742,7 @@ Trondheim,,,Norway,63.4171,10.4047,89.0,2022-,,Sintef,10 second data,https://www
 Tucson,,Arizona,USA,32.17,-110.9,794.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSh,Dry,2,2121.0,496.0,2774.0
 Tuhamat Qahtan Technical Institute,,,Saudi Arabia,17.7749,43.17555,,2013-?,,KACARE,,https://rratlas.energy.gov.sa/RRMMDataPortal/MapTool,Freely,RSR,Asia,BWh,Dry,2,2300.0,785.0,2212.0
 Tura,,,India,25.525,90.21,397.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Cwa,Temperate,1,1577.0,821.0,1183.0
-Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2066.0,931.0,1657.0
+Turayna,Tur,,Qatar,24.74,51.21,,2020-,QEERI,QEERI,Contact dbachour@hbku.edu.qa or dastudillo@hbku.edu.qa for more info.,https://www.hbku.edu.qa/en/qeeri/energy-center,Upon request,G;B;D,Asia,BWh,Dry,1,2066.0,931.0,1657.0
 Turku,,,Finland,60.4484,22.2976,60.0,2019-,,New Energy Research Center (NERC),Located ontop of tall building.,,Upon request,G;B;D,Europe,Dfb,Continental,1,971.0,445.0,1150.0
 USAid Gaborone,GAB,Gaborone,Botswana,-24.6609993,25.93400002,1014.0,2014-2020,SAURAN,,Roof of building in University of Botswana,https://sauran.ac.za/,Freely,G;B;D,Africa,BSh,Dry,1,2139.0,584.0,2471.0
 USAid Namibian University of Science and Technology,NUST,Windhoek,Namibia,-22.56500053,17.07500076,1683.0,2016-2024,SAURAN,,Roof of Engineering Building,https://sauran.ac.za/,Freely,G;B;D,Africa,BWh,Dry,1,2307.0,569.0,2734.0
