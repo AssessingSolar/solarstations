@@ -11,5 +11,5 @@ Madras,MAO,Oregon,USA,44.68,-121.14861,744,1994-,SRML,,Station id no.: 94008,,,2
 Portland,PSO,Oregon,USA,45.512679,-122.68347,63,,SRML,,Station id no.: 94808,,,1,,G;B;D
 Salem,SAO,Oregon,USA,44.921365,-123.018425,47,2003-,SRML,,Station id no.: 94806,,,2,Kipp and Zonen Sp-Lite pyranometer,"G,POA"
 Silver Lake,SIO,Oregon,USA,43.11896,-121.05879,1324,,SRML,,Station id no.: 94249,,,1,,G;B;D
-Seattle (NOAA),SEW,Washington,USA,47.68,-122.25,20,1995-,SRML,,"Station id no.: 94290. Uncertain about data resolution, hence tier remains unclassified.",http://solardat.uoregon.edu/Seattle.html,,,,G;B;D
+Seattle (NOAA),SEW,Washington,USA,47.68685,-122.25667,20,1995-,SRML,,"Station id no.: 94290. Uncertain about data resolution, hence tier remains unclassified.",http://solardat.uoregon.edu/Seattle.html,,,,G;B;D
 Seattle,STW,Washington,USA,47.653871,-122.309481,70,2015-,SRML,,Station id no.: 94291,http://solardat.uoregon.edu/Seattle_UW.html,,1,,G;B;D
