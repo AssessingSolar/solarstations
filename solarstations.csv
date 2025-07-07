@@ -752,5 +752,4 @@ Ashalim,,,Israel,30.9830,34.7080,305,2016-,IMS,IMS,Unknown if DHI is measured wi
 Jesrusalem Givat Ram,,,Israel,31.7704,35.1973,770,1990-,IMS,IMS,Unknown if DHI is measured with shadowband,https://ims.gov.il/en/stations,Freely,G;B;D
 Besor Farm,,,Israel,31.2716,34.38941,110,2001-,IMS,IMS,Unknown if DHI is measured with shadowband,https://ims.gov.il/en/stations,Freely,G;B;D
 Bet Dagan,,,Israel,32.0073,34.8138,31,1991-,IMS,IMS,Unknown if DHI is measured with shadowband,https://ims.gov.il/en/stations,Freely,G;B;D
-Station name,Abbreviation,State,Country,Latitude,Longitude,Elevation,Time period,Network,Owner,Comment,URL,Data availability,Instrumentation
 Patras,,,Greece,38.29136,21.78858,44.5,2011-,,University of Patras,GHI/DHI (since 2011). Tilted irradiance (38 deg. Since 2013). Principal investigators: Athanassios Argiriou (athanarg@upatras.gr) and Andreas Kazantzidis (akaza@upatras.gr).,https://mymeasurements.eu/u/lapup/solar.php?lang=en,Upon request,G;B;D;UV;albedo;GTI
