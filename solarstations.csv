@@ -753,3 +753,4 @@ Jesrusalem Givat Ram,,,Israel,31.7704,35.1973,770,1990-,IMS,IMS,Unknown if DHI i
 Besor Farm,,,Israel,31.2716,34.38941,110,2001-,IMS,IMS,Unknown if DHI is measured with shadowband,https://ims.gov.il/en/stations,Freely,G;B;D
 Bet Dagan,,,Israel,32.0073,34.8138,31,1991-,IMS,IMS,Unknown if DHI is measured with shadowband,https://ims.gov.il/en/stations,Freely,G;B;D
 Patras,,,Greece,38.29136,21.78858,44.5,2023-,,University of Patras,GHI and DHI (shadowband) since 2011. DNI and DHI (tracker) since 2023. Tilted irradiance (38 deg. Since 2013). The station also operated spectral radiometers. Principal investigators: Athanassios Argiriou (athanarg@upatras.gr) and Andreas Kazantzidis (akaza@upatras.gr).,https://mymeasurements.eu/u/lapup/solar.php?lang=en,Upon request,G;B;D;UV;albedo;GTI
+TH Rosenheim,THRO,Bavaria,Germany,47.866921,12.107953,469,2025-,,Rosenheim Technical University of Applied Sciences,,https://meteo.th-rosenheim.de,Upon request,G;B;D
