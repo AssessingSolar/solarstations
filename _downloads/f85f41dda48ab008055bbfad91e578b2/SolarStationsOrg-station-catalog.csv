@@ -430,7 +430,7 @@ Learmonth Airport,,Western Australia,Australia,-22.2406,114.0967,5.0,1996-2006,B
 Leh,,,India,34.14,77.481,3252.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BWk,Dry,1,1847.0,971.0,1537.0
 Lerwick,LER,Shetland Island,United Kingdom,60.1389,-1.1847,80.0,2001-,BSRN,,,https://epic.awi.de/id/eprint/35071/1/Lerwick_site_info.pdf,Freely,G;B;D;IR,Europe,Cfb,Temperate,1,843.0,474.0,814.0
 Lille,,,France,50.61,3.14,70.0,2010-,,University of Lille,Also features a CIMEL sun/sky photometer and sky imager.,,,G;B;D,Europe,Cfb,Temperate,1,1150.0,591.0,1124.0
-Limassol,,,Cyprus,34.67,33.04,31.0,2024-?,,Cyprus University of Technology,Unknown time period.,https://doi.org/10.1117/12.3075522,,G;B;D,Europe,Csa,Temperate,1,1924.0,642.0,2029.0
+Limassol,,,Cyprus,34.67,33.04,31.0,2025-,,Cyprus University of Technology,Unknown time period.,https://doi.org/10.1117/12.3075522,,G;B;D,Europe,Csa,Temperate,1,1924.0,642.0,2029.0
 Linan,,,China,30.3,119.73,138.0,2005-,WMO GAW,China Meteorological Administration,,,,G;B;D;IR,Asia,Cfa,Temperate,1,1274.0,664.0,967.0
 Lindenberg,LIN,,Germany,52.21,14.122,125.0,1994-,BSRN;WMO RRC,,,https://www.dwd.de/DE/forschung/atmosphaerenbeob/lindenbergersaeule/mol/mol_node.html,Freely,G;B;D;IR,Europe,Cfb,Temperate,1,1069.0,548.0,1040.0
 Lleida,,,Spain,41.6258,0.595,192.0,2008-,AEMET,State Meteorological Agency of Spain,,https://www.aemet.es/en/eltiempo/observacion/radiacion/radiacion?datos=mapa,Freely,G;B;D;IR;UV;PAR,Europe,BSk,Dry,1,1694.0,599.0,1949.0
