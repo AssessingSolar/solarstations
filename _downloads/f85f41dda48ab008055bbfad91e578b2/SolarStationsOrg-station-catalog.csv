@@ -239,7 +239,7 @@ Eskom Sutherland,SALT,Sutherland,South Africa,-32.22199249,20.34777451,1450.0,20
 Eskom Sutherland SALT,,Sutherland,South Africa,-32.37778091,20.8116703,1761.0,2017-2020,SAURAN,,Permanently offline. Karoo scrubland.,https://sauran.ac.za/,Freely,G;B;D,Africa,BSk,Dry,1,2179.0,456.0,2942.0
 Eugene,EU;EUO,Oregon,USA,44.0468,-123.0742,150.0,1977-,SRML,University of Oregon,Has tilted irradiance measurements and some spectral data.,http://solardata.uoregon.edu/Eugene.html,Freely,G;B;D,North America,Csb,Temperate,1,1424.0,551.0,1595.0
 Eureka,EUR,Ellesmere Island,Canada,79.989,-85.9404,85.0,2007-2011,BSRN,,,https://en.wikipedia.org/wiki/Eureka%2C_Nunavut,Freely,G;B;D;IR,North America,ET,Polar,1,836.0,416.0,1387.0
-European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220.0,1996-,,,,https://re.jrc.ec.europa.eu/meteo/meteo.php,Freely,G;B;D,Europe,Cfa,Temperate,1,1405.0,580.0,1526.0
+European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220.0,1996-,,,,,Freely,G;B;D,Europe,Cfa,Temperate,1,1405.0,580.0,1526.0
 Evora;Mitra,,,Portugal,38.531,-8.011,220.0,2014-,,University of Évora,,,,G;B;D,Europe,Csa,Temperate,1,1789.0,599.0,2048.0
 Fairbanks,,Alaska,USA,64.86,-147.87,138.0,1981-1984,SEMRTS,NREL,,https://www.nrel.gov/grid/solar-resource/semrts.html,Freely,G;B;D,North America,Dfc,Continental,1,956.0,467.0,1259.0
 Fairbanks,,Alaska,USA,64.82,-147.87,143.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Dfb,Continental,2,956.0,467.0,1259.0
