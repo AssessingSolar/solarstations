@@ -32,6 +32,8 @@ def check_url(row):
         'epfl.ch/labs/lapi/chopin-campaign/',
         'en.wikipedia.org/wiki/Eureka%2C_Nunavut',
         'mymeasurements.eu/u/lapup/solar.php?lang=en',
+        'psa.es/en/facilities/meteo/meteo.php',
+        'imk-ifu.kit.edu',
     ]
     for domain in domains_to_skip:
         if domain in url:
