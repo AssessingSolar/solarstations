@@ -29,6 +29,11 @@ def check_url(row):
         'dwd.de/DE/forschung/atmosphaerenbeob',
         'idmp.entpe.fr',  # bad certificate, but renders ok
         'solardata.uoregon.edu/Ashland.html',  # expected back-up online at some point
+        'epfl.ch/labs/lapi/chopin-campaign/',
+        'en.wikipedia.org/wiki/Eureka%2C_Nunavut',
+        'mymeasurements.eu/u/lapup/solar.php?lang=en',
+        'psa.es/en/facilities/meteo/meteo.php',
+        'imk-ifu.kit.edu',
     ]
     for domain in domains_to_skip:
         if domain in url:
