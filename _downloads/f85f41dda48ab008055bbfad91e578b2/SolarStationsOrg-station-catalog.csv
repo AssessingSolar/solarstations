@@ -135,7 +135,7 @@ Camborne,CAM,,United Kingdom,50.2167,-5.3167,88.0,2001-,BSRN,,,https://epic.awi.
 Cape Baranova,CAP,,Russia,79.27,101.75,,2016-,BSRN,,,,Freely,G;B;D;IR,Europe,ET,Polar,1,829.0,544.0,953.0
 Cape Grim,,Tasmania,Australia,-40.6817,144.6892,95.0,1997-?,BOM,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Cfb,Temperate,1,1496.0,690.0,1405.0
 Cape Hedo,,,Japan,26.867,128.248,65.0,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/capehedo/capehedo.html,Freely,G;D,Asia,Ocean,Ocean,2,1573.0,708.0,1314.0
-Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42.0,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,G;B;D,Oceania,Ocean,Ocean,1,2190.0,774.0,2077.0
+Cape Matatula,SMO,Tutila Island,American Samoa,-14.2474,-170.5644,42.0,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,G;B;D,Oceania,Ocean,Ocean,1,,,
 Caribou,,Maine,USA,46.87,-68.02,195.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Dfb,Continental,2,1285.0,558.0,1442.0
 Carlsbad,,California,USA,33.13,-117.33,23.0,1978-1980,WEST,NREL,,https://www.nrel.gov/grid/solar-resource/west.html,Freely,G;B,North America,BSk,Dry,2,1989.0,515.0,2478.0
 Carouge (Geneva),,,Switzerland,46.176,6.139,432.0,2010-?,,University of Geneva,,,,G;B,Europe,Cfb,Temperate,2,1325.0,602.0,1391.0
@@ -286,7 +286,7 @@ Granite Island,GIM,Michigan,USA,46.721,-87.411,208.0,2019-,BSRN,NASA,,https://sc
 Graz,,,Austria,47.08,15.45,398.0,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,G;B;D,Europe,Cfb,Temperate,1,1197.0,606.0,1153.0
 Great Falls,,Montana,USA,47.5,-111.37,1125.0,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSk,Dry,2,1467.0,562.0,1748.0
 Grimstad,,,Norway,58.3345,8.5753,40.0,2019-,,University of Agder,Also has Spectrafy instruments and reference cells.,,,G;B;D;GTI;Albedo,Europe,Cfb,Temperate,1,1037.0,471.0,1201.0
-Guam,,Marianas Islands,USA,13.45,-144.68,111.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Ocean,Ocean,2,2044.0,854.0,1723.0
+Guam,,Marianas Islands,USA,13.45,144.68,111.0,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Ocean,Ocean,2,2033.0,799.0,1810.0
 Guangzhou,,,China,23.17,113.33,6.6,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Freely,G;B;Ds,Asia,Cfa,Temperate,2,1376.0,734.0,982.0
 Gudair,,,Kuwait,28.88,47.71,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2124.0,814.0,1982.0
 Guerrero Negro,GRN,Baja California Sur,Mexico,28.0377,-113.9787,21.0,2016-,,Mexican Solarimetric Service,,https://solarimetrico.geofisica.unam.mx/,,G;B;D,North America,BWh,Dry,1,2252.0,485.0,2858.0
@@ -470,7 +470,7 @@ Marimaura,,,Chile,-35.84,-71.61,,2012-?,FONDEF,,,,,RSP,South America,Csb,Tempera
 Marla,marla,,Reunion,-21.10237,55.43058,1593.25,2023-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.8419976,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2008.0,741.0,1931.0
 Masrik,ARM_Solar_Masrik,,Armenia,40.2077,45.7645,1944,2016-,ESMAP,,Instrument and components have not been checked manually.,https://energydata.info/dataset/armenia-solar-radiation-measurement-data,Freely,,Asia,Dfb,Continental,2,1478.0,726.0,1321.0
 Mathania,,,India,26.516,72.985,271.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BWh,Dry,1,2099.0,697.0,2161.0
-Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397.0,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,G;B;D,North America,Ocean,Ocean,1,2095.0,694.0,2132.0
+Mauna Loa,MLO,Hawaii,USA,19.5362,-155.5763,3397.0,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,G;B;D,North America,ET,Polar,1,1927.0,653.0,1997.0
 Medak,,,India,18.041,78.266,467.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1909.0,883.0,1478.0
 Medford,,Oregon,USA,42.37,-122.87,412.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,Csa,Temperate,2,1672.0,507.0,2102.0
 Melbourne Airport,,Victoria,Australia,-37.6654,144.8322,113.4,1999-?,BOM;WMO RRC,BOM,,http://www.bom.gov.au/climate/data/oneminsolar/about-IDCJAC0022.shtml,Freely,G;B;D;IR,Oceania,Cfb,Temperate,1,1650.0,639.0,1792.0
@@ -615,7 +615,7 @@ SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674.0,2009-,NREL MIDC,,Relativel
 SOLRMAP Kalaeloa Oahu,OAHU,Hawaii,USA,21.31347,-158.08257,11.0,2010-2011,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=OAHURS1M,Freely,RSR,North America,Ocean,Ocean,2,2128.0,679.0,2194.0
 SOLRMAP Southwest Solar Research Park,SSSCAT,Arizona,USA,33.41663,-112.0187,347.0,2010-2013,MIDC,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SSSCAT,Freely,RSR,North America,BWh,Dry,2,2146.0,474.0,2851.0
 SOLRMAP University of Arizona,UA OASIS,Arizona,USA,32.22969,-110.95534,786.0,2010-,,NREL,,https://midcdmz.nrel.gov/apps/sitehome.pl?site=UAT,Freely,G;B;D,North America,BSh,Dry,1,2121.0,496.0,2774.0
-SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,G;B;D,North America,BSk,Dry,1,1737.0,661.0,2011.0
+SRRL BMS,BMS,Colorado,USA,39.7424,-105.1787,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,G;B;D,North America,BSk,Dry,1,1737.0,661.0,2011.0
 Sabryia,,,Kuwait,29.67,47.93,,2012-?,,KISR,Location is approximate,,,G;RSI,Asia,BWh,Dry,2,2077.0,803.0,1934.0
 Sacramento Municipal Utility District (Anatolia),SMUDA,California,USA,38.54586,-121.24029,51.0,2009-2015,MIDC,NREL,The RSR Instrument has been intermittently malfunctioning since August 2014-DATA SHOULD BE USED WITH CAUTION,https://midcdmz.nrel.gov/apps/sitehome.pl?site=SMUDA,Freely,RSR,North America,Csa,Temperate,2,1920.0,449.0,2562.0
 Sadodar,,,India,22.051,70.235,192.0,2011-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,BSh,Dry,1,1978.0,745.0,1861.0
