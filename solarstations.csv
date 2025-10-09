@@ -162,10 +162,10 @@ Kauno,,,Lithuania,54.884,23.836,77,?,Lithuanian Hydrometeorological Service (LHM
 Kishinev,,,Moldova,47,28.817,205,?,ARG / Academy of Sciences of Moldova,,,,,
 Tajoura,,,Libya,32.815147,13.438943,,?,,,,,,
 Heraklion,,Crete,Greece,35.31139,25.10174,95,?,,Hellenic Mediterranean University,Tracked located on roof of building. Site also has spectral radiation measurements.,https://leps.hmu.gr/en/home/,Not available,
-Mauna Loa,MLO,Hawaii,USA,19.5362,155.5763,3397,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,G;B;D
-Cape Matatula,SMO,Tutila Island,American Samoa,14.2474,170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,G;B;D
+Mauna Loa,MLO,Hawaii,USA,19.5362,-155.5763,3397,1976-,ABO,NOAA,Also downwelling long- and shortwave as well as spectral irradiance measurements.,https://gml.noaa.gov/obop/mlo/,Freely,G;B;D
+Cape Matatula,SMO,Tutila Island,American Samoa,-14.2474,-170.5644,42,1976-,ABO,NOAA,Diffuse irradiance measurements first started in 1995.,https://gml.noaa.gov/obop/smo/,Freely,G;B;D
 North Slope of Alaska,NSA,Alaska,USA,71.323,-156.609,8,1997-,ARM,,This site should note be confused with the NOAA Barrow site which is located ~1 km away. Radiation instruments are located at the Central Facility (Barrow),https://arm.gov/capabilities/observatories/nsa/locations/c1,Freely,G;B;D
-SRRL BMS,BMS,Colorado,USA,39.742,-105.18,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,G;B;D
+SRRL BMS,BMS,Colorado,USA,39.7424,-105.1787,1828.8,1981-,NREL MIDC,NREL,The NREL Solar Radiation Research Laboratory (SRRL) operates the largest collection of pyranometers and pyrheliometers in the world. Regular calibration and cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS,Freely,G;B;D
 SOLARTAC,STAC,Colorado,USA,39.75685,-104.62025,1674,2009-,NREL MIDC,,Relatively good quality data but somewhat inconsistent cleaning.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=STAC,Freely,G;B;D
 Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regular calibration and cleaning as of 2022.,https://midcdmz.nrel.gov/apps/sitehome.pl?site=NWTC,Freely,G;B;D
 Casaccia Research Center,CAS,Lazio,Italy,42.04167,12.30667,,2001-,,ENEA,Since 2020 also has PAR; albedo; UVA; UVB; spectral.,,,G;B;D;UVA;UVB;PAR
@@ -657,7 +657,7 @@ Dodge City,,Kansas,USA,37.77,-99.97,795,1977-1979,NOAA,NREL,,https://www.nrel.go
 Lake Charles,,Louisiana,USA,30.12,-93.22,19,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
 Blue Hill,,Massachusetts,USA,42.22,-71.12,200,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
 Caribou,,Maine,USA,46.87,-68.02,195,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
-Guam,,Marianas Islands,USA,13.45,-144.68,111,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
+Guam,,Marianas Islands,USA,13.45,144.68,111,1978-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
 Columbia,,Missouri,USA,38.82,-92.22,277,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
 Great Falls,,Montana,USA,47.50,-111.37,1125,1977-1978,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
 Omaha,,Nebraska,USA,41.37,-96.02,404,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B
