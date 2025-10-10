@@ -256,7 +256,7 @@ Fort Peck,FPE,Montana,USA,48.30783,-105.1017,634.0,1995-,BSRN;SURFRAD,NOAA,,http
 Freiburg,,,Germany,48.0114,7.837,253.0,2018-?,,Fraunhofer,The coordinates were derived from https://www.sciencedirect.com/science/article/pii/S0038092X24000136,,,G;B;D,Europe,Cfb,Temperate,1,1212.0,591.0,1175.0
 Fresno,,California,USA,36.77,-119.72,102.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BSh,Dry,2,1997.0,464.0,2613.0
 Fukue,,,Japan,32.752,128.682,80.0,2003-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/fukue/fukue.html,Freely,G;D,Asia,Ocean,Ocean,2,1402.0,726.0,1055.0
-Fukuoka,FUA,,Japan,33.5822,130.3764,3.0,2010-,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,G;B;D;IR,Asia,Cfa,Temperate,1,1398.0,704.0,1153.0
+Fukuoka,FUA,,Japan,33.5822,130.3764,3.0,2010-2024,BSRN,,,https://epic.awi.de/id/eprint/36862/41/Fukuoka_old-and-new.pdf,Freely,G;B;D;IR,Asia,Cfa,Temperate,1,1398.0,704.0,1153.0
 Funafuti,,,Tuvalu,-8.525087,179.196323,0.0,2020-2022,PPA,,,https://energydata.info/dataset/tuvalu-solar-radiation-measurement-data,Freely,G;SPN1,Oceania,Ocean,Ocean,2,1945.0,773.0,1595.0
 GIZ Graaff-Reinet,GRN,Graaff-Reinet,South Africa,-32.48546982,24.58581924,660.0,2013-2016,SAURAN,,Inside enclosure on rural farmland. Permanently offline.,https://sauran.ac.za/station-documents/GRT/GRT%20Station%20Details.pdf,Freely,,Africa,BWh,Dry,2,2011.0,540.0,2511.0
 GIZ Murraysburg,MRB,Murraysburg,South Africa,-31.89009094,24.05623055,1548.0,2017-2019,SAURAN,,Permanently offline. Inside enclosure on rural farmland.,https://sauran.ac.za/,Freely,G;B;D,Africa,BSk,Dry,1,2132.0,522.0,2734.0
