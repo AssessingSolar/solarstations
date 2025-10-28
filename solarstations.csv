@@ -76,7 +76,7 @@ Tateno;Tsukuba,TAT,,Japan,36.0581,140.1258,25,1996-,BSRN;WMO RRC,JMA,,https://ep
 Tiksi,TIK,Siberia,Russia,71.5862,128.9188,48,2010-,BSRN,,,,Freely,G;B;D;IR
 Tiruvallur,TIR,,India,13.0923,79.9738,36,2014-,BSRN;SRRA,National Institute of wind energy,,,Freely,G;B;D;IR
 Terra Nova Bay,TNB,,Antarctica,-74.6223,164.2283,28,?,BSRN,,Candidate Station (no. 89),,Freely,G;B;D;IR
-Toravere,TOR,,Estonia,58.254,26.462,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,G;B;D;IR
+Toravere,TOR,,Estonia,58.2641,26.4613,70,1999-,BSRN,,,https://gml.noaa.gov/grad/meetings/BSRN2018_documents/2018_%20BSRN_poster_EST_Rosin.pdf,Freely,G;B;D;IR
 Xianghe,XIA,,China,39.754,116.962,32,2005-2016,BSRN,,Station obstructed & no longer in BSRN since 2016,,Freely,G;B;D;IR
 Yushan Station,YUS,,Taiwan,23.4876,120.9595,3858,2018-,BSRN,,,,Freely,G;B;D;IR
 Albuquerque,ABQ,New Mexico,USA,35.03796,-106.62211,1617,1995-,SOLRAD,NOAA,,https://gml.noaa.gov/grad/solrad/abq.html,Freely,G;B;D
@@ -695,7 +695,6 @@ Cape Hedo,,,Japan,26.867,128.248,65,2005-,SKYNET,Hitoshi Irie and Tamio Takamura
 Fukue,,,Japan,32.752,128.682,80,2003-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/fukue/fukue.html,Freely,G;D
 Miyako,,,Japan,24.737,125.327,50,2004-2018,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/miyako/miyako.html,Freely,G;D
 Sendai,,,Japan,38.26,140.84,153,2010-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/sendai/sendai.html,Freely,G;D
-Phimai,,,Thailand,15.184,102.564,212,2005-,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/phimai/phimai.html,Freely,G;D
 Seoul,,,South Korea,37.46,126.95,85,2008-2015,SKYNET,Hitoshi Irie and Tamio Takamura (CEReS/Chiba-U.),Photometer and longwave downdewlling irradiance.,http://atmos3.cr.chiba-u.jp/skynet/seoul/seoul.html,Freely,G;D
 Jokioinen Ilmala,,,Finland,60.8143, 23.4990,104,1999-,,Finnish Meteorological Institute (FMI),,https://en.ilmatieteenlaitos.fi/observation-stations,Freely,G;B;D;IR;UV
 Helsinki Kumpula,,,Finland,60.2038,24.96171,24,2007-,,Finnish Meteorological Institute (FMI),,https://en.ilmatieteenlaitos.fi/observation-stations,Freely,G;B;D;IR;UV
