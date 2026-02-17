@@ -191,7 +191,7 @@ Innsbruck,,,Austria,47.26,11.38,578,2011-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/
 Kanzelhöhe,,,Austria,46.68,13.90,1540,2013-,ARAD,ZAMG,,https://www.zamg.ac.at/cms/de/klima/klimaforschung/datensaetze/arad,Upon request,G;B;D
 Davos,DAV,,Switzerland,46.8130,9.8440,1610,2000-,WMO RRC,MeteoSwiss,GHI started in 1995; DNI in 2000; and diffuse in 2003.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
 Jungfraujoch,JUN,,Switzerland,46.5500,7.9900,3582,1996-,,MeteoSwiss,No diffuse measurements due to too hars meteorological conditions.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
-Locarno-Monti,OTL,,Switzerland,46.1800,8.7830,366,2000-,,MeteoSwiss,GHI from 1996; DNI from 2000; and diffuse from 2001.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
+Locarno-Monti,OTL,,Switzerland,46.17251,8.78736,438,2000-,,MeteoSwiss,GHI from 1996; DNI from 2000; and diffuse from 2001.,https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/radiation-monitoring.html,Upon request,G;B;D
 Amitie,amitie,,Seychelles,-4.321022,55.693361,3,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408667,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
 Anse Boileau,anseboileau,,Seychelles,-4.710958,55.484732,2,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408665,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
 Antananarivo,antananarivo,,Madagascar,-18.89833,47.546422,1309,2019-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.4408673,https://galilee.univ-reunion.fr/,Freely,SPN1;UV
