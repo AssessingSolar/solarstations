@@ -171,7 +171,7 @@ Flatirons M2,NWTC,Colorado,USA,39.9106,-105.2347,1855,2021-,NREL MIDC,NREL,Regul
 Casaccia Research Center,CAS,Lazio,Italy,42.04167,12.30667,,2001-,,ENEA,Since 2020 also has PAR; albedo; UVA; UVB; spectral.,,,G;B;D;UVA;UVB;PAR
 European Solar Test Installation - JRC,JRC,Ispra,Italy,45.81206,8.62706,220,1996-,,,,,Freely,G;B;D
 Ricerca sul Sistema Energetico,RSE,Milan,Italy,45.47488,9.26001,150,2012-,,RSE,Tracker is installed on the roof of a building (ground elevation is 108 m). The station also makes spectral measurement using a Spectrafy instrument.,,,G;B;D
-University of Girona,,Catalonia,Spain,41.96338,2.83128,110,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,G;B;D
+University of Girona,,Catalonia,Spain,41.96338,2.83128,118,1993-,,,,https://www.udg.edu/en/grupsrecerca/Fisica-Ambiental/Estacio-Meteorologica/Informacio-general-sobre-lestacio,,G;B;D
 Alamosa,SLV,Colorado,USA,37.70,-105.92,2317,2014-2016,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
 Rutland,RUT,Vermont,USA,43.64,-72.97,184,2014-2015,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
 Wasco,WAS,Oregon,USA,45.59,-120.67,200,2016-2017,SURFRAD,NOAA,,https://gml.noaa.gov/aftp/data/radiation/surfrad/,Freely,G;B;D
