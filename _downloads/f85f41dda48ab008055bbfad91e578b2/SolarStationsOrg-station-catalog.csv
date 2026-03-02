@@ -422,7 +422,7 @@ Las Vegas,,Nevada,USA,36.15,-115.17,634.0,1978-1980,WEST,NREL,,https://www.nrel.
 Las Vegas,,Nevada,USA,36.08,-115.17,661.0,1977-1980,NOAA,NREL,,https://www.nrel.gov/grid/solar-resource/noaa.html,Freely,G;B,North America,BWh,Dry,2,2062.0,478.0,2800.0
 Lasa,,,China,29.67,91.13,3648.7,1993-,,China Meteorological Administration,Diffuse is measured with shadowring. Data can be downloaded from http://dcpzx.cma.cn/#/data-collect,,Freely,G;B;Ds,Asia,BSk,Dry,2,2000.0,839.0,2029.0
 Latur,,,India,18.4,76.56,638.0,2014-,SRRA,National Institute of wind energy,,https://niwe.res.in/department_srra_stations_phase1.php,,G;B;D,Asia,Aw,Tropical,1,1931.0,839.0,1588.0
-Lauder,LAU,,New Zealand,-45.045,169.689,350.0,1999-,BSRN,,,,Freely,G;B;D;IR,Oceania,Cfb,Temperate,1,1380.0,620.0,1507.0
+Lauder,LAU,,New Zealand,-45.03834,169.684115,350.0,1999-,BSRN,,,,Freely,G;B;D;IR,Oceania,Cfb,Temperate,1,1380.0,620.0,1507.0
 Le Bourget-du-Lac,,,France,45.6416,5.8752,235.0,2019-?,,INES,There is a second tracker with a pyrheliometer on a tower (probably little maintenance).,,,G;B,Europe,Cfa,Temperate,2,1376.0,591.0,1464.0
 Le Port Barbusse,leportbarbusse,,Reunion,-20.934157,55.30779,16.96,2010-2021,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092858,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2106.0,704.0,2113.0
 Le Port Mairie,leportmairie,,Reunion,-20.935233,55.290266,12.0,2015-,IOS-net,,Data can be downloaded from: https://doi.org/10.5281/zenodo.7092855,https://galilee.univ-reunion.fr/,Freely,SPN1,Africa,Ocean,Ocean,2,2106.0,704.0,2113.0
