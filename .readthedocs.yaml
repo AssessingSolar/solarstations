@@ -13,7 +13,8 @@ build:
     # Install mystmd
     - npm install -g mystmd
     # Build the site (myst.yml lives in docs/, so build from there)
-    - cd docs && myst build --html
+    # --execute re-runs notebook code cells instead of using their stored outputs.
+    - cd docs && myst build --html --execute
     # Copy the output to Read the Docs expected location
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r docs/_build/html/. "$READTHEDOCS_OUTPUT/html"
