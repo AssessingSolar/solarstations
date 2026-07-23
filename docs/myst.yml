@@ -7,7 +7,31 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/AssessingSolar/solarstations
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+ 
+  toc:
+    - file: intro.ipynb
+    - file: station_catalog.ipynb
+    - file: station_requirements.md
+      title: Station requirements
+    - file: station_metadata.md
+    - file: station_statistics.ipynb
+      title: Statistics
+
+    - title: Networks
+      children:
+        - file: station_network_bsrn.ipynb
+          title: BSRN
+        - file: station_network_esmap.ipynb
+          title: ESMAP
+        - file: station_network_midc.ipynb
+          title: NREL MIDC
+        - file: station_network_solrad.ipynb
+          title: SOLRAD
+        - file: station_network_srml.ipynb
+          title: SRML
+        - file: station_network_surfrad.ipynb
+          title: SURFRAD
+
 site:
   template: book-theme
   # options:
