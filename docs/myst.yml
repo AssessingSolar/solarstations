@@ -11,12 +11,15 @@ project:
     - name: Kevin Anderson
   copyright: "2022"
   open_access: true
-  license: BSD
-  doi: 
+  license: BSD-3-Clause
+  # doi: 
   # description:
   # keywords: []
-  github: https://github.com/AssessingSolar/solarstations
- 
+  github: https://github.com/AssessingSolar/
+
+  settings:
+    output_matplotlib_strings: remove
+
   toc:
     - file: intro.ipynb
     - file: station_catalog.ipynb
