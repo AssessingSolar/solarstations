@@ -2,10 +2,19 @@
 version: 1
 project:
   id: 38f67f99-53eb-411b-bbf0-4734d647712d
-  # title:
+  title: SolarStations.Org
+  authors:
+    - name: Adam R. Jensen
+      email: arajen@dtu.dk
+      corresponding: true
+    - name: Ioannis Sifnaios
+    - name: Kevin Anderson
+  copyright: "2022"
+  open_access: true
+  license: BSD
+  doi: 
   # description:
   # keywords: []
-  # authors: []
   github: https://github.com/AssessingSolar/solarstations
  
   toc:
@@ -32,8 +41,26 @@ project:
         - file: station_network_surfrad.ipynb
           title: SURFRAD
 
+    - title: Other data sources
+      children:
+        - file: station_network_pvlive.ipynb
+        - file: station_network_eye2sky.ipynb
+          title: Eye2sky
+        - file: geba_network.md
+        - file: other_data_sources.md
+          title: Miscellaneous
+
+    - title: Appendix
+      children:
+        - file: contributing.md
+        - title: pvlib iotools
+          url: https://assessingsolar.org
+        - title: IEA PVPS Task 16
+          url: https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/
+
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: graphics/solarstationsorg_favicon.ico
+    logo: graphics/solarstationsorg_logo_padded.png
+    analytics_google: G-6KXSD7FTJM
