@@ -64,3 +64,4 @@ site:
     favicon: graphics/solarstationsorg_favicon.ico
     logo: graphics/solarstationsorg_logo_padded.png
     analytics_google: G-6KXSD7FTJM
+    hide_authors: true
