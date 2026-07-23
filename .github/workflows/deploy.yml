@@ -41,19 +41,19 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r docs/requirements.txt
-      # - name: Install Jupyter Book (via myst)
-      #   run: npm install -g jupyter-book
+      - name: Install mystmd
+        run: npm install -g mystmd
       - name: Build HTML Assets
         env:  # Set secret environment variables
           BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
           BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
-        run: jupyter-book build --html
+        run: cd docs && myst build --html --execute
       - name: Add CNAME
-        run: echo 'SolarStations.Org' > ./_build/html/CNAME
+        run: echo 'SolarStations.org' > ./docs/_build/html/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './_build/html'
+          path: './docs/_build/html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
