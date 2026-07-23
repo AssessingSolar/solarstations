@@ -1,0 +1,70 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 38f67f99-53eb-411b-bbf0-4734d647712d
+  title: SolarStations.org
+  authors:
+    - name: Adam R. Jensen
+      email: arajen@dtu.dk
+      corresponding: true
+    - name: Ioannis Sifnaios
+    - name: Kevin Anderson
+  copyright: "2022"
+  open_access: true
+  license: BSD-3-Clause
+  # doi: 
+  # description:
+  # keywords: []
+  github: https://github.com/AssessingSolar/
+
+  settings:
+    output_matplotlib_strings: remove
+
+  toc:
+    - file: intro.ipynb
+    - file: station_catalog.ipynb
+    - file: station_requirements.md
+      title: Station requirements
+    - file: station_metadata.md
+    - file: station_statistics.ipynb
+      title: Statistics
+
+    - title: Networks
+      children:
+        - file: station_network_bsrn.ipynb
+          title: BSRN
+        - file: station_network_esmap.ipynb
+          title: ESMAP
+        - file: station_network_midc.ipynb
+          title: NREL MIDC
+        - file: station_network_solrad.ipynb
+          title: SOLRAD
+        - file: station_network_srml.ipynb
+          title: SRML
+        - file: station_network_surfrad.ipynb
+          title: SURFRAD
+
+    - title: Other data sources
+      children:
+        - file: station_network_pvlive.ipynb
+        - file: station_network_eye2sky.ipynb
+          title: Eye2sky
+        - file: geba_network.md
+        - file: other_data_sources.md
+          title: Miscellaneous
+
+    - title: Appendix
+      children:
+        - file: contributing.md
+        - title: pvlib iotools
+          url: https://assessingsolar.org
+        - title: IEA PVPS Task 16
+          url: https://iea-pvps.org/research-tasks/solar-resource-for-high-penetration-and-large-scale-applications/
+
+site:
+  template: book-theme
+  options:
+    favicon: graphics/solarstationsorg_favicon.ico
+    logo: graphics/solarstationsorg_logo_padded.png
+    analytics_google: G-6KXSD7FTJM
+    hide_authors: true
