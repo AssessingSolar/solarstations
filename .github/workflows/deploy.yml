@@ -29,16 +29,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - uses: actions/setup-node@v4
+        uses: actions/configure-pages@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: 18.x
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+          node-version: 22.x
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - name: Install dependencies
         run: pip install -r docs/requirements.txt
       - name: Install mystmd
@@ -51,9 +51,9 @@ jobs:
       - name: Add CNAME
         run: echo 'SolarStations.org' > ./docs/_build/html/CNAME
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: './docs/_build/html'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
