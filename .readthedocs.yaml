@@ -12,10 +12,10 @@ build:
     - pip install -r docs/requirements.txt
     # Install mystmd
     - npm install -g mystmd
-    # Build the site
-    - myst build --html
+    # Build the site (myst.yml lives in docs/, so build from there)
+    - cd docs && myst build --html
     # Copy the output to Read the Docs expected location
     - mkdir -p $READTHEDOCS_OUTPUT/html/
-    - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
+    - cp -r docs/_build/html/. "$READTHEDOCS_OUTPUT/html"
     # Clean up build artifacts
-    - rm -rf _build
+    - rm -rf docs/_build
