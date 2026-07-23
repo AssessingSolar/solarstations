@@ -7,12 +7,9 @@ build:
   tools:
     python: "3.12"
     nodejs: "22"
-  jobs:
-    pre_build:
-      # Install Python dependencies
-      - pip install -r docs/requirements.txt
-
   commands:
+    # Install Python dependencies
+    - pip install -r docs/requirements.txt
     # Install mystmd
     - npm install -g mystmd
     # Build the site
