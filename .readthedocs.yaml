@@ -9,12 +9,10 @@ build:
     nodejs: "22"
   jobs:
     pre_build:
-      # Generate the Sphinx configuration for this Jupyter Book so it builds.
-      - "jupyter-book config sphinx docs/"
+      # Install Python dependencies
+      - pip install -r docs/requirements.txt
 
   commands:
-    # Install Python dependencies
-    - pip install -r docs/requirements.txt
     # Install mystmd
     - npm install -g mystmd
     # Build the site
