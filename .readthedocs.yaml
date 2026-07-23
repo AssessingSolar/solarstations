@@ -6,17 +6,21 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
+    nodejs: "22"
   jobs:
     pre_build:
       # Generate the Sphinx configuration for this Jupyter Book so it builds.
       - "jupyter-book config sphinx docs/"
 
-python:
-  install:
-  - requirements: docs/requirements.txt
-
-# Build documentation in the "docs/" directory with Sphinx
-sphinx:
-  configuration: docs/_config.yml
-  builder: html
-  fail_on_warning: true
+  commands:
+    # Install Python dependencies
+    - pip install -r docs/requirements.txt
+    # Install mystmd
+    - npm install -g mystmd
+    # Build the site
+    - myst build --html
+    # Copy the output to Read the Docs expected location
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
+    - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
+    # Clean up build artifacts
+    - rm -rf _build

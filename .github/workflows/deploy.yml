@@ -1,46 +1,59 @@
-name: deploy-book
+# This file was created automatically with `jupyter-book init --gh-pages` 🪄 💚
+# Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
 
-# Only run this when the master branch changes
+name: Jupyter Book (via myst) GitHub Pages Deploy
 on:
   push:
-    branches:
-    - main
-    # If your git repository has the Jupyter Book within some-subfolder next to
-    # unrelated files, you can make this run only if a file within that specific
-    # folder has been modified.
-    #
-    # paths:
-    # - some-subfolder/**
+    # Runs on pushes targeting the default branch
+    branches: [main]
+env:
+  # `BASE_URL` determines, relative to the root of the domain, the URL that your site is served from.
+  # E.g., if your site lives at `https://mydomain.org/myproject`, set `BASE_URL=/myproject`.
+  # If, instead, your site lives at the root of the domain, at `https://mydomain.org`, set `BASE_URL=''`.
+  BASE_URL: /${{ github.event.repository.name }}
 
-# This job installs dependencies, build the book, and pushes it to `gh-pages`
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
 jobs:
-  deploy-book:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-
-    # Install dependencies
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.12"
-
-    - name: Install dependencies
-      run: |
-        pip install -r docs/requirements.txt
-
-    # Build the book
-    - name: Build the book
-      env:  # Set secret environment variables
-        BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
-        BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
-      run: |
-        jupyter-book build docs/.
-
-    # Push the book's HTML to github-pages
-    - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs/_build/html
-        cname: SolarStations.Org
+      - uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r docs/requirements.txt
+      # - name: Install Jupyter Book (via myst)
+      #   run: npm install -g jupyter-book
+      - name: Build HTML Assets
+        env:  # Set secret environment variables
+          BSRN_FTP_USERNAME: ${{ secrets.BSRN_FTP_USERNAME }}
+          BSRN_FTP_PASSWORD: ${{ secrets.BSRN_FTP_PASSWORD }}
+        run: jupyter-book build --html
+      - name: Add CNAME
+        run: echo 'SolarStations.Org' > ./_build/html/CNAME
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_build/html'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
