@@ -4,11 +4,19 @@
 
 ```{marimo} python
 import marimo as mo
+import pandas as pd
+# Load stations
+solarstations = pd.read_csv('../solarstations.csv', dtype={'Tier': str}).fillna('')
 
-slider = mo.ui.slider(start=1, stop=10, label="islands")
-slider
+# df is a Pandas or Polars dataframe
+table = mo.ui.table(
+    data=solarstations,
+    # use pagination when your table has many rows
+    pagination=True,
+    label="Dataframe",
+)
 ```
 
 ```{marimo} python
-mo.md(f"The slider is set to **{slider.value}**.")
+table
 ```
