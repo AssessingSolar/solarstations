@@ -20,3 +20,8 @@ build:
     - cd docs && cp -r _build/html/. "$READTHEDOCS_OUTPUT/html/"
     # Clean up build artifacts
     - cd docs && rm -rf _build
+
+python:
+  install:
+    - method: uv
+      command: sync
