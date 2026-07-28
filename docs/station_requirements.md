@@ -3,7 +3,7 @@
 This section defines the minimum requirements for a station to be included in the list of multi-component solar irradiance monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the remaining component can be calculated.
 
 ## Station categorization
-Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below.
+Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below (see https://doi.org/10.1016/j.solener.2023.112092).
 
 ### Tier 1 stations
 Tier 1 stations are defined as those that meet all of the following requirements (classification is according to ISO 9060):
@@ -18,5 +18,9 @@ Tier 2 stations are defined as those that do not meet the Tier 1 requirements bu
 * Meets two of the three requirements of Tier 1 stations
 * Measures GHI and DHI using a rotating shadowband pyranometer or SPN1
 
-### Non-qualifying stations
-Stations that only measure GHI are not considered, which is in part because there are thousands of such stations worldwide and there are limited methods for assessing the quality of the measurements. Also, stations that measure DHI using a manually adjusted shadow band are generally not considered, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.
+Note, stations that measure DHI using a manually adjusted shadow band are not included in the catalog, as such measurements are notoriously unreliable due to the shadow band having to be adjusted every few days.
+
+### Tier 3 stations (not included)
+Tier 3 stations are defines as those that only measure GHI. Automatic weather stations featuring a single pyranometer are examples of Tier 3 stations.
+
+Tier 3 stations are not included in this catalog, which is in part because there are thousands of such stations worldwide and there are limited methods for assessing the quality of the measurements.
