@@ -54,7 +54,7 @@ project:
         - file: station_network_pvlive.ipynb
         - file: station_network_eye2sky.ipynb
           title: Eye2sky
-        - file: geba_network.md
+        - file: station_network_geba.md
         - file: other_data_sources.md
           title: Miscellaneous
 

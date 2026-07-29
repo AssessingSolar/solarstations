@@ -12,7 +12,7 @@ The central part of the catalog is the list of stations and their metadata which
 * Data availability ("Freely", "Upon request", "Not available", or blank if unknown)
 * Station tier (see [station requirements](station_requirements)).
 * Instruments and components (see below)
-* Long-term annual irradiance (climatology) from NASA POWER (GHI, DNI, and DHI)
+* Long-term annual irradiance (climatology) of GHI, DNI, and DHI obtained from NASA POWER
 
 Additional information of some of the metadata fields is provided below.
 
