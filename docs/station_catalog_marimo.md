@@ -1,23 +1,25 @@
-
 ```{marimo} python
 import marimo as mo
+import pandas as pd
+```
 
-slider = mo.ui.slider(start=1, stop=10, label="islands")
-slider
+
+```{marimo} python
+main_url = "https://raw.githubusercontent.com/AssessingSolar/solarstations/refs/heads/main/solarstations.csv"
+esmap_url = "https://raw.githubusercontent.com/AssessingSolar/solarstations/refs/heads/main/esmap_stations.csv"
+
+main_stations = pd.read_csv(main_ur, dtype={'Tier': str}).fillna('')
+esmap_stations = pd.read_csv(esmap_url, dtype={'Tier': str}).fillna('')
+stations = pd.concat([main_stations, esmap_stations], axis='rows', ignore_index=True)
+
+table = mo.ui.table(
+    stations,
+    pagination=True,
+    freeze_columns_left=["Station name"],
+    hidden_columns=["URL],
+)
 ```
 
 ```{marimo} python
-mo.md(f"The slider is set to **{slider.value}**.")
-```
-
-```{marimo} python
-from pathlib import Path
-
-path = Path.cwd()
-mo.md(str(path))
-```
-
-```{marimo} python
-files = [str(f) for f in path.iterdir() if f.is_file()]
-mo.ui.table(files)
+table
 ```
