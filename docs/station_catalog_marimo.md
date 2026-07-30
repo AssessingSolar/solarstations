@@ -1,22 +1,23 @@
 
-
-
-
 ```{marimo} python
 import marimo as mo
-import pandas as pd
-# Load stations
-solarstations = pd.read_csv('../solarstations.csv', dtype={'Tier': str}).fillna('')
 
-# df is a Pandas or Polars dataframe
-table = mo.ui.table(
-    data=solarstations,
-    # use pagination when your table has many rows
-    pagination=True,
-    label="Dataframe",
-)
+slider = mo.ui.slider(start=1, stop=10, label="islands")
+slider
 ```
 
 ```{marimo} python
-table
+mo.md(f"The slider is set to **{slider.value}**.")
+```
+
+```{marimo} python
+from pathlib import Path
+
+path = Path.cwd()
+mo.md(str(path))
+```
+
+```{marimo} python
+files = [str(f) for f in path.iterdir() if f.is_file()]
+mo.ui.table(files)
 ```
