@@ -3,7 +3,7 @@
 This section defines the minimum requirements for a station to be included in the list of multi-component solar irradiance monitoring stations. The most restricting criteria is that stations are required to measure at least two of the three irradiance components, such that the remaining component can be calculated.
 
 ## Station categorization
-Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below (see https://doi.org/10.1016/j.solener.2023.112092).
+Accepted stations are classified into two different categories: Tier 1 and Tier 2 stations, which are defined below (see https://doi.org/10.1016/j.solener.2025.113457).
 
 ### Tier 1 stations
 Tier 1 stations are defined as those that meet all of the following requirements (classification is according to ISO 9060):
