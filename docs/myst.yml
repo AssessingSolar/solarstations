@@ -20,9 +20,14 @@ project:
   settings:
     output_matplotlib_strings: remove
 
+  plugins:
+    - type: executable
+      path: ../.venv/bin/jupyter-book-marimo
+
   toc:
     - file: intro.ipynb
     - file: station_catalog.ipynb
+    - file: station_catalog_marimo.md
     - file: station_requirements.md
       title: Station requirements
     - file: station_metadata.md
