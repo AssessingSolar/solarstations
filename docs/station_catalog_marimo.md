@@ -50,8 +50,10 @@ stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove
 stations = stations.sort_values('Station name', ignore_index=True)
 
 columns_ordered = [
-    'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent', 'Latitude', 'Longitude', 'Elevation',
-    'Time period', 'Network', 'Owner', 'Comment', 'URL', 'Data availability', 'Instrumentation', 'Tier', 'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2',
+    'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent',
+    'Latitude', 'Longitude', 'Elevation',
+    'Time period', 'Network', 'Owner', 'Comment', 'Data availability', 'Instrumentation', 'Tier',
+    'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2',
     # 'Koeppen Geiger climate zone',
 ]
 
