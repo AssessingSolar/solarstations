@@ -34,7 +34,7 @@ for index, row in stations.iterrows():
     lon_round = round(row['Longitude']*2-0.5, 0)/2 + 0.25
     try:
         stations.loc[index, ['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = \
-            annual_irradiance.loc[(lat_round, lon_round), :]
+            annual_irradiance.loc[(lat_round, lon_round), :].values
     except KeyError as e:
         pass
     # Manual add data missing from the climatological file (data retrieved from NASA's webinterface)
