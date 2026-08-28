@@ -49,8 +49,9 @@ stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove
 
 stations = stations.sort_values('Station name', ignore_index=True)
 
+# Set empty string values to empty string as otherwise they are shown as NaN in the table
 for c in stations.columns:
-  if pd.api.types.is_numeric_dtype(stations[c]):
+  if not pd.api.types.is_numeric_dtype(stations[c]):
     stations[c] = stations[c].replace(np.nan, '')
 
 columns_ordered = [
