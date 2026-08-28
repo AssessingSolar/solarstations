@@ -12,8 +12,8 @@ esmap_url = "https://raw.githubusercontent.com/AssessingSolar/solarstations/refs
 country_by_continent_url = "https://raw.githubusercontent.com/AssessingSolar/solarstations/refs/heads/main/data/country_by_continent.json"
 nasa_power_url = "https://raw.githubusercontent.com/AssessingSolar/solarstations/refs/heads/main/data/nasa_power_annual_irradiance_global.csv"
 
-main_stations = pd.read_csv(main_url, dtype={'Tier': str}).fillna('')
-esmap_stations = pd.read_csv(esmap_url, dtype={'Tier': str}).fillna('')
+main_stations = pd.read_csv(main_url)
+esmap_stations = pd.read_csv(esmap_url)
 stations = pd.concat([main_stations, esmap_stations], axis='rows', ignore_index=True)
 
 country_by_continent = pd.read_json(country_by_continent_url, typ="series").to_dict()
@@ -53,8 +53,6 @@ columns_ordered = [
     'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent', 'Latitude', 'Longitude', 'Elevation',
     'Time period', 'Network', 'Owner', 'Comment', 'URL', 'Data availability', 'Instrumentation', 'Tier', 'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2', 'Koeppen Geiger climate zone',
 ]
-
-stations["Elevation"] = stations["Elevation"].str.replace('', np.nan).astype(float)
 
 stations = stations[columns_ordered]
 
