@@ -29,12 +29,13 @@ is_tier_1 = (instrumentation=='G').any(axis=1) & (instrumentation=='B').any(axis
 stations['Tier'] = 2 - is_tier_1.astype(int)
 
 annual_irradiance = pd.read_csv(nasa_power_url, index_col=[0, 1])
+stations[['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = np.nan
 for index, row in stations.iterrows():
     lat_round = round(row['Latitude']*2-0.5, 0)/2 + 0.25
     lon_round = round(row['Longitude']*2-0.5, 0)/2 + 0.25
     try:
         stations.loc[index, ['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = \
-            annual_irradiance.loc[(lat_round, lon_round), :].values
+            annual_irradiance.loc[(lat_round, lon_round), :]
     except KeyError as e:
         pass
     # Manual add data missing from the climatological file (data retrieved from NASA's webinterface)
