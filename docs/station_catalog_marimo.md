@@ -1,4 +1,12 @@
 ```{marimo} python
+dependencies = [
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "kgcpy==1.1.8",
+]
+```
+
+```{marimo} python
 import marimo as mo
 import pandas as pd
 import numpy as np
@@ -55,11 +63,17 @@ for c in stations.columns:
   if not pd.api.types.is_numeric_dtype(stations[c]):
     stations[c] = stations[c].replace(np.nan, '')
 
+stations = stations.rename(columns={
+    "GHI_kWh_m2": "GHI (kWh/m²)",
+    "DHI_kWh_m2": "DHI (kWh/m²)",
+    "DNI_kWh_m2": "DNI (kWh/m²)",
+})
+    
 columns_ordered = [
     'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent',
     'Latitude', 'Longitude', 'Elevation',
     'Time period', 'Network', 'Owner', 'Comment', 'Data availability', 'Instrumentation', 'Tier',
-    'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2',
+    'GHI (kWh/m²)', 'DHI (kWh/m²)', 'DNI (kWh/m²)',
     # 'Koeppen Geiger climate zone',
 ]
 
