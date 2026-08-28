@@ -8,6 +8,8 @@ build:
     python: "3.13"
     nodejs: "22"
   commands:
+    # Install uv itself (not preinstalled on the RTD build image)
+    - pip install uv
     # Install Python dependencies via uv, creating .venv at the repo root
     # (myst.yml's marimo plugin path, ../.venv/bin/jupyter-book-marimo, expects it there)
     - UV_PROJECT_ENVIRONMENT=.venv uv sync
