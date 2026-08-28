@@ -2,7 +2,7 @@
 import marimo as mo
 import pandas as pd
 import numpy as np
-import kgcpy
+# import kgcpy
 ```
 
 
@@ -20,9 +20,9 @@ country_by_continent = pd.read_json(country_by_continent_url, typ="series").to_d
 
 stations['Continent'] = stations['Country'].map(country_by_continent)
 
-#stations['Koeppen Geiger classification'] = stations.apply(lambda x: kgcpy.lookupCZ(x['Latitude'], x['Longitude']), axis=1)
-#kg_climates = {'A': 'Tropical', 'B': 'Dry', 'C': 'Temperate', 'D': 'Continental', 'E': 'Polar', 'O': 'Ocean'}
-#stations['Koeppen Geiger climate zone'] = stations['Koeppen Geiger classification'].apply(lambda x: kg_climates[x[0]])
+# stations['Koeppen Geiger classification'] = stations.apply(lambda x: kgcpy.lookupCZ(x['Latitude'], x['Longitude']), axis=1)
+# kg_climates = {'A': 'Tropical', 'B': 'Dry', 'C': 'Temperate', 'D': 'Continental', 'E': 'Polar', 'O': 'Ocean'}
+# stations['Koeppen Geiger climate zone'] = stations['Koeppen Geiger classification'].apply(lambda x: kg_climates[x[0]])
 
 instrumentation = stations['Instrumentation'].str.split(';', expand=True)
 is_tier_1 = (instrumentation=='G').any(axis=1) & (instrumentation=='B').any(axis=1) & (instrumentation=='D').any(axis=1)
@@ -50,9 +50,8 @@ stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove
 stations = stations.sort_values('Station name', ignore_index=True)
 
 columns_ordered = [
-    'Station name', 'Abbreviation', 'State', 'Country', 'Continent', 'Latitude', 'Longitude', 'Elevation',
-    'Time period', 'Network', 'Owner', 'Comment', 'URL', 'Data availability', 'Instrumentation', 'Tier', 'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2',
-    'URL'
+    'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent', 'Latitude', 'Longitude', 'Elevation',
+    'Time period', 'Network', 'Owner', 'Comment', 'URL', 'Data availability', 'Instrumentation', 'Tier', 'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2', 'Koeppen Geiger climate zone',
 ]
 
 stations["Elevation"] = stations["Elevation"].str.replace('', np.nan).astype(float)
