@@ -49,17 +49,8 @@ stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove
 
 stations = stations.sort_values('Station name', ignore_index=True)
 
-## Write file containing all columns, linked to above
-#stations.to_csv('./SolarStationsOrg-station-catalog.csv', index=False)
-
-## Format station name as hyperlinks if URL is available.
-## Do this after the new CSV is written, since we don't want HTML in that.
-#for index, row in stations.iterrows():
-#    if row['URL'].startswith('http'):
-#        stations.loc[index, 'Station name'] = f'[{row["Station name"]}]({row["URL"]})'
-
-## Drop the columns as using ``hidden_columns`` let's users know that there is a hidden column`
-#stations = stations.drop(columns=['URL'])
+# Write file containing all columns, linked to above
+stations.to_csv('./SolarStationsOrg-station-catalog.csv', index=False)
 
 table = mo.ui.table(
     stations,
@@ -67,8 +58,7 @@ table = mo.ui.table(
     freeze_columns_left=["Station name"],
     page_size=20,  # default is 10
     show_download=True,
-    column_widths={"Station name": 180, "URL": 30},
-    # hidden_columns=["URL"],
+    column_widths={"Station name": 180, "URL": 80},
 )
 ```
 
