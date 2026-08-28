@@ -55,7 +55,7 @@ columns_ordered = [
     'URL'
 ]
 
-stations["Elevation"] = stations["Elevation"].astype(float)
+stations["Elevation"] = stations["Elevation"].str.replace('', np.nan).astype(float)
 
 stations = stations[columns_ordered]
 
