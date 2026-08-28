@@ -2,7 +2,7 @@
 import marimo as mo
 import pandas as pd
 import numpy as np
-#import kgcpy
+import kgcpy
 ```
 
 
@@ -33,21 +33,31 @@ for index, row in stations.iterrows():
     lat_round = round(row['Latitude']*2-0.5, 0)/2 + 0.25
     lon_round = round(row['Longitude']*2-0.5, 0)/2 + 0.25
     try:
-        stations.loc[index, ['GHI_typical_kWh_m2', 'DHI_typical_kWh_m2', 'DNI_typical_kWh_m2']] = \
+        stations.loc[index, ['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = \
             annual_irradiance.loc[(lat_round, lon_round), :]
     except KeyError as e:
         pass
     # Manual add data missing from the climatological file (data retrieved from NASA's webinterface)
     if row['Station name'] == 'Funafuti':
-        stations.loc[index, ['GHI_typical_kWh_m2', 'DHI_typical_kWh_m2', 'DNI_typical_kWh_m2']] = \
+        stations.loc[index, ['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = \
             np.array([5.33*365, 2.12*365, 4.37*365]).astype(int)
     if row['Station name'] == 'South Pole':
-        stations.loc[index, ['GHI_typical_kWh_m2', 'DHI_typical_kWh_m2', 'DNI_typical_kWh_m2']] = \
+        stations.loc[index, ['GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2']] = \
             np.array([3.0*365, 1.38*365, 5.13*365]).astype(int)
 
 stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove Tier 3 stations
 
 stations = stations.sort_values('Station name', ignore_index=True)
+
+columns_ordered = [
+    'Station name', 'Abbreviation', 'State', 'Country', 'Continent', 'Latitude', 'Longitude', 'Elevation',
+    'Time period', 'Network', 'Owner', 'Comment', 'URL', 'Data availability', 'Instrumentation', 'Tier', 'GHI_kWh_m2', 'DHI_kWh_m2', 'DNI_kWh_m2',
+    'URL'
+]
+
+stations["Elevation"] = stations["Elevation"].astype(float)
+
+stations = stations[columns_ordered]
 
 # Write file containing all columns, linked to above
 stations.to_csv('./SolarStationsOrg-station-catalog.csv', index=False)
