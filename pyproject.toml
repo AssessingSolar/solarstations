@@ -8,7 +8,6 @@ dependencies = [
     "folium==0.20.0",
     "itables==2.2.2",
     "jupyter-book==2.1.6",
-    "kgcpy==1.1.8",
     "matplotlib==3.11.1",
     "numpy==2.5.1",
     "pandas==3.0.3",
@@ -20,4 +19,5 @@ dependencies = [
     "jupyter-book==2.1.6",
     "jupyter-book-marimo==0.0.3",
     "marimo",
+    "kgcpy==1.1.8",
 ]
