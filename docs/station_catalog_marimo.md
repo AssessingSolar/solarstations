@@ -54,16 +54,21 @@ stations = stations.sort_values('Station name', ignore_index=True)
 
 ## Format station name as hyperlinks if URL is available.
 ## Do this after the new CSV is written, since we don't want HTML in that.
-#for index, row in stations.iterrows():
-#    if row['URL'].startswith('http'):
-#        stations.loc[index, 'Station name'] = f'<a href="{row["URL"]}">{row["Station name"]}</a>'
+for index, row in stations.iterrows():
+    if row['URL'].startswith('http'):
+        stations.loc[index, 'Station name'] = f'<a href="{row["URL"]}">{row["Station name"]}</a>'
 
+# Drop the columns as using ``hidden_columns`` let's users know that there is a hidden column`
+stations = stations.drop(columns=['URL'])
 
 table = mo.ui.table(
     stations,
     pagination=True,
     freeze_columns_left=["Station name"],
-    hidden_columns=["URL"],
+    page_size=20,  # default is 10
+    show_download=True,
+    column_widths={"Station name": 20},
+    # hidden_columns=["URL"],
 )
 ```
 
