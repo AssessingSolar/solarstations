@@ -49,6 +49,10 @@ stations = stations[~stations['Instrumentation'].str.contains('G;Ds')]  # remove
 
 stations = stations.sort_values('Station name', ignore_index=True)
 
+for c in stations.columns:
+  if pd.api.types.is_numeric_dtype(stations[c]):
+    stations[c] = stations[c].replace(np.nan, '')
+
 columns_ordered = [
     'Station name', 'URL', 'Abbreviation', 'State', 'Country', 'Continent',
     'Latitude', 'Longitude', 'Elevation',
