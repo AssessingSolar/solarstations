@@ -9,3 +9,6 @@ SolarStationsOrg-station-catalog.csv
 
 # MyST build outputs
 _build
+
+# Jupyter book
+docs/.jupyter-book-marimo

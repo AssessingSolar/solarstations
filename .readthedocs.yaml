@@ -8,15 +8,17 @@ build:
     python: "3.13"
     nodejs: "22"
   commands:
-    # Install Python dependencies
-    - pip install -r docs/requirements.txt
+    # Install uv itself (not preinstalled on the RTD build image)
+    - pip install uv
+    # Install Python dependencies via uv, creating .venv at the repo root
+    # (myst.yml's marimo plugin path, ../.venv/bin/jupyter-book-marimo, expects it there)
+    - UV_PROJECT_ENVIRONMENT=.venv uv sync
     # Install mystmd
     - npm install -g mystmd
     # Build the site (myst.yml lives in docs/, so build from there)
-    # --execute re-runs notebook code cells instead of using their stored outputs.
-    - cd docs && myst build --html --execute
+    - cd docs && UV_PROJECT_ENVIRONMENT=.venv uv run jupyter-book build --html
     # Copy the output to Read the Docs expected location
-    - mkdir -p $READTHEDOCS_OUTPUT/html/
-    - cp -r docs/_build/html/. "$READTHEDOCS_OUTPUT/html"
+    - mkdir -p "$READTHEDOCS_OUTPUT/html/"
+    - cd docs && cp -r _build/html/. "$READTHEDOCS_OUTPUT/html/"
     # Clean up build artifacts
-    - rm -rf docs/_build
+    - cd docs && rm -rf _build
