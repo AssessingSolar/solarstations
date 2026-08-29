@@ -1,33 +1,15 @@
 ---
+pyproject: |-
+  requires-python = ">=3.12"
+  dependencies = [
+      "marimo",
+      "pandas",
+      "numpy",
+      "kgcpy",
+  ]
 title: Station catalog
-marimo-version: 0.24.0
-width: medium
-auto_download:
-- html
-header: |-
-  # /// script
-  # requires-python = ">=3.13"
-  # dependencies = [
-  #     "kgcpy==1.1.8",
-  # ]
-  # ///
-
-  # /// script
-  # requires-python = ">=3.13"
-  # dependencies = [
-  #     "kgcpy==1.1.8",
-  # ]
-  # ///
+marimo-version: 0.23.13
 ---
-
-```python {.marimo}
-import marimo as mo
-import pandas as pd
-```
-
-```python {.marimo}
-
-```
 
 ```{marimo} python
 import marimo as mo
