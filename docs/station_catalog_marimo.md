@@ -1,9 +1,32 @@
-```{marimo} python
-dependencies = [
-    "numpy==2.5.1",
-    "pandas==3.0.3",
-    "kgcpy==1.1.8",
-]
+---
+title: Station catalog
+marimo-version: 0.24.0
+width: medium
+auto_download:
+- html
+header: |-
+  # /// script
+  # requires-python = ">=3.13"
+  # dependencies = [
+  #     "kgcpy==1.1.8",
+  # ]
+  # ///
+
+  # /// script
+  # requires-python = ">=3.13"
+  # dependencies = [
+  #     "kgcpy==1.1.8",
+  # ]
+  # ///
+---
+
+```python {.marimo}
+import marimo as mo
+import pandas as pd
+```
+
+```python {.marimo}
+
 ```
 
 ```{marimo} python
